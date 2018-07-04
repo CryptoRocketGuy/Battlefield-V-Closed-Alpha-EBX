@@ -1,0 +1,397 @@
+VisualEnvironmentBlueprint 431e8321a707dd4bb6d2569b5d77b296
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Levels/MP/MP_ArcticFjord/Lighting/VE_MP_ArcticFjord_Deploy_Fog
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000002
+    TimeDeltaType TimeDeltaType_None
+FogComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 19963846
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) End
+            member(1) HeightFogVisibilityRange
+            member(2) HeightFogDepth
+            member(3) HeightFogAltitude
+        PropertyOverrideMasks::array
+            member(0) 58720512
+            member(1) 0
+    Curve::Vec4
+        x 0.0
+        y 0.0
+        z 0.0
+        w 0.0
+    FogColor::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    FogColorCurve::Vec4
+        x 0.0
+        y 0.0
+        z 0.0
+        w 0.0
+    TransparencyFadeCurve::Vec4
+        x -2.0
+        y 3.0
+        z 0.0
+        w 0.0
+    ForwardLightScatteringColor::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Realm Realm_Client
+    FogDistanceMultiplier 1.0
+    Start 0.0
+    End 600.0
+    FogColorStart 0.0
+    FogColorEnd 5000.0
+    TransparencyFadeStart 0.0
+    TransparencyFadeEnd 100.0
+    TransparencyFadeClamp 0.0
+    ForwardLightScatteringRotationX 0.0
+    ForwardLightScatteringRotationY 60.0
+    ForwardLightScatteringPhaseG 0.0
+    ForwardLightScatteringStrength 0.0
+    ForwardLightScatteringPresence 0.0
+    ForwardLightScatteringMaxBlurLength 0.5
+    ForwardLightScatteringExtinction 14.0
+    ForwardLightScatteringSmoothness 4.0
+    HeightFogFollowCamera 0.0
+    HeightFogAltitude 0.0
+    HeightFogDepth 200.0
+    HeightFogVisibilityRange 450.0
+    Enable True
+    FogGradientEnable True
+    FogColorEnable True
+    ForwardLightScatteringEnabled False
+    ForwardLightScatteringUseSunPosition True
+    HeightFogEnable False
+SkyComponentData 00000001
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 5600571
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) UseOzone
+            member(1) ScaleHeightRayleigh
+            member(2) RayleighExtinctionCoefficientRelation
+            member(3) RayleighScatteringCoefficientScale
+            member(4) RayleighScatteringCoefficient
+            member(5) ScaleHeightMie
+            member(6) MieExtinctionCoefficientRelation
+            member(7) MieG
+            member(8) MieScatteringCoefficient
+            member(9) AerialPerspectiveDithering
+            member(10) AerialPerspectiveIntensity
+            member(11) AerialPerspectiveScale
+            member(12) UseAerialPerspective
+            member(13) OzonePercentage
+            member(14) EarthRadius
+            member(15) AtmosphereRadius
+            member(16) Light1Color
+            member(17) HeightFogColorAdd
+            member(18) nightSkyHorizonScale
+            member(19) nightSkyHorizonColor
+            member(20) nightSkyColor
+            member(21) MiePolarization
+            member(22) RayleighPolarization
+            member(23) FogStartDistance
+            member(24) UseNoise
+            member(25) Light2RotY
+            member(26) UseLightSource2
+            member(27) Light2Intensity
+            member(28) Light2Color
+            member(29) Light1RotY
+            member(30) Light1RotX
+            member(31) DrawSunDisc
+            member(32) Light1TakesColorFromOutdoorLight
+            member(33) Light1FollowOutdoorLight
+            member(34) Light1Intensity
+            member(35) Light2RotX
+            member(36) HeightFogColorMult
+            member(37) CloudLayer1Scattering
+            member(38) CloudLayer2Thickness
+            member(39) CloudLayer2Phase
+            member(40) CloudLayer2Scattering
+            member(41) CloudLayer2Absorption
+            member(42) CloudLayer1Absorption
+            member(43) CloudLayer1Thickness
+            member(44) CloudLayer1Phase
+            member(45) MinHeightFogTransmittance
+        PropertyOverrideMasks::array
+            member(0) 204736
+            member(1) 1006755840
+            member(2) 536870656
+            member(3) 520193
+            member(4) 0
+    CloudLayerSunColor::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    CloudLayer1Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    CloudLayer2Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    InteriorEnvmapExp::Vec4
+        x 1.0
+        y 1.0
+        z 1.0
+        w 1.0
+    InteriorEnvmapScale::Vec4
+        x 1.0
+        y 1.0
+        z 1.0
+        w 1.0
+    InteriorEnvmapBias::Vec4
+        x 0.0
+        y 0.0
+        z 0.0
+        w 0.0
+    RayleighScatteringCoefficient::Vec3
+        x 5.80000005357e-06
+        y 1.35000000228e-05
+        z 3.31000010192e-05
+    Light1Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Light2Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    nightSkyColor::Vec3
+        x 0.00999999977648
+        y 0.019999999553
+        z 0.0299999993294
+    nightSkyHorizonColor::Vec3
+        x 0.00999999977648
+        y 0.019999999553
+        z 0.0299999993294
+    RayleighPolarization::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    MiePolarization::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    OutdoorLightScale::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    ForwardScatteringDepthVisibility::Vec4
+        x 0.0
+        y 0.0
+        z 0.0
+        w 0.0
+    ForwardScatteringOutdoorLightTint::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    HeightFogColorAdd::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    HeightFogColorMult::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Realm Realm_Client
+    SkyType SkyType_Procedural
+    LuminanceScale 1.0
+    SkyGradientTexture *nullGuid*
+    AlphaOutput AlphaOutputMode_Disabled
+    HdriRotation 0.0
+    HdriTexture *nullGuid*
+    SunSize 0.00400000018999
+    SunScale 1.0
+    PanoramicUVMinX 0.0
+    PanoramicUVMaxX 1.0
+    PanoramicUVMinY 0.0
+    PanoramicUVMaxY 1.0
+    PanoramicTileFactor 1.0
+    PanoramicRotation 0.0
+    PanoramicTexture *nullGuid*
+    PanoramicAlphaTexture *nullGuid*
+    CloudLayerMaskTexture *nullGuid*
+    CloudLayer1Altitude 10000.0
+    CloudLayer1TileFactor 0.25
+    CloudLayer1Rotation 0.0
+    CloudLayer1Speed 0.00999999977648
+    CloudLayer1SunLightIntensity 4.0
+    CloudLayer1SunLightPower 50.0
+    CloudLayer1AmbientLightIntensity 0.20000000298
+    CloudLayer1AlphaMul 1.0
+    CloudLayer1Texture *nullGuid*
+    CloudLayer1Absorption 1.0
+    CloudLayer1Scattering 1.0
+    CloudLayer1Phase 0.0
+    CloudLayer1Thickness 1.0
+    CloudLayer2Altitude 10000.0
+    CloudLayer2TileFactor 0.25
+    CloudLayer2Rotation 0.0
+    CloudLayer2Speed 0.00999999977648
+    CloudLayer2SunLightIntensity 4.0
+    CloudLayer2SunLightPower 50.0
+    CloudLayer2AmbientLightIntensity 0.20000000298
+    CloudLayer2AlphaMul 1.0
+    CloudLayer2Texture *nullGuid*
+    CloudLayer2Absorption 1.0
+    CloudLayer2Scattering 1.0
+    CloudLayer2Phase 0.0
+    CloudLayer2Thickness 1.0
+    StaticEnvmapTexture *nullGuid*
+    StaticEnvmapScale 1.0
+    SkyEnvmap8BitTexScale 0.25
+    CustomEnvmapTexture *nullGuid*
+    CustomEnvmapScale 1.0
+    CustomEnvmapAmbient 0.0
+    SkyVisibilityExponent 1.0
+    InteriorEnvmapTexture *nullGuid*
+    InteriorEnvmapSkyVisibilityFadeStart 0.0
+    InteriorEnvmapSkyVisibilityFadeLength 0.25
+    EarthRadius 6.38999986649
+    AtmosphereRadius 6.48000001907
+    MieScatteringCoefficient 3.9999999899e-06
+    MieG 0.563000023365
+    MieExtinctionCoefficientRelation 1.6970000267
+    ScaleHeightMie 6.8189997673
+    RayleighScatteringCoefficientScale 0.916000008583
+    RayleighExtinctionCoefficientRelation 0.56099998951
+    ScaleHeightRayleigh 14.704000473
+    OzonePercentage 6.00000021223e-07
+    AerialPerspectiveScale 28.5380001068
+    AerialPerspectiveIntensity 0.754999995232
+    AerialPerspectiveDithering 2.0
+    Light1Intensity 1.0
+    Light1RotX 293.571014404
+    Light1RotY 35.3569984436
+    Light2Intensity 1.0
+    Light2RotX 0.0
+    Light2RotY 60.0
+    nightSkyHorizonScale 1.0
+    FogStartDistance 0.0
+    ForwardScatteringStartDepth 0.0
+    ForwardScatteringEndDepth 5000.0
+    ForwardScatteringTakesColorFromOutdoorLight 1.0
+    MinHeightFogTransmittance 0.0
+    InitialGameTime 0.0
+    InitialFlowTime 0.0
+    FlowPeriod 10.0
+    FlowDistance 0.300000011921
+    FlowDirection 0.0
+    FlowHeightMaskScale 1.0
+    FlowHeightMaskBias 0.0
+    FlowMaskTexture *nullGuid*
+    Enable True
+    UseSkyVisibilityAsAO True
+    SkyGradientFollowsPanoramicUVs False
+    UseOzone True
+    UseAerialPerspective True
+    Light1FollowOutdoorLight True
+    Light1TakesColorFromOutdoorLight True
+    UseLightSource2 False
+    UseNoise True
+    DrawSunDisc False
+    FlowEnable False
+VisualEnvironmentEntityData 00000002
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 183344305
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+                member(1) 00000001
+            ClientRuntimeComponentCount 2
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 0.0
+    FutureVisibility 0.0
+    Priority 7
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True

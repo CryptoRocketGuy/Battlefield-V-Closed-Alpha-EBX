@@ -1,0 +1,131 @@
+SpatialPrefabBlueprint fda31b00b2f49d4da8486be445375e4f
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/Fortifications/Craters/CraterMaker_M_Fortifications
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId 2662400
+                            Flags 1
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -62145612
+                        TargetEvent::EventSpec
+                            Id -62145612
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1635202463
+                        TargetEvent::EventSpec
+                            Id -1635202463
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 319821327
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_ClientAndServer
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+        TimeDeltaType TimeDeltaType_None
+ExplosionEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 412631014
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z -9.54266798914e-09
+            forward::Vec3
+                x 0.0
+                y 9.54266798914e-09
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    DetonationEffect *nullGuid*
+    DetonationEffectForFriendlies *nullGuid*
+    MaskVolume *nullGuid*
+    DestructionMaskVolume *nullGuid*
+    MaterialPair::MaterialDecl
+        Packed 1191737344
+    SecondaryMaterialPair::MaterialDecl
+        Packed 2048
+    ShockwaveWindForce *nullGuid*
+    DamageIndicationType DamageIndicationType_GiverPlayer
+    EmpTime 0.0
+    MaxOcclusionRaycastRadius 0.10000000149
+    InnerBlastRadius 3.79999995232
+    BlastDamage 10.0
+    BlastRadius 3.83999991417
+    SecondaryMaterialRaycastLengthMultiplier 1.0
+    BlastImpulse 0.0
+    ShockwaveDamage 0.0
+    ShockwaveRadius 3.84999990463
+    SecondaryMaterialRaycastMinLengthMultiplier 0.0
+    ShockwaveImpulse 1.0
+    ShockwaveTime 0.25
+    CameraShockwaveRadius 3.0
+    SpawnDelay 1.0
+    NoFriendliesEffectOnEnabledFriendlyFire True
+    UseEntityTransformForDetonationEffect False
+    SecondaryMaterialsActive False
+    HasStunEffect False
+    AllowDamageToOwner False
+    ApplyBlastDamageToVehiclesAndCharactersInstantly False
+    ForceServersideAiDamage False
+    DisableOcclusion True
+    DisableStaticEntityOcclusion True
+    DisableOcclusionOutsideBlastRadius True
+    TriggerImpairedHearing False
+    Enabled True
+BoolEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 114646965
+    Realm Realm_ClientAndServer
+    DefaultValue False
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 319821327
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -62145612
+        member(1)::DynamicEvent
+            Id -1635202463
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

@@ -1,0 +1,241 @@
+SpatialPrefabBlueprint b66cc0ed3fa43c4f8e6a260a9d8add7b
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Test/Gameplay/Prototypes/FinalStand_ArtilleryWarningCheck
+                    PropertyConnections *nullArray*
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 838548383
+                            TargetFieldId 0
+                    Interface 00000006
+                    Flags 3
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id -1822435441
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000004
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -117303631
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000006
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 5862146
+                        TargetEvent::EventSpec
+                            Id 2089008817
+                        TargetType EventConnectionTargetType_NetworkedClient
+                    member(3)::EventConnection
+                        Source 00000006
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 5862146
+                        TargetEvent::EventSpec
+                            Id -1952177180
+                        TargetType EventConnectionTargetType_Server
+                    member(4)::EventConnection
+                        Source 00000006
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 5862146
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(5)::EventConnection
+                        Source 00000007
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_NetworkedClient
+                    member(6)::EventConnection
+                        Source 00000005
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 2089417369
+                        TargetType EventConnectionTargetType_Client
+                    member(7)::EventConnection
+                        Source 00000005
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 212633683
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 00000000
+            member(2) 00000007
+            member(3) 00000003
+            member(4) 00000004
+            member(5) 00000005
+        TimeDeltaType TimeDeltaType_None
+GeometryTriggerEntityData 00000000
+    $::AreaTriggerEntityData
+        $::TriggerEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 1708535966
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Delay 0.0
+            RunOnce False
+            Enabled False
+        GeometryTransform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        Include ATPlayers
+        Radius 0.0
+        InsideAreaEventRepeatTime 0.25
+        TeamOfAllies Team1
+        UpdateInterval 2
+        UseCharacterEntity False
+        UseRadiusWithGeometryTransform False
+        GeometriesFollowObject False
+        OneInsideAreaEventPerSoldier True
+        TriggerOnlyOnLeave False
+        ResetOnEnable False
+        TriggerOnLeaveOnDeath False
+        TriggerOnLeaveOnDisable False
+LocatorEntityData 00000001
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 13543963
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Realm Realm_Server
+SphereData 00000002
+    $::BaseShapeData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 67108864
+    Radius 40.0
+    Position::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+ActionMessageSenderEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 34835250
+    Realm Realm_Client
+    Message Test/Gameplay/Prototypes/ArtilleryWarning/211ead1d41701b48a1476a382014489c
+    InputPropertyIndices *nullArray*
+    InputPropertyRefIndices *nullArray*
+DelayEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 92170281
+    Delay 4.0
+    Realm Realm_Server
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+EventGateEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 60647625
+    Realm Realm_Client
+    DefaultOpen True
+InterfaceDescriptorData 00000006
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 5862146
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+PlayerFilterEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 95469435
+    Realm Realm_Server
+    InvertFilter False
+    ForwardToSpectators False

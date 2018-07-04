@@ -1,0 +1,174 @@
+LogicPrefabBlueprint 46b7dd5ed5b975429355f4a279adf89f
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Spectator/Logic/UISpectatorOverviewCameraManager
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000001
+                            SourceFieldId 1594916742
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000003
+                            SourceFieldId -2073070608
+                            TargetFieldId -2073070608
+                            Flags 18
+                        member(2)::PropertyConnection
+                            Source 00000005
+                            Target 00000000
+                            SourceFieldId 477464689
+                            TargetFieldId 1638264232
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1564231570
+                        TargetEvent::EventSpec
+                            Id -1357088108
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000005
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1103897894
+                        TargetEvent::EventSpec
+                            Id -1357088108
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000002
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 212633683
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -1357088108
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000004
+            member(2) 00000001
+            member(3) 00000005
+            member(4) 00000002
+        TimeDeltaType TimeDeltaType_None
+BFCombatAreaCameraProviderEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 182446674
+    Realm Realm_Client
+    SuperTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    Iterations 3
+    VerticalSafeAreaFactor 0.40000000596
+    HorizontalSafeAreaFactor 0.0500000007451
+    VerticalOffsetFactor 0.0
+    HorizontalOffsetFactor 0.0
+    VerticalFov 55.0
+    AspectRatio 1.77777779102
+CompareBoolEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 142904499
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+    AlwaysSend False
+EventGateEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 49238785
+    Realm Realm_Client
+    DefaultOpen True
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -2073070608
+                AccessType FieldAccessType_Source
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1564231570
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SchematicChannelEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 27942416
+    Realm Realm_Client
+    Channel UI/Ingame/Spectator/Logic/UIChannelSpectatorStatus/675a8e3b890f7ac3f7d1ffb021ba8a41
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 3
+    OutputRefProperties *nullArray*
+SchematicChannelEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 29803476
+    Realm Realm_Client
+    Channel UI/Ingame/Shared/Logic/UIDeploy3DChannel/5afe7525cadeb4d6a1067d8efa490537
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 0
+    OutputRefProperties *nullArray*

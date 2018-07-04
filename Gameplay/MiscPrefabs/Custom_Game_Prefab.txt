@@ -1,0 +1,218 @@
+LogicPrefabBlueprint dea36d00a80903b17515cb876edc466e
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MiscPrefabs/Custom_Game_Prefab
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000002
+                            SourceFieldId 2014001821
+                            TargetFieldId -603879909
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000007
+                            Target 00000001
+                            SourceFieldId 622238531
+                            TargetFieldId 910553212
+                            Flags 3
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 622238531
+                            TargetFieldId -983506662
+                            Flags 1
+                        member(3)::PropertyConnection
+                            Source 00000006
+                            Target 00000002
+                            SourceFieldId 2014001821
+                            TargetFieldId 362696539
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId 2014001821
+                            TargetFieldId -468132757
+                            Flags 3
+                        member(5)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 225375086
+                            TargetFieldId -275927570
+                            Flags 3
+                        member(6)::PropertyConnection
+                            Source 00000008
+                            Target 00000001
+                            SourceFieldId 2014001821
+                            TargetFieldId 1543723327
+                            Flags 3
+                        member(7)::PropertyConnection
+                            Source 00000009
+                            Target 00000002
+                            SourceFieldId 2014001821
+                            TargetFieldId 1195048375
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id 1327541432
+                        TargetEvent::EventSpec
+                            Id 1327541432
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 1327541432
+                        TargetEvent::EventSpec
+                            Id 1327541432
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 00000008
+                        SourceEvent::EventSpec
+                            Id 1327541432
+                        TargetEvent::EventSpec
+                            Id 1327541432
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000004
+            member(1) 00000002
+            member(2) 00000007
+            member(3) 00000001
+            member(4) 00000003
+            member(5) 00000006
+            member(6) 00000005
+            member(7) 00000000
+            member(8) 00000008
+            member(9) 00000009
+        TimeDeltaType TimeDeltaType_None
+IntEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 16939071
+    Realm Realm_Server
+    DefaultValue 4
+    IncDecValue 1
+SchematicChannelEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 406285396
+    Realm Realm_ClientAndServer
+    Channel Gameplay/MiscPrefabs/CustomGameServerChannel/360e9068d2bb27c02ab95af706bcf3dd
+    InputProperties::array
+        member(0) 0
+        member(1) 1
+        member(2) 2
+        member(3) 3
+        member(4) 4
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*
+SchematicChannelEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 162166958
+    Realm Realm_Client
+    Channel Gameplay/MiscPrefabs/CustomGameClientChannel/8f3bb96ac7b51811446b90f3b0b0d661
+    InputProperties::array
+        member(0) 0
+        member(1) 1
+        member(2) 2
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*
+SettingEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 106486096
+    Realm Realm_ClientAndServer
+    BoolSettingName *nullString*
+    IntSettingName *nullString*
+    FloatSettingName SyncedBFSettings.TicketCountScale
+SettingEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 18262397
+    Realm Realm_Client
+    BoolSettingName SyncedBFSettings.EnableMinimap
+    IntSettingName *nullString*
+    FloatSettingName *nullString*
+SettingEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 15440522
+    Realm Realm_Server
+    BoolSettingName BFServer.EnableAlwaysFog
+    IntSettingName *nullString*
+    FloatSettingName *nullString*
+SettingEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 6166719
+    Realm Realm_Client
+    BoolSettingName SyncedGame.EnableFriendlyFire
+    IntSettingName *nullString*
+    FloatSettingName *nullString*
+SettingEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 95208654
+    Realm Realm_Server
+    BoolSettingName *nullString*
+    IntSettingName *nullString*
+    FloatSettingName Server.VehicleRespawnTimeScale
+SettingEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 93665242
+    Realm Realm_Server
+    BoolSettingName BFServer.EliteKitEnabled
+    IntSettingName *nullString*
+    FloatSettingName *nullString*
+SettingEntityData 00000009
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 14022902
+    Realm Realm_Client
+    BoolSettingName SyncedBFSettings.EnableMinimapSpotting
+    IntSettingName *nullString*
+    FloatSettingName *nullString*

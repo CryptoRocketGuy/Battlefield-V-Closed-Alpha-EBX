@@ -1,0 +1,167 @@
+SpatialPrefabBlueprint 6ad1eb125280420262bf801d2e30a90e
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name ArtAssets/Props/CanFlimsy_01/DWPF_CanFlimsy_01_explosive1
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 163cdf37622920488214aab6b17ab086
+                            SourceFieldId 225375086
+                            TargetFieldId 2662400
+                            Flags 17
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 163cdf37622920488214aab6b17ab086
+                            Target d6ca5328e1bbfa4e90fbb777cf03b646
+                            SourceFieldId 1525536044
+                            TargetFieldId 0
+                    Interface 00000001
+                    Flags 3
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target d6ca5328e1bbfa4e90fbb777cf03b646
+                        SourceEvent::EventSpec
+                            Id 1478529677
+                        TargetEvent::EventSpec
+                            Id -1980967410
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source d6ca5328e1bbfa4e90fbb777cf03b646
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1452333337
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(2)::EventConnection
+                        Source d6ca5328e1bbfa4e90fbb777cf03b646
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1452333337
+                        TargetEvent::EventSpec
+                            Id -679693946
+                        TargetType EventConnectionTargetType_ClientAndServer
+        Objects::array
+            member(0) d6ca5328e1bbfa4e90fbb777cf03b646
+            member(1) 00000000
+            member(2) 163cdf37622920488214aab6b17ab086
+        TimeDeltaType TimeDeltaType_None
+SpatialPrefabReferenceObjectData 163cdf37622920488214aab6b17ab086
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 2044673046
+            Blueprint DynamicWorld/CentralComponents/CentralDamage/DamageController_FireExplosive1/dfa6be3cbd28784895826e796f52a9df
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    PersistenceSetting BlueprintPersistenceSetting_InheritFromParent
+ObjectReferenceObjectData d6ca5328e1bbfa4e90fbb777cf03b646
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 106154710
+            Blueprint ArtAssets/Props/CanFlimsy_01/CanFlimsy_01/361273af931904b6b7fef469c7114bcd
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+BoolEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 117290040
+    Realm Realm_ClientAndServer
+    DefaultValue False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 1478529677
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -679693946
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

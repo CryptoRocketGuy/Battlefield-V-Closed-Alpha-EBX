@@ -1,0 +1,65 @@
+LogicPrefabBlueprint 361a9467c5b93a0c5213408b04fc7e7e
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Sparta/Logic/TwinkleIngameLogic
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 729689820
+                        TargetEvent::EventSpec
+                            Id -165975360
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 1155155199
+                        TargetEvent::EventSpec
+                            Id 1639022819
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -842970313
+                        TargetEvent::EventSpec
+                            Id -661249702
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 00000000
+        TimeDeltaType TimeDeltaType_None
+SchematicChannelEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 3411049
+    Realm Realm_Client
+    Channel Sparta/Logic/TwinkleOverlayChannel/a36c1997a0074b241e53f6a9ab00b928
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*
+TwinkleOverlayEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 49507506
+    Realm Realm_Client
+    EnableMouseInput True
+    EnableKeyInput True
+    EnableHotkeyInput True

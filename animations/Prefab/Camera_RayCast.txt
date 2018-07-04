@@ -1,0 +1,257 @@
+LogicPrefabBlueprint cc17fadc4b6519b5c06d8293edfd0869
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Animations/Prefab/Camera_RayCast
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 193468618
+                            TargetFieldId 1283751856
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 232604323
+                            TargetFieldId 761316956
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -1158121431
+                            TargetFieldId 227190399
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 739981334
+                            TargetFieldId 230748069
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 1500694105
+                            TargetFieldId 2089401213
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000004
+                            Target 00000001
+                            SourceFieldId 225375086
+                            TargetFieldId 1186338873
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId 2662400
+                            Flags 2
+                        member(7)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId -1770502568
+                            TargetFieldId 5862146
+                            Flags 2
+                        member(8)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId -1770502568
+                            TargetFieldId -2024647575
+                            Flags 2
+                        member(9)::PropertyConnection
+                            Source 00000002
+                            Target 00000005
+                            SourceFieldId -2024647575
+                            TargetFieldId 1702946257
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000005
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -222140518
+                        TargetEvent::EventSpec
+                            Id 1019440090
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000005
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 403711370
+                        TargetEvent::EventSpec
+                            Id 1019440090
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000005
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 403711370
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000005
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -1282994990
+                        TargetEvent::EventSpec
+                            Id 668205626
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000003
+            member(1) 00000001
+            member(2) 00000000
+            member(3) 00000002
+            member(4) 00000004
+        TimeDeltaType TimeDeltaType_None
+RayCastEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 196097231
+    Realm Realm_Client
+    Start::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    Stop::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    Radius 0.0
+    SeeThrough True
+    Penetrable False
+    IncludeTerrain True
+    IncludeWater True
+    IncludeCharacters True
+    IncludeVehicles True
+    IncludeRagdolls True
+    IncludeFixed True
+    IncludeKeyframed True
+    IncludeDynamic True
+    Async False
+    DetailedQueryMode False
+    ExcludeAttachedControllable False
+    Enabled False
+RaycastDirectionEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 200242015
+    Attach *nullGuid*
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RayHorizontalAngle 0.0
+    RayVerticalAngle 0.0
+    RayDistance 5.0
+    ContinuousUpdate False
+    LockHorizontalRotation True
+    LockVerticalRotation True
+TransformBuilderEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 148428090
+    Realm Realm_Client
+    Left::Vec3
+        x 1.0
+        y 0.0
+        z 0.0
+    Up::Vec3
+        x 0.0
+        y 1.0
+        z 0.0
+    Forward::Vec3
+        x 0.0
+        y 0.0
+        z 1.0
+    Trans::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    IsWorldSpace True
+    WaitForAll False
+TransformToRotationEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 151736763
+    Realm Realm_Client
+    In::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    Degrees True
+BoolEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 53224590
+    Realm Realm_Client
+    DefaultValue False
+InterfaceDescriptorData 00000005
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1770502568
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1702946257
+                AccessType FieldAccessType_Source
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 403711370
+        member(1)::DynamicEvent
+            Id -1282994990
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

@@ -1,0 +1,141 @@
+LogicPrefabBlueprint f09df7ca07c23cf588f01d5caae4c874
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/General/dwc_PhantomCollision_TriggerControl
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 225375086
+                            TargetFieldId 965934381
+                            Flags 17
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -533470571
+                            TargetFieldId 225375086
+                            Flags 3
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 1852008239
+                        TargetEvent::EventSpec
+                            Id 668205626
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -2068733510
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 1852008239
+                        TargetEvent::EventSpec
+                            Id 1183391195
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(3)::EventConnection
+                        Source 00000001
+                        Target fce67fea31082e469579a3d72b217b40
+                        SourceEvent::EventSpec
+                            Id 2089022476
+                        TargetEvent::EventSpec
+                            Id 668205626
+                        TargetType EventConnectionTargetType_Server
+                    member(4)::EventConnection
+                        Source 00000001
+                        Target fce67fea31082e469579a3d72b217b40
+                        SourceEvent::EventSpec
+                            Id 1653725917
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_Server
+                    member(5)::EventConnection
+                        Source fce67fea31082e469579a3d72b217b40
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -81881639
+                        TargetEvent::EventSpec
+                            Id 1183391195
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(6)::EventConnection
+                        Source fce67fea31082e469579a3d72b217b40
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id -312543858
+                        TargetType EventConnectionTargetType_ClientAndServer
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+            member(2) fce67fea31082e469579a3d72b217b40
+        TimeDeltaType TimeDeltaType_None
+SyncedBoolEntityData fce67fea31082e469579a3d72b217b40
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 75491068
+BoolEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 132800833
+    Realm Realm_ClientAndServer
+    DefaultValue True
+CompareIntRangeEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 277960073
+    Realm Realm_Server
+    Value 0
+    Min 1
+    Max 1000
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 965934381
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -533470571
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 1852008239
+        member(1)::DynamicEvent
+            Id -2068733510
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -312543858
+        member(1)::DynamicEvent
+            Id 1183391195
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

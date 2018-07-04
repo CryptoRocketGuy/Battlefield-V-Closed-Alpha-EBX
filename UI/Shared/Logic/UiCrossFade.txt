@@ -1,0 +1,148 @@
+LogicPrefabBlueprint f45cc0ce3e6bdcdd45a414f2103aedf2
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Shared/Logic/UiCrossFade
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 936870923
+                            TargetFieldId 5862146
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 1828507227
+                            TargetFieldId 1828507227
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 193453899
+                            TargetFieldId -1802571104
+                            Flags 18
+                        member(3)::PropertyConnection
+                            Source 00000001
+                            Target 00000003
+                            SourceFieldId 487167178
+                            TargetFieldId 176040160
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId 177629
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 193453899
+                            TargetFieldId -1802571101
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+            member(1) 00000003
+            member(2) 00000002
+        TimeDeltaType TimeDeltaType_None
+FloatInterpolatorEntityData 00000000
+    $::PropertyInterpolatorEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 148456892
+        Realm Realm_Client
+        InterpolationType PropertyInterpolationType_Quad
+        InterpolationMode PropertyInterpolationMode_EaseIn
+        Duration 0.0
+        UseRealTimeClock False
+        ForceFrameCorrectOutput False
+        DynamicDuration False
+    In 1.0
+    DefaultValue 1.0
+    Velocity 1.0
+    UseVelocity False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1828507227
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1802571101
+                AccessType FieldAccessType_Source
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1802571104
+                AccessType FieldAccessType_Source
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 487167178
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 167032978
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls *nullArray*
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 0
+                Param1 1065353216
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 177629
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_SubF
+                Result 0
+                Param1 0
+                Param2 1
+            member(3)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False
+PropertyCastEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 137659107
+    Realm Realm_Client
+    Precision -5
+    FloatValue 0.0
+    IntValue 0
+    UintValue 0
+    StringValue *nullString*
+    IntToChar False
+    BoolValue True

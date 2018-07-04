@@ -1,0 +1,204 @@
+LogicPrefabBlueprint 4170cdac355777f96040a72ef714c356
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Scoreboard/Widgets/ScoreboardPingIconLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000005
+                            Target 00000000
+                            SourceFieldId 2089457205
+                            TargetFieldId 225375086
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000005
+                            Target 00000004
+                            SourceFieldId 2089457205
+                            TargetFieldId 225375086
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000005
+                            Target 00000002
+                            SourceFieldId 2089457205
+                            TargetFieldId 225375086
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId 2089457205
+                            TargetFieldId 225375086
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId 2089457205
+                            TargetFieldId 225375086
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000006
+                            Target 00000005
+                            SourceFieldId 726878142
+                            TargetFieldId 1334249054
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000005
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 1653725917
+                        TargetEvent::EventSpec
+                            Id 263676847
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000004
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 1653725917
+                        TargetEvent::EventSpec
+                            Id 263676846
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 1653725917
+                        TargetEvent::EventSpec
+                            Id 263676845
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000001
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 1653725917
+                        TargetEvent::EventSpec
+                            Id 263676844
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000003
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 1653725917
+                        TargetEvent::EventSpec
+                            Id 263676843
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000003
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id -994908745
+                        TargetEvent::EventSpec
+                            Id 263676843
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000004
+            member(2) 00000002
+            member(3) 00000001
+            member(4) 00000003
+            member(5) 00000006
+        TimeDeltaType TimeDeltaType_None
+CompareIntRangeEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 155857727
+    Realm Realm_Client
+    Value 0
+    Min 0
+    Max 49
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+CompareIntRangeEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 157060951
+    Realm Realm_Client
+    Value 0
+    Min 170
+    Max 219
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+CompareIntRangeEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 139117992
+    Realm Realm_Client
+    Value 0
+    Min 100
+    Max 169
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+CompareIntRangeEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 134631852
+    Realm Realm_Client
+    Value 0
+    Min 220
+    Max 999
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+CompareIntRangeEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 159620580
+    Realm Realm_Client
+    Value 0
+    Min 50
+    Max 99
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+InterfaceDescriptorData 00000005
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2089457205
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1334249054
+                AccessType FieldAccessType_Source
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SwitchPropertyStringEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 50918338
+    StringProperties::array
+        member(0) Ping4
+        member(1) Ping3
+        member(2) Ping2
+        member(3) Ping1
+        member(4) Ping0
+    Realm Realm_Client
+    RestrictToSelected False
+    UpdateOnPropertyChange True

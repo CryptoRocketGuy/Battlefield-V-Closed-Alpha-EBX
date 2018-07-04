@@ -1,0 +1,430 @@
+EffectBlueprint 06a447d193c7834dabb5d3d35c0f8693
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/Destruction/ClusterDest/FX_ClusterDest_Tile_01_NoSound
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000000
+    TimeDeltaType TimeDeltaType_None
+EffectEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 170756931
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Components::array
+        member(0) 00000001
+        member(1) 00000005
+        member(2) 00000004
+        member(3) 00000002
+        member(4) 00000003
+    MaxActiveInstanceCount::QualityScalableInt
+        Low 30
+        Medium 30
+        High 30
+        Ultra 30
+        Cinematic 30
+    CullDistance::QualityScalableFloat
+        Low 200.0
+        Medium 200.0
+        High 200.0
+        Ultra 200.0
+        Cinematic 0.0
+    WaterLevelOffset 2.0
+    StartDelay 0.0
+    EffectSpawnLod *nullGuid*
+    KillWhenDistanceCulled False
+    KillByWater False
+    StopByWater False
+    ResetInstanceWhenStarted True
+    AttachToSpawnSurface False
+    Enable::QualityScalableBool
+        Low True
+        Medium True
+        High True
+        Ultra True
+        Cinematic True
+    OverrideDrawOrder False
+    AllowScale False
+    UseLowFrequencyUpdate False
+EmitterEntityData 00000001
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 23716880
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 0.5
+            Medium 0.5
+            High 0.5
+            Ultra 0.5
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\destruction\macrodest\emitters\em_macrodest_stone_clustersmoke/d14b5b5234231d428e494b14ba2c8da8
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000002
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 32603192
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 10
+        NearbyRadius 10.0
+    Emitter fx\destruction\clusterdest\emitters\em_clusterdest_planks_01/ed866f29f6ac24409ad2ab8e14b2529b
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000003
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 14429307
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High False
+                Ultra False
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 10
+        NearbyRadius 10.0
+    Emitter fx\destruction\clusterdest\emitters\em_clusterdest_planks_02/4a0376a6b687894ca03201890f75fc29
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000004
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 1518744
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\destruction\clusterdest\emitters\em_clusterdest_stone_debris_small_roofing/3daa5372cfa64449a15601ef073116df
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000005
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 23446962
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled True
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 2
+        NearbyRadius 5.0
+    Emitter fx\destruction\macrodest\emitters\em_macrodest_stone_clustersmoke_soft/3f7124c844e05644a8825bfe109910c8
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False

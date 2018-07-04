@@ -1,0 +1,97 @@
+UIWidgetBlueprint 46961b1b823e7848ac836dd1984f005f
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Roster/New/Weapon/RosterWeaponDynamicStatsListWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -682345671
+                            TargetFieldId 177661
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -372499808
+                            TargetFieldId 177660
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 193453899
+                            TargetFieldId -613861931
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 2
+                EventConnections *nullArray*
+        Object 00000000
+BFUIListWidgetData 00000000
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 168799868
+            Size::UIElementSize
+                X 422.0
+                Y 30.0
+            Layers *nullArray*
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000002
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Roster/New/Weapon/RosterWeaponDynamicStatsCellWidget/cd2d7dd0b7ca5c4fb34b03d23b6975d6
+    MaxRows 0
+    SelectionInput -1
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit False
+    ValidateSetSelection False
+    WrapSelection False
+    AutoSizeWidgetHorizontally False
+    AutoSizeWidgetVertically False
+    Enabled True
+    ScrollIntoView False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -613861931
+                AccessType FieldAccessType_Source
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+Vec2BuilderEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 151234868
+    Realm Realm_Client
+    X 0.0
+    Y 0.0

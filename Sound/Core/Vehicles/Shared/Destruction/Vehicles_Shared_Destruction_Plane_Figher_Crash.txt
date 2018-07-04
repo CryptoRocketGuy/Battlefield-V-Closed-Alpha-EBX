@@ -1,0 +1,145 @@
+LogicPrefabBlueprint 2f4097a68dbf225acc349e92c07b3481
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Sound/Core/Vehicles/Shared/Destruction/Vehicles_Shared_Destruction_Plane_Figher_Crash
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 945299885
+                            TargetFieldId 177636
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000003
+                            SourceFieldId -2055832870
+                            TargetFieldId 1924866442
+                    Interface 00000003
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 230748069
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 2089401213
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 193445146
+                        TargetEvent::EventSpec
+                            Id 770327533
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -953653392
+                        TargetEvent::EventSpec
+                            Id -953653392
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 459256081
+                        TargetEvent::EventSpec
+                            Id 459256081
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+        TimeDeltaType TimeDeltaType_None
+DiceSoundEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1673489823
+    Attach 00000002
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    DefaultSound Sound/Core/Vehicles/Shared/Destruction/Vehicles_Shared_Destruction_Plane_Fighter_Crash_SPC/bd36a00e2451a506f87057d0b367aca3
+    Sound *nullGuid*
+    MasterAmplitude 1.0
+    UpdatePosition True
+    PlayOnCreation False
+    EnableOnCreation True
+    ForgetOnDestroy False
+    DisableWhenDeactivated False
+CompareFloatEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 142669149
+    Realm Realm_Client
+    A 0.0
+    B 3.5
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+ComponentAttachData 00000002
+    $::EntityAttachData
+        $::EntityLinkData
+            $::DataContainer
+            LinkName AttachToComponent
+        PropertyName AttachOffset
+        CoordinateSpace *nullGuid*
+        Offset *nullGuid*
+        UseRotation True
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 945299885
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 230748069
+        member(1)::DynamicEvent
+            Id 2089401213
+        member(2)::DynamicEvent
+            Id 459256081
+        member(3)::DynamicEvent
+            Id -953653392
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id 1924866442

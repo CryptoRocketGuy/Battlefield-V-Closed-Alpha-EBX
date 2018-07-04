@@ -1,0 +1,290 @@
+SpatialPrefabBlueprint ee67691d9ec6b3280fa4514f461a01ab
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/CentralDamage/DamageController_FireDamage
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 1156999542
+                            TargetFieldId -1347052234
+                            Flags 3
+                        member(1)::PropertyConnection
+                            Source 00000004
+                            Target 00000001
+                            SourceFieldId 1156999542
+                            TargetFieldId -1347052234
+                            Flags 3
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000004
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 204720338
+                        TargetEvent::EventSpec
+                            Id -559281700
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000004
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 1998320403
+                        TargetEvent::EventSpec
+                            Id 1928776733
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 1312604776
+                        TargetEvent::EventSpec
+                            Id -559281700
+                        TargetType EventConnectionTargetType_Server
+                    member(3)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -941869399
+                        TargetEvent::EventSpec
+                            Id 1928776733
+                        TargetType EventConnectionTargetType_Server
+                    member(4)::EventConnection
+                        Source 00000004
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 843222399
+                        TargetEvent::EventSpec
+                            Id -1705074962
+                        TargetType EventConnectionTargetType_Server
+                    member(5)::EventConnection
+                        Source 00000004
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 1443445566
+                        TargetEvent::EventSpec
+                            Id -450336618
+                        TargetType EventConnectionTargetType_Server
+                    member(6)::EventConnection
+                        Source 00000004
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 1509531493
+                        TargetEvent::EventSpec
+                            Id -1705074962
+                        TargetType EventConnectionTargetType_Server
+                    member(7)::EventConnection
+                        Source 00000004
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 537885220
+                        TargetEvent::EventSpec
+                            Id -450336618
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+            member(2) 00000003
+            member(3) 00000002
+        TimeDeltaType TimeDeltaType_None
+DamageAreaOverTimeEntityData 00000000
+    $::DamageAreaOverTimeBaseData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 349590097
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 0.999999940395
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        AoERadius 1.0
+        AoEDuration -1.0
+        AutoStart False
+        DamageAll True
+        DamageVehicles False
+        DamageCharacters True
+        DamageBangers False
+        DoTDamageShielded False
+        DoTDamageFriendly False
+    DamageOverTime::DamageOverTimeData
+        DoTDuration 0.25
+        DoTTickDuration 0.25
+        DoTTickDamage 8
+        DoTSuppressionValue 1.0
+        DoTSuppressionType SuppressionType_Explosion
+        DamageMaterial::MaterialDecl
+            Packed 1061677056
+        UnlockAsset *nullGuid*
+DamageAreaOverTimeEntityData 00000001
+    $::DamageAreaOverTimeBaseData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 341593533
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        AoERadius 1.0
+        AoEDuration -1.0
+        AutoStart False
+        DamageAll True
+        DamageVehicles False
+        DamageCharacters True
+        DamageBangers False
+        DoTDamageShielded False
+        DoTDamageFriendly False
+    DamageOverTime::DamageOverTimeData
+        DoTDuration 0.25
+        DoTTickDuration 0.25
+        DoTTickDamage 4
+        DoTSuppressionValue 0.0
+        DoTSuppressionType SuppressionType_Explosion
+        DamageMaterial::MaterialDecl
+            Packed 1057482752
+        UnlockAsset *nullGuid*
+DamagePlayerOverTimeEntityData 00000002
+    $::DamagePlayerOverTimeBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 75541996
+        Realm Realm_Server
+        DamageOrigin::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        Team TeamNeutral
+        Enabled True
+        OwnerIsDamageGiver True
+        DoTDamageShielded False
+    DamageOverTime::DamageOverTimeData
+        DoTDuration -1.0
+        DoTTickDuration 0.25
+        DoTTickDamage 8
+        DoTSuppressionValue 1.0
+        DoTSuppressionType SuppressionType_Explosion
+        DamageMaterial::MaterialDecl
+            Packed 1061419016
+        UnlockAsset *nullGuid*
+DamagePlayerOverTimeEntityData 00000003
+    $::DamagePlayerOverTimeBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 92999931
+        Realm Realm_Server
+        DamageOrigin::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        Team TeamNeutral
+        Enabled True
+        OwnerIsDamageGiver True
+        DoTDamageShielded False
+    DamageOverTime::DamageOverTimeData
+        DoTDuration -1.0
+        DoTTickDuration 0.25
+        DoTTickDamage 4
+        DoTSuppressionValue 0.0
+        DoTSuppressionType SuppressionType_Explosion
+        DamageMaterial::MaterialDecl
+            Packed 1057224712
+        UnlockAsset *nullGuid*
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Float32 1
+                ValueRef *nullGuid*
+                Id 1156999542
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 204720338
+        member(1)::DynamicEvent
+            Id 1998320403
+        member(2)::DynamicEvent
+            Id 1312604776
+        member(3)::DynamicEvent
+            Id -941869399
+        member(4)::DynamicEvent
+            Id 843222399
+        member(5)::DynamicEvent
+            Id 1443445566
+        member(6)::DynamicEvent
+            Id 1509531493
+        member(7)::DynamicEvent
+            Id 537885220
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

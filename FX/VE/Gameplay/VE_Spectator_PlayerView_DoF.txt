@@ -1,0 +1,378 @@
+VisualEnvironmentBlueprint c8fd490c86ef2e478747f4b466250585
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_Spectator_PlayerView_DoF
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 1402926186
+                            TargetFieldId 1402926186
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -1139070019
+                            TargetFieldId -1276544386
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -1139070019
+                            TargetFieldId -1405990311
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -979140814
+                            TargetFieldId -2059897871
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -979140814
+                            TargetFieldId -608637226
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 198439696
+                            TargetFieldId -959959373
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 198439696
+                            TargetFieldId 1060314868
+                            Flags 2
+                        member(7)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -1778526817
+                            TargetFieldId -1030226372
+                            Flags 2
+                        member(8)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -1778526817
+                            TargetFieldId -977120389
+                            Flags 2
+                        member(9)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 1041839905
+                            TargetFieldId 1041839905
+                            Flags 2
+                        member(10)::PropertyConnection
+                            Source 00000005
+                            Target 00000002
+                            SourceFieldId -1922965548
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(11)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId 294705909
+                            TargetFieldId 1041839905
+                            Flags 2
+                        member(12)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId -666245570
+                            TargetFieldId 1402926186
+                            Flags 2
+                        member(13)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId -1999866519
+                            TargetFieldId -1139070019
+                            Flags 2
+                        member(14)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId 1398256870
+                            TargetFieldId -979140814
+                            Flags 2
+                        member(15)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId 1602929092
+                            TargetFieldId 198439696
+                            Flags 2
+                        member(16)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId 514167627
+                            TargetFieldId -1778526817
+                            Flags 2
+                        member(17)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 1745773883
+                            TargetFieldId -1952177180
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 2089008817
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -81881639
+                        TargetEvent::EventSpec
+                            Id 212633683
+                        TargetType EventConnectionTargetType_Client
+        Object 00000001
+    TimeDeltaType TimeDeltaType_None
+DofComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 153717776
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Enable
+            member(1) SpriteDofBokehTexture
+            member(2) UseCameraSettings
+            member(3) DebugDrawFocusPlane
+            member(4) FocusDistance
+            member(5) BlurFactor
+            member(6) SimpleDofNearStart
+            member(7) SimpleDofNearEnd
+            member(8) SimpleDofFarStart
+            member(9) SimpleDofFarEnd
+            member(10) SpriteDofNearStart
+            member(11) SpriteDofNearEnd
+            member(12) SpriteDofFarStart
+            member(13) SpriteDofFarEnd
+            member(14) SimpleDofBlurFilter
+            member(15) SimpleDofMaxBlur
+        PropertyOverrideMasks::array
+            member(0) 164000
+            member(1) 543424000
+            member(2) 0
+    BokehChromaticAberrationFgColor::Vec3
+        x 1.0
+        y 0.20000000298
+        z 1.0
+    BokehChromaticAberrationBgColor::Vec3
+        x 0.20000000298
+        y 1.0
+        z 0.20000000298
+    Realm Realm_Client
+    DofSource DofSource_Linear
+    FocusDofMaxBlur 6.0
+    BlurFactor 1.0
+    BlurAdd 0.0
+    FocusDistance 10.0
+    RadialBlurAmountCommonDof 0.0
+    RadialBlurStartRadiusCommonDof 0.25
+    RadialBlurTransitionWidthCommonDof 0.5
+    RadialBlurTiltCommonDof 0.0
+    RadialBlurHorizontalScaleCommonDof 1.0
+    RadialBlurAspectRatioBlend 1.0
+    RadialBlurPositionCommonDof::Vec2
+        x 0.0
+        y 0.0
+    SimpleDofBlurFilter BfGaussian31Pixels
+    SimpleDofStandardDeviation 2.0
+    SpriteDofBokehTexture Systems/PostProcess/DOFSprite_01/a6e6c9b2a0abe99c3eaa2e1e8cca79c6
+    FocusDofNearStart 5.0
+    FocusDofNearEnd 7.0
+    FocusDofFarStart 5.0
+    FocusDofFarEnd 7.0
+    PbrFocusLengthDof 50.0
+    PbrFilmWidthDof 36.0
+    PbrFStopDof 2.0
+    OpticalVignettingAmount 0.0
+    OpticalVignettingAspectRatio 1.0
+    OpticalVignettingAnamorphicSqueeze 0.0
+    OpticalVignettingSizeCompensation 0.0
+    OpticalVignettingOperation VignettingOperation_Min
+    BokehChromaticAberrationScale 1.0
+    BokehChromaticAberrationRadius 0.5
+    BokehChromaticAberrationWidth 0.0500000007451
+    BokehChromaticAberrationRadiusThreshold 0.0
+    BokehChromaticAberrationRadiusThresholdWidth 0.00999999977648
+    BokehChromaticAberrationEnergyThreshold 0.0
+    HipToIronsightsFade 1.0
+    IronsightsDofStartFade 0.5
+    IronsightsFocalDistance 1.5
+    MaskedBlurAmount 1.0
+    MaskedBlurTexture *nullGuid*
+    SimpleDofMaxBlur 6.0
+    SimpleDofNearStart 5.0
+    SimpleDofNearEnd 7.0
+    SimpleDofFarStart 5.0
+    SimpleDofFarEnd 7.0
+    SpriteDofNearStart 5.0
+    SpriteDofNearEnd 7.0
+    SpriteDofFarStart 5.0
+    SpriteDofFarEnd 7.0
+    SpriteDofMaxBlur 6.0
+    IronsightsDofCircleDistance 0.34999999404
+    FullScreenBlurAddCommonDof 0.0
+    Enable True
+    DebugDrawFocusPlane False
+    RadialBlurEnableCommonDof False
+    OpticalVignettingEnable False
+    RGBBokehTextureEnable False
+    BokehChromaticAberrationEnable False
+    IronsightsDofActive False
+    MaskedBlurEnabled False
+    UseCameraSettings False
+    IronsightsDofCircleBlur False
+VisualEnvironmentEntityData 00000001
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 187073259
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+                member(1) 00000003
+                member(2) 00000002
+                member(3) 00000005
+                member(4) 00000004
+            ClientRuntimeComponentCount 1
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 0.0
+    FutureVisibility 0.0
+    Priority 220002
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable False
+CompareBoolEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 148754517
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+    AlwaysSend False
+MultiPropertyGateEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 174240405
+    Realm Realm_Client
+    RuntimeProperties::array
+        member(0)::MultiPropertyGatePropertyInfo
+            TypeHash 2134484916
+            PropertyHash 1041839905
+        member(1)::MultiPropertyGatePropertyInfo
+            TypeHash 2134484916
+            PropertyHash 1402926186
+        member(2)::MultiPropertyGatePropertyInfo
+            TypeHash 2134484916
+            PropertyHash 3155897277
+        member(3)::MultiPropertyGatePropertyInfo
+            TypeHash 2134484916
+            PropertyHash 3315826482
+        member(4)::MultiPropertyGatePropertyInfo
+            TypeHash 2134484916
+            PropertyHash 198439696
+        member(5)::MultiPropertyGatePropertyInfo
+            TypeHash 2134484916
+            PropertyHash 2516440479
+    WritePropertiesOnOpenGate True
+    Open False
+SchematicChannelEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 19781609
+    Realm Realm_ClientAndServer
+    Channel UI/Ingame/Spectator/Logic/UIChannelSpectatorStatus/675a8e3b890f7ac3f7d1ffb021ba8a41
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 1
+    OutputRefProperties *nullArray*
+SchematicChannelEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 4663541
+    Realm Realm_Client
+    Channel UI/Ingame/Spectator/Logic/UIChannelSpectatorPlayerViewCameraOptions/e0a69465cf468444c60b6ee50975a598
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 2
+        member(1) 3
+        member(2) 4
+        member(3) 5
+        member(4) 6
+        member(5) 7
+        member(6) 8
+    OutputRefProperties *nullArray*

@@ -1,0 +1,162 @@
+SpatialPrefabBlueprint 60c26ab4bda7724df5b899569028ae53
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name ArtAssets/Props/ShellArtilleryLarge_01/DWPF_ShellArtilleryLarge9Inch_01_explosive2
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 225375086
+                            TargetFieldId 2662400
+                            Flags 17
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 274040864
+                        TargetEvent::EventSpec
+                            Id -1980967410
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1452333337
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1452333337
+                        TargetEvent::EventSpec
+                            Id -679693946
+                        TargetType EventConnectionTargetType_ClientAndServer
+        Objects::array
+            member(0) 00000002
+            member(1) 00000000
+            member(2) 00000001
+        TimeDeltaType TimeDeltaType_None
+ObjectReferenceObjectData 00000000
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 76558736
+            Blueprint ArtAssets/Props/ShellArtilleryLarge_01/ShellArtilleryLarge9Inch_01/f6b2e4d9dbd680c748cb57efd3769590
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+SpatialPrefabReferenceObjectData 00000001
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 433312753
+            Blueprint DynamicWorld/CentralComponents/CentralDamage/DamageController_Explosive3/3a65ef672a6d634eaf752afe84e7915f
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.307375192642
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    PersistenceSetting BlueprintPersistenceSetting_InheritFromParent
+BoolEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 106544273
+    Realm Realm_ClientAndServer
+    DefaultValue False
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 274040864
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -679693946
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

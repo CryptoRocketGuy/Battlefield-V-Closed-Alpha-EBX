@@ -1,0 +1,69 @@
+LogicPrefabBlueprint 4fb0e5cb2725c7da1fefadb6e83ba914
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MP/_SubSystems/DeathExperience/DeathExperience
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -529311258
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+DeathExperienceEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 34182806
+    SphereRadius 1.5
+    VictimOffset::Vec3
+        x 0.0
+        y 0.699999988079
+        z -2.0
+    VictimOffsetNoKiller::Vec3
+        x 0.0
+        y 0.699999988079
+        z -3.0
+    VictimOffsetVehicle::Vec3
+        x 0.0
+        y 2.0
+        z -12.0
+    CollisionOffsetY 1.0
+    VehicleRadiusForOffsetScaling 6.0
+    KillerLookAtOffsetY 0.0
+    KillerTrackingSmoothness 100.0
+    OffsetBlendFactor 0.0
+    ViewportHeightForSoldier 2.0
+    ViewportHeightScaleForVehicle 0.5
+    AbsoluteMinFOV 10.0
+    ViewportHeightBlendFactor 1.0
+    MaxEndFovToZoom 6.0
+    TimeToStopCameraOnRevive 1.0
+    FovBlendFactor 0.0
+    RotationBlendFactor 0.0
+    CameraSpeedScale 1.0
+    UpdateRate 200
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -529311258
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

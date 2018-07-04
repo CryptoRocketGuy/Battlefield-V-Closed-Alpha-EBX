@@ -1,0 +1,630 @@
+EffectBlueprint 600eaea06d1a0a44abf442e1496f316e
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/Vehicles/Wreck/FX_Land_WreckDestruction_Medium
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000000
+    TimeDeltaType TimeDeltaType_None
+EffectEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 192252538
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Components::array
+        member(0) 00000006
+        member(1) 00000001
+        member(2) 00000003
+        member(3) 00000002
+        member(4) 00000004
+        member(5) 00000005
+        member(6) 00000008
+    MaxActiveInstanceCount::QualityScalableInt
+        Low 30
+        Medium 30
+        High 30
+        Ultra 30
+        Cinematic 30
+    CullDistance::QualityScalableFloat
+        Low 350.0
+        Medium 350.0
+        High 350.0
+        Ultra 350.0
+        Cinematic 0.0
+    WaterLevelOffset 2.0
+    StartDelay 0.0
+    EffectSpawnLod *nullGuid*
+    KillWhenDistanceCulled False
+    KillByWater False
+    StopByWater False
+    ResetInstanceWhenStarted True
+    AttachToSpawnSurface False
+    Enable::QualityScalableBool
+        Low True
+        Medium True
+        High True
+        Ultra True
+        Cinematic True
+    OverrideDrawOrder False
+    AllowScale False
+    UseLowFrequencyUpdate False
+EmitterEntityData 00000001
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 16031503
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\vehicles\wreck\emitters\em_land_wreckdestruction_medium_fire/36fd97333afede4a92602e253120e74c
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000002
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 5161015
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\vehicles\wreck\emitters\em_land_wreckdestruction_medium_debris/ef9d936799bcd044b537d0bbf7d10353
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000003
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 5551997
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\vehicles\wreck\emitters\em_land_wreckdestruction_medium_distortion/5170751f981ef347968094d7a573b9ea
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000004
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 26351486
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\vehicles\wreck\emitters\em_land_wreckdestruction_medium_ws_sparks/26de11c2c40ac84b8a09e63c20ab8f5b
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000005
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 1520107
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\vehicles\wreck\emitters\em_land_wreckdestruction_medium_meshp_metal/4f84ab7e22e9de4984ea42a61f9d61a9
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+LightEffectEntityData 00000006
+    $::ChildEffectEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 31198784
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z -1.78813934326e-07
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 1.78813934326e-07
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.600000023842
+                    z 0.0
+        Components *nullArray*
+        MaxActiveInstanceCount::QualityScalableInt
+            Low 30
+            Medium 30
+            High 30
+            Ultra 30
+            Cinematic 30
+        CullDistance::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        StartDelay 0.0
+        KillWhenDistanceCulled False
+        ResetInstanceWhenStarted True
+        AttachToSpawnSurface False
+        Enable::QualityScalableBool
+            Low True
+            Medium True
+            High True
+            Ultra True
+            Cinematic True
+        OverrideDrawOrder False
+    IntensityCurve::Vec4
+        x -0.539732217789
+        y 2.05198192596
+        z -2.60350060463
+        w 1.09125304222
+    Light 00000007
+    Lifetime 1.70000004768
+    RandomIntensityFreq 0.0
+    SpawnProbability::QualityScalableFloat
+        Low 1.0
+        Medium 1.0
+        High 1.0
+        Ultra 1.0
+        Cinematic 1.0
+    RandomIntensityMin 0.800000011921
+    RandomIntensityMax 1.0
+    IntensityMin 0.0
+    IntensityMax 1.0
+    Looping False
+    LocalPlayerOnly False
+PbrSphereLightEntityData 00000007
+    $::PbrAnalyticLightEntityData
+        $::LocalLightEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 0
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Enabled True
+        Color::Vec3
+            x 1.0
+            y 0.209700003266
+            z 0.0
+        ParticleColorScale::Vec3
+            x 1.0
+            y 1.0
+            z 1.0
+        RadiosityColorScale::Vec3
+            x 1.0
+            y 1.0
+            z 1.0
+        LightColorMode LightColorMode_Temperature
+        Temperature 1800
+        Intensity 50000000.0
+        ExposureCompensation 0.0
+        AttenuationRadius 6.0
+        AttenuationOffset 0.5
+        LightUnit LightUnitType_LuminousPower
+        CastShadows QualityScalableEnabled_Disabled
+        CastVolumetricShadows QualityScalableEnabled_Disabled
+        ShadowNearRadius 0.20000000298
+        ShadowRadius 0.0
+        CullScreenArea -1.0
+        FadeScreenArea 0.0
+        CullDistance -1.0
+        FadeDistance 0.0
+        ShadowCullScreenArea -1.0
+        ShadowFadeScreenArea 0.0
+        ShadowCullDistance -1.0
+        ShadowFadeDistance 0.0
+        ShadowDimmer 1.0
+        ShadowResolution ShadowResolutionQuality_Normal
+        Dimmer 1.0
+        ShadowUpdateSignal 0
+        ShadowUpdatePriority 0.0
+        ShadowmapRefresh ShadowmapRefreshPolicy_Always
+        EmissiveShapeEnable False
+        AffectDiffuse True
+        AffectSpecular True
+        CastShadowsEnable True
+        CastVolumetricShadowsEnable True
+        AffectRadiosity False
+    SphereRadius 0.0
+    IESProfile *nullGuid*
+    IESMultiplier 1.0
+    OnlyHempishere False
+    UseIESProfileAsMask False
+SoundEffectEntityData 00000008
+    $::ChildEffectEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 17344558
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        Components *nullArray*
+        MaxActiveInstanceCount::QualityScalableInt
+            Low 30
+            Medium 30
+            High 30
+            Ultra 30
+            Cinematic 30
+        CullDistance::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        StartDelay 0.0
+        KillWhenDistanceCulled False
+        ResetInstanceWhenStarted True
+        AttachToSpawnSurface False
+        Enable::QualityScalableBool
+            Low True
+            Medium True
+            High True
+            Ultra True
+            Cinematic True
+        OverrideDrawOrder False
+    Sound Sound/Core/Explosions/Explosion_Wreck_Small_SPC/4d7bb8ab2418214bac4736563e5f9532
+    UseDefaultStopEvent False

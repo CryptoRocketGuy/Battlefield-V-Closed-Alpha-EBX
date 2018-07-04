@@ -1,0 +1,99 @@
+RigidMeshAsset ddec91f3f04497374b3bcc1b682761b1
+    $::MeshAsset
+        $::Asset
+            $::DataContainer
+            Name dynamicworld/fortifications/foxholes/moundcover_384_Mesh
+        BlendShapeChannelHashes *nullArray*
+        MeshSetResource a153d036f838d949
+        OccluderMeshResource 0000000000000000
+        LodGroup LodGroups/WorldLarge_LodNormal_CullNormal/30f928de635b30f0c48963e7bc50a625
+        LodScale 1.0
+        CullScale 1.0
+        ShaderQualitySwitch -1
+        LodDistanceMethod LodDistanceMethod_BoundingSphere
+        CoverageValue 0.0
+        EnlightenType EnlightenType_Dynamic
+        EnlightenMeshLod -1
+        AutoLightmapUVsMaxDistance 0.300000011921
+        AutoLightmapUVsExpansionFactor 0.20000000298
+        AutoLightmapUVsMaxNormalDeviation 85.0
+        NormalProjectionWeight 0.0
+        ClusterSize 0.0
+        ProceduralAnimation *nullGuid*
+        Materials::array
+            member(0) 60d971027fcc29e23372804d97a7934d
+        NameHash 1527384713
+        AudioMaterial *nullGuid*
+        ContentFlagRed False
+        ContentFlagWhite False
+        ContentFlagGreen False
+        ContentFlagYellow False
+        ContentFlagBlue False
+        ContentFlagPink False
+        ContentFlagPurple False
+        ContentFlagBrown False
+        ContentFlagOrange False
+        StreamingEnable True
+        OccluderMeshEnable False
+        OccluderHighPriority False
+        OccluderIsConservative True
+        DestructionMaterialEnable False
+        EnableEnlightenStaticOverride False
+        LightmapUVsScaleCharts True
+        AutoLightmapUVs False
+        DoNotRegister False
+MeshMaterial 60d971027fcc29e23372804d97a7934d
+    $::DataContainer
+    ShaderInstance *nullGuid*
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader Shaders/Legacy/presets/Objects/ObjectPreset_CS+N_TerrainBlend/e708572fd32a944d9ed2426e48c73bd7
+        BoolParameters::array
+            member(0)::BoolShaderParameter
+                ParameterName TerrainBlendUpNormals
+                Value False
+            member(1)::BoolShaderParameter
+                ParameterName TerrainBlendTextureMask
+                Value False
+            member(2)::BoolShaderParameter
+                ParameterName UpNormalMaskEnable
+                Value True
+            member(3)::BoolShaderParameter
+                ParameterName ForceTerrainRain
+                Value True
+        VectorParameters::array
+            member(0)::VectorShaderParameter
+                Value::Vec4
+                    x 0.600000023842
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName UpNormalMaskThreshold
+                ParameterType ShaderParameterType_Scalar
+            member(1)::VectorShaderParameter
+                Value::Vec4
+                    x 100.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName UpNormalMaskOffset
+                ParameterType ShaderParameterType_Scalar
+        VectorArrayParameters *nullArray*
+        TextureParameters::array
+            member(0)::TextureShaderParameter
+                ParameterName Normal
+                Value ArtAssets/Nature/WF_EarthMoundLarge_01/T_WF_EarthMoundLarge_01_N/62e507c2f4dd1389a93b9e9fe24ca63a
+            member(1)::TextureShaderParameter
+                ParameterName BaseColor
+                Value ArtAssets/Nature/WF_EarthMoundLarge_01/T_WF_EarthMoundLargeBright_01_CS/49066b209312e84980f64c708ec451ba
+    TessellationType ShaderTessellationType_None
+    TessellationTriangleSize 12.0
+    TessellationMaxDistance 20.0
+    BackFaceCullEpsilon 0.5
+    ShapeFactor 0.75
+    DisplacementMap *nullGuid*
+    DisplacementScale 1.0
+    DisplacementBias 0.5
+    DisplacementMapTexCoord 0
+    CastShadow True
+    SmoothEdgeVertices False
+    DisplacementObjectScale False

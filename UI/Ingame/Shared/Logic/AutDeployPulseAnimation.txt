@@ -1,0 +1,248 @@
+LogicPrefabBlueprint 8ae11ee0d9b84d409b4038e29200a880
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Shared/Logic/AutDeployPulseAnimation
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000007
+                            Target 00000008
+                            SourceFieldId -650987375
+                            TargetFieldId 177661
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000007
+                            Target 00000008
+                            SourceFieldId -650987375
+                            TargetFieldId 177660
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000008
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 231223453
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000007
+                            Target 00000003
+                            SourceFieldId -650987375
+                            TargetFieldId 1591366968
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000000
+                            Target 00000005
+                            SourceFieldId -2024647575
+                            TargetFieldId -2024647575
+                            Flags 18
+                        member(5)::PropertyConnection
+                            Source 00000003
+                            Target 00000005
+                            SourceFieldId 731416433
+                            TargetFieldId 205677681
+                            Flags 18
+                        member(6)::PropertyConnection
+                            Source 00000005
+                            Target 00000008
+                            SourceFieldId -141474860
+                            TargetFieldId 177663
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000005
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id 1754534518
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id 2089460481
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000005
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 231633466
+                        TargetEvent::EventSpec
+                            Id 1723395486
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000003
+            member(1) 00000000
+            member(2) 00000008
+            member(3) 00000007
+            member(4) 00000002
+        TimeDeltaType TimeDeltaType_None
+ScaleTransformBuilderEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 147265125
+    Realm Realm_Client
+    Scale::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+CurveData 00000001
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Complex
+    Time::array
+        member(0) 0.0
+        member(1) 0.5
+    Value::array
+        member(0) 1.10000002384
+        member(1) 1.0
+    InTanX::array
+        member(0) 1.0
+        member(1) 1.0
+    InTanY::array
+        member(0) 0.0
+        member(1) 0.0
+    OutTanX::array
+        member(0) 1.0
+        member(1) 1.0
+    OutTanY::array
+        member(0) 0.0
+        member(1) 0.0
+    IsWeighted False
+EventSplitterEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 35074599
+    Realm Realm_Client
+    RunOnce False
+FloatRangeConverterEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 164312690
+    Realm Realm_Client
+    InStart 1.0
+    InEnd 1.10000002384
+    OutStart 0.800000011921
+    OutEnd 1.0
+    InputValue 0.0
+    FireEventsOnInit False
+    IgnoreAboveRangeCheck False
+    Invert False
+    Clamp True
+FloatTrackData 00000004
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 1
+                ExposePins True
+                IsDisabled False
+            SourcePinId -650987375
+            TargetPinId 0
+            TargetPinNameHash 1277461634
+    CurveData 00000001
+InterfaceDescriptorData 00000005
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -2024647575
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 205677681
+                AccessType FieldAccessType_Source
+            member(2)::DataField
+                Value Float32 1
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 231633466
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+TimelineData 00000006
+    $::TimelineTrackData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+        Conditions *nullArray*
+        UpdatePassFlags 3072
+        BucketPreChildrenOrder 0
+        BucketOrder 2
+        ExposePins False
+        IsDisabled False
+    Children::array
+        member(0) 00000004
+TimelineEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 63221823
+    Realm Realm_Client
+    TimelineData 00000006
+    DeltaTimeClock Clock_SimTimeWithWorldDilation
+    BlendInTime 0.0
+    BlendOutTime 0.0
+    InitTime 0.0
+    StartTime 0.0
+    EndTime 1.0
+    JumpTime 0.0
+    PlaybackRate 1.0
+    ExternalTime 0.0
+    ExternalAudioTime 0.0
+    UpdatePassFlags 3136
+    AutoPlay False
+    AutoInitConnectedProperties False
+    ResetTimeOnStarted True
+    AllowAnimationCarryForward False
+    SyncTimelines False
+    HoldLastFrame True
+    TimelineInterpolation False
+    RuntimeFramerate 0
+    Looping False
+    Infinite False
+Vec3BuilderEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 144285797
+    Realm Realm_Client
+    X 0.0
+    Y 0.0
+    Z 0.0

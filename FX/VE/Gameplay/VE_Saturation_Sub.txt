@@ -1,0 +1,126 @@
+VisualEnvironmentBlueprint fa78e089e0a51145968efd2049148f8b
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_Saturation_Sub
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId -1722651591
+                            TargetFieldId -1722651591
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000001
+    TimeDeltaType TimeDeltaType_None
+ColorCorrectionComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 152544547
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Enable
+            member(1) Saturation
+        PropertyOverrideMasks::array
+            member(0) 260
+    Brightness::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    Contrast::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    Saturation::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    Realm Realm_Client
+    Hue 0.0
+    ColorGradingTexture *nullGuid*
+    ColorGradingMaxHdrValue 0.0
+    HdrColorGradingLut *nullGuid*
+    Enable True
+    ColorGradingEnable False
+VisualEnvironmentEntityData 00000001
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 196163511
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+            ClientRuntimeComponentCount 1
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 0.0
+    FutureVisibility 0.0
+    Priority 130
+    BlendMode VisualEnvironmentBlendMode_Subtract
+    ExplicitPriorityEnable True
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1722651591
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

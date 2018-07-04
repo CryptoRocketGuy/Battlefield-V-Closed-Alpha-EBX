@@ -1,0 +1,91 @@
+SpatialPrefabBlueprint 5d5892cddf8fdd46a82eb8bc2965a377
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/DEPRECATED/OBSOLETE_ShellArtillery_SP_Explosive
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -471192524
+                        TargetEvent::EventSpec
+                            Id -1091506486
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -679693946
+                        TargetEvent::EventSpec
+                            Id -274579609
+                        TargetType EventConnectionTargetType_ClientAndServer
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+SpatialPrefabReferenceObjectData 00000000
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 91869554
+            Blueprint ArtAssets/Props/ShellArtilleryCrateExplosion_01/DWPF_ShellArtilleryCrateExplosion_01_explosive2/afd9a694e27ed98f59c93dfe31b2e00b
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    PersistenceSetting BlueprintPersistenceSetting_InheritFromParent
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -471192524
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -274579609
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

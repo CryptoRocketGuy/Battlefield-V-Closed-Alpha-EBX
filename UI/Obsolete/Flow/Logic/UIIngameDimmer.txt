@@ -1,0 +1,186 @@
+LogicPrefabBlueprint d1cd7189cc806a05d51697345a3626c1
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Obsolete/Flow/Logic/UIIngameDimmer
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000005
+                            SourceFieldId 225375086
+                            TargetFieldId 176040160
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000005
+                            Target 00000002
+                            SourceFieldId 936870923
+                            TargetFieldId 5862146
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 1708270083
+                            Flags 34
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId 193453899
+                            TargetFieldId -1171175106
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId -492348331
+                            TargetFieldId 2662400
+                            Flags 34
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1778993948
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000003
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 1422740397
+                        TargetEvent::EventSpec
+                            Id 668205626
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000005
+            member(2) 00000002
+            member(3) 00000001
+            member(4) 00000004
+        TimeDeltaType TimeDeltaType_None
+VisualEnvironmentReferenceObjectData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 149847504
+            Blueprint UI/Ingame/Shared/VisualEnvironments/VE_InGameMenu/1c5a0cf1da8ed9c5b60274321edb5a5c
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    Priority 0
+    OverrideVisibility False
+    OwnedByLightingContextPad False
+BoolEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 46686202
+    Realm Realm_Client
+    DefaultValue False
+FloatInterpolatorEntityData 00000002
+    $::PropertyInterpolatorEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 161906604
+        Realm Realm_Client
+        InterpolationType PropertyInterpolationType_Quad
+        InterpolationMode PropertyInterpolationMode_EaseIn
+        Duration 0.25
+        UseRealTimeClock False
+        ForceFrameCorrectOutput False
+        DynamicDuration False
+    In 0.0
+    DefaultValue 0.0
+    Velocity 1.0
+    UseVelocity False
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1778993948
+        member(1)::DynamicEvent
+            Id 1422740397
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+PropertyCastEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 142434155
+    Realm Realm_Client
+    Precision -5
+    FloatValue 0.0
+    IntValue 0
+    UintValue 0
+    StringValue *nullString*
+    IntToChar False
+    BoolValue False
+PropertyCastEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 150063245
+    Realm Realm_Client
+    Precision -5
+    FloatValue 0.0
+    IntValue 0
+    UintValue 0
+    StringValue *nullString*
+    IntToChar False
+    BoolValue False

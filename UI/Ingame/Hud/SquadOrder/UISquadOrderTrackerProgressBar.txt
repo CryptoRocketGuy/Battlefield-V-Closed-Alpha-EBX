@@ -1,0 +1,305 @@
+UIWidgetBlueprint 93df10e7b4705c4aa323baac7947b319
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/SquadOrder/UISquadOrderTrackerProgressBar
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 2089429248
+                            TargetFieldId 2089429248
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -1131616910
+                            TargetFieldId -1131616910
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 1492712908
+                            TargetFieldId 1492712908
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId -293793429
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId 227876770
+                            TargetFieldId 227876770
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId 1828507227
+                            TargetFieldId 1828507227
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId -141474860
+                            TargetFieldId -576100480
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000004
+BFUIElementRadialBarEntityData 00000000
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 134217728
+            InstanceName FriendlyProgress
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 0.899999976158
+                y 0.899999976158
+                z 0.899999976158
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 1274718591
+            Size::Vec2
+                x 96.0
+                y 96.0
+            LayoutMode UILayoutMode_AnchorOffset
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.5
+                Y 0.5
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 0.0
+                Height 0.0
+            Alpha 0.899999976158
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    BaseColor::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    BlendMode UIBlendMode_AlphaBlend
+    BarWidth 4.0
+    BarRadius 35.0
+    StartAngle -90.0
+    EndAngle 270.0
+    ExtraGeometry 3.0
+    RampWidth 1.0
+    ZOrder 0
+    UseColorAsOverlay False
+    OverrideBlendMode False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2089429248
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1131616910
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1492712908
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 227876770
+                AccessType FieldAccessType_Target
+            member(4)::DataField
+                Value Float32 1
+                ValueRef *nullGuid*
+                Id 1828507227
+                AccessType FieldAccessType_Target
+            member(5)::DataField
+                Value Float32 360
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 144931491
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 2
+                    member(2) 3
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 -576100480
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 227876770
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 2
+                Param1 1828507227
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 3
+                Param1 0
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_NotEqF
+                Result 0
+                Param1 2
+                Param2 3
+            member(5)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 3
+                Param1 1065353216
+                Param2 0
+            member(6)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 2
+                Param1 193418252
+                Param2 0
+            member(7)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 0
+                Param1 0
+                Param2 1
+            member(8)::MathEntityInstruction
+                Code MathOpCode_DivF
+                Result 0
+                Param1 0
+                Param2 2
+            member(9)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 1
+                Param1 1119092736
+                Param2 0
+            member(10)::MathEntityInstruction
+                Code MathOpCode_SubF
+                Result 0
+                Param1 0
+                Param2 1
+            member(11)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False
+UIElementLayerEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName New Layer
+    Elements::array
+        member(0) 00000000
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True
+UIMaskWidgetData 00000004
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 167895475
+            Size::UIElementSize
+                X 96.0
+                Y 96.0
+            Layers::array
+                member(0) 00000003
+            TextureMappings::array
+                member(0) UI/Shared/TextureMappings/BitmapMasks/a26aca9d2327214697ceb3de70e905e4
+            Components::array
+                member(0) 00000002
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    Threshold 0.0
+    MaskTexture RadialSweep
+    InvertTest False
+    InvertThreshold False

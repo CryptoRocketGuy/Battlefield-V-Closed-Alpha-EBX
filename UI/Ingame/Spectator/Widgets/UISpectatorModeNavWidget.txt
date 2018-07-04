@@ -1,0 +1,404 @@
+UIWidgetBlueprint e01402b6563402edf23ce537e2e8705e
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Spectator/Widgets/UISpectatorModeNavWidget
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 1239604139
+                        TargetEvent::EventSpec
+                            Id 1239604139
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -627457553
+                        TargetEvent::EventSpec
+                            Id -627457553
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -1075488589
+                        TargetEvent::EventSpec
+                            Id -1075488589
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000001
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 1397195624
+                        TargetEvent::EventSpec
+                            Id -956938643
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000001
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 1397195624
+                        TargetEvent::EventSpec
+                            Id -287261374
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000000
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 1397195624
+                        TargetEvent::EventSpec
+                            Id -956938643
+                        TargetType EventConnectionTargetType_Client
+                    member(6)::EventConnection
+                        Source 00000000
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 1397195624
+                        TargetEvent::EventSpec
+                            Id -1654854236
+                        TargetType EventConnectionTargetType_Client
+                    member(7)::EventConnection
+                        Source 00000003
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 1124842246
+                        TargetEvent::EventSpec
+                            Id -670388056
+                        TargetType EventConnectionTargetType_Client
+        Object 00000003
+DiceUIInputActionListenerElementData 00000000
+    $::UIElementEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        InstanceName NextViewMode
+        UIElementTransform::UIElementTransform
+            Rotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            RotationPivot::Vec3
+                x 0.5
+                y 0.5
+                z 0.0
+            Z 0.0
+        Color::Vec3
+            x 1.0
+            y 1.0
+            z 1.0
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        InstanceNameHash 991517388
+        Size::Vec2
+            x 32.0
+            y 32.0
+        LayoutMode UILayoutMode_AnchorOffset
+        Offset::UIElementOffset
+            X 0.0
+            Y -64.0
+        Anchor::UIElementAnchor
+            X 0.5
+            Y 0.0
+        Position::UIElementOffset
+            X 0.0
+            Y 0.0
+        Expansion::UIElementRectExpansion
+            X 0.0
+            Y 0.0
+            Width 0.0
+            Height 0.0
+        Alpha 1.0
+        Visible True
+    InputAction UIInputAction_SpectatorViewNext
+    ConsumeInput True
+DiceUIInputActionListenerElementData 00000001
+    $::UIElementEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        InstanceName PrevViewMode
+        UIElementTransform::UIElementTransform
+            Rotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            RotationPivot::Vec3
+                x 0.5
+                y 0.5
+                z 0.0
+            Z 0.0
+        Color::Vec3
+            x 1.0
+            y 1.0
+            z 1.0
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        InstanceNameHash 1981298618
+        Size::Vec2
+            x 32.0
+            y 32.0
+        LayoutMode UILayoutMode_AnchorOffset
+        Offset::UIElementOffset
+            X 0.0
+            Y -64.0
+        Anchor::UIElementAnchor
+            X 0.5
+            Y 0.0
+        Position::UIElementOffset
+            X 0.0
+            Y 0.0
+        Expansion::UIElementRectExpansion
+            X 0.0
+            Y 0.0
+            Width 0.0
+            Height 0.0
+        Alpha 1.0
+        Visible True
+    InputAction UIInputAction_SpectatorViewPrev
+    ConsumeInput True
+UIElementWidgetReferenceEntityData 00000002
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint UI/Ingame/Spectator/Widgets/UISpectatorModeTabBarContainer/da141abe45b20d3e33b757e77998189f
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    UIElementTransform::UIElementTransform
+        Rotation::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        RotationPivot::Vec3
+            x 0.5
+            y 0.5
+            z 0.0
+        Z 0.0
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    InstanceName ModeTabBar
+    InstanceNameHash 678928384
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Size::Vec2
+        x 256.0
+        y 256.0
+    LayoutMode UILayoutMode_AnchorOffset
+    Offset::UIElementOffset
+        X 0.0
+        Y 0.0
+    Anchor::UIElementAnchor
+        X 0.0
+        Y 0.0
+    Position::UIElementOffset
+        X 0.0
+        Y 0.0
+    Expansion::UIElementRectExpansion
+        X 0.0
+        Y 0.0
+        Width 0.0
+        Height 0.0
+    Alpha 1.0
+    CodeAccessIdentifier *nullString*
+    UseElementSize False
+BFUIListNavigationWidgetData 00000003
+    $::BFUINavigationWidgetData
+        $::BFUIWidgetEntityData
+            $::UIWidgetEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 172089678
+                Size::UIElementSize
+                    X 1920.0
+                    Y 40.0
+                Layers::array
+                    member(0) 00000007
+                    member(1) 00000008
+                TextureMappings *nullArray*
+                Components::array
+                    member(0) 00000006
+                    member(1) 00000005
+                Visible True
+            CustomLayout::BFUICustomLayout
+                SnapSettings::BFUISnapLayoutSettings
+                    Left BFUISnapLayoutMode_Default
+                    Right BFUISnapLayoutMode_Default
+                    Top BFUISnapLayoutMode_Default
+                    Bottom BFUISnapLayoutMode_Default
+                OverrideDefaultLayout False
+            SortBasedOnZ False
+            UseStencilMask False
+            UseInputStencilMask False
+            InputEnabled True
+        PassThroughElements False
+        TriggerSelectionChangedOnInitialValue True
+    Wrap True
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 1239604139
+        member(1)::DynamicEvent
+            Id -627457553
+        member(2)::DynamicEvent
+            Id -1075488589
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SchematicChannelEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 38238762
+    Realm Realm_Client
+    Channel UI/Ingame/Spectator/Logic/UIChannelSpectator/90043839e0fdda44871c36f45559f69a
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*
+SchematicChannelEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 34494862
+    Realm Realm_Client
+    Channel Sound/UI/UIChannelAudio/74368aabab043d4fdfde77d415074aec
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*
+UIElementLayerEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName Layer
+    Elements::array
+        member(0) 00000002
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True
+UIElementLayerEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName Input
+    Elements::array
+        member(0) 00000001
+        member(1) 00000000
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True

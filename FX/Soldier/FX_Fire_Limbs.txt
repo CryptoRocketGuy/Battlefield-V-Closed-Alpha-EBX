@@ -1,0 +1,339 @@
+EffectBlueprint 8ae47caf242ff5479a451aa524ea4c67
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/Soldier/FX_Fire_Limbs
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000000
+    TimeDeltaType TimeDeltaType_None
+EffectEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 169316235
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Components::array
+        member(0) 00000004
+        member(1) 00000003
+        member(2) 00000001
+        member(3) 00000002
+    MaxActiveInstanceCount::QualityScalableInt
+        Low 30
+        Medium 30
+        High 30
+        Ultra 30
+        Cinematic 30
+    CullDistance::QualityScalableFloat
+        Low 100.0
+        Medium 100.0
+        High 100.0
+        Ultra 100.0
+        Cinematic 0.0
+    WaterLevelOffset 2.0
+    StartDelay 0.0
+    EffectSpawnLod *nullGuid*
+    KillWhenDistanceCulled False
+    KillByWater False
+    StopByWater False
+    ResetInstanceWhenStarted True
+    AttachToSpawnSurface False
+    Enable::QualityScalableBool
+        Low True
+        Medium True
+        High True
+        Ultra True
+        Cinematic True
+    OverrideDrawOrder False
+    AllowScale False
+    UseLowFrequencyUpdate False
+EmitterEntityData 00000001
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 5312020
+                Transform::LinearTransform
+                    right::Vec3
+                        x 0.999999344349
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 0.999999463558
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.999999403954
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\soldier\emitters\em_fire_limb_flames/a43906082359b403c1d1fc94925624df
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000002
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 25035346
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\soldier\emitters\em_fire_limb_embersheet/7187aa73af1fc940bfb05f3f9658c4f8
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000003
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 26846875
+                Transform::LinearTransform
+                    right::Vec3
+                        x 0.999999344349
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 0.999999463558
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.999999403954
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\soldier\emitters\em_fire_limb_fire/58dc67a3018c99fed8bd26cfcf715bf1
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+SoundEffectEntityData 00000004
+    $::ChildEffectEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 8832411
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        Components *nullArray*
+        MaxActiveInstanceCount::QualityScalableInt
+            Low 30
+            Medium 30
+            High 30
+            Ultra 30
+            Cinematic 30
+        CullDistance::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        StartDelay 0.0
+        KillWhenDistanceCulled False
+        ResetInstanceWhenStarted True
+        AttachToSpawnSurface False
+        Enable::QualityScalableBool
+            Low True
+            Medium True
+            High True
+            Ultra True
+            Cinematic True
+        OverrideDrawOrder False
+    Sound 5c2dd7f92738e41184008af66187edc9/3a36ca9afcd3c663bba86aa80e21bbf7
+    UseDefaultStopEvent False

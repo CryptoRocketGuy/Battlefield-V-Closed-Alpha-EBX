@@ -1,0 +1,142 @@
+EffectBlueprint 58c7fb08669a104c8ebef1aa3b57e948
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/Weapons/Trail/FX_SmokeTrail_Artillery_Shell_Backdrop_Far
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000000
+    TimeDeltaType TimeDeltaType_None
+EffectEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 174815975
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Components::array
+        member(0) 00000001
+    MaxActiveInstanceCount::QualityScalableInt
+        Low 30
+        Medium 30
+        High 30
+        Ultra 30
+        Cinematic 30
+    CullDistance::QualityScalableFloat
+        Low 0.0
+        Medium 0.0
+        High 0.0
+        Ultra 0.0
+        Cinematic 0.0
+    WaterLevelOffset 2.0
+    StartDelay 0.10000000149
+    EffectSpawnLod *nullGuid*
+    KillWhenDistanceCulled False
+    KillByWater False
+    StopByWater False
+    ResetInstanceWhenStarted True
+    AttachToSpawnSurface False
+    Enable::QualityScalableBool
+        Low True
+        Medium True
+        High True
+        Ultra True
+        Cinematic True
+    OverrideDrawOrder False
+    AllowScale False
+    UseLowFrequencyUpdate False
+EmitterEntityData 00000001
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 28942631
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 2.25582075119
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.10000000149
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\weapons\trail\emitters\em_smoketrail_fake_artillery_ribbon/8af443841086f24caf43f7c202b2d50f
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False

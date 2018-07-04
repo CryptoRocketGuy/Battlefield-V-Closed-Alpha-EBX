@@ -1,0 +1,574 @@
+EffectBlueprint 60c1d264630e4345a6ae1d60ac371e0c
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/Materials/Impact/FX_Bullet_S_Snow
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000000
+    TimeDeltaType TimeDeltaType_None
+EffectEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 175995987
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Components::array
+        member(0) 00000003
+        member(1) 00000006
+        member(2) 00000002
+        member(3) 00000001
+        member(4) 00000007
+        member(5) 00000005
+        member(6) 00000004
+    MaxActiveInstanceCount::QualityScalableInt
+        Low 30
+        Medium 30
+        High 45
+        Ultra 60
+        Cinematic 60
+    CullDistance::QualityScalableFloat
+        Low 200.0
+        Medium 200.0
+        High 200.0
+        Ultra 200.0
+        Cinematic 0.0
+    WaterLevelOffset 2.0
+    StartDelay 0.0
+    EffectSpawnLod *nullGuid*
+    KillWhenDistanceCulled False
+    KillByWater False
+    StopByWater False
+    ResetInstanceWhenStarted True
+    AttachToSpawnSurface False
+    Enable::QualityScalableBool
+        Low True
+        Medium True
+        High True
+        Ultra True
+        Cinematic True
+    OverrideDrawOrder False
+    AllowScale False
+    UseLowFrequencyUpdate False
+EmitterEntityData 00000001
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 29866814
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\materials\impact\emitters_s\em_bullet_s_snow_smallgrain/075283f939a42940a2333332b5b3d36f
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000002
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 3586411
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.10000000149
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\materials\impact\emitters_s\em_bullet_s_snow_groundsmokeup/30b9aa27403da942a8b20ccc1b2d64d8
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000003
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 14689674
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\materials\impact\emitters_s\em_bullet_s_snow_dirsmoke2/df009ea0891c4548ad028a9b033b0de3
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000004
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 9749144
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\materials\impact\emitters_s\em_bullet_s_snow_meshp/b71dbe93baa34740a217bcd4aff9ee1a
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000005
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 19794586
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\materials\impact\emitters_s\em_snow_onscreensplats_s/aaf557d0ede64c4dbba5f02e955d7e0a
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000006
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 13949097
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\materials\impact\emitters_s\em_bullet_s_snow_smoke_after/5858067466815d45aca897b8ef9c79c5
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False
+EmitterEntityData 00000007
+    $::EmitterChildEffectEntityData
+        $::ChildEffectEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 28786403
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components *nullArray*
+            MaxActiveInstanceCount::QualityScalableInt
+                Low 30
+                Medium 30
+                High 30
+                Ultra 30
+                Cinematic 30
+            CullDistance::QualityScalableFloat
+                Low 0.0
+                Medium 0.0
+                High 0.0
+                Ultra 0.0
+                Cinematic 0.0
+            StartDelay 0.0
+            KillWhenDistanceCulled False
+            ResetInstanceWhenStarted True
+            AttachToSpawnSurface False
+            Enable::QualityScalableBool
+                Low True
+                Medium True
+                High True
+                Ultra True
+                Cinematic True
+            OverrideDrawOrder False
+        SpawnProbabilityRandomType SpawnProbabilityRandomType_PerEmitter
+        SpawnProbabilityRangeMin::QualityScalableFloat
+            Low 0.0
+            Medium 0.0
+            High 0.0
+            Ultra 0.0
+            Cinematic 0.0
+        SpawnProbability::QualityScalableFloat
+            Low 1.0
+            Medium 1.0
+            High 1.0
+            Ultra 1.0
+            Cinematic 1.0
+        MaxNearbyInstanceCount 0
+        NearbyRadius 1.0
+    Emitter fx\materials\impact\emitters_s\em_bullet_s_snow_groundsmoke/e2839ed6161e504bb2c8cdbdeb923071
+    EmitterTags *nullArray*
+    DrawOrderSlot 128
+    UseDefaultLightProbe False
+    LocalPlayerOnly False

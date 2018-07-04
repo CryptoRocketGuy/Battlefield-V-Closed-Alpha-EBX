@@ -1,0 +1,212 @@
+UIWidgetBlueprint e9225327288d533760fa94f1e03af8f4
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/Commorose/CommoRoseRequestsList
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId 775400308
+                            TargetFieldId -1512192206
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 28107269
+                            TargetFieldId -682686678
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId 28107269
+                            TargetFieldId -124041117
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000000
+                            Target 00000005
+                            SourceFieldId -541374567
+                            TargetFieldId 177604
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000005
+                            Target 00000004
+                            SourceFieldId 193453899
+                            TargetFieldId -1819394802
+                            Flags 18
+                        member(5)::PropertyConnection
+                            Source 00000004
+                            Target 00000005
+                            SourceFieldId -141474860
+                            TargetFieldId 177604
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -188171420
+                            TargetFieldId 0
+                    Interface 00000004
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000002
+ArraySizeEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 165219334
+    Realm Realm_Client
+    ArrayInput *nullGuid*
+BFUILayoutGenericListEntityData 00000001
+    $::BFUILayoutEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 44409508
+        ElementOffsetScaling::Vec2
+            x 0.0
+            y 0.0
+    LayoutMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementStep::Vec2
+        x 15.0
+        y 0.0
+    ElementStepFactor::Vec2
+        x 1.5
+        y 0.0
+    ElementPivot::Vec2
+        x 0.0
+        y 0.0
+    HorizontalAlignment BFUILayoutHorizontalAlignment_Center
+    VerticalAlignment BFUILayoutVerticalAlignment_Top
+    AutoSizeElementsHorizontally False
+    AutoSizeElementsVertically False
+    DrawZeroSizeElement True
+BFUIListWidgetData 00000002
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1801191717
+            Size::UIElementSize
+                X 256.0
+                Y 256.0
+            Layers *nullArray*
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000001
+                member(1) 00000006
+                member(2) 00000003
+                member(3) 00000000
+                member(4) 00000005
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Ingame/Hud/CommoRose/RequestsCellWidget/4ee56c34e3cf74a3aa33b7881f1a9425
+    MaxRows 0
+    SelectionInput -1
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit False
+    ValidateSetSelection False
+    WrapSelection False
+    AutoSizeWidgetHorizontally True
+    AutoSizeWidgetVertically True
+    Enabled True
+    ScrollIntoView False
+DataSourceQueryEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 141624894
+    Realm Realm_Client
+    InData *nullGuid*
+    ArrayIndex 0
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1819394802
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value Int32 0
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 151513655
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls *nullArray*
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputI
+                Result 0
+                Param1 177604
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_ConstI
+                Result 1
+                Param1 0
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_GreaterI
+                Result 0
+                Param1 0
+                Param2 1
+            member(3)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 1
+                Param2 0
+    EvaluateOnEvent False
+UICommoRoseActionDataProviderEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 9117971
+    RequestsRadius 30.0
+    OrderVisibilityTime 10.0
+    LowOnAmmoThreshold 0.300000011921
+    MaxAmmoOrderCount 3

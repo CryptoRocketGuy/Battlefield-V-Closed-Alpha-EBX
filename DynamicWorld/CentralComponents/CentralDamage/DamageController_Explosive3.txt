@@ -1,0 +1,120 @@
+SpatialPrefabBlueprint 3a65ef672a6d634eaf752afe84e7915f
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/CentralDamage/DamageController_Explosive3
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 2662400
+                            TargetFieldId 2662400
+                            Flags 1
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+BFExplosionEntityData 00000000
+    $::ExplosionEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 406510850
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        DetonationEffect ccf851053c26e6119c71cdedf53a5fdf/faa144a799457ef983fe3dfb7e04e87a
+        DetonationEffectForFriendlies *nullGuid*
+        MaskVolume *nullGuid*
+        DestructionMaskVolume *nullGuid*
+        MaterialPair::MaterialDecl
+            Packed 1128888320
+        SecondaryMaterialPair::MaterialDecl
+            Packed 2048
+        ShockwaveWindForce 00000001
+        DamageIndicationType DamageIndicationType_ExplosionCenter
+        EmpTime 0.0
+        MaxOcclusionRaycastRadius 1.0
+        InnerBlastRadius 1.27999997139
+        BlastDamage 100.0
+        BlastRadius 6.5
+        SecondaryMaterialRaycastLengthMultiplier 1.0
+        BlastImpulse 1000.0
+        ShockwaveDamage 1.0
+        ShockwaveRadius 12.0
+        SecondaryMaterialRaycastMinLengthMultiplier 0.0
+        ShockwaveImpulse 500.0
+        ShockwaveTime 0.5
+        CameraShockwaveRadius 3.0
+        SpawnDelay 0.0
+        NoFriendliesEffectOnEnabledFriendlyFire True
+        UseEntityTransformForDetonationEffect False
+        SecondaryMaterialsActive False
+        HasStunEffect False
+        AllowDamageToOwner True
+        ApplyBlastDamageToVehiclesAndCharactersInstantly True
+        ForceServersideAiDamage False
+        DisableOcclusion False
+        DisableStaticEntityOcclusion True
+        DisableOcclusionOutsideBlastRadius True
+        TriggerImpairedHearing True
+        Enabled True
+    UnspottableTime 1.0
+    AttachableFlamesBlastRadiusMultiplier 1.0
+    NumAttachableFlamesUp 0
+    NumAttachableFlamesSide 0
+    NumAttachableFlamesDown 0
+    NumAttachableFlamesNarrowDown 0
+    IsCausingSuppression True
+    UnspotsOnExplode False
+    SpotsOnExplode False
+    AttachableFlamesWorldAligned True
+ExplosionWindForceData 00000001
+    $::DataContainer
+    Strength 100.0
+    Variation 0.20000000298
+    VariationRate 0.20000000298
+    MicroVariation 0.0
+    Hardness 0.259999990463
+    ForceAsInstantVelocity 0.0
+    ShouldAffectVegetation True
+    ShouldAffectMeshScattering True
+    ShouldAffectEffects True
+    ShouldAffectCloth True
+    ShouldAffectPhysics True
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2662400
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

@@ -1,0 +1,153 @@
+SpatialPrefabBlueprint 45891ded0e525a469f8dfb25d848e86f
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MP/Airborne_ObjectiveA_ArtilleryCannon
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 3199117ca860794a8de87b31edfc039d
+                            Target 00000001
+                            SourceFieldId -1829198266
+                            TargetFieldId -409930682
+                            Flags 1
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 3199117ca860794a8de87b31edfc039d
+                            SourceFieldId 2662400
+                            TargetFieldId 2662400
+                            Flags 17
+                        member(2)::PropertyConnection
+                            Source 3199117ca860794a8de87b31edfc039d
+                            Target 00000001
+                            SourceFieldId -1616699789
+                            TargetFieldId -1616699789
+                            Flags 1
+                        member(3)::PropertyConnection
+                            Source 3199117ca860794a8de87b31edfc039d
+                            Target 00000001
+                            SourceFieldId 1500711292
+                            TargetFieldId -1443445239
+                            Flags 1
+                        member(4)::PropertyConnection
+                            Source 00000000
+                            Target 3199117ca860794a8de87b31edfc039d
+                            SourceFieldId -141474860
+                            TargetFieldId -1620778424
+                            Flags 19
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000001
+                            Target 3199117ca860794a8de87b31edfc039d
+                            SourceFieldId 695003815
+                            TargetFieldId 695003815
+                    Interface 00000000
+                    Flags 15
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 3199117ca860794a8de87b31edfc039d
+                        SourceEvent::EventSpec
+                            Id -954970411
+                        TargetEvent::EventSpec
+                            Id -1452333337
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 3199117ca860794a8de87b31edfc039d
+                        SourceEvent::EventSpec
+                            Id -75488581
+                        TargetEvent::EventSpec
+                            Id -75488581
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 3199117ca860794a8de87b31edfc039d
+                        SourceEvent::EventSpec
+                            Id -703364060
+                        TargetEvent::EventSpec
+                            Id -703364060
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000001
+            member(1) 3199117ca860794a8de87b31edfc039d
+        TimeDeltaType TimeDeltaType_None
+SpatialPrefabReferenceObjectData 3199117ca860794a8de87b31edfc039d
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 504469809
+            Blueprint Gameplay/MP/Airborne_Objective_Cannon/1dc5cf36c950e146b5c5a640c1f8f10f
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    PersistenceSetting BlueprintPersistenceSetting_InheritFromParent
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Int32 42
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SchematicChannelEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 2042053578
+    Realm Realm_ClientAndServer
+    Channel Gameplay/MP/Airborne_ObjectiveA_Hub/e6168ebd6e1a6ea76ae9929804734dfb
+    InputProperties::array
+        member(0) 0
+        member(1) 3
+        member(2) 4
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 2
+    OutputRefProperties *nullArray*

@@ -1,0 +1,91 @@
+LogicPrefabBlueprint 04e56a055ac2af1dd73c5ef386ae38bd
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/Prefabs/PF_Vehicle_Global
+                    PropertyConnections *nullArray*
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId 1629659105
+                            TargetFieldId -366744154
+                        member(1)::LinkConnection
+                            Source 00000000
+                            Target 00000004
+                            SourceFieldId 1629659105
+                            TargetFieldId -1750675974
+                        member(2)::LinkConnection
+                            Source 00000001
+                            Target 00000004
+                            SourceFieldId 1629659105
+                            TargetFieldId -2031016470
+                        member(3)::LinkConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId 1629659105
+                            TargetFieldId 548893565
+                    Interface 00000004
+                    Flags 2
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000003
+            member(1) 00000000
+            member(2) 00000001
+            member(3) 00000002
+        TimeDeltaType TimeDeltaType_None
+GameObjectProxyEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1629232938
+    Realm Realm_ClientAndServer
+    TargetObjectType GameShared.ChassisComponentData
+GameObjectProxyEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1629348687
+    Realm Realm_ClientAndServer
+    TargetObjectType Casablanca.BFVehicleHealthComponentData
+GameObjectProxyEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1631188879
+    Realm Realm_ClientAndServer
+    TargetObjectType Casablanca.BFVehiclePhysicsComponentData
+GameObjectProxyEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1640475857
+    Realm Realm_ClientAndServer
+    TargetObjectType GameShared.VehicleEntityData
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id -366744154
+        member(1)::DynamicLink
+            Id -1750675974
+        member(2)::DynamicLink
+            Id -2031016470
+        member(3)::DynamicLink
+            Id 548893565

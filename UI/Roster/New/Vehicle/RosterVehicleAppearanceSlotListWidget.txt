@@ -1,0 +1,84 @@
+UIWidgetBlueprint 5f8602740c8c884fab1c83de57b04fb3
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Roster/NEW/Vehicle/RosterVehicleAppearanceSlotListWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 772552445
+                            TargetFieldId 772552445
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 547157899
+                        TargetEvent::EventSpec
+                            Id 547157899
+                        TargetType EventConnectionTargetType_Client
+        Object 00000000
+BFUIListWidgetData 00000000
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 193999235
+            Size::UIElementSize
+                X 422.0
+                Y 80.0
+            Layers *nullArray*
+            TextureMappings *nullArray*
+            Components *nullArray*
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Roster/NEW/Vehicle/RosterVehicleAppearanceSlotCellWidget/538b7148957c594982dec89d2f3e0e00
+    MaxRows 0
+    SelectionInput -1
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit False
+    ValidateSetSelection False
+    WrapSelection False
+    AutoSizeWidgetHorizontally False
+    AutoSizeWidgetVertically False
+    Enabled True
+    ScrollIntoView False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 772552445
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 547157899
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

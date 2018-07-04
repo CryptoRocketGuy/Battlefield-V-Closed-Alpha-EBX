@@ -1,0 +1,262 @@
+LogicPrefabBlueprint e76d9e312f6f6101b84a9815b9b47a80
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Spectator/Logic/MP_AdjustNetworkLatency
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000006
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000006
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 724031824
+                        TargetEvent::EventSpec
+                            Id 229946160
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000006
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 724031824
+                        TargetEvent::EventSpec
+                            Id 193450867
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000006
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 724031824
+                        TargetEvent::EventSpec
+                            Id 1422740397
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000006
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 724031824
+                        TargetEvent::EventSpec
+                            Id 724031824
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 701860464
+                        TargetEvent::EventSpec
+                            Id 193450865
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000004
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1434059356
+                        TargetEvent::EventSpec
+                            Id 193450864
+                        TargetType EventConnectionTargetType_Client
+                    member(6)::EventConnection
+                        Source 00000006
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 724031824
+                        TargetEvent::EventSpec
+                            Id 2089008817
+                        TargetType EventConnectionTargetType_Client
+                    member(7)::EventConnection
+                        Source 00000006
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 426328133
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(8)::EventConnection
+                        Source 00000006
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 426328133
+                        TargetEvent::EventSpec
+                            Id 212633683
+                        TargetType EventConnectionTargetType_Client
+                    member(9)::EventConnection
+                        Source 00000003
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 229946160
+                        TargetType EventConnectionTargetType_Client
+                    member(10)::EventConnection
+                        Source 00000003
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 193450867
+                        TargetType EventConnectionTargetType_Client
+                    member(11)::EventConnection
+                        Source 00000003
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 1422740397
+                        TargetType EventConnectionTargetType_Client
+                    member(12)::EventConnection
+                        Source 00000003
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 426328133
+                        TargetType EventConnectionTargetType_Client
+                    member(13)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -1640152490
+                        TargetType EventConnectionTargetType_Client
+                    member(14)::EventConnection
+                        Source 00000000
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 2088979589
+                        TargetEvent::EventSpec
+                            Id -1778993948
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000002
+            member(1) 00000005
+            member(2) 00000004
+            member(3) 00000001
+            member(4) 00000003
+            member(5) 00000000
+        TimeDeltaType TimeDeltaType_None
+LogicPrefabReferenceObjectData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 65872246
+            Blueprint UI/Ingame/Spectator/Logic/IngameBufferGate/659ce8fe9c2b3a5e89a6e1abae07f413
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+BFTimeNudgeBiasEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 39468213
+    TimeNudgeBias 0.0
+EventAndGateEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 39620202
+    Realm Realm_Client
+    EventCount 3
+EventGateEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 42707755
+    Realm Realm_Client
+    DefaultOpen False
+FadeEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 46767855
+    FadeTime 0.0
+    AltFadeTime 1.0
+    Curve *nullGuid*
+    MaxWaitFadedWhileStreamingTime 0.0
+    LocalPlayerId LocalPlayerId_Invalid
+    FadeScreen True
+    FadeUI True
+    FadeAudio True
+    FadeMovie False
+    FadeRumble True
+    StartFaded False
+FadeEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 45259519
+    FadeTime 0.5
+    AltFadeTime 1.0
+    Curve *nullGuid*
+    MaxWaitFadedWhileStreamingTime 0.0
+    LocalPlayerId LocalPlayerId_Invalid
+    FadeScreen True
+    FadeUI True
+    FadeAudio True
+    FadeMovie False
+    FadeRumble True
+    StartFaded False
+InterfaceDescriptorData 00000006
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 724031824
+        member(1)::DynamicEvent
+            Id 426328133
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

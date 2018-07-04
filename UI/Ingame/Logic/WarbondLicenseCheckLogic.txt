@@ -1,0 +1,216 @@
+LogicPrefabBlueprint d67a79ef45c2ff16a42844efea8d9110
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Logic/WarbondLicenseCheckLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000002
+                            SourceFieldId -1700987754
+                            TargetFieldId 772552445
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000007
+                            Target 00000002
+                            SourceFieldId -1700987754
+                            TargetFieldId 452459068
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 193453899
+                            TargetFieldId -1700987754
+                            Flags 18
+                        member(3)::PropertyConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId -1700987754
+                            TargetFieldId 193450864
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId 2089125696
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId -1700987754
+                            TargetFieldId 193450867
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id -1357088108
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id -1357088108
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id -1357088108
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000000
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id -1357088108
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1357088108
+                        TargetEvent::EventSpec
+                            Id 1723395486
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000004
+            member(1) 00000007
+            member(2) 00000000
+            member(3) 00000006
+            member(4) 00000002
+            member(5) 00000005
+            member(6) 00000003
+        TimeDeltaType TimeDeltaType_None
+EventSplitterEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 38198380
+    Realm Realm_Client
+    RunOnce False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1700987754
+                AccessType FieldAccessType_Source
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1357088108
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 152892981
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls *nullArray*
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputB
+                Result 0
+                Param1 452459068
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputB
+                Result 1
+                Param1 2089125696
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_InputB
+                Result 2
+                Param1 772552445
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_AndB
+                Result 1
+                Param1 1
+                Param2 2
+            member(4)::MathEntityInstruction
+                Code MathOpCode_OrB
+                Result 0
+                Param1 0
+                Param2 1
+            member(5)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 1
+                Param2 0
+    EvaluateOnEvent False
+OrEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 150841546
+    Realm Realm_Client
+    InputCount 2
+UILicenseCheckerEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 39692602
+    Licenses::array
+        member(0) sh_vehicle
+    LevelName *nullString*
+UILicenseCheckerEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 63756634
+    Licenses::array
+        member(0) sh_assault
+        member(1) sh_medic
+        member(2) sh_scout
+        member(3) sh_support
+    LevelName *nullString*
+UILicenseCheckerEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 40404592
+    Licenses::array
+        member(0) sh_player
+    LevelName *nullString*
+UILicenseCheckerEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 35954390
+    Licenses::array
+        member(0) sh_ultimate
+    LevelName *nullString*

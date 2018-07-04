@@ -1,0 +1,586 @@
+ObjectBlueprint d632ac4821f722e003ee6eba5c04dc58
+    $::Blueprint
+        $::EntityBusData
+            $::DataBusData
+                $::Asset
+                    $::DataContainer
+                    Name DynamicWorld/fortifications/WindowBarricade/Window_Barricade_01_160x170_A
+                PropertyConnections *nullArray*
+                LinkConnections *nullArray*
+                Interface 00000009
+                Flags 2
+            EventConnections::array
+                member(0)::EventConnection
+                    Source 00000005
+                    Target 00000009
+                    SourceEvent::EventSpec
+                        Id -2120949219
+                    TargetEvent::EventSpec
+                        Id 1552666988
+                    TargetType EventConnectionTargetType_ClientAndServer
+                member(1)::EventConnection
+                    Source 00000005
+                    Target 00000009
+                    SourceEvent::EventSpec
+                        Id -2120949218
+                    TargetEvent::EventSpec
+                        Id -1433440188
+                    TargetType EventConnectionTargetType_ClientAndServer
+    Object 5ab8f044b8d7e30b25c70e70efbc4183
+StaticModelEntityData 5ab8f044b8d7e30b25c70e70efbc4183
+    $::GamePhysicsEntityData
+        $::GameComponentEntityData
+            $::ComponentEntityData
+                $::SpatialEntityData
+                    $::EntityData
+                        $::GameObjectData
+                            $::DataBusPeer
+                                $::GameDataContainer
+                                    $::DataContainer
+                                Flags 519092314
+                    Transform::LinearTransform
+                        right::Vec3
+                            x 1.0
+                            y 0.0
+                            z 0.0
+                        up::Vec3
+                            x 0.0
+                            y 1.0
+                            z 0.0
+                        forward::Vec3
+                            x 0.0
+                            y 0.0
+                            z 1.0
+                        trans::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                Components::array
+                    member(0) 00000005
+                    member(1) 00000008
+                    member(2) 00000007
+                ClientRuntimeComponentCount 3
+                ServerRuntimeComponentCount 3
+                ClientRuntimeTransformationCount 1
+                ServerRuntimeTransformationCount 1
+            Enabled True
+            EnableOutOfBoundsCheck True
+        PhysicsData ead993bdc8422988aa2bdd25b144b9db
+        IsTraversable True
+        IsCharacterCollidable True
+    PartLinks *nullArray*
+    Mesh dynamicworld/fortifications/windowbarricade/window_barricade_01_160x170_a_Mesh/9461d8300f8eed8480ccaa424ca8372a
+    BoneCount 0
+    BasePoseTransforms *nullArray*
+    PhysicsPartInfos::array
+        member(0)::PhysicsPartInfo
+            PartComponentIndex 0
+            HealthStateIndex 0
+        member(1)::PhysicsPartInfo
+            PartComponentIndex 0
+            HealthStateIndex 1
+    NetworkInfo::StaticModelNetworkInfo
+        PartNetworkIdRanges::array
+            member(0)::IndexRange
+                First 0
+                Last 1
+        NetworkIdCount 2
+        ChildNetworkInfos *nullArray*
+        ChildNetworkIdCount 0
+    LightMapWeight 1.0
+    ExcludeFromNearbyObjectDestruction False
+    AnimatePhysics False
+    TerrainShaderNodesEnable False
+    ExplosionPacksAttachable True
+    TeleportPhysicsOnTransformChanges False
+    Visible True
+    OverlayEnabled False
+RigidBodyData 665f95d8fb61842f8239390b9b681481
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_ClientAndServer
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset dynamicworld/fortifications/windowbarricade/window_barricade_01_160x170_a_physics_win32/155b01132226378e5f97d79e6f693036
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 0
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager True
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeCollision
+    Mass 0.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Fixed
+    QualityType RigidBodyQualityType_Fixed
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+        member(1) 1
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+PhysicsEntityData ead993bdc8422988aa2bdd25b144b9db
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    Asset dynamicworld/fortifications/windowbarricade/window_barricade_01_160x170_a_physics_win32/155b01132226378e5f97d79e6f693036
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    RigidBodies *nullArray*
+    FloatPhysics *nullGuid*
+    Mass 1000010.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    Proximity *nullGuid*
+    Constraints *nullArray*
+    MovableParts False
+    IsComposite False
+EffectReferenceObjectData 00000000
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint FX/Destruction/PropDest/FX_PropDest_WoodPile_Large/ab7c66cf3528cc44b0e26739588cfcc9
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x -0.999041378498
+                    y 0.0
+                    z 0.0437757074833
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x -0.0437757074833
+                    y 0.0
+                    z -0.999041378498
+                trans::Vec3
+                    x 0.823410570621
+                    y 0.457515865564
+                    z 0.187906354666
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart True
+    AffectedByLightprobeVisibility False
+HealthStateData 00000001
+    $::DataContainer
+    Objects *nullArray*
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 100.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 0
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts True
+HealthStateData 00000002
+    $::DataContainer
+    Objects::array
+        member(0) 00000004
+        member(1) 00000000
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 99.8000030518
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 1
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts True
+HealthStateData 00000003
+    $::DataContainer
+    Objects *nullArray*
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 0.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 4294967295
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts False
+ObjectReferenceObjectData 00000004
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint DynamicWorld/Fortifications/WindowBarricade/Window_Barricade_01_Cluster_A/76d347edb418bfee95fac213e627ef7a
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.174590229988
+                    y -0.0759314149618
+                    z 0.0152398124337
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+PartComponentData 00000005
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 27166715
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    HealthStates::array
+        member(0) 00000001
+        member(1) 00000002
+        member(2) 00000003
+    PartLinks *nullArray*
+    IsSupported False
+    IsFragile False
+    AffectsBoundingBox True
+    IsNetworkable False
+    IsWindow False
+    AnimatePhysics False
+RigidBodyData 00000006
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_Client
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset dynamicworld/fortifications/windowbarricade/window_barricade_01_160x170_a_physics_win32/155b01132226378e5f97d79e6f693036
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 1
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager False
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeProxy
+    Mass 0.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Fixed
+    QualityType RigidBodyQualityType_Fixed
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+        member(1) 1
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+StaticModelHealthComponentData 00000007
+    $::GameHealthComponentData
+        $::HealthComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 15942663
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+StaticModelPhysicsComponentData 00000008
+    $::GamePhysicsComponentData
+        $::PhysicsComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 32394360
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+            PhysicsBodies::array
+                member(0) 665f95d8fb61842f8239390b9b681481
+                member(1) 00000006
+            PhysicsConstraints *nullArray*
+            Parts::array
+                member(0)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(1)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+            InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+            MovableParts False
+        Realm Realm_ClientAndServer
+        EffectParameters *nullArray*
+InterfaceDescriptorData 00000009
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -1433440188
+        member(1)::DynamicEvent
+            Id 1552666988
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

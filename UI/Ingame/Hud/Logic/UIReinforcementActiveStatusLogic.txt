@@ -1,0 +1,251 @@
+LogicPrefabBlueprint 3a44967684d79791878f622603bba7ed
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/Logic/UIReinforcementActiveStatusLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 263400446
+                            TargetFieldId -1512192206
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 2088937072
+                            TargetFieldId -1512192206
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -701903321
+                            TargetFieldId -1512192206
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000006
+                            SourceFieldId 500030326
+                            TargetFieldId -2112919168
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000002
+                            Target 00000005
+                            SourceFieldId -950266530
+                            TargetFieldId 228215591
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000006
+                            Target 00000004
+                            SourceFieldId -1141221956
+                            TargetFieldId -1141221956
+                            Flags 18
+                        member(6)::PropertyConnection
+                            Source 00000005
+                            Target 00000004
+                            SourceFieldId 193453899
+                            TargetFieldId -1292456776
+                            Flags 18
+                        member(7)::PropertyConnection
+                            Source 00000006
+                            Target 00000004
+                            SourceFieldId -1615630641
+                            TargetFieldId 154131648
+                            Flags 18
+                        member(8)::PropertyConnection
+                            Source 00000001
+                            Target 00000003
+                            SourceFieldId 1146947355
+                            TargetFieldId -1512192206
+                            Flags 2
+                        member(9)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId 58164961
+                            TargetFieldId 901540267
+                            Flags 18
+                        member(10)::PropertyConnection
+                            Source 00000001
+                            Target 00000005
+                            SourceFieldId -950266530
+                            TargetFieldId 225375086
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+            member(1) 00000002
+            member(2) 00000001
+            member(3) 00000006
+            member(4) 00000005
+            member(5) 00000003
+        TimeDeltaType TimeDeltaType_None
+DataSourceQueryEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 157671683
+    Realm Realm_Client
+    InData *nullGuid*
+    ArrayIndex 0
+DataSourceQueryEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 135241109
+    Realm Realm_Client
+    InData *nullGuid*
+    ArrayIndex 0
+DataSourceQueryEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 163413442
+    Realm Realm_Client
+    InData *nullGuid*
+    ArrayIndex 0
+EnumConversionEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 136275507
+    Realm Realm_Client
+    EnumValues::array
+        member(0)::EnumValueDefinition
+            Name Disabled
+            Value 0
+            PropertyHash 423947445
+        member(1)::EnumValueDefinition
+            Name Idle
+            Value 1
+            PropertyHash 2088919169
+        member(2)::EnumValueDefinition
+            Name Reserved
+            Value 2
+            PropertyHash 58164961
+        member(3)::EnumValueDefinition
+            Name CoolDown
+            Value 3
+            PropertyHash 362058232
+        member(4)::EnumValueDefinition
+            Name Count
+            Value 4
+            PropertyHash 212413894
+    Enumeration CasablancaShared.SquadReinforcementItemState
+    OutputValueFlags True
+    OutputEvents False
+    TriggerOnPropertyChanged True
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 263400446
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1141221956
+                AccessType FieldAccessType_Source
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1292456776
+                AccessType FieldAccessType_Source
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 154131648
+                AccessType FieldAccessType_Source
+            member(4)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 901540267
+                AccessType FieldAccessType_Source
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 139905569
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 1
+                    member(2) 2
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 225375086
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 228215591
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 2
+                Param1 0
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_GreaterF
+                Result 0
+                Param1 1
+                Param2 2
+            member(4)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 2
+                Param1 1065353216
+                Param2 0
+            member(5)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 1
+                Param1 193418252
+                Param2 0
+            member(6)::MathEntityInstruction
+                Code MathOpCode_DivF
+                Result 0
+                Param1 0
+                Param2 1
+            member(7)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False
+UIGetMetaDataEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 139516614
+    UIObject *nullGuid*
+    StringKey *nullString*
+    HashKey 0
+    UIMetaDataType UISquadReinforcementActionDescription

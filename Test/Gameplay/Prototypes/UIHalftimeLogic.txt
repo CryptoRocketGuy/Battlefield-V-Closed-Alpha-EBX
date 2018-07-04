@@ -1,0 +1,124 @@
+LogicPrefabBlueprint abc851ebdc9968e0ef25f71b01b18c90
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Test/Gameplay/Prototypes/UIHalftimeLogic
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000000
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1000148173
+                        TargetEvent::EventSpec
+                            Id 2089417369
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1082365669
+                        TargetEvent::EventSpec
+                            Id 2089417369
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -1082365669
+                        TargetEvent::EventSpec
+                            Id -165975360
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000001
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -1060653055
+                        TargetEvent::EventSpec
+                            Id 1639022819
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000002
+            member(1) 00000004
+            member(2) 00000003
+            member(3) 00000001
+            member(4) 00000005
+        TimeDeltaType TimeDeltaType_None
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1082365669
+        member(1)::DynamicEvent
+            Id -1000148173
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SpartaMessageEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 2050251
+    Properties::array
+        member(0)::PayloadFieldDefinition
+            Name CmpSpartaHalftimeComplete
+            TypeNameHash 3234314241
+            PayloadFieldType PayloadFieldType_Simple
+            JsMessageType cmp.halftimeComplete
+    FireEventForAllMessageTypes False
+SpartaSendMessageEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 35988481
+    PayloadField::PayloadFieldDefinition
+        Name CmpSpartaStartHalftime
+        TypeNameHash 2703145064
+        PayloadFieldType PayloadFieldType_Simple
+        JsMessageType cmp.startHalftime
+SpartaSendMessageEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 65506163
+    PayloadField::PayloadFieldDefinition
+        Name CmpSpartaEndHalftime
+        TypeNameHash 401016679
+        PayloadFieldType PayloadFieldType_Simple
+        JsMessageType cmp.endHalftime
+TwinkleOverlayEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 48735828
+    Realm Realm_Client
+    EnableMouseInput True
+    EnableKeyInput True
+    EnableHotkeyInput True
+TwinkleOverlayEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 36375528
+    Realm Realm_Client
+    EnableMouseInput True
+    EnableKeyInput True
+    EnableHotkeyInput True

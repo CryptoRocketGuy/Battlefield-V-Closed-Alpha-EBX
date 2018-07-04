@@ -1,0 +1,1037 @@
+ObjectBlueprint 6da941c0dd96dbbbaa12ef59caeae24f
+    $::Blueprint
+        $::EntityBusData
+            $::DataBusData
+                $::Asset
+                    $::DataContainer
+                    Name ArtAssets/Architecture/RuinHouseWood_01/RuinHouseWood_Wall_02/RuinHouseWood_Wall_02
+                PropertyConnections *nullArray*
+                LinkConnections *nullArray*
+                Interface 0000000f
+                Flags 2
+            EventConnections::array
+                member(0)::EventConnection
+                    Source 0000000f
+                    Target 00000004
+                    SourceEvent::EventSpec
+                        Id -963255649
+                    TargetEvent::EventSpec
+                        Id -274579609
+                    TargetType EventConnectionTargetType_Server
+    Object ca27e16fd431c19354ad614385661627
+RigidBodyData 48b80bd0e163d646c531b8ae1a3820c8
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_ClientAndServer
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset artassets/architecture/ruinhousewood_01/ruinhousewood_wall_02/ruinhousewood_wall_02_physics_win32/4274b934022111f8d3d8f9d4865e260b
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 0
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager True
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeCollision
+    Mass 1000.0
+    Material::MaterialDecl
+        Packed 34816
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Fixed
+    QualityType RigidBodyQualityType_Invalid
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+        member(1) 1
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+BreakableModelEntityData ca27e16fd431c19354ad614385661627
+    $::GamePhysicsEntityData
+        $::GameComponentEntityData
+            $::ComponentEntityData
+                $::SpatialEntityData
+                    $::EntityData
+                        $::GameObjectData
+                            $::DataBusPeer
+                                $::GameDataContainer
+                                    $::DataContainer
+                                Flags 534849482
+                    Transform::LinearTransform
+                        right::Vec3
+                            x 1.0
+                            y 0.0
+                            z 0.0
+                        up::Vec3
+                            x 0.0
+                            y 1.0
+                            z 0.0
+                        forward::Vec3
+                            x 0.0
+                            y 0.0
+                            z 1.0
+                        trans::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                Components::array
+                    member(0) 00000006
+                    member(1) 00000003
+                    member(2) 00000004
+                    member(3) 00000005
+                    member(4) 00000008
+                    member(5) 00000000
+                    member(6) 00000002
+                    member(7) 00000001
+                ClientRuntimeComponentCount 7
+                ServerRuntimeComponentCount 7
+                ClientRuntimeTransformationCount 2
+                ServerRuntimeTransformationCount 2
+            Enabled True
+            EnableOutOfBoundsCheck True
+        PhysicsData 0000000c
+        IsTraversable True
+        IsCharacterCollidable True
+    DecalVolumeShader *nullGuid*
+    DecalVolumeScaleFactor 2.0
+    Mesh artassets/architecture/ruinhousewood_01/ruinhousewood_wall_02/ruinhousewood_wall_02_Mesh/2b597364f4152bbe14b5299b077ce8c4
+    BoneCount 0
+    EdgeModelLightMapData 0000000e
+    Connections *nullArray*
+    TerrainShaderNodesEnable False
+BreakableControllerComponentData 00000000
+    $::DestructionControllerComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 32875651
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        BreakingLength 8.0
+        FracturePosition 0.40000000596
+        DestructionRadius 0.0
+        Delay 0.0
+        RefineRadius 0.0
+        StructuralIntegrityAnalyzerEnable False
+    BreakablePartCount 2
+    NetworkIdCount 6
+BreakableModelHealthComponentData 00000001
+    $::GameHealthComponentData
+        $::HealthComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 11831791
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+BreakableModelPhysicsComponentData 00000002
+    $::GamePhysicsComponentData
+        $::PhysicsComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 27421606
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+            PhysicsBodies::array
+                member(0) 48b80bd0e163d646c531b8ae1a3820c8
+                member(1) 0000000d
+            PhysicsConstraints *nullArray*
+            Parts::array
+                member(0)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(1)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+            InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+            MovableParts False
+        Realm Realm_ClientAndServer
+        EffectParameters *nullArray*
+    BreakableBodies::array
+        member(0) 48b80bd0e163d646c531b8ae1a3820c8
+        member(1) 0000000d
+BreakablePartComponentData 00000003
+    $::DestructionPartComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 32587195
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        Objects *nullArray*
+        PartIndex 0
+        Fixed True
+        Fragile False
+    ClusterBoundingBox::AxisAlignedBox
+        min::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        max::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    HealthPercentage 100
+    MaterialHashes::array
+        member(0) 2101309488
+    OnDestructionSound *nullGuid*
+    OnExplosionDestructionSound *nullGuid*
+    OnProjectileDestructionSound *nullGuid*
+    OnCollisionDestructionSound *nullGuid*
+    ClusterPositions *nullArray*
+    Collapsable True
+    DestroyNearbyStaticEntities False
+BreakablePartComponentData 00000004
+    $::DestructionPartComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 98463969
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        Objects::array
+            member(0) 00000009
+            member(1) 0000000b
+            member(2) 0000000a
+        PartIndex 1
+        Fixed False
+        Fragile False
+    ClusterBoundingBox::AxisAlignedBox
+        min::Vec3
+            x -1.95965409279
+            y -1.55939722061
+            z -0.297787725925
+        max::Vec3
+            x 1.95965409279
+            y 1.55939722061
+            z 0.297787725925
+    HealthPercentage 100
+    MaterialHashes::array
+        member(0) 3427788622
+    OnDestructionSound *nullGuid*
+    OnExplosionDestructionSound *nullGuid*
+    OnProjectileDestructionSound *nullGuid*
+    OnCollisionDestructionSound *nullGuid*
+    ClusterPositions::array
+        member(0)::Vec3
+            x -1.75810670853
+            y -1.55830621719
+            z -0.0309679992497
+        member(1)::Vec3
+            x 0.231775552034
+            y -0.998091042042
+            z -0.0302662234753
+        member(2)::Vec3
+            x 1.86827671528
+            y -0.311281889677
+            z 0.0109563255683
+        member(3)::Vec3
+            x 2.26514554024
+            y -1.42341899872
+            z -0.029663734138
+        member(4)::Vec3
+            x -1.58203291893
+            y -0.41608184576
+            z 9.38415541896e-06
+        member(5)::Vec3
+            x 2.8980383873
+            y -0.546042263508
+            z -0.0741791278124
+        member(6)::Vec3
+            x 1.25382971764
+            y 1.22771334648
+            z 0.00410141004249
+    Collapsable True
+    DestroyNearbyStaticEntities True
+ClusterDOTComponentData 00000005
+    $::ClusterDOTBaseComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 3604136
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+    ImpactDamage 10
+    ImpactDOTDuration 1.0
+    ImpactDOTTickDuration 1.0
+    DistanceMultiplier 0.5
+    DelayedSpawnOffset 0.5
+    DelayedSpawnMinDuration 2.0
+    MinDepth 2.0
+    DOTSuppressionType SuppressionType_Explosion
+    SuppressionValue 0.0
+    MaterialPair::MaterialDecl
+        Packed 587204608
+    DamageVehicles False
+    DamageCharacters True
+    DamageBangers False
+DestructionVolumeComponentData 00000006
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 2379821
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    DestructionVolumeData 00000007
+DestructionVolumeData 00000007
+    $::DataContainer
+    Asset ArtAssets/Destruction/DestructionVolume/Container_DestructionVolume_01/e1930f2a7eada34e870feb4e8db48532
+    Impacts::array
+        member(0)::Vec4
+            x -1.26054394245
+            y 1.33145749569
+            z -0.132483422756
+            w 2.42252850533
+        member(1)::Vec4
+            x 3.69592237473
+            y 1.49186849594
+            z -0.132483422756
+            w 2.48413467407
+    BoundingBox::AxisAlignedBox
+        min::Vec3
+            x -2.70260739326
+            y -2.66126418114
+            z -0.536236584187
+        max::Vec3
+            x 4.85741758347
+            y 5.10537815094
+            z 0.2866525352
+    PartToImpactIndices::array
+        member(0) 0
+        member(1) 0
+        member(2) 2
+EdgeModelComponentData 00000008
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 12395355
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    RigidBodies::array
+        member(0) ArtAssets/Destruction/EdgeModels/EM32_WoodWall_BTM_32x128_01_A/1319b4377c42c9f7d6784288742fd01e
+        member(1) ArtAssets/Destruction/EdgeModels/EM32_WoodWall_BTM_32x128_01_B/1215985c93ebba1cc2c89a53633117b1
+        member(2) ArtAssets/Destruction/EdgeModels/EM32_WoodWall_BTM_32x64_01_A/f7d84e11ced8a54a8e8827edbf7b7e57
+        member(3) ArtAssets/Destruction/EdgeModels/EM32_WoodWall_ALL_64_01_A/cb75f67821ccee12ffc4555c218258f1
+        member(4) ArtAssets/Destruction/EdgeModels/PlanksWoodDetail_01_8x8/2d95948cefc57f3fa76157863282b4e6
+    RigidMeshes::array
+        member(0) artassets/destruction/edgemodels/em32_woodwall_btm_32x128_01_a_Mesh/2f47b9adf71b86b39ee64ad60d45cec5
+        member(1) artassets/destruction/edgemodels/em32_woodwall_btm_32x128_01_b_Mesh/a7a994704ae4b82088780c3819904460
+        member(2) artassets/destruction/edgemodels/em32_woodwall_btm_32x64_01_a_Mesh/2488c8fc63d55141a69bff7eb1747c79
+        member(3) artassets/destruction/edgemodels/em32_woodwall_all_64_01_a_Mesh/f46d83080682f5d3531b63e6c9c124ef
+        member(4) artassets/destruction/edgemodels/plankswooddetail_01_8x8_Mesh/363c70cf01accbd43c1f73b64d408e0d
+    InstanceTransforms::array
+        member(0)::LinearTransform
+            right::Vec3
+                x 2.83276934319e-16
+                y 1.0
+                z 2.22044604925e-16
+            up::Vec3
+                x -6.12323426293e-17
+                y 2.22044604925e-16
+                z -1.0
+            forward::Vec3
+                x -1.0
+                y 2.83276934319e-16
+                z 6.12323426293e-17
+            trans::Vec3
+                x -1.91278767586
+                y 0.43180385232
+                z -0.150178313255
+        member(1)::LinearTransform
+            right::Vec3
+                x 2.83276934319e-16
+                y 1.0
+                z 2.22044604925e-16
+            up::Vec3
+                x -6.12323426293e-17
+                y 2.22044604925e-16
+                z -1.0
+            forward::Vec3
+                x -1.0
+                y 2.83276934319e-16
+                z 6.12323426293e-17
+            trans::Vec3
+                x 0.61493819952
+                y 0.194501459599
+                z -0.150178313255
+        member(2)::LinearTransform
+            right::Vec3
+                x 5.96046447754e-08
+                y 1.0
+                z 1.99840144433e-15
+            up::Vec3
+                x -6.12322235153e-17
+                y 1.99840144433e-15
+                z -1.0
+            forward::Vec3
+                x -1.0
+                y 5.96046447754e-08
+                z 6.12323426293e-17
+            trans::Vec3
+                x 3.88516688347
+                y 0.403378397226
+                z -0.150178313255
+        member(3)::LinearTransform
+            right::Vec3
+                x 2.83276934319e-16
+                y 1.0
+                z 2.22044604925e-16
+            up::Vec3
+                x -6.12323426293e-17
+                y 2.22044604925e-16
+                z -1.0
+            forward::Vec3
+                x -1.0
+                y 2.83276934319e-16
+                z 6.12323426293e-17
+            trans::Vec3
+                x -0.66506177187
+                y 0.194501489401
+                z -0.150178313255
+        member(4)::LinearTransform
+            right::Vec3
+                x 2.83276934319e-16
+                y 1.0
+                z 2.22044604925e-16
+            up::Vec3
+                x -6.12323426293e-17
+                y 2.22044604925e-16
+                z -1.0
+            forward::Vec3
+                x -1.0
+                y 2.83276934319e-16
+                z 6.12323426293e-17
+            trans::Vec3
+                x 1.87511336803
+                y 0.825090050697
+                z -0.150178313255
+        member(5)::LinearTransform
+            right::Vec3
+                x 2.83276934319e-16
+                y 1.0
+                z 2.22044604925e-16
+            up::Vec3
+                x -6.12323426293e-17
+                y 2.22044604925e-16
+                z -1.0
+            forward::Vec3
+                x -1.0
+                y 2.83276934319e-16
+                z 6.12323426293e-17
+            trans::Vec3
+                x 2.85234856606
+                y 0.825090050697
+                z -0.150178313255
+        member(6)::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 0.0
+                z -1.0
+            forward::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            trans::Vec3
+                x 3.20391631126
+                y 0.613569676876
+                z -0.150178313255
+        member(7)::LinearTransform
+            right::Vec3
+                x -1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 0.0
+                z -1.04885423183
+            forward::Vec3
+                x 0.0
+                y -1.0
+                z 0.0
+            trans::Vec3
+                x 1.23129403591
+                y 0.499164521694
+                z -0.155346408486
+        member(8)::LinearTransform
+            right::Vec3
+                x -0.937209606171
+                y 0.230712547898
+                z -0.261552751064
+            up::Vec3
+                x 0.252591073513
+                y -0.0681060776114
+                z -0.965173244476
+            forward::Vec3
+                x -0.240490868688
+                y -0.970635473728
+                z 0.00555374892429
+            trans::Vec3
+                x 1.58061563969
+                y 0.692761480808
+                z -0.150178313255
+    LightMapUVs::array
+        member(0)::Vec4
+            x 0.180509671569
+            y 0.709522724152
+            z 0.180480852723
+            w 0.290388554335
+        member(1)::Vec4
+            x 0.44808241725
+            y 0.697484850883
+            z 0.447965055704
+            w 0.302578836679
+        member(2)::Vec4
+            x 0.794084370136
+            y 0.708587348461
+            z 0.793904483318
+            w 0.291568726301
+        member(3)::Vec4
+            x 0.312645196915
+            y 0.697339296341
+            z 0.312524676323
+            w 0.302651017904
+        member(4)::Vec4
+            x 0.581268727779
+            y 0.730250060558
+            z 0.581177413464
+            w 0.269826889038
+        member(5)::Vec4
+            x 0.684659183025
+            y 0.730320930481
+            z 0.684603214264
+            w 0.26975658536
+        member(6)::Vec4
+            x 0.721951425076
+            y 0.719400942326
+            z 0.721811175346
+            w 0.28068292141
+        member(7)::Vec4
+            x 0.513228714466
+            y 0.713328719139
+            z 0.513113498688
+            w 0.286759436131
+        member(8)::Vec4
+            x 0.558291971684
+            y 0.72231221199
+            z 0.544419884682
+            w 0.275966286659
+    MaskOverrides::array
+        member(0) 0
+        member(1) 0
+        member(2) 0
+        member(3) 0
+        member(4) 0
+        member(5) 0
+        member(6) 0
+        member(7) 0
+        member(8) 0
+    MeshInstanceRanges::array
+        member(0) 3
+        member(1) 5
+        member(2) 6
+        member(3) 8
+        member(4) 9
+    ConnectionInstanceLookupTable::array
+        member(0) 0
+        member(1) 3
+        member(2) 1
+        member(3) 5
+        member(4) 2
+        member(5) 6
+        member(6) 4
+        member(7) 8
+        member(8) 7
+    Connections::array
+        member(0)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 9
+            NeighbourPartIndex 0
+    PartConnectionRanges::array
+        member(0) 0
+        member(1) 1
+    AddToSpatialQueryManager False
+EffectReferenceObjectData 00000009
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint FX/Destruction/ClusterDest/FX_ClusterDest_TileRoof_01/429ff155d33f2d4f975d12beecc39a4c
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 1.0774050951
+                    y 1.30696606636
+                    z -0.220032900572
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart True
+    AffectedByLightprobeVisibility False
+EffectReferenceObjectData 0000000a
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint FX/Destruction/MacroDest/AmiensFacade/FX_Destr_Macro_Amiens_Wood_Small_Sound/cbea6bfc86d96940a46ad2d9431c8751
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 1.0774050951
+                    y 2.59993982315
+                    z -0.124792017043
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart True
+    AffectedByLightprobeVisibility False
+ObjectReferenceObjectData 0000000b
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint ArtAssets/Architecture/RuinHouseWood_01/RuinHouseWood_Wall_02/RuinHouseWood_Wall_02_DC/3e9cbdbba1ca3f4c8988dc105028d85c
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 1.0774050951
+                    y 2.59993982315
+                    z -0.124792017043
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+PhysicsEntityData 0000000c
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    Asset artassets/architecture/ruinhousewood_01/ruinhousewood_wall_02/ruinhousewood_wall_02_physics_win32/4274b934022111f8d3d8f9d4865e260b
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    RigidBodies *nullArray*
+    FloatPhysics *nullGuid*
+    Mass 1000010.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    Proximity *nullGuid*
+    Constraints *nullArray*
+    MovableParts False
+    IsComposite False
+RigidBodyData 0000000d
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_Client
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset artassets/architecture/ruinhousewood_01/ruinhousewood_wall_02/ruinhousewood_wall_02_physics_win32/4274b934022111f8d3d8f9d4865e260b
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 1
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager False
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeProxy
+    Mass 1000.0
+    Material::MaterialDecl
+        Packed 34816
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Fixed
+    QualityType RigidBodyQualityType_Invalid
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+        member(1) 1
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+EdgeModelLightMapData 0000000e
+    $::DataContainer
+    LightMapUvs *nullArray*
+InterfaceDescriptorData 0000000f
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -963255649
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

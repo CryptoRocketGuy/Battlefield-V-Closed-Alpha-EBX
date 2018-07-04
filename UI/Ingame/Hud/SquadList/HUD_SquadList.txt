@@ -1,0 +1,128 @@
+UIWidgetBlueprint 68b5a8df658c904fb2b708719caff665
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/SquadList/HUD_SquadList
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -2106672380
+                            TargetFieldId -2106672380
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -188171420
+                            TargetFieldId 0
+                    Interface 00000002
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000001
+BFUILayoutGenericListEntityData 00000000
+    $::BFUILayoutEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 61283283
+        ElementOffsetScaling::Vec2
+            x 0.0
+            y 0.0
+    LayoutMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementStep::Vec2
+        x 0.0
+        y 5.0
+    ElementStepFactor::Vec2
+        x 0.0
+        y 1.0
+    ElementPivot::Vec2
+        x 0.0
+        y 0.0
+    HorizontalAlignment BFUILayoutHorizontalAlignment_Left
+    VerticalAlignment BFUILayoutVerticalAlignment_Bottom
+    AutoSizeElementsHorizontally False
+    AutoSizeElementsVertically False
+    DrawZeroSizeElement True
+BFUIListWidgetData 00000001
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1785092712
+            Size::UIElementSize
+                X 192.0
+                Y 180.0
+            Layers::array
+                member(0) 00000003
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000000
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Ingame/Hud/SquadList/HUD_SquadListCell/35393582b7abad42964f33de2630c3e3
+    MaxRows 0
+    SelectionInput -1
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit False
+    ValidateSetSelection False
+    WrapSelection False
+    AutoSizeWidgetHorizontally True
+    AutoSizeWidgetVertically True
+    Enabled True
+    ScrollIntoView False
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -2106672380
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+UIElementLayerEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName New Layer
+    Elements *nullArray*
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True

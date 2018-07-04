@@ -1,0 +1,889 @@
+ProjectileBlueprint ff546fccbf140a616ad6f5a3808dad24
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/common/Projectiles/V1_Rocket_01/V1_Rocket_01_Projectile
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000009
+                            Target 0000000b
+                            SourceFieldId 193453899
+                            TargetFieldId -286325529
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000008
+                            Target 00000009
+                            SourceFieldId -2024647575
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 5a84146f90b988de566e69f56243a344
+                            Target 00000001
+                            SourceFieldId -2024647575
+                            TargetFieldId -2024647575
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 5a84146f90b988de566e69f56243a344
+                            Target 00000009
+                            SourceFieldId -2024647575
+                            TargetFieldId 193450864
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 5a84146f90b988de566e69f56243a344
+                            Target 0000000d
+                            SourceFieldId -2024647575
+                            TargetFieldId 177649
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 0000000d
+                            Target 0000000a
+                            SourceFieldId 193453899
+                            TargetFieldId -286325529
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 1
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 5a84146f90b988de566e69f56243a344
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 1687468811
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 5a84146f90b988de566e69f56243a344
+                        Target 0000000b
+                        SourceEvent::EventSpec
+                            Id 1687468811
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 5a84146f90b988de566e69f56243a344
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 1680285763
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 5a84146f90b988de566e69f56243a344
+                        Target 0000000b
+                        SourceEvent::EventSpec
+                            Id 1680285763
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 5a84146f90b988de566e69f56243a344
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 95128145
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 5a84146f90b988de566e69f56243a344
+                        Target 0000000b
+                        SourceEvent::EventSpec
+                            Id 95128145
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(6)::EventConnection
+                        Source 5a84146f90b988de566e69f56243a344
+                        Target 0000000a
+                        SourceEvent::EventSpec
+                            Id 95128145
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_Client
+        Object 5a84146f90b988de566e69f56243a344
+    TimeDeltaType TimeDeltaType_None
+RigidBodyData 2e5f7269e64c2281fdc2e91f3d7214c5
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_ClientAndServer
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset gameplay/vehicles/common/projectiles/v1_rocket_01/v1_rocket_01_projectile_physics_win32/111c9cf3d821c53094983c30298d5ab7
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 0
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager True
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeCollision
+    Mass 1.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Dynamic
+    QualityType RigidBodyQualityType_Invalid
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+MissileEntityData 5a84146f90b988de566e69f56243a344
+    $::GhostedProjectileEntityData
+        $::MeshProjectileEntityData
+            $::ProjectileEntityData
+                $::GamePhysicsEntityData
+                    $::GameComponentEntityData
+                        $::ComponentEntityData
+                            $::SpatialEntityData
+                                $::EntityData
+                                    $::GameObjectData
+                                        $::DataBusPeer
+                                            $::GameDataContainer
+                                                $::DataContainer
+                                            Flags 521438298
+                                Transform::LinearTransform
+                                    right::Vec3
+                                        x 1.0
+                                        y 0.0
+                                        z 0.0
+                                    up::Vec3
+                                        x 0.0
+                                        y 1.0
+                                        z 0.0
+                                    forward::Vec3
+                                        x 0.0
+                                        y 0.0
+                                        z 1.0
+                                    trans::Vec3
+                                        x 0.0
+                                        y 0.0
+                                        z 0.0
+                            Components::array
+                                member(0) 00000005
+                                member(1) 00000001
+                                member(2) 0000000b
+                                member(3) 00000009
+                                member(4) 00000008
+                                member(5) 0000000a
+                                member(6) 0000000d
+                                member(7) 00000004
+                            ClientRuntimeComponentCount 3
+                            ServerRuntimeComponentCount 3
+                            ClientRuntimeTransformationCount 1
+                            ServerRuntimeTransformationCount 1
+                        Enabled False
+                        EnableOutOfBoundsCheck False
+                    PhysicsData 00000006
+                    IsTraversable True
+                    IsCharacterCollidable True
+                InitialSpeed 350.0
+                TimeToLive 60.0
+                MaxCount 0
+                InitMeshHideTime 0.0
+                VisualConvergeDistance 30.0
+                VisualConvergenceDelay 0.10000000149
+                VisualConvergenceDuration 0.10000000149
+                ProxyVisualConvergenceDelay -1.0
+                ProxyVisualConvergenceDuration -1.0
+                Explosion 00000000
+                SuppressionData *nullGuid*
+                AmmunitionType *nullString*
+                MaterialPair::MaterialDecl
+                    Packed 2048
+                HitReactionWeaponType AntHitReactionWeaponType_Explosion
+                VoiceOverInfo *nullGuid*
+                DetonateOnTimeout False
+                ServerProjectileDisabled False
+                HideOnDetonation False
+            InitialAngularVelocity::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Mesh gameplay/vehicles/common/projectiles/v1_rocket_01/v1_rocket_01_projectile_Mesh/ea6a0af51db5cfa69387aa6812357300
+            TrailEffect *nullGuid*
+            TrailEffect1p *nullGuid*
+            TrailEffectForFriendlies *nullGuid*
+            InstantAttachableTestDistance 3.0
+            InstantAttachableVisualConvergenceDelay -1.0
+            InstantAttachableVisualConvergenceDuration -1.0
+            MaxAttachableInclination 45.0
+            UnspawnAfterDetonationDelay 0.0
+            IsAttachable False
+            InstantAttachableTestUnderReticule True
+            UprightAttachable False
+            ExtraDamping False
+        ProxyConvergenceDelay -1.0
+        ProxyConvergenceDuration -1.0
+        ProxyConvergenceInstantOnAttach True
+        ForceProxyConvergence False
+        ConvergenceUsingInitialSpeed False
+    EngineEffect *nullGuid*
+    DudExplosion *nullGuid*
+    FlyBySound *nullGuid*
+    EngineStrength 1.0
+    MaxSpeed 800.0
+    EngineTimeToIgnition 0.0
+    EngineTimeToLive 5.0
+    TimeToActivateGuidingSystem 0.0
+    TimeToArm 0.5
+    MaxTurnAngle 30.0
+    MinTurnAngle 10.0
+    TurnAngleMultiplier 2.20000004768
+    Drag 0.0
+    Gravity -30.0
+    FlyBySoundRadius 5.0
+    FlyBySoundSpeed 10.0
+    ImpactImpulse 7000.0
+    Damage 0.0
+    DefaultTeam Team1
+    WarnTarget wtWarnSoldierAndVehicle
+    LockingController 0000000c
+    LockableInfo::MissileLockableInfoData
+        HeatSignature 10.0
+        RadarSignature 0.0
+    UnguidedData::MissileUnguidedData
+        StaticPosition::Vec2
+            x -10.0
+            y 100.0
+        TargetPositionOffset::Vec2
+            x -100.0
+            y 75.0
+        UseStaticPosition True
+        UseTargetPositionOffset True
+    NearTargetDetonation::NearTargetDetonationData
+        DetonationRadius 35.0
+        MaxDetonationDelay 1.5
+        MinDetonationDelay 1.5
+        DetonateNearTarget True
+    MaxBankAngle 90.0
+    BankingSpeed 1.0
+    Icon commander.tomahawk
+    TargetIcon commander.tomahawktarget
+    TargetIconEnemy *nullString*
+    MinGhostFrequency 1.0
+    DepthUnderWater 1.0
+    MaxSpeedInWater 30.0
+    ApplyGravityWhenUnguided True
+    WarnOnPointingMissile False
+    EnableBanking True
+    StartEffectsOnSpawn False
+    OnlyIgniteEngineUnderWater False
+    OnlyArmWhenUnderWater False
+    RegulateDepthUnderWater False
+BFExplosionEntityData 00000000
+    $::ExplosionEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        DetonationEffect *nullGuid*
+        DetonationEffectForFriendlies *nullGuid*
+        MaskVolume *nullGuid*
+        DestructionMaskVolume *nullGuid*
+        MaterialPair::MaterialDecl
+            Packed 1321637888
+        SecondaryMaterialPair::MaterialDecl
+            Packed 2048
+        ShockwaveWindForce *nullGuid*
+        DamageIndicationType DamageIndicationType_ExplosionCenter
+        EmpTime 0.0
+        MaxOcclusionRaycastRadius 0.5
+        InnerBlastRadius 19.9990005493
+        BlastDamage 99999.0
+        BlastRadius 20.0
+        SecondaryMaterialRaycastLengthMultiplier 1.0
+        BlastImpulse 15000.0
+        ShockwaveDamage 25.0
+        ShockwaveRadius 35.0
+        SecondaryMaterialRaycastMinLengthMultiplier 0.0
+        ShockwaveImpulse 5000.0
+        ShockwaveTime 0.5
+        CameraShockwaveRadius 100.0
+        SpawnDelay 0.0
+        NoFriendliesEffectOnEnabledFriendlyFire True
+        UseEntityTransformForDetonationEffect False
+        SecondaryMaterialsActive False
+        HasStunEffect False
+        AllowDamageToOwner True
+        ApplyBlastDamageToVehiclesAndCharactersInstantly False
+        ForceServersideAiDamage False
+        DisableOcclusion True
+        DisableStaticEntityOcclusion True
+        DisableOcclusionOutsideBlastRadius True
+        TriggerImpairedHearing True
+        Enabled True
+    UnspottableTime 1.0
+    AttachableFlamesBlastRadiusMultiplier 1.0
+    NumAttachableFlamesUp 0
+    NumAttachableFlamesSide 0
+    NumAttachableFlamesDown 0
+    NumAttachableFlamesNarrowDown 0
+    IsCausingSuppression True
+    UnspotsOnExplode False
+    SpotsOnExplode False
+    AttachableFlamesWorldAligned True
+DiceSoundEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 196775238
+    Attach *nullGuid*
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    DefaultSound Sound/Core/Projectiles/V1_Rocket/Projectiles_V1_Rocket_Engine/0374df2b3affeb46ae2a6b42e22ac931
+    Sound *nullGuid*
+    MasterAmplitude 1.0
+    UpdatePosition True
+    PlayOnCreation False
+    EnableOnCreation True
+    ForgetOnDestroy False
+    DisableWhenDeactivated False
+HealthStateData 00000002
+    $::DataContainer
+    Objects *nullArray*
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 100.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 0
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts True
+ImpactWarningComponentData 00000003
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 12989202
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    WarnTimeBeforeImpact 5.0
+    SoldierImpactAreaPadding 10.0
+    SoldierImpactAreaHeight 100.0
+    IncomingArtillerySound Sound/Core/Projectiles/Flybys/Projectiles_Flybys_Heavy_Artillery_Incoming/f2c35dbf86dd9848858535303364e4cd
+    TriggerWarningDistanceFromImpact 250.0
+    WarningSoundRadius 75.0
+MissilePhysicsComponentData 00000004
+    $::GamePhysicsComponentData
+        $::PhysicsComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 14586212
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+            PhysicsBodies::array
+                member(0) 2e5f7269e64c2281fdc2e91f3d7214c5
+                member(1) 00000007
+            PhysicsConstraints *nullArray*
+            Parts::array
+                member(0)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+            InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+            MovableParts False
+        Realm Realm_ClientAndServer
+        EffectParameters *nullArray*
+PartComponentData 00000005
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 11900927
+            Components::array
+                member(0) 00000003
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    HealthStates::array
+        member(0) 00000002
+    PartLinks *nullArray*
+    IsSupported False
+    IsFragile False
+    AffectsBoundingBox True
+    IsNetworkable True
+    IsWindow False
+    AnimatePhysics False
+PhysicsEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    Asset gameplay/vehicles/common/projectiles/v1_rocket_01/v1_rocket_01_projectile_physics_win32/111c9cf3d821c53094983c30298d5ab7
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    RigidBodies *nullArray*
+    FloatPhysics *nullGuid*
+    Mass 1000010.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    Proximity *nullGuid*
+    Constraints *nullArray*
+    MovableParts False
+    IsComposite False
+RigidBodyData 00000007
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_Client
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset gameplay/vehicles/common/projectiles/v1_rocket_01/v1_rocket_01_projectile_physics_win32/111c9cf3d821c53094983c30298d5ab7
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 1
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager False
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeProxy
+    Mass 1.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Keyframed
+    QualityType RigidBodyQualityType_Invalid
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+TransformEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 30717543
+    Realm Realm_Client
+    DefaultTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.78813962748e-07
+            z -1.0
+        forward::Vec3
+            x 0.0
+            y 1.0
+            z 1.78813962748e-07
+        trans::Vec3
+            x 0.0
+            y 0.98606556654
+            z -5.43376684189
+TransformMultiplierEntityData 00000009
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 148502682
+    Realm Realm_Client
+    In1::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    In2::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+WSVFXEntityData 0000000a
+    $::WSVFXEntityBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 178918917
+        Attach *nullGuid*
+        RawTransformEffectLocation::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        EffectParameters *nullArray*
+        MaxInstances 1
+        TransformAxisLength 1.0
+        PlayEffect False
+        StayAttached True
+        RenderTransform False
+    Effect FX/Weapons/V1_Rocket/FX_V1_Rocket_Explosion/f7bdfa6c123869e15647d5698588034f
+WSVFXEntityData 0000000b
+    $::WSVFXEntityBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 178227587
+        Attach *nullGuid*
+        RawTransformEffectLocation::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        EffectParameters *nullArray*
+        MaxInstances 1
+        TransformAxisLength 1.0
+        PlayEffect False
+        StayAttached True
+        RenderTransform False
+    Effect FX/Weapons/V1_Rocket/FX_V1_Rocket_Engine/1f329da28ee38a9873d5e8b90130feda
+LockingControllerData 0000000c
+    $::DataContainer
+    ZoomLevelLock::array
+        member(0)::ZoomLevelLockData
+            OutlineTaggedDistance 0.0
+            LockType LockAlways
+    LockTime 0.00999999977648
+    UnLockTime -1.0
+    ReleaseTime 5.0
+    ReleaseOnNewTargetTime 1.0
+    SampleRate 0.10000000149
+    HoldStillThreshold 10.0
+    CheckVisibilityLength 1000.0
+    RayLength 10000.0
+    AcceptanceAngle 360.0
+    AngleConstant 50.0
+    DistanceConstant 50.0
+    Sensitivity 0.0
+    MinimumLockTime 0.0
+    LockingWeaponData::LockingAndHomingData
+        WarnLock wtWarnNone
+        IsHoming True
+        IsGuided False
+        IsGuidedWhenZoomed False
+        IsGuidedHoming False
+        FireOnlyWhenLockedOn False
+    LockOnVisibleTargetsOnly False
+    RequireAmmoToLock False
+    PositionOnly True
+    LockOnWorldSpacePos True
+    NormalizeConstantWeights False
+    CheckTargetLockStrengthOnRaycast False
+    LockOnVehicles True
+    LockOnEmptyVehicles True
+    LockOnCharacters False
+    LockOnCharactersInOpenEntries False
+    IgnoreHeigthLockDistance False
+    LockInCombatAreaOnly False
+MathEntityData 0000000d
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 134974940
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+            member(1)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputT
+                Result 0
+                Param1 177649
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_FieldT
+                Result 0
+                Param1 0
+                Param2 3
+            member(2)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 820016430
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 -440372579
+                Param2 1
+            member(4)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 64
+                Param2 0
+    EvaluateOnEvent False

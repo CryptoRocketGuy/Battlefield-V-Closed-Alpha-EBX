@@ -1,0 +1,71 @@
+SpatialPrefabBlueprint 20fed0125140a340a97dcd6a8cf35a04
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Levels/MP/MP_ArcticFjord/Lighting/Prefabs/PFLS_BG_Glow_Night_01
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 93748240
+                            TargetFieldId -1549681772
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+        TimeDeltaType TimeDeltaType_None
+SimpleVolumetricsEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 154419439
+        Transform::LinearTransform
+            right::Vec3
+                x 1000.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1000.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1000.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Emission::Vec3
+        x 1.0
+        y 0.696588635445
+        z 0.439657241106
+    Exponent 2.0
+    FadeOutStartRadius 1000.0
+    FadeFarDistance 0.0
+    EmissionScale 1.0
+    DrawPass SimpleVolumetricsDrawPass_AfterTransparent
+    Enabled True
+WeatherSequencerListenerEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 13885828
+    Realm Realm_Client
+    WSFloatVariables::array
+        member(0) DynamicWorld/WeatherSequencer/WS_WeatherVariableDatabase/001d3d0a5026014a8c07125a6f1d1b13
+    WSIntVariables *nullArray*
+    WSBoolVariables *nullArray*
+    Dummy 0

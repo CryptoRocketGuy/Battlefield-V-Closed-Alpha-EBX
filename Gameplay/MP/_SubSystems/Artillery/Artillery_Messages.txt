@@ -1,0 +1,149 @@
+LogicPrefabBlueprint 31b24abf0d786b33047eb17768c6f9aa
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MP/_SubSystems/Artillery/Artillery_Messages
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -475170236
+                            TargetFieldId 177636
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 154a3bea418ab44daf96f38cc605599f
+                            SourceFieldId 1692011561
+                            TargetFieldId 5862146
+                            Flags 3
+                        member(2)::PropertyConnection
+                            Source 154a3bea418ab44daf96f38cc605599f
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId -1522984530
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 1
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 2088725063
+                        TargetEvent::EventSpec
+                            Id -1688613187
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -376662289
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_NetworkedClient
+        Objects::array
+            member(0) 00000001
+            member(1) 00000000
+            member(2) 00000002
+            member(3) 00000003
+            member(4) 00000004
+            member(5) 154a3bea418ab44daf96f38cc605599f
+        TimeDeltaType TimeDeltaType_None
+SyncedTransformEntityData 154a3bea418ab44daf96f38cc605599f
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 272321045
+    Interpolate False
+CameraDistanceEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 154838107
+    MaxTestDistance 0.0
+    TransformIn::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    QueryContinously True
+    DirectionalAngle False
+ActionMessageListenerEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 27985120
+    Realm Realm_Server
+    Message Gameplay/MP/_SubSystems/Artillery/ActionMessages/IncomingArtilleryWarning/594f1fd507fa2747a2cde4d9e28bc1ca
+    Enabled True
+    QueueMessages True
+CompareFloatEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 189026656
+    Realm Realm_Client
+    A 0.0
+    B 10.0
+    TriggerOnPropertyChange False
+    TriggerOnStart False
+DelayEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 53727066
+    Delay 1.0
+    Realm Realm_Client
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+VoiceOverEventEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 50736646
+    VoEvent Sound/VO/Logic/Logic_MP/GM_Rush/cfd027608d097a4c8e19c0597a22422f
+    EventPlayer *nullGuid*
+    ExtraEventPlayer *nullGuid*
+    TriggerDelay 0.0
+    FinishedDelay 0.0
+    TrackSourcePositionNameHashes *nullArray*
+    RunOnce False
+    CancelOnDeinit True

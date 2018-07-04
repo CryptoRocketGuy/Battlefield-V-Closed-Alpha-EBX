@@ -1,0 +1,190 @@
+LogicPrefabBlueprint 512d713527e5aaf2d2a7ac8c95977455
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Animations/Prefab/Door_CloseOpenDoorAnimation
+                    PropertyConnections *nullArray*
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 7399e40af06a514e97459c2a6114a616
+                            SourceFieldId 1130556714
+                            TargetFieldId -1835750672
+                        member(1)::LinkConnection
+                            Source 7399e40af06a514e97459c2a6114a616
+                            Target 00000003
+                            SourceFieldId -1079944492
+                            TargetFieldId -1450328209
+                    Interface 00000001
+                    Flags 3
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 9460763af7c8ce4ca356795f5ebabdd7
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000003
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 9460763af7c8ce4ca356795f5ebabdd7
+                        SourceEvent::EventSpec
+                            Id 632505285
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(3)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 434301581
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 9460763af7c8ce4ca356795f5ebabdd7
+            member(1) 00000003
+            member(2) 00000002
+            member(3) 7399e40af06a514e97459c2a6114a616
+            member(4) 00000000
+        TimeDeltaType TimeDeltaType_None
+CharacterProxyData 7399e40af06a514e97459c2a6114a616
+    $::BlueprintProxyData
+        $::BlueprintProxyPropertyFilterData
+            $::LogicReferenceObjectData
+                $::ReferenceObjectData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 1659148659
+                    Blueprint Gameplay/Characters/Soldiers/MP_Soldier/c3b80db743c0e441971dc997970d35a5
+                    BlueprintTransform::LinearTransform
+                        right::Vec3
+                            x 1.0
+                            y 0.0
+                            z 0.0
+                        up::Vec3
+                            x 0.0
+                            y 1.0
+                            z 0.0
+                        forward::Vec3
+                            x 0.0
+                            y 0.0
+                            z 1.0
+                        trans::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                    ObjectVariation *nullGuid*
+                    StreamRealm StreamRealm_None
+                    RadiosityTypeOverride RadiosityTypeOverride_None
+                    LightmapResolutionScale 0
+                    RenderingOverrides::RenderingOverrides
+                        ShadowEnable RenderingOverride_Inherit
+                        SunShadowEnable RenderingOverride_Inherit
+                        LocalShadowEnable RenderingOverride_Inherit
+                        DynamicReflectionEnable RenderingOverride_Inherit
+                        StaticReflectionEnable RenderingOverride_Inherit
+                        DistantShadowCacheEnable RenderingOverride_Inherit
+                        RenderLateEnable RenderingOverride_Inherit
+                        RootShaderEffect RenderingOverride_Inherit
+                    ForceSeparateEnlightenSystem False
+                    CastSunShadowEnable True
+                    CastReflectionEnable True
+                    CastEnvmapEnable True
+                    Excluded False
+                    CreateIndestructibleEntity False
+                LocalPlayerId LocalPlayerId_0
+                SubRealm SubRealm_All
+        PreviewSpawnPosition::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        ConnectedProperties *nullArray*
+        PreviewInGameView False
+    Template Gameplay/Characters/Soldiers/SimpleSoldierSpawnTemplate/aa8989060aa2c8bc36de2602b494395e
+    UseLocalPlayerCharacter False
+SyncedEventEntityData 9460763af7c8ce4ca356795f5ebabdd7
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 74866836
+    Realm Realm_ClientAndServer
+    RemoveDuplicateEvents True
+AnimationSignalEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1676561600
+    Signal::AntRef
+        AssetGuid 9D26008FFE7B3A860000000000000000
+        ProjectId 0
+    IntGameState::AntRef
+        AssetGuid 00000000000000000000000000000000
+        ProjectId 0
+    FloatGameState::AntRef
+        AssetGuid 00000000000000000000000000000000
+        ProjectId 0
+    ValueInt 0
+    ValueFloat 0.0
+    Reset True
+    Continuous False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 632505285
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+PlayerFilterEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 34233567
+    Realm Realm_Client
+    InvertFilter False
+    ForwardToSpectators True
+SoldierLinkEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 125414548
+    Realm Realm_Client
+    UseLocal False

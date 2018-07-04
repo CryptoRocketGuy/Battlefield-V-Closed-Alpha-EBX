@@ -1,0 +1,245 @@
+LogicPrefabBlueprint 8e5ebfe946a5c537dd533c22cfb2011a
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Animations/Prefab/Animation_DoorLogic
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000000
+                    Flags 3
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target abe276db37761b438c5786afcf530a5e
+                        SourceEvent::EventSpec
+                            Id 632505285
+                        TargetEvent::EventSpec
+                            Id 632505285
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 8cc33f4ce9b3c241b45d8c658466557f
+                        SourceEvent::EventSpec
+                            Id 1593757062
+                        TargetEvent::EventSpec
+                            Id -393315028
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target ada3e4c722951e44b65e4e7c49a729f2
+                        SourceEvent::EventSpec
+                            Id -1184116049
+                        TargetEvent::EventSpec
+                            Id -393315028
+                        TargetType EventConnectionTargetType_Server
+                    member(3)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 1593757062
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_NetworkedClient
+                    member(4)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1184116049
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_NetworkedClient
+                    member(5)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 366632543
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) abe276db37761b438c5786afcf530a5e
+            member(1) 8cc33f4ce9b3c241b45d8c658466557f
+            member(2) ada3e4c722951e44b65e4e7c49a729f2
+            member(3) 00000001
+            member(4) 00000002
+        TimeDeltaType TimeDeltaType_None
+LogicPrefabReferenceObjectData 8cc33f4ce9b3c241b45d8c658466557f
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 71287692
+            Blueprint Animations/Prefab/Door_KickInDoorFromInside/88fb3781deede540b07b9b396d02543b
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+LogicPrefabReferenceObjectData abe276db37761b438c5786afcf530a5e
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 91677355
+            Blueprint Animations/Prefab/Door_CloseOpenDoorAnimation/512d713527e5aaf2d2a7ac8c95977455
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+LogicPrefabReferenceObjectData ada3e4c722951e44b65e4e7c49a729f2
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 98870189
+            Blueprint Animations/Prefab/Door_KickInDoorFromOutside/ed5427be41a441d75d864a5218f6dda0
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 632505285
+        member(1)::DynamicEvent
+            Id 1593757062
+        member(2)::DynamicEvent
+            Id -1184116049
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+LocalPlayerFilterEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 47790561
+    Realm Realm_Client
+    ForwardToLocalSpectators False
+SchematicChannelEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 36519938
+    Realm Realm_Client
+    Channel Animations/Prefab/DoorLogic_Channel/2c5d9f24533bc788b60261b437ffebdd
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*

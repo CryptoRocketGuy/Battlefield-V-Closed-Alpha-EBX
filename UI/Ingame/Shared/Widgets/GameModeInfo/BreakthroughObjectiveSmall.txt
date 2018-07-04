@@ -1,0 +1,234 @@
+UIWidgetBlueprint 141e243d8fcd8c4d9ec63c418dcb82d8
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Shared/Widgets/GameModeInfo/BreakthroughObjectiveSmall
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -1781588514
+                            TargetFieldId -1781588514
+                            Flags 18
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId -1235896070
+                            TargetFieldId 602890055
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -141474860
+                            TargetFieldId -1240901670
+                            Flags 18
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -141474859
+                            TargetFieldId -391085612
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000004
+BFUIElementTextFieldEntityData 00000000
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 134217728
+            InstanceName ObjectiveText
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 1.0
+                y 1.0
+                z 1.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 1930983863
+            Size::Vec2
+                x 256.0
+                y 20.0
+            LayoutMode UILayoutMode_AnchorOffset
+            Offset::UIElementOffset
+                X 0.0
+                Y 4.0
+            Anchor::UIElementAnchor
+                X 0.5
+                Y 0.5
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 0.0
+                Height 0.0
+            Alpha 1.0
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    Text::BFUILegacyElementText
+        Sid *nullString*
+        VerticalAlignment UIElementAlignment_Top
+        HorizonalAlignment UIElementAlignment_Center
+        HorizonalAlignmentForRTL UIElementAlignment_Center
+        Wordwrap False
+    FontStyle UI/Fonts/StylesCasablanca/BF-Text_Regular_18px/0ff87555575c4842a2d9a40f8b923de0
+    FontEffect *nullGuid*
+    TextOffset 0.0
+    AutoAdjustLeftPadding 5.0
+    AutoAdjustRightPadding 5.0
+    AutoScroll UIAutoScroll_None
+    FieldText *nullString*
+    LocalizedText *nullGuid*
+    RowSpacing 0.0
+    BlendMode UIBlendMode_Add
+    ZOrder 0
+    AutoAdjustWidth False
+    ClipToRect False
+    Password False
+    WordWrap False
+    PixelSnapping True
+    UseColorAsOverlay False
+    OverrideBlendMode False
+LogicPrefabReferenceObjectData 00000001
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 146600673
+            Blueprint UI/Shared/Logic/UITextBackplatePadding/79f2faa98d897e804d62d49520748a13
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1235896070
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value Float32 20
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value Float32 12
+                ValueRef *nullGuid*
+                Id -141474859
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+UIElementLayerEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName New Layer
+    Elements::array
+        member(0) 00000000
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True
+UIWidgetEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 185568680
+    Size::UIElementSize
+        X 256.0
+        Y 20.0
+    Layers::array
+        member(0) 00000003
+    TextureMappings *nullArray*
+    Components::array
+        member(0) 00000001
+    Visible True

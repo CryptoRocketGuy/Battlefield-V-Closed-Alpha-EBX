@@ -1,0 +1,211 @@
+LogicPrefabBlueprint 67a8ce798f2a5e4c35d71e580f197442
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Shared/Logic/CameraOffsetRotationLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000003
+                            SourceFieldId -2024647575
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -2024647575
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId 193450864
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId 193453899
+                            TargetFieldId -2024647575
+                            Flags 18
+                        member(4)::PropertyConnection
+                            Source 00000004
+                            Target 00000003
+                            SourceFieldId 640467086
+                            TargetFieldId 193450864
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 48673745
+                            TargetFieldId 48673745
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000004
+                            Target 00000001
+                            SourceFieldId -1598810546
+                            TargetFieldId 227190399
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000003
+            member(1) 00000001
+            member(2) 00000000
+            member(3) 00000002
+        TimeDeltaType TimeDeltaType_None
+RotationTransformBuilderEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 149875165
+    Realm Realm_Client
+    Rotation::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+TransformBuilderEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 151523672
+    Realm Realm_Client
+    Left::Vec3
+        x 1.0
+        y 0.0
+        z 0.0
+    Up::Vec3
+        x 0.0
+        y 1.0
+        z 0.0
+    Forward::Vec3
+        x 0.0
+        y 0.0
+        z 1.0
+    Trans::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    IsWorldSpace False
+    WaitForAll False
+TransformMultiplierEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 146872152
+    Realm Realm_Client
+    In1::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    In2::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+TransformMultiplierEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 162904811
+    Realm Realm_Client
+    In1::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    In2::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 640467086
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -2024647575
+                AccessType FieldAccessType_Source
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 48673745
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1598810546
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

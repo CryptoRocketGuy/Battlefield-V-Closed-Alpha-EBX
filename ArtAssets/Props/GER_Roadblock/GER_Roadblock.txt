@@ -1,0 +1,726 @@
+ObjectBlueprint 110dd79e61a82c8d7fe275717af657a4
+    $::Blueprint
+        $::EntityBusData
+            $::DataBusData
+                $::Asset
+                    $::DataContainer
+                    Name ArtAssets/Props/GER_Roadblock/GER_Roadblock
+                PropertyConnections *nullArray*
+                LinkConnections *nullArray*
+                Interface 0000000d
+                Flags 2
+            EventConnections::array
+                member(0)::EventConnection
+                    Source 00000009
+                    Target 0000000d
+                    SourceEvent::EventSpec
+                        Id -1452333337
+                    TargetEvent::EventSpec
+                        Id -195672552
+                    TargetType EventConnectionTargetType_ClientAndServer
+    Object 5922919b833c08e26db8f25a9700ec7a
+PhysicsEntityData 0d5d8b55097e5c8392de5b1512ce4303
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    Asset artassets/props/ger_roadblock/ger_roadblock_physics_win32/bb9936879af5b5476ac437c9dd96e119
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    RigidBodies *nullArray*
+    FloatPhysics *nullGuid*
+    Mass 1000010.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    Proximity *nullGuid*
+    Constraints *nullArray*
+    MovableParts False
+    IsComposite False
+StaticModelEntityData 5922919b833c08e26db8f25a9700ec7a
+    $::GamePhysicsEntityData
+        $::GameComponentEntityData
+            $::ComponentEntityData
+                $::SpatialEntityData
+                    $::EntityData
+                        $::GameObjectData
+                            $::DataBusPeer
+                                $::GameDataContainer
+                                    $::DataContainer
+                                Flags 529605209
+                    Transform::LinearTransform
+                        right::Vec3
+                            x 1.0
+                            y 0.0
+                            z 0.0
+                        up::Vec3
+                            x 0.0
+                            y 1.0
+                            z 0.0
+                        forward::Vec3
+                            x 0.0
+                            y 0.0
+                            z 1.0
+                        trans::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                Components::array
+                    member(0) 00000008
+                    member(1) 00000009
+                    member(2) 00000007
+                    member(3) 0000000c
+                    member(4) 0000000b
+                ClientRuntimeComponentCount 5
+                ServerRuntimeComponentCount 5
+                ClientRuntimeTransformationCount 3
+                ServerRuntimeTransformationCount 3
+            Enabled True
+            EnableOutOfBoundsCheck True
+        PhysicsData 0d5d8b55097e5c8392de5b1512ce4303
+        IsTraversable True
+        IsCharacterCollidable True
+    PartLinks *nullArray*
+    Mesh artassets/props/ger_roadblock/ger_roadblock_Mesh/e102e30d56f6d38520b13bc8b3a31a6a
+    BoneCount 0
+    BasePoseTransforms *nullArray*
+    PhysicsPartInfos::array
+        member(0)::PhysicsPartInfo
+            PartComponentIndex 0
+            HealthStateIndex 0
+        member(1)::PhysicsPartInfo
+            PartComponentIndex 1
+            HealthStateIndex 0
+        member(2)::PhysicsPartInfo
+            PartComponentIndex 2
+            HealthStateIndex 0
+    NetworkInfo::StaticModelNetworkInfo
+        PartNetworkIdRanges::array
+            member(0)::IndexRange
+                First 4294967295
+                Last 4294967295
+            member(1)::IndexRange
+                First 0
+                Last 0
+            member(2)::IndexRange
+                First 1
+                Last 1
+        NetworkIdCount 2
+        ChildNetworkInfos *nullArray*
+        ChildNetworkIdCount 0
+    LightMapWeight 1.0
+    ExcludeFromNearbyObjectDestruction False
+    AnimatePhysics False
+    TerrainShaderNodesEnable False
+    ExplosionPacksAttachable True
+    TeleportPhysicsOnTransformChanges False
+    Visible True
+    OverlayEnabled False
+RigidBodyData e380cf77674027ee9831cdaa88b36ab2
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_ClientAndServer
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset artassets/props/ger_roadblock/ger_roadblock_physics_win32/bb9936879af5b5476ac437c9dd96e119
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 0
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager True
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeCollision
+    Mass 0.0
+    Material::MaterialDecl
+        Packed 34816
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Fixed
+    QualityType RigidBodyQualityType_Fixed
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+        member(1) 1
+        member(2) 2
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+EffectReferenceObjectData 00000000
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint FX/Destruction/MicroDest/FX_MicroDest_Wooden_M/d59dc2b54339b343a8a03937500a2cde
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.142765790224
+                    y 0.667747616768
+                    z 0.0931493937969
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart True
+    AffectedByLightprobeVisibility False
+EffectReferenceObjectData 00000001
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint FX/Destruction/MicroDest/FX_MicroDest_Wooden_S/dfcff16cbf07e1448113483442be5e3b
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.118215240538
+                    y 0.634010791779
+                    z 5.56231498718
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart True
+    AffectedByLightprobeVisibility False
+HealthStateData 00000002
+    $::DataContainer
+    Objects::array
+        member(0) 00000000
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 0.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 4294967295
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts False
+HealthStateData 00000003
+    $::DataContainer
+    Objects *nullArray*
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 100.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 2
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts True
+HealthStateData 00000004
+    $::DataContainer
+    Objects *nullArray*
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 100.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 0
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts True
+HealthStateData 00000005
+    $::DataContainer
+    Objects *nullArray*
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 100.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 1
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts True
+HealthStateData 00000006
+    $::DataContainer
+    Objects::array
+        member(0) 00000001
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 0.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 4294967295
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts False
+PartComponentData 00000007
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 32754178
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    HealthStates::array
+        member(0) 00000003
+        member(1) 00000006
+    PartLinks *nullArray*
+    IsSupported False
+    IsFragile False
+    AffectsBoundingBox True
+    IsNetworkable False
+    IsWindow False
+    AnimatePhysics False
+PartComponentData 00000008
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 2182098
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    HealthStates::array
+        member(0) 00000004
+    PartLinks *nullArray*
+    IsSupported False
+    IsFragile False
+    AffectsBoundingBox True
+    IsNetworkable False
+    IsWindow False
+    AnimatePhysics False
+PartComponentData 00000009
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 17922552
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    HealthStates::array
+        member(0) 00000005
+        member(1) 00000002
+    PartLinks *nullArray*
+    IsSupported False
+    IsFragile False
+    AffectsBoundingBox True
+    IsNetworkable False
+    IsWindow False
+    AnimatePhysics False
+RigidBodyData 0000000a
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_Client
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset artassets/props/ger_roadblock/ger_roadblock_physics_win32/bb9936879af5b5476ac437c9dd96e119
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 1
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager False
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeProxy
+    Mass 0.0
+    Material::MaterialDecl
+        Packed 34816
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Fixed
+    QualityType RigidBodyQualityType_Fixed
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+        member(1) 1
+        member(2) 2
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+StaticModelHealthComponentData 0000000b
+    $::GameHealthComponentData
+        $::HealthComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 32859433
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+StaticModelPhysicsComponentData 0000000c
+    $::GamePhysicsComponentData
+        $::PhysicsComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 15304917
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+            PhysicsBodies::array
+                member(0) e380cf77674027ee9831cdaa88b36ab2
+                member(1) 0000000a
+            PhysicsConstraints *nullArray*
+            Parts::array
+                member(0)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(1)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(2)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+            InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+            MovableParts False
+        Realm Realm_ClientAndServer
+        EffectParameters *nullArray*
+InterfaceDescriptorData 0000000d
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -195672552
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

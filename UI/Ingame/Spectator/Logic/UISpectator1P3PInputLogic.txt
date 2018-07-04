@@ -1,0 +1,82 @@
+LogicPrefabBlueprint 367345553b809f14231ef86841003d15
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Spectator/Logic/UISpectator1P3PInputLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -572137982
+                            TargetFieldId -727435364
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 154102648
+                            TargetFieldId 154102648
+                    Interface 00000001
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 1980992653
+                        TargetEvent::EventSpec
+                            Id -2055285620
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 1528326679
+                        TargetEvent::EventSpec
+                            Id 1528326679
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1434085148
+                        TargetEvent::EventSpec
+                            Id 229754955
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+BFSpectatorPlayerInputEntityData 00000000
+    $::BFSpectatorBaseInputEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1808115871
+        SpectatorCamera *nullGuid*
+        SpectatorCameraCanUseInput True
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -572137982
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 1980992653
+        member(1)::DynamicEvent
+            Id 1528326679
+        member(2)::DynamicEvent
+            Id -1434085148
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id 154102648

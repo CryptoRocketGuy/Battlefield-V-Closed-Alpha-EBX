@@ -1,0 +1,124 @@
+UIWidgetBlueprint 769283df5925d24d8c147c0dad3743bb
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Shared/Widgets/GameModeInfo/SectorObjectivesWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId 1884767464
+                            TargetFieldId -1512192206
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -1528343047
+                            TargetFieldId -124041117
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -188171420
+                            TargetFieldId 0
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000001
+BFUILayoutGenericListEntityData 00000000
+    $::BFUILayoutEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 67025430
+        ElementOffsetScaling::Vec2
+            x 0.0
+            y 0.0
+    LayoutMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementStep::Vec2
+        x 15.0
+        y 0.0
+    ElementStepFactor::Vec2
+        x 1.5
+        y 0.0
+    ElementPivot::Vec2
+        x 0.0
+        y 0.0
+    HorizontalAlignment BFUILayoutHorizontalAlignment_Center
+    VerticalAlignment BFUILayoutVerticalAlignment_Top
+    AutoSizeElementsHorizontally False
+    AutoSizeElementsVertically False
+    DrawZeroSizeElement True
+BFUIListWidgetData 00000001
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1798360643
+            Size::UIElementSize
+                X 320.0
+                Y 64.0
+            Layers *nullArray*
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000000
+                member(1) 00000002
+                member(2) 00000003
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Ingame/Shared/Widgets/GameModeInfo/SectorObjectiveIcon_Cell/821936467c16464c8365bbe4901539e8
+    MaxRows 0
+    SelectionInput -1
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit False
+    ValidateSetSelection False
+    WrapSelection False
+    AutoSizeWidgetHorizontally True
+    AutoSizeWidgetVertically True
+    Enabled True
+    ScrollIntoView False
+DataSourceQueryEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 154262719
+    Realm Realm_Client
+    InData *nullGuid*
+    ArrayIndex 0
+UIObjectivesDataProviderEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 9011502
+    OutputOnlyVisibleForTeam True

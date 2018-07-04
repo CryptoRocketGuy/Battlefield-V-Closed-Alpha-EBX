@@ -1,0 +1,127 @@
+SpatialPrefabBlueprint dfa6be3cbd28784895826e796f52a9df
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/CentralDamage/DamageController_FireExplosive1
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 2662400
+                            TargetFieldId 2662400
+                            Flags 1
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 1525536044
+                            TargetFieldId 1525536044
+                    Interface 00000002
+                    Flags 15
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+BFExplosionEntityData 00000000
+    $::ExplosionEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 2037209881
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        DetonationEffect FX/Destruction/PropDest/FX_PropDest_Explosion_CanFuel/9c7d2f9313a82045aba9f74b33f3d634
+        DetonationEffectForFriendlies *nullGuid*
+        MaskVolume *nullGuid*
+        DestructionMaskVolume *nullGuid*
+        MaterialPair::MaterialDecl
+            Packed 478771200
+        SecondaryMaterialPair::MaterialDecl
+            Packed 2048
+        ShockwaveWindForce 00000001
+        DamageIndicationType DamageIndicationType_ExplosionCenter
+        EmpTime 0.0
+        MaxOcclusionRaycastRadius 0.5
+        InnerBlastRadius 0.600000023842
+        BlastDamage 25.0
+        BlastRadius 2.0
+        SecondaryMaterialRaycastLengthMultiplier 1.0
+        BlastImpulse 500.0
+        ShockwaveDamage 1.0
+        ShockwaveRadius 5.0
+        SecondaryMaterialRaycastMinLengthMultiplier 0.0
+        ShockwaveImpulse 300.0
+        ShockwaveTime 0.5
+        CameraShockwaveRadius 3.0
+        SpawnDelay 0.0
+        NoFriendliesEffectOnEnabledFriendlyFire True
+        UseEntityTransformForDetonationEffect False
+        SecondaryMaterialsActive False
+        HasStunEffect False
+        AllowDamageToOwner True
+        ApplyBlastDamageToVehiclesAndCharactersInstantly True
+        ForceServersideAiDamage False
+        DisableOcclusion False
+        DisableStaticEntityOcclusion True
+        DisableOcclusionOutsideBlastRadius True
+        TriggerImpairedHearing True
+        Enabled True
+    UnspottableTime 1.0
+    AttachableFlamesBlastRadiusMultiplier 1.0
+    NumAttachableFlamesUp 0
+    NumAttachableFlamesSide 0
+    NumAttachableFlamesDown 0
+    NumAttachableFlamesNarrowDown 1
+    IsCausingSuppression True
+    UnspotsOnExplode False
+    SpotsOnExplode False
+    AttachableFlamesWorldAligned True
+ExplosionWindForceData 00000001
+    $::DataContainer
+    Strength 50.0
+    Variation 0.20000000298
+    VariationRate 0.20000000298
+    MicroVariation 0.0
+    Hardness 0.259999990463
+    ForceAsInstantVelocity 0.0
+    ShouldAffectVegetation True
+    ShouldAffectMeshScattering True
+    ShouldAffectEffects True
+    ShouldAffectCloth True
+    ShouldAffectPhysics True
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2662400
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id 1525536044

@@ -1,0 +1,1036 @@
+ObjectBlueprint d53ca10d692bbb2758cfdadc82b6b195
+    $::Blueprint
+        $::EntityBusData
+            $::DataBusData
+                $::Asset
+                    $::DataContainer
+                    Name DynamicWorld/Fortifications/SandbagsWall_01_512/SandbagsWallEnd_512_C90_02
+                PropertyConnections *nullArray*
+                LinkConnections *nullArray*
+                Interface 00000014
+                Flags 2
+            EventConnections::array
+                member(0)::EventConnection
+                    Source 0000000d
+                    Target 00000014
+                    SourceEvent::EventSpec
+                        Id -2120949220
+                    TargetEvent::EventSpec
+                        Id 43376951
+                    TargetType EventConnectionTargetType_ClientAndServer
+                member(1)::EventConnection
+                    Source 0000000d
+                    Target 00000014
+                    SourceEvent::EventSpec
+                        Id -2120949219
+                    TargetEvent::EventSpec
+                        Id 77986855
+                    TargetType EventConnectionTargetType_ClientAndServer
+                member(2)::EventConnection
+                    Source 0000000d
+                    Target 00000014
+                    SourceEvent::EventSpec
+                        Id -2120949218
+                    TargetEvent::EventSpec
+                        Id 811470071
+                    TargetType EventConnectionTargetType_ClientAndServer
+                member(3)::EventConnection
+                    Source 00000014
+                    Target 0000000d
+                    SourceEvent::EventSpec
+                        Id -1904270708
+                    TargetEvent::EventSpec
+                        Id -932925387
+                    TargetType EventConnectionTargetType_ClientAndServer
+                member(4)::EventConnection
+                    Source 00000014
+                    Target 0000000e
+                    SourceEvent::EventSpec
+                        Id -1904270708
+                    TargetEvent::EventSpec
+                        Id -1980967410
+                    TargetType EventConnectionTargetType_ClientAndServer
+                member(5)::EventConnection
+                    Source 00000014
+                    Target 0000000d
+                    SourceEvent::EventSpec
+                        Id -876391588
+                    TargetEvent::EventSpec
+                        Id -932925386
+                    TargetType EventConnectionTargetType_ClientAndServer
+                member(6)::EventConnection
+                    Source 00000014
+                    Target 0000000e
+                    SourceEvent::EventSpec
+                        Id -876391588
+                    TargetEvent::EventSpec
+                        Id -1980967410
+                    TargetType EventConnectionTargetType_ClientAndServer
+    Object 00000011
+RigidBodyData cbf0ef51263822eef64f15066135f444
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_ClientAndServer
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset dynamicworld/fortifications/sandbagswall_01_512/sandbagswallend_512_c90_02_physics_win32/caa4c99cd68a1c7496a4d0ba4d5f9a4d
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 0
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager True
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeCollision
+    Mass 0.0
+    Material::MaterialDecl
+        Packed 1048606753
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Fixed
+    QualityType RigidBodyQualityType_Fixed
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+        member(1) 1
+        member(2) 2
+        member(3) 3
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+EffectReferenceObjectData 00000000
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint FX/Destruction/PropDest/FX_PropDest_SandbagsWall_Cloth_L/deee5cab476c564f8ab720659239c10b
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x -2.63935709
+                    y -0.16567003727
+                    z 2.03878569603
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart True
+    AffectedByLightprobeVisibility False
+EffectReferenceObjectData 00000001
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint FX/Destruction/PropDest/FX_PropDest_SandBag_Cloth_S/dbef16d4037aa746a842d1da8ab10cfa
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x -1.37793326378
+                    y 0.624158501625
+                    z -4.62164640427
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart True
+    AffectedByLightprobeVisibility False
+EffectReferenceObjectData 00000002
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint FX/Destruction/PropDest/FX_PropDest_SandbagsWall_Cloth_L/deee5cab476c564f8ab720659239c10b
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x -1.43086576462
+                    y -0.0985513627529
+                    z 0.423206567764
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart True
+    AffectedByLightprobeVisibility False
+EffectReferenceObjectData 00000003
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint FX/Destruction/PropDest/FX_PropDest_SandbagsWall_Cloth_L/deee5cab476c564f8ab720659239c10b
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x -1.42733740807
+                    y 0.276943147182
+                    z 0.590896129608
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart True
+    AffectedByLightprobeVisibility False
+EffectReferenceObjectData 00000004
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint FX/Destruction/PropDest/FX_PropDest_SandbagsWall_Cloth_L/deee5cab476c564f8ab720659239c10b
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x -0.662401199341
+                    y 0.157960236073
+                    z 0.288676679134
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart True
+    AffectedByLightprobeVisibility False
+HealthStateData 00000005
+    $::DataContainer
+    Objects::array
+        member(0) 00000003
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 0.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 4294967295
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts False
+HealthStateData 00000006
+    $::DataContainer
+    Objects *nullArray*
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 300.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 0
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts True
+HealthStateData 00000007
+    $::DataContainer
+    Objects *nullArray*
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 100.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 3
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts True
+HealthStateData 00000008
+    $::DataContainer
+    Objects::array
+        member(0) 00000004
+        member(1) 00000000
+        member(2) 0000000c
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 200.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 2
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts True
+HealthStateData 00000009
+    $::DataContainer
+    Objects::array
+        member(0) 00000001
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 0.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 4294967295
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts False
+HealthStateData 0000000a
+    $::DataContainer
+    Objects::array
+        member(0) 0000000b
+        member(1) 00000002
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 100.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 1
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts False
+ObjectReferenceObjectData 0000000b
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint ArtAssets/Props/SandbagWall_01/SandbagsWall_01_384_Cluster/012c3c5aa4507a9ad161d196d1e8a659
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 0.325568169355
+                    y 0.0
+                    z 0.945518553257
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x -0.945518553257
+                    y 0.0
+                    z 0.325568169355
+                trans::Vec3
+                    x -0.127753019333
+                    y -0.0995693206787
+                    z 0.0140360593796
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+ObjectReferenceObjectData 0000000c
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint ArtAssets/Props/SandbagWall_01/SandbagsWall_01_384_Cluster/012c3c5aa4507a9ad161d196d1e8a659
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 0.165047645569
+                    y 0.0
+                    z 0.986285567284
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x -0.986285567284
+                    y 0.0
+                    z 0.165047645569
+                trans::Vec3
+                    x 0.102566361427
+                    y -0.0336022078991
+                    z -0.0299701690674
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+PartComponentData 0000000d
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 133899630
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    HealthStates::array
+        member(0) 00000006
+        member(1) 00000008
+        member(2) 0000000a
+        member(3) 00000005
+    PartLinks::array
+        member(0) 00000015
+    IsSupported True
+    IsFragile False
+    AffectsBoundingBox True
+    IsNetworkable False
+    IsWindow False
+    AnimatePhysics False
+PartComponentData 0000000e
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 127475932
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    HealthStates::array
+        member(0) 00000007
+        member(1) 00000009
+    PartLinks::array
+        member(0) 00000015
+    IsSupported False
+    IsFragile False
+    AffectsBoundingBox True
+    IsNetworkable False
+    IsWindow False
+    AnimatePhysics False
+PhysicsEntityData 0000000f
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    Asset dynamicworld/fortifications/sandbagswall_01_512/sandbagswallend_512_c90_02_physics_win32/caa4c99cd68a1c7496a4d0ba4d5f9a4d
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    RigidBodies *nullArray*
+    FloatPhysics *nullGuid*
+    Mass 1000010.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    Proximity *nullGuid*
+    Constraints *nullArray*
+    MovableParts False
+    IsComposite False
+RigidBodyData 00000010
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_Client
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset dynamicworld/fortifications/sandbagswall_01_512/sandbagswallend_512_c90_02_physics_win32/caa4c99cd68a1c7496a4d0ba4d5f9a4d
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 1
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager False
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeProxy
+    Mass 0.0
+    Material::MaterialDecl
+        Packed 1048606753
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Fixed
+    QualityType RigidBodyQualityType_Fixed
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+        member(1) 1
+        member(2) 2
+        member(3) 3
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+StaticModelEntityData 00000011
+    $::GamePhysicsEntityData
+        $::GameComponentEntityData
+            $::ComponentEntityData
+                $::SpatialEntityData
+                    $::EntityData
+                        $::GameObjectData
+                            $::DataBusPeer
+                                $::GameDataContainer
+                                    $::DataContainer
+                                Flags 522702682
+                    Transform::LinearTransform
+                        right::Vec3
+                            x 1.0
+                            y 0.0
+                            z 0.0
+                        up::Vec3
+                            x 0.0
+                            y 1.0
+                            z 0.0
+                        forward::Vec3
+                            x 0.0
+                            y 0.0
+                            z 1.0
+                        trans::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                Components::array
+                    member(0) 0000000d
+                    member(1) 0000000e
+                    member(2) 00000013
+                    member(3) 00000012
+                ClientRuntimeComponentCount 4
+                ServerRuntimeComponentCount 4
+                ClientRuntimeTransformationCount 2
+                ServerRuntimeTransformationCount 2
+            Enabled True
+            EnableOutOfBoundsCheck True
+        PhysicsData 0000000f
+        IsTraversable True
+        IsCharacterCollidable True
+    PartLinks::array
+        member(0) 00000015
+    Mesh dynamicworld/fortifications/sandbagswall_01_512/sandbagswallend_512_c90_02_Mesh/1f5600f9a8673cd3b5b5bdf6bd03acc7
+    BoneCount 0
+    BasePoseTransforms *nullArray*
+    PhysicsPartInfos::array
+        member(0)::PhysicsPartInfo
+            PartComponentIndex 0
+            HealthStateIndex 0
+        member(1)::PhysicsPartInfo
+            PartComponentIndex 0
+            HealthStateIndex 2
+        member(2)::PhysicsPartInfo
+            PartComponentIndex 0
+            HealthStateIndex 1
+        member(3)::PhysicsPartInfo
+            PartComponentIndex 1
+            HealthStateIndex 0
+    NetworkInfo::StaticModelNetworkInfo
+        PartNetworkIdRanges::array
+            member(0)::IndexRange
+                First 0
+                Last 2
+            member(1)::IndexRange
+                First 3
+                Last 3
+        NetworkIdCount 4
+        ChildNetworkInfos *nullArray*
+        ChildNetworkIdCount 0
+    LightMapWeight 1.0
+    ExcludeFromNearbyObjectDestruction False
+    AnimatePhysics False
+    TerrainShaderNodesEnable False
+    ExplosionPacksAttachable True
+    TeleportPhysicsOnTransformChanges False
+    Visible True
+    OverlayEnabled False
+StaticModelHealthComponentData 00000012
+    $::GameHealthComponentData
+        $::HealthComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 10319851
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+StaticModelPhysicsComponentData 00000013
+    $::GamePhysicsComponentData
+        $::PhysicsComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 8534961
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+            PhysicsBodies::array
+                member(0) cbf0ef51263822eef64f15066135f444
+                member(1) 00000010
+            PhysicsConstraints *nullArray*
+            Parts::array
+                member(0)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(1)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(2)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(3)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+            InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+            MovableParts False
+        Realm Realm_ClientAndServer
+        EffectParameters *nullArray*
+InterfaceDescriptorData 00000014
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1904270708
+        member(1)::DynamicEvent
+            Id -876391588
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 811470071
+        member(1)::DynamicEvent
+            Id 77986855
+        member(2)::DynamicEvent
+            Id 43376951
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+PartLinkData 00000015
+    $::DataContainer
+    PartComponentIndex1 1
+    PartComponentIndex2 0

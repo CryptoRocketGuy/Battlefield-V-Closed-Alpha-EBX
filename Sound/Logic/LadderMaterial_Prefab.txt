@@ -1,0 +1,221 @@
+LogicPrefabBlueprint 32dab49bd100498d1c660393f0393d30
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Sound/Logic/LadderMaterial_Prefab
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000003
+                            SourceFieldId 193453899
+                            TargetFieldId 1839425510
+                            Flags 18
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000004
+                            SourceFieldId -714739424
+                            TargetFieldId 193450866
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId -141474860
+                            TargetFieldId 193450867
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000003
+                            SourceFieldId -1530317490
+                            TargetFieldId 1335195956
+                        member(1)::LinkConnection
+                            Source 00000000
+                            Target 00000003
+                            SourceFieldId -1371125048
+                            TargetFieldId 1335195956
+                    Interface 00000003
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -825379477
+                        TargetEvent::EventSpec
+                            Id -1514204100
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000003
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1267720202
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000003
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 1399017342
+                        TargetEvent::EventSpec
+                            Id -1514204100
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 1019440090
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000000
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 1131330143
+                        TargetEvent::EventSpec
+                            Id -1514204099
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000000
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 1131330143
+                        TargetEvent::EventSpec
+                            Id 1695133771
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 00000004
+            member(2) 00000000
+        TimeDeltaType TimeDeltaType_None
+BFRayCastEntityData 00000000
+    $::RayCastEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1646637583
+        Realm Realm_Client
+        Start::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        Stop::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        Radius 0.0
+        SeeThrough False
+        Penetrable False
+        IncludeTerrain False
+        IncludeWater False
+        IncludeCharacters False
+        IncludeVehicles False
+        IncludeRagdolls False
+        IncludeFixed True
+        IncludeKeyframed True
+        IncludeDynamic True
+        Async False
+        DetailedQueryMode False
+        ExcludeAttachedControllable False
+        Enabled False
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RayHorizontalAngle 0.0
+    RayVerticalAngle 0.0
+    RayLength 1.0
+    Attach 00000002
+    RoundRobinSettings *nullGuid*
+    UpdateOrder -1
+    LockHorizontalRotation True
+    LockVerticalRotation True
+    IncludedInRoundRobin True
+    UseDefaultMaterialForSoundMaterial True
+DelayEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 62592091
+    Delay 0.15000000596
+    Realm Realm_Client
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+EntityAttachData 00000002
+    $::EntityLinkData
+        $::DataContainer
+        LinkName AttachToEntity
+    PropertyName AttachOffset
+    CoordinateSpace *nullGuid*
+    Offset *nullGuid*
+    UseRotation True
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1839425510
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value Float32 0
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1267720202
+        member(1)::DynamicEvent
+            Id 1399017342
+        member(2)::DynamicEvent
+            Id -825379477
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 1695133771
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id 1335195956
+PropertySelectEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 175635163
+    Realm Realm_Client
+    TypeHash 2134484916
+    InputPropertyHashes::array
+        member(0) 193450866
+        member(1) 193450867
+    InputEventHashes::array
+        member(0) -1514204099
+        member(1) -1514204100
+    OutHash 193453899
+    InputCount 2
+    SelectedIndex 0
+    AutoSelectOnPropertyChanged False

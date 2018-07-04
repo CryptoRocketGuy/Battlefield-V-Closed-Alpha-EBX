@@ -1,0 +1,1438 @@
+VoiceOverLogicAsset 98e1fe7f7b9c3b41956d226246922ebc
+    $::Asset
+        $::DataContainer
+        Name Sound/VO/Logic/Logic_MP/GM_Frontlines
+    Events::array
+        member(0) 5368e0b11dd15d47923ed452aaeb3a8f
+        member(1) 8e15e72ad410d049aee1fa92b69485ea
+        member(2) be5fc5803a59bb428c9bbff57c034b07
+        member(3) cc9c362193f6624fbb96e7f102a7d256
+        member(4) c0c217212675f9498ba2f0dfdb0905fe
+        member(5) 27306bcd9766c044a4ae2addc67b4108
+        member(6) 8b21395987b14b4bb861971647d9bf5d
+    Groups::array
+        member(0) 4b606756fb1a4e4aabfdcc58451bfaee
+    Flows::array
+        member(0) dc7fbc5d419a8e4b9d74e2bfe9e2e81e
+    FlowConfigs::array
+        member(0) b26c5abbb4eb48428bce657a3adf655d
+        member(1) 1343bad1498cf94f83ff0435d593824f
+        member(2) 7235bb2b51bea54db19a8f4aef1ff497
+        member(3) 9cf85fb355bb3f4689e1fd45ca1e1bb0
+        member(4) a3885db04eabf44f970e25f841de5f0e
+        member(5) 514eb15f11ae3d4e945a6495574a719e
+    System 835c4e2cbdb1de1196e289fc67a5c271/91fe61a73d6d9992f2dd7ef8d078002a
+VoiceOverLabelToValueNode 00138b1c674a6f4394f129c884e8965a
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode 46f2d15b114cbf419e3c9bf0eb264f98
+        TargetValue 7b3c35d65ff52844a81badd32bd031fb
+    Result 80560bf0c8ee034d834771011082d24f
+    LabelArray b8cadf2d4587794ba35a98f10bca71b3
+    DefaultResult 8a2ab85316d7a942b428609cf6921301
+    AssertWhenNoLabel False
+    AssertWhenSeveralLabels False
+VoiceOverConversationNodeConfigData 010b65cb36e7a045a1f4fa6c5a91de79
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 782e4d95254ad5458476e11126577d4a
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    Conversation::VoiceOverConversationInfo
+        Groups::array
+            member(0) 458209a3b167ce4aa0928a95fd5e934e
+        Tracks::array
+            member(0) 1c196ba32c3e5548a0e9efd4a0793aac
+        Pronunciations *nullArray*
+        InterruptMode VoiceOverConversationInterruptMode_Disallow
+        Priority 2
+        QueueMode VoiceOverConversationQueueMode_Always
+        Relevancy 10.0
+        LastSequenceIndex 0
+    TrueRandom False
+VoiceOverValue 03c9eac384a41b4184a616967e3a3534
+    $::DataContainer
+VoiceOverConstantGlobalValue 04a3a44fc1558c44b647b9081d22c5a2
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Source 835c4e2cbdb1de1196e289fc67a5c271/7e0d3dbe0c6b44458c5b96503fd98438
+VoiceOverConversationNode 06b5f542316e224dae026286bf663d3c
+    $::VoiceOverStructureNode
+        $::VoiceOverNode
+            $::DataContainer
+        FlowMode VoiceOverLogicFlowMode_All
+    Condition::array
+        member(0)::VoiceOverValueConnection
+            TargetNode ce8b402e01db92489a2b26c4c0e6821d
+            TargetValue b62248a8367e974080004e921d874a7a
+        member(1)::VoiceOverValueConnection
+            TargetNode c63d0f174141964ca8d04c45c2543c34
+            TargetValue b767bd827404d340a929ed025d9de932
+        member(2)::VoiceOverValueConnection
+            TargetNode 536ce1ea561de243adc5846263b21e84
+            TargetValue 35b7b535aa98a64c9d88e63775a236d4
+    PronunciationIndex::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    Interval *nullGuid*
+    FinishedRelationship *nullArray*
+    BlockedRelationship *nullArray*
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    Conversation::VoiceOverConversationInfo
+        Groups::array
+            member(0) bcdfe0e2720e4940a689f715f8304e87
+        Tracks::array
+            member(0) f5d833240c7a924db5cd85edc41984da
+        Pronunciations *nullArray*
+        InterruptMode VoiceOverConversationInterruptMode_Disallow
+        Priority 0
+        QueueMode VoiceOverConversationQueueMode_Always
+        Relevancy 10.0
+        LastSequenceIndex 0
+    TrueRandom False
+VoiceOverValue 07098f88f6f3e044909b10a9ae2bad0a
+    $::DataContainer
+VoiceOverLabelValue 07e4212cc299144cbb63700aa171aaf7
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/b6a29fd2aa2abf4d8ebdd86e55101808
+    Source 1bbd2a282da9f1478c19d93f46286331
+VoiceOverValue 09654bd955286847b23d1484ce64d06d
+    $::DataContainer
+VoiceOverLabelNode 0b2289e77673ca429358310dcf8404f0
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Sources::array
+        member(0) d1e9fccaca5f254087d1f87e6fcee6e5
+    False 95ea2d93651f9d418dd92dc21a8cb8a2
+    True 81eed2ea6ff1964ea72e73691afb3ce0
+    WantedLabels::array
+        member(0) 835c4e2cbdb1de1196e289fc67a5c271/2d6d51ed117cc541b1c75050273fe7c4
+        member(1) 835c4e2cbdb1de1196e289fc67a5c271/16f4c4d56042544c8f47aa07606fbb29
+        member(2) 835c4e2cbdb1de1196e289fc67a5c271/6be5b32e3d549648a85ea546b8a1cb79
+        member(3) 835c4e2cbdb1de1196e289fc67a5c271/f7be53bc6ef13b49b295755e9d590b75
+        member(4) 835c4e2cbdb1de1196e289fc67a5c271/07be686084b2b640b9d595da4f06d3f1
+    UnwantedLabels *nullArray*
+    SourceMode VoiceOverLabelSourceMode_Combined
+    WantedCompareMode VoiceOverLabelCompareMode_Any
+    UnwantedCompareMode VoiceOverLabelCompareMode_Any
+VoiceOverGlobalNode 0bdb0636dbb80244881112235f5cc57d
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Value 7cf622769c43d2438f678c5eb5753f36
+    Field 835c4e2cbdb1de1196e289fc67a5c271/6594011fddab414ba80818545ad7f9ce
+    Object 835c4e2cbdb1de1196e289fc67a5c271/103138a7c2e1dc45a57992380d562ca4
+VoiceOverLabelValue 0e4ae6c77f89e14abae85c52db1ceb97
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/b04753bfa1b80744acb933c815c03aad
+    Source 183a8ba8ce704d4eb634529be9ae32e3
+VoiceOverValue 10de0543dee2dc419cbf09a21436e9a3
+    $::DataContainer
+VoiceOverDialogGroup 1115518822a96f4da8f33b9eba953264
+    $::DataContainer
+    Sound 8444332ae4ac324faef2b87942f9215d/bf46e3aa9948f749a09854b7be88f72b
+    Parameters *nullArray*
+    TrackCount 1
+VoiceOverLogicFlowConfigData 1343bad1498cf94f83ff0435d593824f
+    $::DataContainer
+    Name Frontlines_Objective_Taken
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+    Group 4b606756fb1a4e4aabfdcc58451bfaee
+    Locals *nullArray*
+    Roots::array
+        member(0) 6fa9b0eb5045074881feb5fe738adc2e
+    Flow dc7fbc5d419a8e4b9d74e2bfe9e2e81e
+    NodeConfigs::array
+        member(0) 6fa9b0eb5045074881feb5fe738adc2e
+        member(1) 5cea47c12043154eb77483448d5fd257
+VoiceOverConstantIntegerValue 183a8ba8ce704d4eb634529be9ae32e3
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 3
+VoiceOverConstantIntegerValue 1bbd2a282da9f1478c19d93f46286331
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 7
+VoiceOverInfoNode 1be07a53f71361468ec6e856e7d730a4
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Object::VoiceOverValueConnection
+        TargetNode 3b06afdb36d0c14882d5210a1f980dd7
+        TargetValue 29588edf61146b459f0b8a447b8934bc
+    Value 41a4f70abbf63c4fb389507ddc50a1e7
+    Field 835c4e2cbdb1de1196e289fc67a5c271/f0e128e13287c64b99bbe2f66f30739b
+    ExpectedType 835c4e2cbdb1de1196e289fc67a5c271/3758c047510788449d40a949481b5b79
+VoiceOverDialogTrack 1be4fc0b86fe69479b0eaa22ff247e90
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeControl::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeIndexMapping::array
+        member(0)::VoiceOverDialogTakeMapping
+            TakeControlMin 0.0
+            TakeControlMax 0.0
+            TakeIndex 0
+        member(1)::VoiceOverDialogTakeMapping
+            TakeControlMin 1.0
+            TakeControlMax 1.0
+            TakeIndex 1
+        member(2)::VoiceOverDialogTakeMapping
+            TakeControlMin 2.0
+            TakeControlMax 2.0
+            TakeIndex 2
+    TakeSwitching VoiceOverDialogTakeBehavior_Start
+    Output *nullGuid*
+    SamplerNode Sound/VO/SourcePatch/VO_MP_Mother_Ingame/2a857b127d8fca4f8c6556f743ef16f5
+    QueueGroup 835c4e2cbdb1de1196e289fc67a5c271/c427bc2660736546915eecb57cabaf81
+    TrackSourcePosition *nullGuid*
+    Clips::array
+        member(0) 30d39b7ca483c9478e7d8c9664821958
+    TakeSwitchingOnResume False
+    ParentTrackIndex 0
+    GroupIndex 0
+VoiceOverDialogTrack 1c196ba32c3e5548a0e9efd4a0793aac
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeControl::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeIndexMapping::array
+        member(0)::VoiceOverDialogTakeMapping
+            TakeControlMin 0.0
+            TakeControlMax 0.0
+            TakeIndex 0
+        member(1)::VoiceOverDialogTakeMapping
+            TakeControlMin 1.0
+            TakeControlMax 1.0
+            TakeIndex 1
+        member(2)::VoiceOverDialogTakeMapping
+            TakeControlMin 2.0
+            TakeControlMax 2.0
+            TakeIndex 2
+    TakeSwitching VoiceOverDialogTakeBehavior_Start
+    Output *nullGuid*
+    SamplerNode Sound/VO/SourcePatch/VO_MP_Mother_Ingame/2a857b127d8fca4f8c6556f743ef16f5
+    QueueGroup 835c4e2cbdb1de1196e289fc67a5c271/c427bc2660736546915eecb57cabaf81
+    TrackSourcePosition *nullGuid*
+    Clips::array
+        member(0) 937e01aac618f4438ccd9da25a75067e
+    TakeSwitchingOnResume False
+    ParentTrackIndex 0
+    GroupIndex 0
+VoiceOverValue 1d243957594eb749b4646411f005f77c
+    $::DataContainer
+VoiceOverLabelToValueNode 1e7bc9839a58f146806e2ff6a05fde93
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode 3b06afdb36d0c14882d5210a1f980dd7
+        TargetValue 29588edf61146b459f0b8a447b8934bc
+    Result 7b67eb64f51e3e4da1f35d91bae5274e
+    LabelArray da2fd2b8d2a6a048a01081cc8839543b
+    DefaultResult 8d2e2429feaa814991965314ae4c104f
+    AssertWhenNoLabel False
+    AssertWhenSeveralLabels False
+VoiceOverValue 1ed7a947e2860c499997e720f3b75823
+    $::DataContainer
+VoiceOverDialogClip 208b6129547b2b47add4c7e510cc0a1b
+    $::DataContainer
+    MinOffset 0.0
+    MaxOffset 0.0
+    Takes::array
+        member(0)::VoiceOverDialogTake
+            Wave 7426580ed576454986b300f841c5042f/7207950e2257c543aecd0427e221794a
+            Meta *nullGuid*
+        member(1)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer/announcer_frontlines/vo_mp_announcer_frontlines_objective_taken/46d11aaa6bbfacb587ad75ec06ba484d
+            Meta *nullGuid*
+        member(2)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer2/announcer_frontlines/vo_mp_announcer_frontlines_objective_taken/93db70d157d745f0e1cd9d599e090fab
+            Meta *nullGuid*
+    OffsetReferences *nullArray*
+    Events *nullGuid*
+    SequenceIndex 0
+VoiceOverDialogClip 20f2c2187c7ec34fbdfcfdb3b45fd00e
+    $::DataContainer
+    MinOffset 0.0
+    MaxOffset 0.0
+    Takes::array
+        member(0)::VoiceOverDialogTake
+            Wave 7426580ed576454986b300f841c5042f/7207950e2257c543aecd0427e221794a
+            Meta *nullGuid*
+        member(1)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer/announcer_frontlines/vo_mp_announcer_frontlines_objective_basedefense_begin/1634e4fd84ee5316f1e68796798bc8ce
+            Meta *nullGuid*
+        member(2)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer2/announcer_frontlines/vo_mp_announcer_frontlines_objective_basedefense_begin/8cfea6a0c19ce047a7264d84536428cd
+            Meta *nullGuid*
+    OffsetReferences *nullArray*
+    Events *nullGuid*
+    SequenceIndex 0
+VoiceOverInfoNode 22161517b91a2c428bcbd920662abcca
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Object::VoiceOverValueConnection
+        TargetNode 46f2d15b114cbf419e3c9bf0eb264f98
+        TargetValue 7b3c35d65ff52844a81badd32bd031fb
+    Value 03c9eac384a41b4184a616967e3a3534
+    Field 835c4e2cbdb1de1196e289fc67a5c271/5389c54e07d65149a64cbe2b2f014f26
+    ExpectedType 835c4e2cbdb1de1196e289fc67a5c271/3758c047510788449d40a949481b5b79
+VoiceOverDialogTrack 222fec50d3552c488c4a39c24d76cab6
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeControl::VoiceOverValueConnection
+        TargetNode 0bdb0636dbb80244881112235f5cc57d
+        TargetValue 7cf622769c43d2438f678c5eb5753f36
+    TakeIndexMapping *nullArray*
+    TakeSwitching VoiceOverDialogTakeBehavior_Start
+    Output *nullGuid*
+    SamplerNode Sound/VO/SourcePatch/VO_MP_Mother_Ingame/2a857b127d8fca4f8c6556f743ef16f5
+    QueueGroup 835c4e2cbdb1de1196e289fc67a5c271/c427bc2660736546915eecb57cabaf81
+    TrackSourcePosition *nullGuid*
+    Clips::array
+        member(0) 6772493d5bdbc247a4a889d45541e7b6
+    TakeSwitchingOnResume False
+    ParentTrackIndex 0
+    GroupIndex 0
+VoiceOverEvent 27306bcd9766c044a4ae2addc67b4108
+    $::DataContainer
+    Name Frontlines_Objective_Basedefense_Succeeded
+    NameHash 3531889125
+    Parameters *nullArray*
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+VoiceOverValue 2931519f5d87e04595cd05081e79ae79
+    $::DataContainer
+VoiceOverValue 29588edf61146b459f0b8a447b8934bc
+    $::DataContainer
+VoiceOverConstantIntegerValue 2be6ec071cb545419c887400616c0515
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 1
+VoiceOverConstantIntegerValue 2dd1092b55e4d84cbc6209523e70690d
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 5
+VoiceOverDialogTrack 2fea4fcdaf127845900aede7e57094b7
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode 46f2d15b114cbf419e3c9bf0eb264f98
+        TargetValue 7b3c35d65ff52844a81badd32bd031fb
+    TakeControl::VoiceOverValueConnection
+        TargetNode e4d36963bfe23449a652336fabbba81c
+        TargetValue a6aba44eb414c74199b46471d6d5eb9e
+    TakeIndexMapping *nullArray*
+    TakeSwitching VoiceOverDialogTakeBehavior_Start
+    Output *nullGuid*
+    SamplerNode 8444332ae4ac324faef2b87942f9215d/9603bc9fd56a984eb7220f328542396a
+    QueueGroup 835c4e2cbdb1de1196e289fc67a5c271/aa94e32fc367f143a2068ffc9f596d38
+    TrackSourcePosition *nullGuid*
+    Clips::array
+        member(0) f2ed719a622ec241b03639d873e03420
+    TakeSwitchingOnResume False
+    ParentTrackIndex 0
+    GroupIndex 0
+VoiceOverDialogClip 30d39b7ca483c9478e7d8c9664821958
+    $::DataContainer
+    MinOffset 0.0
+    MaxOffset 0.0
+    Takes::array
+        member(0)::VoiceOverDialogTake
+            Wave 7426580ed576454986b300f841c5042f/7207950e2257c543aecd0427e221794a
+            Meta *nullGuid*
+        member(1)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer/announcer_frontlines/vo_mp_announcer_frontlines_start/81064c3ce232e9ce971abd2845db3395
+            Meta *nullGuid*
+        member(2)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer2/announcer_frontlines/vo_mp_announcer_frontlines_start/7ab2513b673d9d99aa7b6683f3796dce
+            Meta *nullGuid*
+    OffsetReferences *nullArray*
+    Events *nullGuid*
+    SequenceIndex 0
+VoiceOverValue 3302e206803b3f4fa22535b815799400
+    $::DataContainer
+VoiceOverValue 35b7b535aa98a64c9d88e63775a236d4
+    $::DataContainer
+VoiceOverDialogGroup 36487249f6896e4083d336a12e48676f
+    $::DataContainer
+    Sound Sound/VO/SourcePatch/VO_MP_Mother_Ingame/8bc3976240161d43ba549b62a4feab60
+    Parameters *nullArray*
+    TrackCount 1
+VoiceOverDialogGroup 38639afb2339ee40ad4dcfc46520169e
+    $::DataContainer
+    Sound f015c1f69171d84ba30f1234fb09f3cd/7270f5f2f315bf41ae6d182d3dd5995e
+    Parameters *nullArray*
+    TrackCount 1
+VoiceOverInfoNode 3b06afdb36d0c14882d5210a1f980dd7
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Object::VoiceOverValueConnection
+        TargetNode 46f2d15b114cbf419e3c9bf0eb264f98
+        TargetValue 7b3c35d65ff52844a81badd32bd031fb
+    Value 29588edf61146b459f0b8a447b8934bc
+    Field 835c4e2cbdb1de1196e289fc67a5c271/852091af27de02438860a4288b63cf64
+    ExpectedType 835c4e2cbdb1de1196e289fc67a5c271/3758c047510788449d40a949481b5b79
+VoiceOverLabelValue 3b94d54add96e84c9ce681f1c4fd4e50
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/8f0714559a0c0b4e858e005fa80e4744
+    Source 2dd1092b55e4d84cbc6209523e70690d
+VoiceOverConversationNodeConfigData 41059c8c9b52544f95275c5253a75b5e
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 782e4d95254ad5458476e11126577d4a
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    Conversation::VoiceOverConversationInfo
+        Groups::array
+            member(0) 36487249f6896e4083d336a12e48676f
+        Tracks::array
+            member(0) de084ef3b7eec24aada0eda808b55ee6
+        Pronunciations *nullArray*
+        InterruptMode VoiceOverConversationInterruptMode_Disallow
+        Priority 2
+        QueueMode VoiceOverConversationQueueMode_Always
+        Relevancy 10.0
+        LastSequenceIndex 0
+    TrueRandom False
+VoiceOverValue 41a4f70abbf63c4fb389507ddc50a1e7
+    $::DataContainer
+VoiceOverLabelValue 42365d1346105b439a81e299ca0f8143
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/f6596b8d5dc269409102698c66de4bee
+    Source a9b185e224c37c46bc8bd97890f1d4d3
+VoiceOverDialogGroup 458209a3b167ce4aa0928a95fd5e934e
+    $::DataContainer
+    Sound Sound/VO/SourcePatch/VO_MP_Mother_Ingame/8bc3976240161d43ba549b62a4feab60
+    Parameters *nullArray*
+    TrackCount 1
+VoiceOverDialogGroup 464e73598d9db04a843406a5cc6c3290
+    $::DataContainer
+    Sound Sound/VO/SourcePatch/VO_MP_Mother_Ingame/8bc3976240161d43ba549b62a4feab60
+    Parameters *nullArray*
+    TrackCount 1
+VoiceOverGlobalNode 46f2d15b114cbf419e3c9bf0eb264f98
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Value 7b3c35d65ff52844a81badd32bd031fb
+    Field 835c4e2cbdb1de1196e289fc67a5c271/25e34f843c435c40996b859acb934175
+    Object 835c4e2cbdb1de1196e289fc67a5c271/7c7d341ca0fb5e4e9f186338f5ab03ba
+VoiceOverConstantIntegerValue 48e861ef958fbc47aac41d922652d463
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 5
+VoiceOverDialogClip 492b88b734f0cd4d8bd049ab9c24d9a2
+    $::DataContainer
+    MinOffset 2.0
+    MaxOffset 3.0
+    Takes::array
+        member(0)::VoiceOverDialogTake
+            Wave 7426580ed576454986b300f841c5042f/7207950e2257c543aecd0427e221794a
+            Meta *nullGuid*
+    OffsetReferences *nullArray*
+    Events *nullGuid*
+    SequenceIndex 0
+VoiceOverGroup 4b606756fb1a4e4aabfdcc58451bfaee
+    $::DataContainer
+    Name Frontlines_Mother_Flow
+    Priority 0
+VoiceOverValue 4dc025eb17f02c44852ea0f5e3014962
+    $::DataContainer
+VoiceOverConstantIntegerValue 4e83b67035749e488a2fc0ed5cade1cf
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 9
+VoiceOverLabelValue 4ee82ccc623ca649a7f43c4b699fcf21
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/fa763021213df940838527cf3f4761b8
+    Source f92ae738b443064db6e7ddc865fe9c69
+VoiceOverDialogGroup 50e991cb536a8b47ac6fb3314d76d1c7
+    $::DataContainer
+    Sound Sound/VO/SourcePatch/VO_MP_Mother_Ingame/8bc3976240161d43ba549b62a4feab60
+    Parameters *nullArray*
+    TrackCount 1
+VoiceOverLogicFlowConfigData 514eb15f11ae3d4e945a6495574a719e
+    $::DataContainer
+    Name Frontlines_Objective_Basedefense_Succeeded
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+    Group 4b606756fb1a4e4aabfdcc58451bfaee
+    Locals *nullArray*
+    Roots::array
+        member(0) b38256c1377351448a4500370d260620
+    Flow dc7fbc5d419a8e4b9d74e2bfe9e2e81e
+    NodeConfigs::array
+        member(0) b38256c1377351448a4500370d260620
+        member(1) c16433d412e4a04bb493d10779fa1d60
+VoiceOverLabelValue 53450faff4a07b459f74797970eca809
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/fa763021213df940838527cf3f4761b8
+    Source 2be6ec071cb545419c887400616c0515
+VoiceOverEvent 5368e0b11dd15d47923ed452aaeb3a8f
+    $::DataContainer
+    Name _Dummy_Frontlines
+    NameHash 2203344625
+    Parameters *nullArray*
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+VoiceOverLabelNode 536ce1ea561de243adc5846263b21e84
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Sources::array
+        member(0) 60772a58b56ca34da74fd2245df16c74
+    False f0e0f98e4c60934085ec210c1bb4203c
+    True 35b7b535aa98a64c9d88e63775a236d4
+    WantedLabels *nullArray*
+    UnwantedLabels::array
+        member(0) 835c4e2cbdb1de1196e289fc67a5c271/292cbf43e555ab4e97ff74f21a6b6f42
+        member(1) 835c4e2cbdb1de1196e289fc67a5c271/16f4c4d56042544c8f47aa07606fbb29
+        member(2) 835c4e2cbdb1de1196e289fc67a5c271/1033adaebcc5894084b4ccf4dc828d77
+        member(3) 835c4e2cbdb1de1196e289fc67a5c271/26bb54b0e5c07d4194ac27e9a89ab13b
+        member(4) 835c4e2cbdb1de1196e289fc67a5c271/9543801b5db7c0469a9fecb621c6aef9
+        member(5) 835c4e2cbdb1de1196e289fc67a5c271/6be5b32e3d549648a85ea546b8a1cb79
+        member(6) 835c4e2cbdb1de1196e289fc67a5c271/2d6d51ed117cc541b1c75050273fe7c4
+        member(7) 835c4e2cbdb1de1196e289fc67a5c271/f7be53bc6ef13b49b295755e9d590b75
+        member(8) 835c4e2cbdb1de1196e289fc67a5c271/07be686084b2b640b9d595da4f06d3f1
+        member(9) 835c4e2cbdb1de1196e289fc67a5c271/f8f7f33af9f1fc4ba77a0b1acf34b3d5
+        member(10) 835c4e2cbdb1de1196e289fc67a5c271/9aae2abf5e5a0b4e994774328c777568
+        member(11) 835c4e2cbdb1de1196e289fc67a5c271/c52a78ec0629d444a0f5fce31e211a39
+    SourceMode VoiceOverLabelSourceMode_Combined
+    WantedCompareMode VoiceOverLabelCompareMode_Any
+    UnwantedCompareMode VoiceOverLabelCompareMode_Any
+VoiceOverValue 5474ae354a881443874e336bccfef3a8
+    $::DataContainer
+VoiceOverConstantIntegerValue 588c667c18200e409d382245a8754d18
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 3
+VoiceOverLabelValue 59132a8f3ae80641a07b0ad19ff64e12
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/8f0714559a0c0b4e858e005fa80e4744
+    Source 48e861ef958fbc47aac41d922652d463
+VoiceOverDialogTrack 5cd1afe7dd79334a9a085f6705de16b5
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeControl::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeIndexMapping::array
+        member(0)::VoiceOverDialogTakeMapping
+            TakeControlMin 0.0
+            TakeControlMax 0.0
+            TakeIndex 0
+        member(1)::VoiceOverDialogTakeMapping
+            TakeControlMin 1.0
+            TakeControlMax 1.0
+            TakeIndex 1
+        member(2)::VoiceOverDialogTakeMapping
+            TakeControlMin 2.0
+            TakeControlMax 2.0
+            TakeIndex 2
+    TakeSwitching VoiceOverDialogTakeBehavior_Start
+    Output *nullGuid*
+    SamplerNode Sound/VO/SourcePatch/VO_MP_Mother_Ingame/2a857b127d8fca4f8c6556f743ef16f5
+    QueueGroup 835c4e2cbdb1de1196e289fc67a5c271/c427bc2660736546915eecb57cabaf81
+    TrackSourcePosition *nullGuid*
+    Clips::array
+        member(0) 65ed330e1cbfd24db897fe68b0779022
+    TakeSwitchingOnResume False
+    ParentTrackIndex 0
+    GroupIndex 0
+VoiceOverConversationNodeConfigData 5cea47c12043154eb77483448d5fd257
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 782e4d95254ad5458476e11126577d4a
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    Conversation::VoiceOverConversationInfo
+        Groups::array
+            member(0) 638ea0c1e2885b43acf79276e729fa1c
+        Tracks::array
+            member(0) e5c97bede022994d9921e4dc3ca69109
+        Pronunciations *nullArray*
+        InterruptMode VoiceOverConversationInterruptMode_Disallow
+        Priority 2
+        QueueMode VoiceOverConversationQueueMode_Always
+        Relevancy 10.0
+        LastSequenceIndex 0
+    TrueRandom False
+VoiceOverLabelSource 60772a58b56ca34da74fd2245df16c74
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode de3a8d0259ec1a41817f24476464c9a1
+        TargetValue 09654bd955286847b23d1484ce64d06d
+VoiceOverDialogGroup 638ea0c1e2885b43acf79276e729fa1c
+    $::DataContainer
+    Sound Sound/VO/SourcePatch/VO_MP_Mother_Ingame/8bc3976240161d43ba549b62a4feab60
+    Parameters *nullArray*
+    TrackCount 1
+VoiceOverConstantNode 6436ec1674031c4a80af82a4f1e9b5aa
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Value c1f35132219cb24c89fb549afa9ea24a
+    Source a10ca416d681fb4da301b3ab91a95acc
+VoiceOverLabelValue 6465b78bfc6c4b47a138573246f9a795
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/8b8b5bcee76a714d93814a5f6efc170f
+    Source 4e83b67035749e488a2fc0ed5cade1cf
+VoiceOverDialogClip 65ed330e1cbfd24db897fe68b0779022
+    $::DataContainer
+    MinOffset 0.0
+    MaxOffset 0.0
+    Takes::array
+        member(0)::VoiceOverDialogTake
+            Wave 7426580ed576454986b300f841c5042f/7207950e2257c543aecd0427e221794a
+            Meta *nullGuid*
+        member(1)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer/announcer_frontlines/vo_mp_announcer_frontlines_objective_basedefense_succeeded/89331e5bcde59033e6d26d7992a152f9
+            Meta *nullGuid*
+        member(2)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer2/announcer_frontlines/vo_mp_announcer_frontlines_objective_basedefense_succeeded/6494f0641f9afe513753438750a1a5c9
+            Meta *nullGuid*
+    OffsetReferences *nullArray*
+    Events *nullGuid*
+    SequenceIndex 0
+VoiceOverEventNode 6618b97e14ec2c4c98a91407945c55a7
+    $::VoiceOverStructureNode
+        $::VoiceOverNode
+            $::DataContainer
+        FlowMode VoiceOverLogicFlowMode_All
+    Interval *nullGuid*
+    DebugColor::Vec3
+        x 0.0
+        y 0.0
+        z 1.0
+    Relationship::array
+        member(0) 6aa4cfe9fe986c4c9a85d1e6c69b7b96
+    Redirects *nullArray*
+    Event 5368e0b11dd15d47923ed452aaeb3a8f
+    DebugIntervalTime 0.0
+    DebugEnabled False
+VoiceOverDialogClip 6772493d5bdbc247a4a889d45541e7b6
+    $::DataContainer
+    MinOffset 0.0
+    MaxOffset 0.0
+    Takes::array
+        member(0)::VoiceOverDialogTake
+            Wave 7426580ed576454986b300f841c5042f/7207950e2257c543aecd0427e221794a
+            Meta *nullGuid*
+    OffsetReferences *nullArray*
+    Events *nullGuid*
+    SequenceIndex 0
+VoiceOverContainerNode 6aa4cfe9fe986c4c9a85d1e6c69b7b96
+    $::VoiceOverStructureNode
+        $::VoiceOverNode
+            $::DataContainer
+        FlowMode VoiceOverLogicFlowMode_All
+    Condition::array
+        member(0)::VoiceOverValueConnection
+            TargetNode f20ac4808ad81e4bbd37af15f6fad0fe
+            TargetValue 6d8fccf451ddb74cbc5466b0c76588a6
+    Interval *nullGuid*
+    TrueRelationship *nullArray*
+    FalseRelationship::array
+        member(0) b6d5f85f9c981f48bb8a59cedfa49e0c
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    TrueRandom False
+    AlwaysResetInterval False
+VoiceOverConversationNodeConfigData 6c86bff0bd162d40b1406bcfcfccf757
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 782e4d95254ad5458476e11126577d4a
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    Conversation::VoiceOverConversationInfo
+        Groups::array
+            member(0) 50e991cb536a8b47ac6fb3314d76d1c7
+        Tracks::array
+            member(0) 1be4fc0b86fe69479b0eaa22ff247e90
+        Pronunciations *nullArray*
+        InterruptMode VoiceOverConversationInterruptMode_Disallow
+        Priority 2
+        QueueMode VoiceOverConversationQueueMode_Always
+        Relevancy 10.0
+        LastSequenceIndex 0
+    TrueRandom False
+VoiceOverValue 6d8fccf451ddb74cbc5466b0c76588a6
+    $::DataContainer
+VoiceOverEventNodeConfigData 6edf56c37b9f8a47abd7644a9593d8a9
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 6618b97e14ec2c4c98a91407945c55a7
+    Redirects *nullArray*
+    DebugColor::Vec3
+        x 0.0
+        y 0.0
+        z 1.0
+    Event cc9c362193f6624fbb96e7f102a7d256
+    DebugIntervalTime 0.0
+    DebugEnabled False
+VoiceOverEventNodeConfigData 6fa9b0eb5045074881feb5fe738adc2e
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 6618b97e14ec2c4c98a91407945c55a7
+    Redirects *nullArray*
+    DebugColor::Vec3
+        x 0.0
+        y 0.0
+        z 1.0
+    Event be5fc5803a59bb428c9bbff57c034b07
+    DebugIntervalTime 0.0
+    DebugEnabled False
+VoiceOverLabelValue 70e212c5e4315049ae69f888478ee364
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/b6a29fd2aa2abf4d8ebdd86e55101808
+    Source f8230404c0914a41a0385963c546230c
+VoiceOverLogicFlowConfigData 7235bb2b51bea54db19a8f4aef1ff497
+    $::DataContainer
+    Name Frontlines_Objective_Lost
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+    Group 4b606756fb1a4e4aabfdcc58451bfaee
+    Locals *nullArray*
+    Roots::array
+        member(0) 6edf56c37b9f8a47abd7644a9593d8a9
+    Flow dc7fbc5d419a8e4b9d74e2bfe9e2e81e
+    NodeConfigs::array
+        member(0) 6edf56c37b9f8a47abd7644a9593d8a9
+        member(1) b7dd78af4d17cf43ae1a9d35041993df
+VoiceOverConversationNode 7301b3d8547cea43bf51e7bd430a5be0
+    $::VoiceOverStructureNode
+        $::VoiceOverNode
+            $::DataContainer
+        FlowMode VoiceOverLogicFlowMode_All
+    Condition::array
+        member(0)::VoiceOverValueConnection
+            TargetNode ce8b402e01db92489a2b26c4c0e6821d
+            TargetValue 1d243957594eb749b4646411f005f77c
+        member(1)::VoiceOverValueConnection
+            TargetNode c63d0f174141964ca8d04c45c2543c34
+            TargetValue b767bd827404d340a929ed025d9de932
+        member(2)::VoiceOverValueConnection
+            TargetNode 536ce1ea561de243adc5846263b21e84
+            TargetValue 35b7b535aa98a64c9d88e63775a236d4
+    PronunciationIndex::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    Interval *nullGuid*
+    FinishedRelationship *nullArray*
+    BlockedRelationship *nullArray*
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    Conversation::VoiceOverConversationInfo
+        Groups::array
+            member(0) 38639afb2339ee40ad4dcfc46520169e
+        Tracks::array
+            member(0) f9d498b37fdeef409fb7f5b8f67648ae
+        Pronunciations *nullArray*
+        InterruptMode VoiceOverConversationInterruptMode_Disallow
+        Priority 0
+        QueueMode VoiceOverConversationQueueMode_Always
+        Relevancy 10.0
+        LastSequenceIndex 0
+    TrueRandom False
+VoiceOverValue 76f29ec936bb9648b1151946ca4761bb
+    $::DataContainer
+VoiceOverConversationNode 782e4d95254ad5458476e11126577d4a
+    $::VoiceOverStructureNode
+        $::VoiceOverNode
+            $::DataContainer
+        FlowMode VoiceOverLogicFlowMode_All
+    Condition::array
+        member(0)::VoiceOverValueConnection
+            TargetNode e990dd02a76940419961c9e50a13da21
+            TargetValue f1c6ed692aca2344aa8bbfbf123daefb
+    PronunciationIndex::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    Interval e990dd02a76940419961c9e50a13da21
+    FinishedRelationship *nullArray*
+    BlockedRelationship *nullArray*
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    Conversation::VoiceOverConversationInfo
+        Groups::array
+            member(0) bcc3811e7f5765408c3ae44c271d86b2
+        Tracks::array
+            member(0) 222fec50d3552c488c4a39c24d76cab6
+        Pronunciations *nullArray*
+        InterruptMode VoiceOverConversationInterruptMode_Disallow
+        Priority 2
+        QueueMode VoiceOverConversationQueueMode_Always
+        Relevancy 10.0
+        LastSequenceIndex 0
+    TrueRandom False
+VoiceOverValue 7b3c35d65ff52844a81badd32bd031fb
+    $::DataContainer
+VoiceOverValue 7b67eb64f51e3e4da1f35d91bae5274e
+    $::DataContainer
+VoiceOverValue 7cf622769c43d2438f678c5eb5753f36
+    $::DataContainer
+VoiceOverLabelValue 7e00559985a3b54c95b2f852e4719383
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/f6596b8d5dc269409102698c66de4bee
+    Source c8ca434fafc881479d97506ab3956ca4
+VoiceOverConstantIntegerValue 7ed194f04f8fc443bcbb17641bfdc8e5
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 9
+VoiceOverValue 80560bf0c8ee034d834771011082d24f
+    $::DataContainer
+VoiceOverValue 81eed2ea6ff1964ea72e73691afb3ce0
+    $::DataContainer
+VoiceOverEventNodeConfigData 869246d98da0be46a76da2c0c111aec9
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 6618b97e14ec2c4c98a91407945c55a7
+    Redirects *nullArray*
+    DebugColor::Vec3
+        x 0.0
+        y 0.0
+        z 1.0
+    Event c0c217212675f9498ba2f0dfdb0905fe
+    DebugIntervalTime 0.0
+    DebugEnabled False
+VoiceOverConstantIntegerValue 8a2ab85316d7a942b428609cf6921301
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 0
+VoiceOverEvent 8b21395987b14b4bb861971647d9bf5d
+    $::DataContainer
+    Name Frontlines_Supplycrate_Inbound
+    NameHash 699907006
+    Parameters *nullArray*
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+VoiceOverLabelValue 8c3678d858af3e4e932f3edf7f96ebdd
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/8b8b5bcee76a714d93814a5f6efc170f
+    Source 7ed194f04f8fc443bcbb17641bfdc8e5
+VoiceOverConstantIntegerValue 8d2e2429feaa814991965314ae4c104f
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 0
+VoiceOverEvent 8e15e72ad410d049aee1fa92b69485ea
+    $::DataContainer
+    Name Frontlines_Start
+    NameHash 1019283494
+    Parameters *nullArray*
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+VoiceOverEventNodeConfigData 908bfceec4f4c14abcf78c10dc3ab172
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 6618b97e14ec2c4c98a91407945c55a7
+    Redirects *nullArray*
+    DebugColor::Vec3
+        x 0.0
+        y 0.0
+        z 1.0
+    Event 8e15e72ad410d049aee1fa92b69485ea
+    DebugIntervalTime 0.0
+    DebugEnabled False
+VoiceOverLabelNode 922f61d6692bd14c8acef7f0004c48f1
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Sources::array
+        member(0) a3524dd1caa0ee41b30009288553576f
+    False 3302e206803b3f4fa22535b815799400
+    True 10de0543dee2dc419cbf09a21436e9a3
+    WantedLabels::array
+        member(0) 835c4e2cbdb1de1196e289fc67a5c271/f8f7f33af9f1fc4ba77a0b1acf34b3d5
+        member(1) 835c4e2cbdb1de1196e289fc67a5c271/c52a78ec0629d444a0f5fce31e211a39
+        member(2) 835c4e2cbdb1de1196e289fc67a5c271/292cbf43e555ab4e97ff74f21a6b6f42
+        member(3) 835c4e2cbdb1de1196e289fc67a5c271/16f4c4d56042544c8f47aa07606fbb29
+        member(4) 835c4e2cbdb1de1196e289fc67a5c271/1033adaebcc5894084b4ccf4dc828d77
+        member(5) 835c4e2cbdb1de1196e289fc67a5c271/26bb54b0e5c07d4194ac27e9a89ab13b
+        member(6) 835c4e2cbdb1de1196e289fc67a5c271/9543801b5db7c0469a9fecb621c6aef9
+        member(7) 835c4e2cbdb1de1196e289fc67a5c271/9aae2abf5e5a0b4e994774328c777568
+    UnwantedLabels *nullArray*
+    SourceMode VoiceOverLabelSourceMode_Combined
+    WantedCompareMode VoiceOverLabelCompareMode_Any
+    UnwantedCompareMode VoiceOverLabelCompareMode_Any
+VoiceOverValue 9230ff1b7f1f9c49b40ff3316be474fa
+    $::DataContainer
+VoiceOverDialogClip 937e01aac618f4438ccd9da25a75067e
+    $::DataContainer
+    MinOffset 0.0
+    MaxOffset 0.0
+    Takes::array
+        member(0)::VoiceOverDialogTake
+            Wave 7426580ed576454986b300f841c5042f/7207950e2257c543aecd0427e221794a
+            Meta *nullGuid*
+        member(1)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer/announcer_frontlines/vo_mp_announcer_frontlines_supplycrate_inbound/0cac20763d9b991d6edefe2a99b033ec
+            Meta *nullGuid*
+        member(2)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer2/announcer_frontlines/vo_mp_announcer_frontlines_supplycrate_inbound/91287ed47ca70de2f6db14fa3cb583d8
+            Meta *nullGuid*
+    OffsetReferences *nullArray*
+    Events *nullGuid*
+    SequenceIndex 0
+VoiceOverValue 95ea2d93651f9d418dd92dc21a8cb8a2
+    $::DataContainer
+VoiceOverConstantNode 9623dacf2fcc0c49803ecc987f4d71f3
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Value 4dc025eb17f02c44852ea0f5e3014962
+    Source 04a3a44fc1558c44b647b9081d22c5a2
+VoiceOverLogicFlowConfigData 9cf85fb355bb3f4689e1fd45ca1e1bb0
+    $::DataContainer
+    Name Supplycrate_Inbound
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+    Group 4b606756fb1a4e4aabfdcc58451bfaee
+    Locals *nullArray*
+    Roots::array
+        member(0) 9f53bb83e92b6247a60bbb2bf1d05465
+    Flow dc7fbc5d419a8e4b9d74e2bfe9e2e81e
+    NodeConfigs::array
+        member(0) 9f53bb83e92b6247a60bbb2bf1d05465
+        member(1) 010b65cb36e7a045a1f4fa6c5a91de79
+VoiceOverEventNodeConfigData 9f53bb83e92b6247a60bbb2bf1d05465
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 6618b97e14ec2c4c98a91407945c55a7
+    Redirects *nullArray*
+    DebugColor::Vec3
+        x 0.0
+        y 0.0
+        z 1.0
+    Event 8b21395987b14b4bb861971647d9bf5d
+    DebugIntervalTime 0.0
+    DebugEnabled False
+VoiceOverConstantGlobalValue a10ca416d681fb4da301b3ab91a95acc
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Source 835c4e2cbdb1de1196e289fc67a5c271/194371dce8ab0942856da73c3d54f8ae
+VoiceOverConversationNode a178aa8d769c7747971b8e722a802ce4
+    $::VoiceOverStructureNode
+        $::VoiceOverNode
+            $::DataContainer
+        FlowMode VoiceOverLogicFlowMode_All
+    Condition::array
+        member(0)::VoiceOverValueConnection
+            TargetNode c63d0f174141964ca8d04c45c2543c34
+            TargetValue b767bd827404d340a929ed025d9de932
+        member(1)::VoiceOverValueConnection
+            TargetNode 536ce1ea561de243adc5846263b21e84
+            TargetValue f0e0f98e4c60934085ec210c1bb4203c
+    PronunciationIndex::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    Interval *nullGuid*
+    FinishedRelationship *nullArray*
+    BlockedRelationship *nullArray*
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    Conversation::VoiceOverConversationInfo
+        Groups::array
+            member(0) 1115518822a96f4da8f33b9eba953264
+        Tracks::array
+            member(0) 2fea4fcdaf127845900aede7e57094b7
+        Pronunciations *nullArray*
+        InterruptMode VoiceOverConversationInterruptMode_Disallow
+        Priority 0
+        QueueMode VoiceOverConversationQueueMode_Always
+        Relevancy 10.0
+        LastSequenceIndex 0
+    TrueRandom False
+VoiceOverLabelSource a3524dd1caa0ee41b30009288553576f
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode d4451e7d06ef3842ab67375410026ba1
+        TargetValue e7f9006530ffe0498c3734e384f81223
+VoiceOverLogicFlowConfigData a3885db04eabf44f970e25f841de5f0e
+    $::DataContainer
+    Name Frontlines_Objective_Basedefense_Begin
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+    Group 4b606756fb1a4e4aabfdcc58451bfaee
+    Locals *nullArray*
+    Roots::array
+        member(0) 869246d98da0be46a76da2c0c111aec9
+    Flow dc7fbc5d419a8e4b9d74e2bfe9e2e81e
+    NodeConfigs::array
+        member(0) 869246d98da0be46a76da2c0c111aec9
+        member(1) 41059c8c9b52544f95275c5253a75b5e
+VoiceOverInfoNode a4d7dc141cd17743af8bd5cc699bc8cc
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Object::VoiceOverValueConnection
+        TargetNode 3b06afdb36d0c14882d5210a1f980dd7
+        TargetValue 29588edf61146b459f0b8a447b8934bc
+    Value 07098f88f6f3e044909b10a9ae2bad0a
+    Field 835c4e2cbdb1de1196e289fc67a5c271/815996d47b90904e9c741d2c2e653053
+    ExpectedType 835c4e2cbdb1de1196e289fc67a5c271/3758c047510788449d40a949481b5b79
+VoiceOverValue a6aba44eb414c74199b46471d6d5eb9e
+    $::DataContainer
+VoiceOverConstantIntegerValue a9b185e224c37c46bc8bd97890f1d4d3
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 11
+VoiceOverLabelValue b0f601b7aa5d8c4183b4b60d63ba8181
+    $::DataContainer
+    Label 835c4e2cbdb1de1196e289fc67a5c271/b04753bfa1b80744acb933c815c03aad
+    Source 588c667c18200e409d382245a8754d18
+VoiceOverDialogClip b190cab929a8b444a782025dbfa65b60
+    $::DataContainer
+    MinOffset 0.0
+    MaxOffset 0.0
+    Takes::array
+        member(0)::VoiceOverDialogTake
+            Wave 7426580ed576454986b300f841c5042f/7207950e2257c543aecd0427e221794a
+            Meta *nullGuid*
+        member(1)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer/announcer_frontlines/vo_mp_announcer_frontlines_objective_lost/20d6bcde4e0511ed477600e908ac2ed7
+            Meta *nullGuid*
+        member(2)::VoiceOverDialogTake
+            Wave Sound/VO/MP/UK/Announcer2/announcer_frontlines/vo_mp_announcer_frontlines_objective_lost/ad6195018e88ca0377ab6ff4e5cff13f
+            Meta *nullGuid*
+    OffsetReferences *nullArray*
+    Events *nullGuid*
+    SequenceIndex 0
+VoiceOverLogicFlowConfigData b26c5abbb4eb48428bce657a3adf655d
+    $::DataContainer
+    Name Frontlines_Start
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+    Group 4b606756fb1a4e4aabfdcc58451bfaee
+    Locals *nullArray*
+    Roots::array
+        member(0) 908bfceec4f4c14abcf78c10dc3ab172
+    Flow dc7fbc5d419a8e4b9d74e2bfe9e2e81e
+    NodeConfigs::array
+        member(0) 908bfceec4f4c14abcf78c10dc3ab172
+        member(1) 6c86bff0bd162d40b1406bcfcfccf757
+VoiceOverEventNodeConfigData b38256c1377351448a4500370d260620
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 6618b97e14ec2c4c98a91407945c55a7
+    Redirects *nullArray*
+    DebugColor::Vec3
+        x 0.0
+        y 0.0
+        z 1.0
+    Event 27306bcd9766c044a4ae2addc67b4108
+    DebugIntervalTime 0.0
+    DebugEnabled False
+VoiceOverInfoNode b50837c9d4be43408a531d7f3dda5e3f
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Object::VoiceOverValueConnection
+        TargetNode 46f2d15b114cbf419e3c9bf0eb264f98
+        TargetValue 7b3c35d65ff52844a81badd32bd031fb
+    Value f814a59372dd6e4e97c2abb80268b710
+    Field 835c4e2cbdb1de1196e289fc67a5c271/815996d47b90904e9c741d2c2e653053
+    ExpectedType 835c4e2cbdb1de1196e289fc67a5c271/3758c047510788449d40a949481b5b79
+VoiceOverValue b62248a8367e974080004e921d874a7a
+    $::DataContainer
+VoiceOverContainerNode b6d5f85f9c981f48bb8a59cedfa49e0c
+    $::VoiceOverStructureNode
+        $::VoiceOverNode
+            $::DataContainer
+        FlowMode VoiceOverLogicFlowMode_All
+    Condition *nullArray*
+    Interval *nullGuid*
+    TrueRelationship::array
+        member(0) 7301b3d8547cea43bf51e7bd430a5be0
+        member(1) 06b5f542316e224dae026286bf663d3c
+        member(2) 782e4d95254ad5458476e11126577d4a
+        member(3) a178aa8d769c7747971b8e722a802ce4
+    FalseRelationship *nullArray*
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    TrueRandom False
+    AlwaysResetInterval False
+VoiceOverValue b767bd827404d340a929ed025d9de932
+    $::DataContainer
+VoiceOverConversationNodeConfigData b7dd78af4d17cf43ae1a9d35041993df
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 782e4d95254ad5458476e11126577d4a
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    Conversation::VoiceOverConversationInfo
+        Groups::array
+            member(0) f02ba72ea5995143a13c4c9acf7e8e1b
+        Tracks::array
+            member(0) dec69e457beeb745aa0bf787d597cbaf
+        Pronunciations *nullArray*
+        InterruptMode VoiceOverConversationInterruptMode_Disallow
+        Priority 2
+        QueueMode VoiceOverConversationQueueMode_Always
+        Relevancy 10.0
+        LastSequenceIndex 0
+    TrueRandom False
+VoiceOverLabelList b8cadf2d4587794ba35a98f10bca71b3
+    $::DataContainer
+    Name Instance LabelArray
+    LabelValues::array
+        member(0) 4ee82ccc623ca649a7f43c4b699fcf21
+        member(1) b0f601b7aa5d8c4183b4b60d63ba8181
+        member(2) 59132a8f3ae80641a07b0ad19ff64e12
+        member(3) 70e212c5e4315049ae69f888478ee364
+        member(4) 8c3678d858af3e4e932f3edf7f96ebdd
+        member(5) 7e00559985a3b54c95b2f852e4719383
+VoiceOverDialogGroup bcc3811e7f5765408c3ae44c271d86b2
+    $::DataContainer
+    Sound Sound/VO/SourcePatch/VO_MP_Mother_Ingame/8bc3976240161d43ba549b62a4feab60
+    Parameters *nullArray*
+    TrackCount 1
+VoiceOverDialogGroup bcdfe0e2720e4940a689f715f8304e87
+    $::DataContainer
+    Sound e165bfe168b964449b96549f4b5ceac9/5f0b7b0e89283e4eaf499e7736357a65
+    Parameters *nullArray*
+    TrackCount 1
+VoiceOverEvent be5fc5803a59bb428c9bbff57c034b07
+    $::DataContainer
+    Name Frontlines_Objective_Taken
+    NameHash 533819939
+    Parameters *nullArray*
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+VoiceOverEvent c0c217212675f9498ba2f0dfdb0905fe
+    $::DataContainer
+    Name Frontlines_Objective_Basedefense_Begin
+    NameHash 3238640673
+    Parameters *nullArray*
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+VoiceOverConversationNodeConfigData c16433d412e4a04bb493d10779fa1d60
+    $::VoiceOverNodeConfigData
+        $::DataContainer
+        Node 782e4d95254ad5458476e11126577d4a
+    ConditionMode VoiceOverContainerConditionMode_All
+    Probability 100.0
+    Conversation::VoiceOverConversationInfo
+        Groups::array
+            member(0) 464e73598d9db04a843406a5cc6c3290
+        Tracks::array
+            member(0) 5cd1afe7dd79334a9a085f6705de16b5
+        Pronunciations *nullArray*
+        InterruptMode VoiceOverConversationInterruptMode_Disallow
+        Priority 2
+        QueueMode VoiceOverConversationQueueMode_Always
+        Relevancy 10.0
+        LastSequenceIndex 0
+    TrueRandom False
+VoiceOverValue c1f35132219cb24c89fb549afa9ea24a
+    $::DataContainer
+VoiceOverProbabilityNode c63d0f174141964ca8d04c45c2543c34
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    False 5474ae354a881443874e336bccfef3a8
+    True b767bd827404d340a929ed025d9de932
+    Probability 0.0
+VoiceOverConstantIntegerValue c8ca434fafc881479d97506ab3956ca4
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 11
+VoiceOverEvent cc9c362193f6624fbb96e7f102a7d256
+    $::DataContainer
+    Name Frontlines_Objective_Lost
+    NameHash 2099435826
+    Parameters *nullArray*
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+VoiceOverDistanceNode ce8b402e01db92489a2b26c4c0e6821d
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    A::VoiceOverValueConnection
+        TargetNode d1f8871082bf3b419669e7993ccdd8b4
+        TargetValue 9230ff1b7f1f9c49b40ff3316be474fa
+    B::VoiceOverValueConnection
+        TargetNode 1be07a53f71361468ec6e856e7d730a4
+        TargetValue 41a4f70abbf63c4fb389507ddc50a1e7
+    Threshold::VoiceOverValueConnection
+        TargetNode 6436ec1674031c4a80af82a4f1e9b5aa
+        TargetValue c1f35132219cb24c89fb549afa9ea24a
+    Distance 2931519f5d87e04595cd05081e79ae79
+    False b62248a8367e974080004e921d874a7a
+    True 1d243957594eb749b4646411f005f77c
+    Operation VoiceOverCompareExpressionType_LessOrEquals
+VoiceOverArithmeticNode d05e0cacb69e5f4a90e47298696f7894
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    A::VoiceOverValueConnection
+        TargetNode 1e7bc9839a58f146806e2ff6a05fde93
+        TargetValue 7b67eb64f51e3e4da1f35d91bae5274e
+    B::VoiceOverValueConnection
+        TargetNode a4d7dc141cd17743af8bd5cc699bc8cc
+        TargetValue 07098f88f6f3e044909b10a9ae2bad0a
+    Result 1ed7a947e2860c499997e720f3b75823
+    Operation VoiceOverArithmeticExpressionType_Addition
+VoiceOverValue d13503e18721d44a905aee868d087081
+    $::DataContainer
+VoiceOverLabelSource d1e9fccaca5f254087d1f87e6fcee6e5
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode 22161517b91a2c428bcbd920662abcca
+        TargetValue 03c9eac384a41b4184a616967e3a3534
+VoiceOverInfoNode d1f8871082bf3b419669e7993ccdd8b4
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Object::VoiceOverValueConnection
+        TargetNode 46f2d15b114cbf419e3c9bf0eb264f98
+        TargetValue 7b3c35d65ff52844a81badd32bd031fb
+    Value 9230ff1b7f1f9c49b40ff3316be474fa
+    Field 835c4e2cbdb1de1196e289fc67a5c271/f0e128e13287c64b99bbe2f66f30739b
+    ExpectedType 835c4e2cbdb1de1196e289fc67a5c271/3758c047510788449d40a949481b5b79
+VoiceOverDialogClip d421addfb3f22844988c9cd22f7a6242
+    $::DataContainer
+    MinOffset 2.0
+    MaxOffset 3.0
+    Takes::array
+        member(0)::VoiceOverDialogTake
+            Wave 7426580ed576454986b300f841c5042f/7207950e2257c543aecd0427e221794a
+            Meta *nullGuid*
+    OffsetReferences *nullArray*
+    Events *nullGuid*
+    SequenceIndex 0
+VoiceOverInfoNode d4451e7d06ef3842ab67375410026ba1
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Object::VoiceOverValueConnection
+        TargetNode 46f2d15b114cbf419e3c9bf0eb264f98
+        TargetValue 7b3c35d65ff52844a81badd32bd031fb
+    Value e7f9006530ffe0498c3734e384f81223
+    Field 835c4e2cbdb1de1196e289fc67a5c271/5389c54e07d65149a64cbe2b2f014f26
+    ExpectedType 835c4e2cbdb1de1196e289fc67a5c271/3758c047510788449d40a949481b5b79
+VoiceOverLabelList da2fd2b8d2a6a048a01081cc8839543b
+    $::DataContainer
+    Name Instance LabelArray
+    LabelValues::array
+        member(0) 53450faff4a07b459f74797970eca809
+        member(1) 0e4ae6c77f89e14abae85c52db1ceb97
+        member(2) 3b94d54add96e84c9ce681f1c4fd4e50
+        member(3) 07e4212cc299144cbb63700aa171aaf7
+        member(4) 6465b78bfc6c4b47a138573246f9a795
+        member(5) 42365d1346105b439a81e299ca0f8143
+VoiceOverLogicFlow dc7fbc5d419a8e4b9d74e2bfe9e2e81e
+    $::DataContainer
+    Name FinalStand_Mother_Flow
+    Owner 98e1fe7f7b9c3b41956d226246922ebc
+    Group 4b606756fb1a4e4aabfdcc58451bfaee
+    Locals *nullArray*
+    Roots::array
+        member(0) 6618b97e14ec2c4c98a91407945c55a7
+VoiceOverDialogTrack de084ef3b7eec24aada0eda808b55ee6
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeControl::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeIndexMapping::array
+        member(0)::VoiceOverDialogTakeMapping
+            TakeControlMin 0.0
+            TakeControlMax 0.0
+            TakeIndex 0
+        member(1)::VoiceOverDialogTakeMapping
+            TakeControlMin 1.0
+            TakeControlMax 1.0
+            TakeIndex 1
+        member(2)::VoiceOverDialogTakeMapping
+            TakeControlMin 2.0
+            TakeControlMax 2.0
+            TakeIndex 2
+    TakeSwitching VoiceOverDialogTakeBehavior_Start
+    Output *nullGuid*
+    SamplerNode Sound/VO/SourcePatch/VO_MP_Mother_Ingame/2a857b127d8fca4f8c6556f743ef16f5
+    QueueGroup 835c4e2cbdb1de1196e289fc67a5c271/c427bc2660736546915eecb57cabaf81
+    TrackSourcePosition *nullGuid*
+    Clips::array
+        member(0) 20f2c2187c7ec34fbdfcfdb3b45fd00e
+    TakeSwitchingOnResume False
+    ParentTrackIndex 0
+    GroupIndex 0
+VoiceOverInfoNode de3a8d0259ec1a41817f24476464c9a1
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Object::VoiceOverValueConnection
+        TargetNode 46f2d15b114cbf419e3c9bf0eb264f98
+        TargetValue 7b3c35d65ff52844a81badd32bd031fb
+    Value 09654bd955286847b23d1484ce64d06d
+    Field 835c4e2cbdb1de1196e289fc67a5c271/5389c54e07d65149a64cbe2b2f014f26
+    ExpectedType 835c4e2cbdb1de1196e289fc67a5c271/3758c047510788449d40a949481b5b79
+VoiceOverDialogTrack dec69e457beeb745aa0bf787d597cbaf
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeControl::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeIndexMapping::array
+        member(0)::VoiceOverDialogTakeMapping
+            TakeControlMin 0.0
+            TakeControlMax 0.0
+            TakeIndex 0
+        member(1)::VoiceOverDialogTakeMapping
+            TakeControlMin 1.0
+            TakeControlMax 1.0
+            TakeIndex 1
+        member(2)::VoiceOverDialogTakeMapping
+            TakeControlMin 2.0
+            TakeControlMax 2.0
+            TakeIndex 2
+    TakeSwitching VoiceOverDialogTakeBehavior_Start
+    Output *nullGuid*
+    SamplerNode Sound/VO/SourcePatch/VO_MP_Mother_Ingame/2a857b127d8fca4f8c6556f743ef16f5
+    QueueGroup 835c4e2cbdb1de1196e289fc67a5c271/c427bc2660736546915eecb57cabaf81
+    TrackSourcePosition *nullGuid*
+    Clips::array
+        member(0) b190cab929a8b444a782025dbfa65b60
+    TakeSwitchingOnResume False
+    ParentTrackIndex 0
+    GroupIndex 0
+VoiceOverArithmeticNode e4d36963bfe23449a652336fabbba81c
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    A::VoiceOverValueConnection
+        TargetNode 00138b1c674a6f4394f129c884e8965a
+        TargetValue 80560bf0c8ee034d834771011082d24f
+    B::VoiceOverValueConnection
+        TargetNode b50837c9d4be43408a531d7f3dda5e3f
+        TargetValue f814a59372dd6e4e97c2abb80268b710
+    Result a6aba44eb414c74199b46471d6d5eb9e
+    Operation VoiceOverArithmeticExpressionType_Addition
+VoiceOverDialogTrack e5c97bede022994d9921e4dc3ca69109
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeControl::VoiceOverValueConnection
+        TargetNode *nullGuid*
+        TargetValue *nullGuid*
+    TakeIndexMapping::array
+        member(0)::VoiceOverDialogTakeMapping
+            TakeControlMin 0.0
+            TakeControlMax 0.0
+            TakeIndex 0
+        member(1)::VoiceOverDialogTakeMapping
+            TakeControlMin 1.0
+            TakeControlMax 1.0
+            TakeIndex 1
+        member(2)::VoiceOverDialogTakeMapping
+            TakeControlMin 2.0
+            TakeControlMax 2.0
+            TakeIndex 2
+    TakeSwitching VoiceOverDialogTakeBehavior_Start
+    Output *nullGuid*
+    SamplerNode Sound/VO/SourcePatch/VO_MP_Mother_Ingame/2a857b127d8fca4f8c6556f743ef16f5
+    QueueGroup 835c4e2cbdb1de1196e289fc67a5c271/c427bc2660736546915eecb57cabaf81
+    TrackSourcePosition *nullGuid*
+    Clips::array
+        member(0) 208b6129547b2b47add4c7e510cc0a1b
+    TakeSwitchingOnResume False
+    ParentTrackIndex 0
+    GroupIndex 0
+VoiceOverValue e7f9006530ffe0498c3734e384f81223
+    $::DataContainer
+VoiceOverIntervalNode e990dd02a76940419961c9e50a13da21
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Threshold::VoiceOverValueConnection
+        TargetNode 9623dacf2fcc0c49803ecc987f4d71f3
+        TargetValue 4dc025eb17f02c44852ea0f5e3014962
+    Time d13503e18721d44a905aee868d087081
+    False 76f29ec936bb9648b1151946ca4761bb
+    True f1c6ed692aca2344aa8bbfbf123daefb
+    Interval 835c4e2cbdb1de1196e289fc67a5c271/f2c88ad8d58b9a4699cdacc7dc96d49e
+VoiceOverDialogGroup f02ba72ea5995143a13c4c9acf7e8e1b
+    $::DataContainer
+    Sound Sound/VO/SourcePatch/VO_MP_Mother_Ingame/8bc3976240161d43ba549b62a4feab60
+    Parameters *nullArray*
+    TrackCount 1
+VoiceOverValue f0e0f98e4c60934085ec210c1bb4203c
+    $::DataContainer
+VoiceOverValue f1c6ed692aca2344aa8bbfbf123daefb
+    $::DataContainer
+VoiceOverGlobalNode f20ac4808ad81e4bbd37af15f6fad0fe
+    $::VoiceOverExpressionNode
+        $::VoiceOverNode
+            $::DataContainer
+    Value 6d8fccf451ddb74cbc5466b0c76588a6
+    Field 835c4e2cbdb1de1196e289fc67a5c271/f74d0b34d6e1154aa95bd22ff68d08d4
+    Object 835c4e2cbdb1de1196e289fc67a5c271/ffb2c2555e2e1d4081eda0cf14506251
+VoiceOverDialogClip f2ed719a622ec241b03639d873e03420
+    $::DataContainer
+    MinOffset 2.0
+    MaxOffset 3.0
+    Takes::array
+        member(0)::VoiceOverDialogTake
+            Wave 7426580ed576454986b300f841c5042f/7207950e2257c543aecd0427e221794a
+            Meta *nullGuid*
+    OffsetReferences *nullArray*
+    Events *nullGuid*
+    SequenceIndex 0
+VoiceOverDialogTrack f5d833240c7a924db5cd85edc41984da
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode 46f2d15b114cbf419e3c9bf0eb264f98
+        TargetValue 7b3c35d65ff52844a81badd32bd031fb
+    TakeControl::VoiceOverValueConnection
+        TargetNode e4d36963bfe23449a652336fabbba81c
+        TargetValue a6aba44eb414c74199b46471d6d5eb9e
+    TakeIndexMapping *nullArray*
+    TakeSwitching VoiceOverDialogTakeBehavior_Start
+    Output *nullGuid*
+    SamplerNode e165bfe168b964449b96549f4b5ceac9/323fd7e59d48fd4aa49e9d6c19dc2df9
+    QueueGroup 835c4e2cbdb1de1196e289fc67a5c271/aa94e32fc367f143a2068ffc9f596d38
+    TrackSourcePosition *nullGuid*
+    Clips::array
+        member(0) 492b88b734f0cd4d8bd049ab9c24d9a2
+    TakeSwitchingOnResume False
+    ParentTrackIndex 0
+    GroupIndex 0
+VoiceOverValue f814a59372dd6e4e97c2abb80268b710
+    $::DataContainer
+VoiceOverConstantIntegerValue f8230404c0914a41a0385963c546230c
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 7
+VoiceOverConstantIntegerValue f92ae738b443064db6e7ddc865fe9c69
+    $::VoiceOverConstantValue
+        $::DataContainer
+    Value 1
+VoiceOverDialogTrack f9d498b37fdeef409fb7f5b8f67648ae
+    $::DataContainer
+    Source::VoiceOverValueConnection
+        TargetNode 3b06afdb36d0c14882d5210a1f980dd7
+        TargetValue 29588edf61146b459f0b8a447b8934bc
+    TakeControl::VoiceOverValueConnection
+        TargetNode d05e0cacb69e5f4a90e47298696f7894
+        TargetValue 1ed7a947e2860c499997e720f3b75823
+    TakeIndexMapping *nullArray*
+    TakeSwitching VoiceOverDialogTakeBehavior_Start
+    Output *nullGuid*
+    SamplerNode f015c1f69171d84ba30f1234fb09f3cd/030908b204375f4299440e5e9578a0b6
+    QueueGroup 835c4e2cbdb1de1196e289fc67a5c271/aa94e32fc367f143a2068ffc9f596d38
+    TrackSourcePosition *nullGuid*
+    Clips::array
+        member(0) d421addfb3f22844988c9cd22f7a6242
+    TakeSwitchingOnResume False
+    ParentTrackIndex 0
+    GroupIndex 0

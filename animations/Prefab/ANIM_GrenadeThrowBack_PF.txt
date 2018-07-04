@@ -1,0 +1,79 @@
+LogicPrefabBlueprint dc6511ed8b9f6a21d2eca6b8379a63e2
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Animations/Prefab/ANIM_GrenadeThrowBack_PF
+                    PropertyConnections *nullArray*
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 1130556714
+                            TargetFieldId -1574046412
+                    Interface 00000001
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 434301581
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 345872235
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000002
+            member(1) 00000000
+        TimeDeltaType TimeDeltaType_None
+AnimationSignalEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1661711826
+    Signal::AntRef
+        AssetGuid 17FC33688751349B0000000000000000
+        ProjectId 0
+    IntGameState::AntRef
+        AssetGuid 00000000000000000000000000000000
+        ProjectId 0
+    FloatGameState::AntRef
+        AssetGuid 00000000000000000000000000000000
+        ProjectId 0
+    ValueInt 0
+    ValueFloat 0.0
+    Reset True
+    Continuous False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 345872235
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id -1574046412
+LocalPlayerFilterEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 45584390
+    Realm Realm_Client
+    ForwardToLocalSpectators True

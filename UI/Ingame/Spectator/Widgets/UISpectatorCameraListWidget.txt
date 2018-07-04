@@ -1,0 +1,455 @@
+UIWidgetBlueprint 7f209ae8104efbbe39f5ff1c25b4a761
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Spectator/Widgets/UISpectatorCameraListWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 211293062
+                            TargetFieldId -1578607940
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 0000000a
+                            Target 00000005
+                            SourceFieldId -629711423
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 0000000c
+                            Target 0000000b
+                            SourceFieldId -577506325
+                            TargetFieldId 303548130
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 0000000c
+                            SourceFieldId 271114732
+                            TargetFieldId -3329229
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 0000000a
+                            Target 00000004
+                            SourceFieldId -2133660530
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 0000000b
+                            Target 00000009
+                            SourceFieldId 193453899
+                            TargetFieldId 193450866
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000009
+                            Target 00000003
+                            SourceFieldId 193453899
+                            TargetFieldId -1693137389
+                            Flags 2
+                        member(7)::PropertyConnection
+                            Source 00000008
+                            Target 00000009
+                            SourceFieldId 225375086
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(8)::PropertyConnection
+                            Source 0000000a
+                            Target 00000009
+                            SourceFieldId -141474860
+                            TargetFieldId 193450867
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId -188171420
+                            TargetFieldId 0
+                        member(1)::LinkConnection
+                            Source 00000001
+                            Target 0000000d
+                            SourceFieldId -554454449
+                            TargetFieldId -1305601432
+                    Interface 0000000a
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 0000000a
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 2088909055
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000005
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id -81881639
+                        TargetEvent::EventSpec
+                            Id 2089008817
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000006
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 1145180807
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 0000000a
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 2088909055
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 0000000a
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -2133660530
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000007
+                        Target 00000008
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id 229946160
+                        TargetType EventConnectionTargetType_Client
+                    member(6)::EventConnection
+                        Source 00000007
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id 1145180807
+                        TargetType EventConnectionTargetType_Client
+                    member(7)::EventConnection
+                        Source 00000007
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id 212633683
+                        TargetType EventConnectionTargetType_Client
+                    member(8)::EventConnection
+                        Source 00000007
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id -1357088108
+                        TargetType EventConnectionTargetType_Client
+                    member(9)::EventConnection
+                        Source 00000007
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id 2089417369
+                        TargetType EventConnectionTargetType_Client
+                    member(10)::EventConnection
+                        Source 00000005
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 1723395486
+                        TargetType EventConnectionTargetType_Client
+                    member(11)::EventConnection
+                        Source 00000004
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 1723395486
+                        TargetType EventConnectionTargetType_Client
+                    member(12)::EventConnection
+                        Source 00000006
+                        Target 0000000a
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -656022383
+                        TargetType EventConnectionTargetType_Client
+        Object 00000003
+ActionMessageSenderEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 189935017
+    Realm Realm_Client
+    Message UI/InGame/Spectator/Logic/UISpectatorSelectCameraMessage/af0f54dc47bba14cb0ebc96514817c50
+    InputPropertyIndices *nullArray*
+    InputPropertyRefIndices::array
+        member(0) 0
+BFUIGetSpectatorCameraListEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1659617973
+BFUILayoutGenericListEntityData 00000002
+    $::BFUILayoutEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 64364077
+        ElementOffsetScaling::Vec2
+            x 0.0
+            y 0.0
+    LayoutMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementStep::Vec2
+        x 3.0
+        y 0.0
+    ElementStepFactor::Vec2
+        x 1.0
+        y 0.0
+    ElementPivot::Vec2
+        x 0.0
+        y 0.0
+    HorizontalAlignment BFUILayoutHorizontalAlignment_Left
+    VerticalAlignment BFUILayoutVerticalAlignment_Top
+    AutoSizeElementsHorizontally False
+    AutoSizeElementsVertically False
+    DrawZeroSizeElement True
+BFUIListWidgetData 00000003
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1781091025
+            Size::UIElementSize
+                X 550.0
+                Y 40.0
+            Layers *nullArray*
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000005
+                member(1) 00000006
+                member(2) 00000001
+                member(3) 00000000
+                member(4) 0000000b
+                member(5) 0000000c
+                member(6) 00000002
+                member(7) 0000000d
+                member(8) 00000004
+                member(9) 00000009
+                member(10) 00000008
+                member(11) 00000007
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Ingame/Spectator/Widgets/UISpectatorCameraListCell/7aa4ff6605271fc9b601d838fc28d0f4
+    MaxRows 5
+    SelectionInput 0
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit False
+    ValidateSetSelection False
+    WrapSelection True
+    AutoSizeWidgetHorizontally False
+    AutoSizeWidgetVertically False
+    Enabled True
+    ScrollIntoView False
+CompareBoolEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 181533071
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange False
+    TriggerOnStart False
+    AlwaysSend False
+CompareBoolEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 184331671
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange False
+    TriggerOnStart False
+    AlwaysSend False
+EventGateEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 66465704
+    Realm Realm_Client
+    DefaultOpen False
+EventSplitterEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 56122913
+    Realm Realm_Client
+    RunOnce False
+IntEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 52576964
+    Realm Realm_Client
+    DefaultValue -1
+    IncDecValue 1
+IntHubEntityData 00000009
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 148733649
+    Realm Realm_Client
+    InputCount 2
+    InputSelect 0
+    HashedInput::array
+        member(0) 193450866
+        member(1) 193450867
+        member(2) 193450864
+InterfaceDescriptorData 0000000a
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -629711423
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -2133660530
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value Int32 -1
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 2088909055
+        member(1)::DynamicEvent
+            Id -2133660530
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -656022383
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 0000000b
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 151644385
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 1
+                    member(2) 0
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputI
+                Result 0
+                Param1 303548130
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_ConstI
+                Result 1
+                Param1 0
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_LessI
+                Result 0
+                Param1 0
+                Param2 1
+            member(3)::MathEntityInstruction
+                Code MathOpCode_ConstI
+                Result 1
+                Param1 0
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 193418243
+                Param2 0
+            member(5)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 2
+                Param2 0
+    EvaluateOnEvent False
+SchematicChannelEntityData 0000000c
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 161180044
+    Realm Realm_Client
+    Channel UI/Ingame/Spectator/Logic/UIChannelSpectator/90043839e0fdda44871c36f45559f69a
+    InputProperties::array
+        member(0) 2
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 1
+    OutputRefProperties *nullArray*
+SchematicChannelEntityData 0000000d
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 51300494
+    Realm Realm_Client
+    Channel Gameplay/MP/_SubSystems/Spectator/Spectator_Hub/8321d2ca60ebd4438af2cc2742ea62c2
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*

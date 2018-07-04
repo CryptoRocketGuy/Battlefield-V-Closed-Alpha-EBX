@@ -1,0 +1,93 @@
+LogicPrefabBlueprint 34e8479338e2456e96887e34c63cf6e8
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/General/dwc_PhantomCollision_GatingControl
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1824857448
+                        TargetEvent::EventSpec
+                            Id 212633683
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1298341873
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -1403774390
+                        TargetType EventConnectionTargetType_Server
+                    member(3)::EventConnection
+                        Source 00000001
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1824857448
+                        TargetEvent::EventSpec
+                            Id 569368988
+                        TargetType EventConnectionTargetType_Server
+                    member(4)::EventConnection
+                        Source 00000001
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -354363398
+                        TargetEvent::EventSpec
+                            Id 569368988
+                        TargetType EventConnectionTargetType_Server
+                    member(5)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 1172446787
+                        TargetEvent::EventSpec
+                            Id 2089008817
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+EventGateEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 100517998
+    Realm Realm_Server
+    DefaultOpen True
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1824857448
+        member(1)::DynamicEvent
+            Id -1298341873
+        member(2)::DynamicEvent
+            Id -354363398
+        member(3)::DynamicEvent
+            Id 1172446787
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -1403774390
+        member(1)::DynamicEvent
+            Id 569368988
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

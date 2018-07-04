@@ -1,0 +1,53 @@
+LogicPrefabBlueprint 59e8ebd07528d94b917e226d96f732fc
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Menu/Logic/MP_IsAllowedToExit
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 1367960349
+                        TargetEvent::EventSpec
+                            Id 1723395486
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id 1485638222
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+EventSplitterEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 63641199
+    Realm Realm_Client
+    RunOnce False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 1367960349
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 1485638222
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

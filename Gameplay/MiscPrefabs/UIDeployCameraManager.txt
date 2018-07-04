@@ -1,0 +1,219 @@
+LogicPrefabBlueprint 6feb8d7947e8c2d4a3359d885cebb2c1
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MiscPrefabs/UIDeployCameraManager
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000005
+                            SourceFieldId 477464689
+                            TargetFieldId 477464689
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 477464689
+                            TargetFieldId 1638264232
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -2073070608
+                            TargetFieldId 193450864
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 225375086
+                            TargetFieldId 299217285
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000004
+                            Target 00000001
+                            SourceFieldId 477464689
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000001
+                            Target 00000005
+                            SourceFieldId 193453899
+                            TargetFieldId -763747610
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000004
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1564231570
+                        TargetEvent::EventSpec
+                            Id 1723395486
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000005
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -949470681
+                        TargetEvent::EventSpec
+                            Id 1723395486
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id -1357088108
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000003
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000003
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id -1103897894
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000005
+            member(1) 00000000
+            member(2) 00000002
+            member(3) 00000003
+            member(4) 00000001
+        TimeDeltaType TimeDeltaType_None
+BFCombatAreaCameraProviderEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 186821036
+    Realm Realm_Client
+    SuperTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    Iterations 3
+    VerticalSafeAreaFactor 0.40000000596
+    HorizontalSafeAreaFactor 0.0500000007451
+    VerticalOffsetFactor 0.0
+    HorizontalOffsetFactor 0.0
+    VerticalFov 55.0
+    AspectRatio 1.77777779102
+TransformSelectorEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 150762975
+    Realm Realm_Client
+    In1::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    In2::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    Selection False
+BoolEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 44928860
+    Realm Realm_Client
+    DefaultValue False
+EventSplitterEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 50241094
+    Realm Realm_Client
+    RunOnce False
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 477464689
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1564231570
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SchematicChannelEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 194700373
+    Realm Realm_Client
+    Channel UI/Ingame/Shared/Logic/UIDeploy3DChannel/5afe7525cadeb4d6a1067d8efa490537
+    InputProperties::array
+        member(0) 0
+        member(1) 1
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*

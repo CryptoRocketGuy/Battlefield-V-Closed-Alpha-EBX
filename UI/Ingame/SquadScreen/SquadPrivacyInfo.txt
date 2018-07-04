@@ -1,0 +1,587 @@
+UIWidgetBlueprint bcb099f76230d805bf1ab003b9c7f879
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/SquadScreen/SquadPrivacyInfo
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000007
+                            Target 00000003
+                            SourceFieldId 602890055
+                            TargetFieldId 602890055
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000007
+                            Target 00000004
+                            SourceFieldId 214540386
+                            TargetFieldId 214540386
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000006
+                            Target 00000005
+                            SourceFieldId -188171420
+                            TargetFieldId 0
+                        member(1)::LinkConnection
+                            Source 00000006
+                            Target 00000004
+                            SourceFieldId 832913074
+                            TargetFieldId 0
+                        member(2)::LinkConnection
+                            Source 00000006
+                            Target 00000002
+                            SourceFieldId 832913074
+                            TargetFieldId 0
+                        member(3)::LinkConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId 832913074
+                            TargetFieldId 0
+                    Interface 00000007
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000006
+BFUIElementBlurEntityData 00000000
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+            InstanceName Blur
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 1.0
+                y 1.0
+                z 1.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 2087736428
+            Size::Vec2
+                x 456.0
+                y 30.0
+            LayoutMode UILayoutMode_PositionExpansion
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.0
+                Y 0.0
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 1.0
+                Height 1.0
+            Alpha 1.0
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    MaskTexture *nullString*
+    BlendMode UIBlendMode_AlphaBlend
+    OverrideBlendMode False
+BFUIElementShapeEntityData 00000001
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+            InstanceName Background
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 1383623595
+            Size::Vec2
+                x 456.0
+                y 30.0
+            LayoutMode UILayoutMode_PositionExpansion
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.0
+                Y 0.0
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 1.0
+                Height 1.0
+            Alpha 0.40000000596
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    ShapeDefinition UI/Ingame/Deploy/Assets/SquareFilledWhite/7f93ee36a6c87f4c9dd0cb03e48c221c
+    RampWidth 1.0
+    ExtraGeometry 1.0
+    BlendMode UIBlendMode_AlphaBlend
+    ZOrder 0
+    KeepAspectRatio False
+    ScaleLineWidths True
+    UseColorAsOverlay False
+    OverrideBlendMode False
+BFUIElementTextFieldEntityData 00000002
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 33554432
+            InstanceName EqualText
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 1.0
+                y 1.0
+                z 1.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 569941012
+            Size::Vec2
+                x 30.0
+                y 30.0
+            LayoutMode UILayoutMode_AnchorOffset
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.0
+                Y 0.0
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 0.0
+                Height 0.0
+            Alpha 1.0
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    Text::BFUILegacyElementText
+        Sid =
+        VerticalAlignment UIElementAlignment_Center
+        HorizonalAlignment UIElementAlignment_Center
+        HorizonalAlignmentForRTL UIElementAlignment_Right
+        Wordwrap False
+    FontStyle UI/Fonts/StylesCasablanca/BF-Text_Regular_18px/0ff87555575c4842a2d9a40f8b923de0
+    FontEffect *nullGuid*
+    TextOffset 0.0
+    AutoAdjustLeftPadding 0.0
+    AutoAdjustRightPadding 0.0
+    AutoScroll UIAutoScroll_None
+    FieldText *nullString*
+    LocalizedText *nullGuid*
+    RowSpacing 0.0
+    BlendMode UIBlendMode_AlphaBlend
+    ZOrder 0
+    AutoAdjustWidth True
+    ClipToRect False
+    Password False
+    WordWrap False
+    PixelSnapping True
+    UseColorAsOverlay False
+    OverrideBlendMode False
+BFUIElementTextFieldEntityData 00000003
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 167772160
+            InstanceName PrivacyText
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 1.0
+                y 1.0
+                z 1.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 1851343294
+            Size::Vec2
+                x 256.0
+                y 30.0
+            LayoutMode UILayoutMode_AnchorOffset
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.0
+                Y 0.0
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 0.0
+                Height 0.0
+            Alpha 1.0
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    Text::BFUILegacyElementText
+        Sid *nullString*
+        VerticalAlignment UIElementAlignment_Center
+        HorizonalAlignment UIElementAlignment_Center
+        HorizonalAlignmentForRTL UIElementAlignment_Right
+        Wordwrap False
+    FontStyle UI/Fonts/StylesCasablanca/BF-Text_Regular_18px/0ff87555575c4842a2d9a40f8b923de0
+    FontEffect *nullGuid*
+    TextOffset 0.0
+    AutoAdjustLeftPadding 5.0
+    AutoAdjustRightPadding 5.0
+    AutoScroll UIAutoScroll_None
+    FieldText *nullString*
+    LocalizedText *nullGuid*
+    RowSpacing 0.0
+    BlendMode UIBlendMode_AlphaBlend
+    ZOrder 0
+    AutoAdjustWidth True
+    ClipToRect False
+    Password False
+    WordWrap False
+    PixelSnapping True
+    UseColorAsOverlay False
+    OverrideBlendMode False
+SvgElementData 00000004
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 167772160
+            InstanceName SvgIcon
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 1.0
+                y 1.0
+                z 1.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 1707546636
+            Size::Vec2
+                x 25.0
+                y 25.0
+            LayoutMode UILayoutMode_AnchorOffset
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.0
+                Y 0.5
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 0.0
+                Height 0.0
+            Alpha 1.0
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    UVRect::Vec4
+        x 0.0
+        y 0.0
+        z 1.0
+        w 1.0
+    Image *nullGuid*
+    HorizontalAlignment UIElementAlignment_Center
+    VerticalAlignment UIElementAlignment_Center
+    BlendMode UIBlendMode_AlphaBlend
+    ZOrder 0
+    RasterizeOnSizeChanged False
+    KeepSourceScale False
+    KeepSourceAspectRatio False
+    AutoSizeHorizontally False
+    AutoSizeVertically False
+    UseColorAsOverlay False
+    OverrideBlendMode False
+    InvertColor False
+BFUILayoutGenericListEntityData 00000005
+    $::BFUILayoutEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 48496074
+        ElementOffsetScaling::Vec2
+            x 0.0
+            y 0.0
+    LayoutMargin::Vec2
+        x 2.5
+        y 0.0
+    ElementMargin::Vec2
+        x 2.5
+        y 0.0
+    ElementStep::Vec2
+        x 0.0
+        y 0.0
+    ElementStepFactor::Vec2
+        x 1.0
+        y 0.0
+    ElementPivot::Vec2
+        x 0.0
+        y 0.0
+    HorizontalAlignment BFUILayoutHorizontalAlignment_Left
+    VerticalAlignment BFUILayoutVerticalAlignment_Top
+    AutoSizeElementsHorizontally False
+    AutoSizeElementsVertically False
+    DrawZeroSizeElement True
+BFUILayoutWidgetData 00000006
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1783766148
+            Size::UIElementSize
+                X 456.0
+                Y 30.0
+            Layers::array
+                member(0) 00000009
+                member(1) 00000008
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000005
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    AutoSizeWidgetHorizontally False
+    AutoSizeWidgetVertically False
+InterfaceDescriptorData 00000007
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 214540386
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 602890055
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+UIElementLayerEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName Privacy info
+    Elements::array
+        member(0) 00000004
+        member(1) 00000002
+        member(2) 00000003
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True
+UIElementLayerEntityData 00000009
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName Background
+    Elements::array
+        member(0) 00000000
+        member(1) 00000001
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True

@@ -1,0 +1,300 @@
+LogicPrefabBlueprint f2b51b920e174141a7a044f2817c83b9
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Persistence/Prefabs/PersistenceMPAirborneObjective
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000008
+                            SourceFieldId -640641510
+                            TargetFieldId -1397800335
+                            Flags 3
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000009
+                            SourceFieldId -640641510
+                            TargetFieldId -1397800335
+                            Flags 3
+                        member(2)::PropertyConnection
+                            Source 00000005
+                            Target 00000008
+                            SourceFieldId -640641510
+                            TargetFieldId 872742920
+                            Flags 3
+                        member(3)::PropertyConnection
+                            Source 00000005
+                            Target 00000008
+                            SourceFieldId -640641510
+                            TargetFieldId 1565464427
+                            Flags 3
+                        member(4)::PropertyConnection
+                            Source 00000006
+                            Target 00000009
+                            SourceFieldId -640641510
+                            TargetFieldId 1565464427
+                            Flags 3
+                        member(5)::PropertyConnection
+                            Source 00000007
+                            Target 00000000
+                            SourceFieldId -1399230854
+                            TargetFieldId 214522259
+                            Flags 3
+                        member(6)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 1921136047
+                            TargetFieldId -302705260
+                            Flags 3
+                        member(7)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -1399230854
+                            TargetFieldId 214522259
+                            Flags 3
+                        member(8)::PropertyConnection
+                            Source 00000005
+                            Target 00000009
+                            SourceFieldId -640641510
+                            TargetFieldId 872742920
+                            Flags 3
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -183028934
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000006
+                        Target 00000009
+                        SourceEvent::EventSpec
+                            Id 1576555739
+                        TargetEvent::EventSpec
+                            Id -1688613187
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000004
+                        Target 00000008
+                        SourceEvent::EventSpec
+                            Id -195721815
+                        TargetEvent::EventSpec
+                            Id -1688613187
+                        TargetType EventConnectionTargetType_Server
+                    member(3)::EventConnection
+                        Source 00000004
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -195721815
+                        TargetEvent::EventSpec
+                            Id 193450867
+                        TargetType EventConnectionTargetType_Server
+                    member(4)::EventConnection
+                        Source 00000004
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id -218074172
+                        TargetEvent::EventSpec
+                            Id 223744783
+                        TargetType EventConnectionTargetType_Server
+                    member(5)::EventConnection
+                        Source 00000004
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -218074172
+                        TargetEvent::EventSpec
+                            Id -183028934
+                        TargetType EventConnectionTargetType_Server
+                    member(6)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 905512328
+                        TargetEvent::EventSpec
+                            Id 193450864
+                        TargetType EventConnectionTargetType_Server
+                    member(7)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 2088671869
+                        TargetType EventConnectionTargetType_Server
+                    member(8)::EventConnection
+                        Source 00000002
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 229946160
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000008
+            member(1) 00000003
+            member(2) 00000005
+            member(3) 00000009
+            member(4) 00000001
+            member(5) 00000000
+            member(6) 00000006
+            member(7) 00000007
+            member(8) 00000002
+        TimeDeltaType TimeDeltaType_None
+QueryFilterEntityData 00000000
+    $::GameplayQueryBaseEntityData
+        $::CustomSchedulableEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 301661773
+    Realm Realm_Server
+    InputData::QueryFilterEntityInputData
+        TargetOffset::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        FilterOutDistanceType FilterOutDistanceType_GreaterThan
+        FilterOutDistance -1.0
+        FilterOutAngle -1.0
+        FilterOutXZAngle -1.0
+        HeightDifference -1.0
+        DistanceMultiplier 1.0
+        AngleMultiplier 1.0
+        MinTargetAngleFromForwardDirection 0.0
+        MaxTargetAngleFromForwardDirection 180.0
+        MaxResults -1
+        SortOutputMode SortOutputModeType_None
+        FilterOutFriently False
+        FilterOutEnemies False
+        FilterOutSpecificControllable True
+        FilterOutAllButSquad False
+        SelectOnlyFirstMatching False
+        FilterClearLineOfSight False
+        IgnoreCharactersForLos False
+        IgnoreSeeThroughMaterial False
+        PoseFilter::PoseFilterData
+            FilterOutStandPose False
+            FilterOutCrouchPose False
+            FilterOutPronePose False
+        IgnorePenetrableMaterial False
+        FilterOutDeadControllables True
+        FilterOutShieldedCharacters False
+    StartTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    Input::QueryEntityResult
+        PointerCastToInt 0
+    Latency 0.0
+    TeamId TeamNeutral
+    SquadId SquadNone
+    UseTransformFromOwnControllable False
+QueryResultToPlayerEventEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 363153377
+    Realm Realm_Server
+    Input::QueryEntityResult
+        PointerCastToInt 0
+    StartIndex 0
+    EndIndex 0
+    SendPlayerEventsOnPropertyChange False
+EventAndGateEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 81498436
+    Realm Realm_Server
+    EventCount 2
+GlobalContextEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 24292716
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -195721815
+        member(1)::DynamicEvent
+            Id -218074172
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+PlayerEventToPlayerEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 99452247
+PlayerEventToPlayerEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 93135544
+SquadQueryEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 83466098
+    Realm Realm_Server
+    OutputFilterType QueryEntityFilter_Players
+    TeamId TeamNeutral
+    SquadId SquadNone
+    UseSquadIdForQuery False
+    ExcludeEventPlayerFromSquad True
+StatEventTriggerEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 367379270
+    TargetContext *nullGuid*
+    Event 25dd4cf238bde61183408ba0f4334b21/e8b8bf7cee8ce1429b2f68cf443c64ee
+StatEventTriggerEntityData 00000009
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 338027634
+    TargetContext *nullGuid*
+    Event 25dd4cf238bde61183408ba0f4334b21/ba5686a6404a904a9645ed94fd8e1ff2

@@ -1,0 +1,229 @@
+ObjectBlueprint 31ae1f9df488e54485006c00c5449aa8
+    $::Blueprint
+        $::EntityBusData
+            $::DataBusData
+                $::Asset
+                    $::DataContainer
+                    Name DynamicWorld/fortifications/StationaryWeapons/VEH_Stationary_PAK40_PreVis
+                PropertyConnections *nullArray*
+                LinkConnections *nullArray*
+                Interface 00000003
+                Flags 2
+            EventConnections::array
+                member(0)::EventConnection
+                    Source 00000005
+                    Target 00000003
+                    SourceEvent::EventSpec
+                        Id 650265526
+                    TargetEvent::EventSpec
+                        Id 650265526
+                    TargetType EventConnectionTargetType_Client
+                member(1)::EventConnection
+                    Source 00000003
+                    Target 00000005
+                    SourceEvent::EventSpec
+                        Id 2089460481
+                    TargetEvent::EventSpec
+                        Id 2089460481
+                    TargetType EventConnectionTargetType_Client
+                member(2)::EventConnection
+                    Source 00000003
+                    Target 00000005
+                    SourceEvent::EventSpec
+                        Id 2089401213
+                    TargetEvent::EventSpec
+                        Id 2089401213
+                    TargetType EventConnectionTargetType_Client
+                member(3)::EventConnection
+                    Source 00000005
+                    Target 00000005
+                    SourceEvent::EventSpec
+                        Id 650265526
+                    TargetEvent::EventSpec
+                        Id 965271180
+                    TargetType EventConnectionTargetType_Client
+    Object 00000002
+HealthStateData 00000000
+    $::DataContainer
+    Objects *nullArray*
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 100.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 0
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts True
+PartComponentData 00000001
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 27716139
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    HealthStates::array
+        member(0) 00000000
+    PartLinks *nullArray*
+    IsSupported False
+    IsFragile False
+    AffectsBoundingBox True
+    IsNetworkable False
+    IsWindow False
+    AnimatePhysics False
+StaticModelEntityData 00000002
+    $::GamePhysicsEntityData
+        $::GameComponentEntityData
+            $::ComponentEntityData
+                $::SpatialEntityData
+                    $::EntityData
+                        $::GameObjectData
+                            $::DataBusPeer
+                                $::GameDataContainer
+                                    $::DataContainer
+                                Flags 505600887
+                    Transform::LinearTransform
+                        right::Vec3
+                            x 1.0
+                            y 0.0
+                            z 0.0
+                        up::Vec3
+                            x 0.0
+                            y 1.0
+                            z 0.0
+                        forward::Vec3
+                            x 0.0
+                            y 0.0
+                            z 1.0
+                        trans::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                Components::array
+                    member(0) 00000001
+                    member(1) 00000005
+                ClientRuntimeComponentCount 1
+                ServerRuntimeComponentCount 1
+                ClientRuntimeTransformationCount 1
+                ServerRuntimeTransformationCount 1
+            Enabled True
+            EnableOutOfBoundsCheck True
+        PhysicsData *nullGuid*
+        IsTraversable True
+        IsCharacterCollidable True
+    PartLinks *nullArray*
+    Mesh dynamicworld/fortifications/stationaryweapons/veh_stationary_pak40_previs_Mesh/61db588dd187c140bb7895db90445a8a
+    BoneCount 0
+    BasePoseTransforms *nullArray*
+    PhysicsPartInfos::array
+        member(0)::PhysicsPartInfo
+            PartComponentIndex 0
+            HealthStateIndex 0
+    NetworkInfo::StaticModelNetworkInfo
+        PartNetworkIdRanges::array
+            member(0)::IndexRange
+                First 4294967295
+                Last 4294967295
+        NetworkIdCount 0
+        ChildNetworkInfos *nullArray*
+        ChildNetworkIdCount 0
+    LightMapWeight 1.0
+    ExcludeFromNearbyObjectDestruction False
+    AnimatePhysics False
+    TerrainShaderNodesEnable False
+    ExplosionPacksAttachable True
+    TeleportPhysicsOnTransformChanges False
+    Visible True
+    OverlayEnabled False
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 2089460481
+        member(1)::DynamicEvent
+            Id 2089401213
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 650265526
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+TimelineData 00000004
+    $::TimelineTrackData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+        Conditions *nullArray*
+        UpdatePassFlags 3072
+        BucketPreChildrenOrder 0
+        BucketOrder 1
+        ExposePins False
+        IsDisabled False
+    Children *nullArray*
+TimelineEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 39492562
+    Realm Realm_Client
+    TimelineData 00000004
+    DeltaTimeClock Clock_SimTimeWithWorldDilation
+    BlendInTime 0.0
+    BlendOutTime 0.0
+    InitTime 0.0
+    StartTime 0.0
+    EndTime 8.46666622162
+    JumpTime 0.0
+    PlaybackRate 1.0
+    ExternalTime 0.0
+    ExternalAudioTime 0.0
+    UpdatePassFlags 2112
+    AutoPlay False
+    AutoInitConnectedProperties False
+    ResetTimeOnStarted True
+    AllowAnimationCarryForward False
+    SyncTimelines False
+    HoldLastFrame True
+    TimelineInterpolation False
+    RuntimeFramerate 0
+    Looping False
+    Infinite False

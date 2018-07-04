@@ -1,0 +1,105 @@
+LogicPrefabBlueprint 432fbed532af2a6028d2f2f461c23a6c
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Shared/Logic/UICoreGuardianAngel
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 15935662
+                        TargetEvent::EventSpec
+                            Id -1952177180
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -259799322
+                        TargetEvent::EventSpec
+                            Id -1095741813
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+UIScreenRenderEntityData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 58272557
+            Blueprint UI/Ingame/Shared/Widgets/UIGuardianAngelRoot/25a14af515418115c75267fb9f8e28b4
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    ScreenData UI/ScreenData/UIInGameMenuScreenData/a35a5073e8451149aa8237c4ba02975c
+    Scale 0.0010000000475
+    ProjectionMode UIScreenProjectionMode_Default
+    RenderPass UIScreenRenderingPass_BelowFlash
+    UpdateOrder 0
+    ViewId LocalPlayerViewId_RootView
+    Alpha 1.0
+    UseGameViewProjection False
+    EnableDepthCulling False
+    CenterScreen False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 15935662
+        member(1)::DynamicEvent
+            Id -259799322
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

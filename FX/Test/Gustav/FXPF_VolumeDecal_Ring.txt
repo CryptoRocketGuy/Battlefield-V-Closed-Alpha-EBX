@@ -1,0 +1,229 @@
+SpatialPrefabBlueprint 7298ba641db2e91457fa0d867e73417b
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/Test/Gustav/FXPF_VolumeDecal_Ring
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 2662400
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000006
+                            SourceFieldId 2089429248
+                            TargetFieldId 1658462601
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000006
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId -840421845
+                            Flags 34
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId -2066226675
+                            TargetFieldId 1658462601
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId -840421848
+                            Flags 34
+                        member(5)::PropertyConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId -589184995
+                            TargetFieldId 1658462601
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId -840421847
+                            Flags 34
+                        member(7)::PropertyConnection
+                            Source 00000002
+                            Target 00000005
+                            SourceFieldId 212387320
+                            TargetFieldId 1658462601
+                            Flags 2
+                        member(8)::PropertyConnection
+                            Source 00000005
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId -391320406
+                            Flags 34
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -81881639
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+            member(2) 00000006
+            member(3) 00000004
+            member(4) 00000003
+            member(5) 00000005
+        TimeDeltaType TimeDeltaType_None
+EffectReferenceObjectData 00000000
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 167947647
+            Blueprint FX/Test/Gustav/FX_VolumeDecal_Ring/e289ba7989f8e89e36edbc8123264e8a
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters::array
+        member(0) e1935b003c2ee211b9de874e05283483/842ed34592b5144eab1336ea57ee3118
+        member(1) e1935b003c2ee211b9de874e05283483/994fd372c101394793985af641d1897f
+        member(2) e1935b003c2ee211b9de874e05283483/58025607660f1144a89d5f461e481106
+        member(3) e1935b003c2ee211b9de874e05283483/148b4bfb14dde14e847f968bab5f650a
+    AutoStart False
+    AffectedByLightprobeVisibility False
+CompareBoolEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 159328940
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange True
+    TriggerOnStart True
+    AlwaysSend False
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Float32 1
+                ValueRef *nullGuid*
+                Id 2089429248
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value Float32 1
+                ValueRef *nullGuid*
+                Id -2066226675
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value Float32 0.1
+                ValueRef *nullGuid*
+                Id -589184995
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id 2662400
+                AccessType FieldAccessType_Target
+            member(4)::DataField
+                Value Vec3 (1,1,1)
+                ValueRef *nullGuid*
+                Id 212387320
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+PropertyDefaultValueEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 158771294
+    Realm Realm_Client
+    WrappedType PropertyDebugTypeClass_Float
+    WrappedTypeHash 2134484916
+PropertyDefaultValueEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 155161713
+    Realm Realm_Client
+    WrappedType PropertyDebugTypeClass_Float
+    WrappedTypeHash 2134484916
+PropertyDefaultValueEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 163425943
+    Realm Realm_Client
+    WrappedType PropertyDebugTypeClass_Vec3
+    WrappedTypeHash 2089241862
+PropertyDefaultValueEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 145138130
+    Realm Realm_Client
+    WrappedType PropertyDebugTypeClass_Float
+    WrappedTypeHash 2134484916

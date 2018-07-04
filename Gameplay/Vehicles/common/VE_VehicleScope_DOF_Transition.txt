@@ -1,0 +1,264 @@
+VisualEnvironmentBlueprint a50bf287d2f6ae4496a1eeac8e298911
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/common/VE_VehicleScope_DOF_Transition
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000003
+                            SourceFieldId 1589892860
+                            TargetFieldId 2662400
+                            Flags 18
+                        member(1)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId -718768846
+                            TargetFieldId -718768846
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000004
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 752780153
+                        TargetEvent::EventSpec
+                            Id 752780153
+                        TargetType EventConnectionTargetType_Client
+        Object 00000002
+    TimeDeltaType TimeDeltaType_None
+LensScopeComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 162608147
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Enable
+            member(1) ChromaticAberrationStrengths
+            member(2) ChromaticAberrationColor1
+            member(3) ChromaticAberrationColor2
+            member(4) ChromaticAberrationDisplacement2
+            member(5) ChromaticAberrationDisplacement1
+            member(6) BlurScale
+            member(7) BlurCenter
+            member(8) RadialBlendDistanceCoefficients
+        PropertyOverrideMasks::array
+            member(0) 1019
+    ChromaticAberrationColor1::Vec3
+        x 0.224265113473
+        y 0.863157272339
+        z 0.274967998266
+    ChromaticAberrationColor2::Vec3
+        x 0.70222312212
+        y 0.122405737638
+        z 0.838799118996
+    Realm Realm_Client
+    BlurScale 0.99849998951
+    BlurCenter::Vec2
+        x 0.5
+        y 0.5
+    ChromaticAberrationStrengths::Vec2
+        x 0.15000000596
+        y 0.15000000596
+    ChromaticAberrationDisplacement1::Vec2
+        x -0.00300000002608
+        y 0.00300000002608
+    ChromaticAberrationDisplacement2::Vec2
+        x 0.00300000002608
+        y 0.00300000002608
+    RadialBlendDistanceCoefficients::Vec2
+        x 2.0
+        y -0.300000011921
+    Enable True
+MotionBlurComponentData 00000001
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 20982640
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) MotionBlurEnable
+        PropertyOverrideMasks::array
+            member(0) 512
+    Realm Realm_Client
+    MotionBlurScale 1.0
+    DepthCheckMaxDistance -1.0
+    MotionBlurCutoffRadius 0.0
+    CutoffGradientScale 1.0
+    RadialBlurCenter::Vec2
+        x 0.5
+        y 0.5
+    RadialBlurOffset 0.0
+    CircularOffsetFactor 1.0
+    RadialBlurScale 0.0
+    MotionBlurEnable False
+    MotionBlurCentered False
+    RadialBlurEnable False
+VisualEnvironmentEntityData 00000002
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 168625543
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+                member(1) 00000001
+                member(2) 00000003
+            ClientRuntimeComponentCount 2
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled False
+        EnableOutOfBoundsCheck True
+    Visibility 1.0
+    FutureVisibility 0.0
+    Priority 200
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True
+VisualEnvironmentReferenceObjectData 00000003
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 169070371
+            Blueprint Gameplay/Vehicles/common/VE_VehicleScope_PhotoFlash/985da57d373416448e40c15a8c2bc124
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    Priority 0
+    OverrideVisibility False
+    OwnedByLightingContextPad False
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1176812089
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value Vec2 (2,-0.3)
+                ValueRef *nullGuid*
+                Id -718768846
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1589892860
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 752780153
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

@@ -1,0 +1,231 @@
+VisualEnvironmentBlueprint 27381801af7bd248bade2d6177cddbb7
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_Skiing
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000003
+    TimeDeltaType TimeDeltaType_None
+FilmicEffectsComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 2603881
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) LensDistortionGain
+            member(1) EnableLensDistortion
+            member(2) Enable
+        PropertyOverrideMasks::array
+            member(0) 2415919168
+            member(1) 0
+    DepthFlashAtmosColor::Vec3
+        x 0.239999994636
+        y 0.330000013113
+        z 0.360000014305
+    Realm Realm_Client
+    ChromaticAbberationScale 1.00300002098
+    ChromaticAbberationAspectRatio 0.5
+    VignettingFalloff 10.0
+    VignettingLuminancePercent 0.5
+    LensDistortionGain -0.699999988079
+    LensDistortionCubicGain 0.0
+    LensDistortionStretch 0.0
+    FrameFlashGain 0.019999999553
+    DepthFlashHalfDistance 40000.0
+    DistanceBlurGain 1.0
+    DistanceBlurHalfDistance 40000.0
+    EdgeBlurGain 1.0
+    EdgeBlurDepthTargetScale 1000.0
+    EdgeBlurFadeNearDepth 0.0
+    EdgeBlurFadeFarDepth 4000.0
+    EdgeBlurMatteDilateSize 1.0
+    EdgeBlurMatteBlurKernelSize 1.0
+    HeatRippleGain 0.00999999977648
+    HeatRippleHorizontalSpeed 0.0
+    HeatRippleVerticalSpeed 0.0250000003725
+    HeatRippleNoiseScale 5.0
+    HeatRippleNearDistance 2000.0
+    HeatRippleFarDistance 3500.0
+    HeatRippleNearGain 0.0
+    HeatRippleFarGain 1.0
+    HeatRippleTexture *nullGuid*
+    Enable True
+    EnableChromaticAbberation False
+    EnableVignetting False
+    EnableLensDistortion True
+    EnableFrameFlash False
+    EnableDepthFlash False
+    EnableDistanceBlur False
+    EnableEdgeBlur False
+    EnableHeatRipple False
+MotionBlurComponentData 00000001
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 4811626
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) RadialBlurOffset
+            member(1) CircularOffsetFactor
+            member(2) RadialBlurScale
+            member(3) MotionBlurScale
+            member(4) MotionBlurEnable
+            member(5) RadialBlurEnable
+        PropertyOverrideMasks::array
+            member(0) 3010
+    Realm Realm_Client
+    MotionBlurScale 1.75
+    DepthCheckMaxDistance -1.0
+    MotionBlurCutoffRadius 0.0
+    CutoffGradientScale 1.0
+    RadialBlurCenter::Vec2
+        x 0.5
+        y 0.5
+    RadialBlurOffset 0.5
+    CircularOffsetFactor 1.0
+    RadialBlurScale 0.300000011921
+    MotionBlurEnable True
+    MotionBlurCentered False
+    RadialBlurEnable True
+VignetteComponentData 00000002
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 384714
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Realm
+            member(1) Color
+            member(2) Opacity
+            member(3) Exponent
+            member(4) Scale
+            member(5) Enable
+        PropertyOverrideMasks::array
+            member(0) 63
+    Color::Vec3
+        x 0.0500000007451
+        y 0.0500000007451
+        z 0.0500000007451
+    Realm Realm_Client
+    Scale::Vec2
+        x 0.34999999404
+        y 0.5
+    Exponent 0.0500000007451
+    Opacity 0.5
+    Enable True
+VisualEnvironmentEntityData 00000003
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 169177721
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000002
+                member(1) 00000001
+                member(2) 00000000
+            ClientRuntimeComponentCount 3
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 0.0
+    FutureVisibility 0.0
+    Priority 250
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True

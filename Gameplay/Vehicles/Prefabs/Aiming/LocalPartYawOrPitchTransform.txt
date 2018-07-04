@@ -1,0 +1,277 @@
+LogicPrefabBlueprint 28bbb9e93d044921bda8196799b79f5e
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/Prefabs/Aiming/LocalPartYawOrPitchTransform
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000003
+                            SourceFieldId 622463740
+                            TargetFieldId 1692744776
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000004
+                            SourceFieldId 622463740
+                            TargetFieldId 1692744776
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId 1593903605
+                            TargetFieldId 187957635
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId -179957348
+                            TargetFieldId 193435818
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000005
+                            SourceFieldId 193453899
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000004
+                            Target 00000005
+                            SourceFieldId 193453899
+                            TargetFieldId 193450864
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000005
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId -1719166658
+                            Flags 18
+                        member(7)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId 1849681172
+                            TargetFieldId 282764380
+                            Flags 17
+                        member(8)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -229356137
+                            TargetFieldId -1461717327
+                            Flags 1
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 1924866442
+                            TargetFieldId 1924866442
+                        member(1)::LinkConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId 1924866442
+                            TargetFieldId 1924866442
+                    Interface 00000002
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 2122782319
+                        TargetEvent::EventSpec
+                            Id 1019440090
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000003
+            member(2) 00000004
+            member(3) 00000005
+            member(4) 00000001
+        TimeDeltaType TimeDeltaType_None
+TransformQueryEntityData 00000000
+    $::GameplayQueryBaseEntityData
+        $::CustomSchedulableEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1658842692
+    Realm Realm_Client
+    Input::QueryEntityResult
+        PointerCastToInt 0
+    QueryFromIndex 0
+    Latency 0.0
+    UseCachedWorldTransform True
+    UsePhysicsTransform False
+    UpdateLinkWhenActivated False
+    AlwaysEnabled False
+TransformQueryEntityData 00000001
+    $::GameplayQueryBaseEntityData
+        $::CustomSchedulableEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 2018908862
+    Realm Realm_ClientAndServer
+    Input::QueryEntityResult
+        PointerCastToInt 0
+    QueryFromIndex 0
+    Latency 0.0
+    UseCachedWorldTransform True
+    UsePhysicsTransform False
+    UpdateLinkWhenActivated False
+    AlwaysEnabled False
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1593903605
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -179957348
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1719166658
+                AccessType FieldAccessType_Source
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 282764380
+                AccessType FieldAccessType_Source
+            member(4)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -229356137
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 2122782319
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id 1924866442
+MathEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 166680418
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+            member(1)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 0
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 187957635
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_NegF
+                Result 0
+                Param1 0
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 855322217
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_InputV3
+                Result 0
+                Param1 1692744776
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 -17799887
+                Param2 1
+            member(5)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 64
+                Param2 0
+    EvaluateOnEvent False
+MathEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 136252804
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+            member(1)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 0
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 193435818
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_NegF
+                Result 0
+                Param1 0
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 855322216
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_InputV3
+                Result 0
+                Param1 1692744776
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 -17799887
+                Param2 1
+            member(5)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 64
+                Param2 0
+    EvaluateOnEvent False
+TransformHubEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 156017411
+    Realm Realm_Client
+    InputCount 2
+    InputSelect 0
+    HashedInput::array
+        member(0) 193450866
+        member(1) 193450867
+        member(2) 193450864

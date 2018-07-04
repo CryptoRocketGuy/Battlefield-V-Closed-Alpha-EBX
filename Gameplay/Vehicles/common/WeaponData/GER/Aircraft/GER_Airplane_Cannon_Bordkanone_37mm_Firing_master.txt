@@ -1,0 +1,594 @@
+WeaponFiringDataAsset d13e9698e6095261fbeb09ff7812cf85
+    $::GameDataContainerAsset
+        $::Asset
+            $::DataContainer
+            Name Gameplay/Vehicles/common/WeaponData/GER/Aircraft/GER_Airplane_Cannon_Bordkanone_37mm_Firing_master
+        Data b6b47e710e902f7e5e138d32d517ca61
+WeaponSuppressionData 351e89962863d54bdaf38b3f3bdc55fa
+    $::DataContainer
+    BelowMinDistanceSuppression 0.10000000149
+    AboveMaxDistanceSuppression 4.5
+    MinDistance 12.0
+    MaxDistance 35.0
+BFExplosionEntityData 659539381d443848c1c7992f9a54390a
+    $::ExplosionEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        DetonationEffect Sound/Core/Explosions/SFX_Explosion_Mini_AutoCannon/4fea1311c97150418532ec41fc4c0665
+        DetonationEffectForFriendlies *nullGuid*
+        MaskVolume *nullGuid*
+        DestructionMaskVolume *nullGuid*
+        MaterialPair::MaterialDecl
+            Packed 390227968
+        SecondaryMaterialPair::MaterialDecl
+            Packed 2048
+        ShockwaveWindForce a8d2d4f3778798a848a2e9aa40d8298c
+        DamageIndicationType DamageIndicationType_GiverPlayer
+        EmpTime 0.0
+        MaxOcclusionRaycastRadius 0.5
+        InnerBlastRadius 2.49000000954
+        BlastDamage 18.0
+        BlastRadius 2.5
+        SecondaryMaterialRaycastLengthMultiplier 1.0
+        BlastImpulse 0.0
+        ShockwaveDamage 1.0
+        ShockwaveRadius 10.0
+        SecondaryMaterialRaycastMinLengthMultiplier 0.0
+        ShockwaveImpulse 0.0
+        ShockwaveTime 0.5
+        CameraShockwaveRadius 0.0
+        SpawnDelay 0.0
+        NoFriendliesEffectOnEnabledFriendlyFire True
+        UseEntityTransformForDetonationEffect False
+        SecondaryMaterialsActive False
+        HasStunEffect False
+        AllowDamageToOwner True
+        ApplyBlastDamageToVehiclesAndCharactersInstantly True
+        ForceServersideAiDamage False
+        DisableOcclusion False
+        DisableStaticEntityOcclusion True
+        DisableOcclusionOutsideBlastRadius True
+        TriggerImpairedHearing False
+        Enabled True
+    UnspottableTime 1.0
+    AttachableFlamesBlastRadiusMultiplier 1.0
+    NumAttachableFlamesUp 0
+    NumAttachableFlamesSide 0
+    NumAttachableFlamesDown 0
+    NumAttachableFlamesNarrowDown 0
+    IsCausingSuppression False
+    UnspotsOnExplode False
+    SpotsOnExplode False
+    AttachableFlamesWorldAligned True
+ExplosionWindForceData a8d2d4f3778798a848a2e9aa40d8298c
+    $::DataContainer
+    Strength 200.0
+    Variation 0.0
+    VariationRate 0.0
+    MicroVariation 0.0
+    Hardness 0.5
+    ForceAsInstantVelocity 0.20000000298
+    ShouldAffectVegetation True
+    ShouldAffectMeshScattering True
+    ShouldAffectEffects True
+    ShouldAffectCloth True
+    ShouldAffectPhysics True
+FiringFunctionData b6281dcfdc8975c8542c15c25295c57f
+    $::GameDataContainer
+        $::DataContainer
+    WeaponDispersion::WeaponDispersion
+        StandDispersion::FiringDispersionData
+            MinAngle 0.0
+            MaxAngle 0.40000000596
+            IncreasePerShot 0.10000000149
+            DecreasePerSecond -1.0
+            NumSubdividesForUniformDispersion 4
+            NumInnerCirclesForUniformDispersion 1
+            EnableUniformDispersion False
+        CrouchDispersion::FiringDispersionData
+            MinAngle 0.0
+            MaxAngle 0.0
+            IncreasePerShot 0.0
+            DecreasePerSecond 5.0
+            NumSubdividesForUniformDispersion 4
+            NumInnerCirclesForUniformDispersion 1
+            EnableUniformDispersion False
+        ProneDispersion::FiringDispersionData
+            MinAngle 0.0
+            MaxAngle 0.0
+            IncreasePerShot 0.0
+            DecreasePerSecond 5.0
+            NumSubdividesForUniformDispersion 4
+            NumInnerCirclesForUniformDispersion 1
+            EnableUniformDispersion False
+        JumpDispersionAngle 0.0
+        ProneTransitionDispersionAngle 0.0
+        MoveDispersionAngle 0.0
+        MoveZoomedDispersionAngle 0.0
+        DecreasePerSecond 5.0
+    Shot::ShotConfigData
+        InitialPosition::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        InitialDirection::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        InitialSpeed::Vec3
+            x 0.0
+            y 0.0
+            z 500.0
+        CameraSpawnOffset::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        InitialPositionAdjustedByPitch *nullArray*
+        InitialDirectionScaleByPitch *nullArray*
+        InitialSpeedScaleByPitch *nullArray*
+        InheritedWeaponSpeedAmount::InheritedWeaponSpeed
+            Forward 0.0
+            Left 0.0
+            Up 0.0
+        MuzzleExplosion *nullGuid*
+        ProjectileData de029429b9fbe1433d3a063d49feb5c0
+        SecondaryProjectileData *nullGuid*
+        Projectile *nullGuid*
+        SecondaryProjectile *nullGuid*
+        SpawnDelay 0.0
+        NumberOfBulletsPerShell 1
+        NumberOfBulletsPerShot 1
+        NumberOfBulletsPerBurst 3
+        SpawnCollisionEffectsForBulletsPercentage 1.0
+        UseSpawnDelayForQuickSwitch False
+        RelativeTargetAiming False
+        ForceSpawnToCamera False
+        SpawnVisualAtWeaponBone False
+        ActiveForceSpawnToCamera True
+        EnableTargetAiming False
+    OverHeat::OverHeatData
+        OverHeatEffect::FireEffectData
+            Offset::Vec3
+                x 0.0
+                y 0.0
+                z 0.699999988079
+            Rotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomOffset::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomRotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Effect f50a11fd4cf15c4e83194a1803119e12/d5f967d0d106c84681a26fba8c416ba7
+            EffectForFriendlies *nullGuid*
+            UseZoomOffset False
+            UseZoomRotation False
+            DisableDuringZoom False
+            UpdateTransform False
+            StopLoopingEffects False
+        HeatPerBullet 0.0399999991059
+        HeatDropPerSecond 0.40000000596
+        OverHeatDropDelay 0.20000000298
+        OverHeatPenaltyTime 0.300000011921
+        OverHeatThreshold 0.00999999977648
+        RoFPenaltyMultiplierCurve *nullGuid*
+        StopZoomWhenOverheated False
+    PreFireEffects1p *nullArray*
+    PreFireEffects3p *nullArray*
+    FireEffects1p::array
+        member(0)::FireEffectData
+            Offset::Vec3
+                x 0.0
+                y 0.0500000007451
+                z 0.899999976158
+            Rotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomOffset::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomRotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Effect *nullGuid*
+            EffectForFriendlies *nullGuid*
+            UseZoomOffset False
+            UseZoomRotation False
+            DisableDuringZoom False
+            UpdateTransform True
+            StopLoopingEffects True
+        member(1)::FireEffectData
+            Offset::Vec3
+                x 0.0
+                y 0.0500000007451
+                z 0.899999976158
+            Rotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomOffset::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomRotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Effect *nullGuid*
+            EffectForFriendlies *nullGuid*
+            UseZoomOffset False
+            UseZoomRotation False
+            DisableDuringZoom False
+            UpdateTransform False
+            StopLoopingEffects True
+        member(2)::FireEffectData
+            Offset::Vec3
+                x 0.0
+                y 0.0500000007451
+                z 0.300000011921
+            Rotation::Vec3
+                x 0.0
+                y 0.0
+                z 90.0
+            ZoomOffset::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomRotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Effect *nullGuid*
+            EffectForFriendlies *nullGuid*
+            UseZoomOffset False
+            UseZoomRotation False
+            DisableDuringZoom False
+            UpdateTransform False
+            StopLoopingEffects False
+    FireEffects3p::array
+        member(0)::FireEffectData
+            Offset::Vec3
+                x 0.0
+                y 0.0500000007451
+                z 0.899999976158
+            Rotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomOffset::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomRotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Effect *nullGuid*
+            EffectForFriendlies *nullGuid*
+            UseZoomOffset False
+            UseZoomRotation False
+            DisableDuringZoom False
+            UpdateTransform True
+            StopLoopingEffects False
+        member(1)::FireEffectData
+            Offset::Vec3
+                x 0.0
+                y 0.0500000007451
+                z 0.899999976158
+            Rotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomOffset::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomRotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Effect *nullGuid*
+            EffectForFriendlies *nullGuid*
+            UseZoomOffset False
+            UseZoomRotation False
+            DisableDuringZoom False
+            UpdateTransform False
+            StopLoopingEffects True
+        member(2)::FireEffectData
+            Offset::Vec3
+                x 0.0
+                y 0.0500000007451
+                z 0.15000000596
+            Rotation::Vec3
+                x 0.0
+                y 0.0
+                z 90.0
+            ZoomOffset::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomRotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Effect *nullGuid*
+            EffectForFriendlies *nullGuid*
+            UseZoomOffset False
+            UseZoomRotation False
+            DisableDuringZoom False
+            UpdateTransform False
+            StopLoopingEffects False
+    Sound Sound/Core/Weapons/Vehicle/BK37/Weapons_Vehicle_BK37_x2_SPC/bda7cfb4d7d26e4199dd232fdd1661e7
+    SoundRemotePlayer *nullGuid*
+    FireLogic::FireLogicData
+        HoldAndRelease::HoldAndReleaseData
+            MaxHoldTime 10.0
+            MinPowerModifier 1.0
+            MaxPowerModifier 2.0
+            PowerIncreasePerSecond 0.10000000149
+            Delay 0.0
+            KilledHoldingPowerModifier 0.0
+            ForceFireWhenKilledHolding True
+            PreciseReplicatedPowerModifier False
+            SecondaryActionCancelHoldAndRelease False
+            OnlyTriggerPrimaryFireIfReleasedBeforeDelay False
+            TriggerSecondaryFireWhenMaxHoldTimePass False
+        BoltAction::BoltActionData
+            BoltActionDelay 0.5
+            SuppressionBoltActionDelay 0.0
+            BoltActionTime 1.0
+            BoltActionTimeCompletedFraction 1.0
+            HoldBoltActionUntilFireRelease True
+            HoldBoltActionUntilZoomRelease True
+            ForceBoltActionOnFireTrigger False
+            UnZoomOnBoltAction True
+            ReturnToZoomAfterBoltAction True
+            TriggerBoltActionWhenOutOfAmmo False
+        Recoil::RecoilData
+            MaxRecoilAngleX -0.600000023842
+            MinRecoilAngleX -0.600000023842
+            MaxRecoilAngleY 0.25
+            MinRecoilAngleY -0.40000000596
+            MaxRecoilAngleZ 0.300000011921
+            MinRecoilAngleZ 0.300000011921
+            MaxRecoilFov 0.0
+            MinRecoilFov 0.0
+            RecoilFollowsDispersion True
+        FireInputAction 1018135856
+        ReloadInputAction 1131457753
+        CycleFireModeInputAction -1145593149
+        TriggerPullWeight 0.10000000149
+        RateOfFire 160.0
+        RateOfFireForBurst 550.0
+        RateOfFireForSingleFire -1.0
+        BurstsPerMinute 0.0
+        ClientFireRateMultiplier 1.0
+        PreFireDelay 0.0
+        PendingFireWindow 0.0
+        AutomaticDelay 0.0
+        FireLogicType fltAutomaticFire
+        FireLogicTypeArray *nullArray*
+        ReloadInfoArray::array
+            member(0)::ReloadInfo
+                MaxAmmoCountInWeapon -1
+                MinAmmoCountInWeapon -1
+                ReloadType rtMagazine
+                ReloadThreshold 1.0
+                ReloadSpeed 1.0
+                ReloadDelay 0.0
+                BridgeDelay 0.0
+                ReloadTime 3.59999990463
+                ReloadTimeBulletsLeft -1.0
+                PostReloadDelay 0.0
+                ReloadTimerArray *nullArray*
+        ReloadLogic rlReloadUnaffectedByWeaponSwitch
+        CorrectedAutomaticFireReplication False
+        FireLogicSwitchOnZoom False
+        ReloadInfoIgnoreAmmoToFillMagCheck False
+        OnlyReloadStripperClipSize False
+        HoldOffReloadUntilFireRelease False
+        HoldOffReloadUntilZoomRelease False
+        ForceReloadActionOnFireTrigger False
+        AlwaysAutoReload True
+        AutoReloadIgnoreFireTriggerPressed True
+        ClosedBolt True
+    Ammo::AmmoConfigData
+        MagazineCapacity 20
+        NumberOfMagazines 5
+        InitialAmmo -1
+        StripperClipSize -1
+        TraceFrequency 1
+        AmmoPickupMinAmount 0
+        AmmoPickupMaxAmount 0
+        AutoReplenishDelay 5.0
+        AutoReplenishSpeedupFactor 1.0
+        AutoReplenishSuppressionTime 0.0
+        AutoReplenishSuppressionFactor 1.0
+        AutoReplenishSuppressionSpeedupFactor 1.0
+        AutoReplenishMagazinesForPassiveReplenish -1
+        AutoReplenishExtraMagazinesForActiveReplenish 0
+        AmmoBagPickupDelayMultiplier 1.0
+        AmmoBagPickupAmount -1
+        PersistentAmmoSettings *nullGuid*
+        SpawnWithoutAmmo False
+        AutoReplenishMagazine False
+        AutoReplenishWhenInactive True
+        AllowFullReplenishIfPrimaryIsEmpty False
+    SelfHealTimeWhenDeployed 0.0
+    UsePrimaryAmmo True
+    UnlimitedAmmoForAI True
+    IsPassiveWeapon False
+WeaponFiringData b6b47e710e902f7e5e138d32d517ca61
+    $::GameDataContainer
+        $::DataContainer
+    PrimaryFire b6281dcfdc8975c8542c15c25295c57f
+    DeployTime 0.5
+    ReactivateCooldownTime 0.0
+    DisableZoomOnDeployTime 0.25
+    DisableZoomOnAltDeployTime -1.0
+    DisableZoomOnAutomaticSwitchbackDeployTime -1.0
+    AltDeployTime 2.0
+    DeployTimeForAutomaticSwitchback -1.0
+    AltDeployId -1
+    WeaponSway *nullGuid*
+    Rumble::RumbleFiringData
+        LowRumble 1.0
+        HighRumble 0.20000000298
+        RumbleDuration 0.300000011921
+    SupportDelayStand 0.0
+    SupportDelayProne 0.0
+    UseAutoAiming False
+    InflictSelfDamage False
+    ShowEnemyNametagOnAim True
+    ReloadWholeMags False
+    AbortReloadOnSprint False
+    UseRemoteDamageGiverInfo False
+    IsSilenced False
+BulletEntityData de029429b9fbe1433d3a063d49feb5c0
+    $::MeshProjectileEntityData
+        $::ProjectileEntityData
+            $::GamePhysicsEntityData
+                $::GameComponentEntityData
+                    $::ComponentEntityData
+                        $::SpatialEntityData
+                            $::EntityData
+                                $::GameObjectData
+                                    $::DataBusPeer
+                                        $::GameDataContainer
+                                            $::DataContainer
+                                        Flags 0
+                            Transform::LinearTransform
+                                right::Vec3
+                                    x 1.0
+                                    y 0.0
+                                    z 0.0
+                                up::Vec3
+                                    x 0.0
+                                    y 1.0
+                                    z 0.0
+                                forward::Vec3
+                                    x 0.0
+                                    y 0.0
+                                    z 1.0
+                                trans::Vec3
+                                    x 0.0
+                                    y 0.0
+                                    z 0.0
+                        Components *nullArray*
+                        ClientRuntimeComponentCount 0
+                        ServerRuntimeComponentCount 0
+                        ClientRuntimeTransformationCount 0
+                        ServerRuntimeTransformationCount 0
+                    Enabled True
+                    EnableOutOfBoundsCheck False
+                PhysicsData *nullGuid*
+                IsTraversable True
+                IsCharacterCollidable True
+            InitialSpeed 350.0
+            TimeToLive 0.00999999977648
+            MaxCount 0
+            InitMeshHideTime 0.0
+            VisualConvergeDistance 30.0
+            VisualConvergenceDelay 0.10000000149
+            VisualConvergenceDuration 0.10000000149
+            ProxyVisualConvergenceDelay -1.0
+            ProxyVisualConvergenceDuration -1.0
+            Explosion 659539381d443848c1c7992f9a54390a
+            SuppressionData 351e89962863d54bdaf38b3f3bdc55fa
+            AmmunitionType *nullString*
+            MaterialPair::MaterialDecl
+                Packed 2048
+            HitReactionWeaponType AntHitReactionWeaponType_Explosion
+            VoiceOverInfo *nullGuid*
+            DetonateOnTimeout False
+            ServerProjectileDisabled False
+            HideOnDetonation False
+        InitialAngularVelocity::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        Mesh *nullGuid*
+        TrailEffect *nullGuid*
+        TrailEffect1p *nullGuid*
+        TrailEffectForFriendlies *nullGuid*
+        InstantAttachableTestDistance 3.0
+        InstantAttachableVisualConvergenceDelay -1.0
+        InstantAttachableVisualConvergenceDuration -1.0
+        MaxAttachableInclination 45.0
+        UnspawnAfterDetonationDelay 0.0
+        IsAttachable False
+        InstantAttachableTestUnderReticule True
+        UprightAttachable False
+        ExtraDamping False
+    AttachPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    FlyBySound *nullGuid*
+    RicochetSound *nullGuid*
+    DudExplosion *nullGuid*
+    Gravity -9.81000041962
+    Drag 0.00200000009499
+    ImpactImpulse 100.0
+    DetonationTimeVariation 0.0
+    VehicleDetonationRadius 0.0
+    VehicleDetonationActivationDelay 0.0
+    FlyBySoundRadius 50.0
+    FlyBySoundSpeed 20.0
+    Stamina 0.0
+    DistributeDamageOverTime 0.0
+    StartDamage 20.0
+    EndDamage 20.0
+    DamageFalloffStartDistance 100.0
+    DamageFalloffEndDistance 200.0
+    DamageCurve *nullGuid*
+    DamageOverTimeMultiplierCurve *nullGuid*
+    TimeToArmExplosion 0.0
+    FirstFrameTravelDistance 0.0
+    StopTrailEffectOnUnspawnFrameDelay 2
+    AttachMinSpeed 0.0
+    AttachMaterialMaxHardness 1.0
+    BulletUnspawnOnCollision BulletUnspawnOnCollision_Always
+    RicochetMinSpeed 50.0
+    RicochetSpeedMultiplier 0.20000000298
+    RicochetOutgoingSpeedThreshold 10.0
+    RicochetMaterialHardnessThreshold 0.0
+    RicochetAngleWeight 0.0
+    RicochetMaterialPair::MaterialDecl
+        Packed 2048
+    VehicleDetonationUsesFriendlyFireRules True
+    HasVehicleDetonation False
+    InstantHit False
+    StopTrailEffectOnUnspawn True
+    OnlyAllowOnePassThroughCollisionEffectPerUpdate False
+    RicochetBulletSpawnExplosion False

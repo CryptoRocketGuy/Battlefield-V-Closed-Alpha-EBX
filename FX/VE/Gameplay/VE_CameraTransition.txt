@@ -1,0 +1,102 @@
+VisualEnvironmentBlueprint 8190d46ad077ca56e462648475baf1ac
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_CameraTransition
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000001
+    TimeDeltaType TimeDeltaType_None
+MotionBlurComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 26232201
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) MotionBlurEnable
+            member(1) MotionBlurScale
+        PropertyOverrideMasks::array
+            member(0) 514
+    Realm Realm_Client
+    MotionBlurScale 1.0
+    DepthCheckMaxDistance -1.0
+    MotionBlurCutoffRadius 0.0
+    CutoffGradientScale 1.0
+    RadialBlurCenter::Vec2
+        x 0.5
+        y 0.5
+    RadialBlurOffset 0.0
+    CircularOffsetFactor 1.0
+    RadialBlurScale 0.0
+    MotionBlurEnable True
+    MotionBlurCentered False
+    RadialBlurEnable False
+VisualEnvironmentEntityData 00000001
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 176498983
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+            ClientRuntimeComponentCount 1
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 1.0
+    FutureVisibility 0.0
+    Priority 200
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True

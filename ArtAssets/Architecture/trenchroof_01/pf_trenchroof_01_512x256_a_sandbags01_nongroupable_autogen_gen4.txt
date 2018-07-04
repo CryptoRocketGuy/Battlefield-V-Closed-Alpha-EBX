@@ -1,0 +1,163 @@
+SpatialPrefabBlueprint 2680e98a3b4c2c32276d0ac4f886d868
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name artassets/architecture/trenchroof_01/pf_trenchroof_01_512x256_a_sandbags01_nongroupable_autogen_gen4
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -799172945
+                            TargetFieldId -799172945
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 258157264
+                            TargetFieldId 1931223179
+                            Flags 18
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -141474860
+                            TargetFieldId -381128976
+                            Flags 18
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 838548383
+                            TargetFieldId 0
+                    Interface 00000003
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 1000
+                        TargetEvent::EventSpec
+                            Id 1281776200
+                        TargetType EventConnectionTargetType_ClientAndServer
+        Objects::array
+            member(0) 00000002
+            member(1) 00000000
+        TimeDeltaType TimeDeltaType_None
+LogicPrefabReferenceObjectData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 135375269
+            Blueprint Sound/Levels/SourcePatch/SoundArea_Relevance_Prefab/49bcf1d61ed23c495bc0e42dc5b0b2b3
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+OBBData 00000001
+    $::BaseShapeData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 33554432
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x -2.68489050865
+            y 0.955252170563
+            z 1.03918528557
+    HalfExtents::Vec3
+        x 2.16047334671
+        y 1.3710000515
+        z 1.27999997139
+DiceSoundAreaEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1751469499
+    Sound Sound/Levels/Shared/Ambience/Interior/Level_Shared_Ambient_Interiors_CreakyShed_01_SPC/ca82a2dc21fc3a4a9d92bec04aa0321e
+    BigWorld *nullGuid*
+    PerimeterSize 1.0
+    RelevanceMultiplier 1.0
+    MinRelevanceBudget 0.0
+    RelevanceFalloff FadeCurveType_SineAmplitude
+    Priority 10.0
+    AreaType 0
+    ExtraSounds *nullArray*
+    ExtraSoundsPortsHashedNames *nullArray*
+    EnableOnCreation True
+    UseLegacyBehavior False
+    FaceListener False
+    IgnoreVerticalPerimeter False
+    UpdateTransformWhenInsideArea False
+    IsWeatherSystemMixing False
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Float32 0.7
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 1000
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 1281776200
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

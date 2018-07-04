@@ -1,0 +1,174 @@
+SpatialPrefabBlueprint 8aeb1c6388d4611f8fc1773c654027e3
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/AnimatedBarriers/dwc_DoorBargeInteract
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -1345422598
+                            TargetFieldId 193450867
+                            Flags 1
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -1510543648
+                            TargetFieldId 193450864
+                            Flags 1
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 3c0a02824b4e06479a5c8e543ed4bb85
+                            SourceFieldId 193453899
+                            TargetFieldId 2662400
+                            Flags 1
+                        member(3)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 1806785306
+                            TargetFieldId 193450865
+                            Flags 1
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 15
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 3c0a02824b4e06479a5c8e543ed4bb85
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1447021378
+                        TargetEvent::EventSpec
+                            Id 211150902
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 3c0a02824b4e06479a5c8e543ed4bb85
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1447021378
+                        TargetEvent::EventSpec
+                            Id 1914446842
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 3c0a02824b4e06479a5c8e543ed4bb85
+            member(1) 00000000
+        TimeDeltaType TimeDeltaType_None
+GameInteractionEntityData 3c0a02824b4e06479a5c8e543ed4bb85
+    $::InteractionEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 402786876
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        UseWithinRadius 2.5
+        UseWithinAngle 35.0
+        UseWithinWidth 0.649999976158
+        UseWithinHeight 1.5
+        UseWithinXOffset 0.0
+        UseWithinYOffset 0.0
+        UseMinVelocityStart 5.69999980927
+        UseMinVelocityEnd 0.0
+        UseMinVelocityEndRadius 0.899999976158
+        FacingInteractorAngle 10.0
+        MaxUses 0
+        DisplayWithinRadius 2.0
+        PreInteractionSoundEffect *nullGuid*
+        TestIfOccluded False
+        AllowInteractionViaRemoteEntry False
+        UseDisplayWithinRadius False
+        Enabled False
+    DelayBetweenUses 1.5
+    TeamId TeamNeutral
+    SpectatorTeamId TeamNeutral
+    InputAction -1341426433
+    HoldToInteractTime 0.0
+    InteractionEntityType IET_DoorBarge
+    InteractionStringId *nullGuid*
+    InteractionSid *nullString*
+    Blink BTBlink
+    InteractingStringId *nullGuid*
+    InteractingSid *nullString*
+    NameStringId *nullGuid*
+    NameSid *nullString*
+    InteractionVerticalOffset 0.0
+    FriendlyTextStringId *nullGuid*
+    FriendlyTextSid *nullString*
+    EnemyTextStringId *nullGuid*
+    EnemyTextSid *nullString*
+    CapturepointVerticalOffset 0.0
+    ArtilleryIconBlinkRate 0.5
+    AirborneIconBlinkRate 0.5
+    AirborneBombState 0
+    AirborneIconAlpha 1.0
+    IconName *nullString*
+    IconBehavior *nullGuid*
+    TacticalRadius 0.0
+    LicensesNeeded *nullArray*
+    ConsumablesDisabling *nullArray*
+    ConsumablesNeeded *nullArray*
+    ShrinkSnap False
+    ShowAsCapturePoint False
+    FriendlyInteractionEnabled False
+    EnemyInteractionEnabled False
+    IsArtilleryAvailable False
+    IsAirborne False
+    DisplayUseTeamInteractionEnabled False
+    ForceSnap False
+    IconVisible True
+AndEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 414421274
+    Realm Realm_ClientAndServer
+    InputCount 3
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1510543648
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1345422598
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1806785306
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 211150902
+        member(1)::DynamicEvent
+            Id 1914446842
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

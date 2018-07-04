@@ -1,0 +1,225 @@
+LogicPrefabBlueprint 6619cb9574fc6251da690f96be712040
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/Commorose/CommoRoseInput
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -1468888346
+                            TargetFieldId 208768368
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000003
+                            SourceFieldId 853698058
+                            TargetFieldId 853698058
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000001
+                            Target 00000003
+                            SourceFieldId -1734420760
+                            TargetFieldId -1734420760
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 853698058
+                            TargetFieldId 714177565
+                            Flags 18
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId -1734420760
+                            TargetFieldId 120214910
+                            Flags 18
+                        member(5)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId 2089008817
+                            TargetFieldId 2089008817
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000001
+                            Target 00000003
+                            SourceFieldId 2089008817
+                            TargetFieldId 2089008817
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -2091788140
+                        TargetEvent::EventSpec
+                            Id 193450866
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 2089011355
+                        TargetEvent::EventSpec
+                            Id -428596683
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 2089011354
+                        TargetEvent::EventSpec
+                            Id 1861587909
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000001
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 1686472058
+                        TargetEvent::EventSpec
+                            Id -2012841669
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -388672501
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -1309913085
+                        TargetType EventConnectionTargetType_Client
+                    member(6)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 1022925796
+                        TargetEvent::EventSpec
+                            Id 229946160
+                        TargetType EventConnectionTargetType_Client
+                    member(7)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 1022925796
+                        TargetEvent::EventSpec
+                            Id 193450867
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000002
+            member(1) 00000000
+            member(2) 00000003
+        TimeDeltaType TimeDeltaType_None
+DelayEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 188939460
+    Delay 0.0
+    Realm Realm_Client
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2089008817
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1468888346
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 853698058
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1734420760
+                AccessType FieldAccessType_Target
+            member(4)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 714177565
+                AccessType FieldAccessType_Source
+            member(5)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 120214910
+                AccessType FieldAccessType_Source
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -2091788140
+        member(1)::DynamicEvent
+            Id 1022925796
+        member(2)::DynamicEvent
+            Id 1686472058
+        member(3)::DynamicEvent
+            Id -388672501
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -428596683
+        member(1)::DynamicEvent
+            Id 1861587909
+        member(2)::DynamicEvent
+            Id -2012841669
+        member(3)::DynamicEvent
+            Id -1309913085
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MultiEventGateEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 187948536
+    Realm Realm_Client
+    EventCount 2
+    Events::array
+        member(0)::MultiEventGateEventInfo
+            InEventHash 193450866
+            OutEventHash 2089011355
+        member(1)::MultiEventGateEventInfo
+            InEventHash 193450867
+            OutEventHash 2089011354
+    Open True
+MultiPropertyGateEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 157675694
+    Realm Realm_Client
+    RuntimeProperties::array
+        member(0)::MultiPropertyGatePropertyInfo
+            TypeHash 2089241863
+            PropertyHash 853698058
+        member(1)::MultiPropertyGatePropertyInfo
+            TypeHash 2089241863
+            PropertyHash 2560546536
+    WritePropertiesOnOpenGate True
+    Open True

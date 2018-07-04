@@ -1,0 +1,243 @@
+SpatialPrefabBlueprint 32b9525214e5ab4da9faffe340b54ac2
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Shared/Logic/SquadReinforcementTarget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId -996560163
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 2089459032
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId 12362477
+                            TargetFieldId 12362477
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 2662400
+                            TargetFieldId 2662400
+                            Flags 18
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 2662400
+                            TargetFieldId 901540267
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 12362477
+                            TargetFieldId 2089459035
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId -141474860
+                            TargetFieldId 212387320
+                            Flags 18
+                        member(7)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId -141474859
+                            TargetFieldId -589184995
+                            Flags 18
+                        member(8)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId -141474858
+                            TargetFieldId 2089429248
+                            Flags 18
+                        member(9)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId -141474857
+                            TargetFieldId -2066226675
+                            Flags 18
+                        member(10)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId -141474864
+                            TargetFieldId -1423556568
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000001
+            member(1) 00000004
+            member(2) 00000000
+            member(3) 00000002
+        TimeDeltaType TimeDeltaType_None
+DebugRenderEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 144179543
+    Realm Realm_Client
+    Color::Vec3
+        x 1.0
+        y 0.0
+        z 0.0
+    RuntimeProperties::array
+        member(0)::DebugRenderEntityPropertyInfo
+            PropertyName Pos1
+            PropertyType 16
+        member(1)::DebugRenderEntityPropertyInfo
+            PropertyName Pos2
+            PropertyType 16
+        member(2)::DebugRenderEntityPropertyInfo
+            PropertyName Radius
+            PropertyType 4
+    ShapeType DebugShapeType_Cone
+    Alpha 0.5
+    Visible True
+    DepthTest False
+SpatialPrefabReferenceObjectData 00000001
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 166064240
+            Blueprint FX/Test/Gustav/FXPF_VolumeDecal_Ring/7298ba641db2e91457fa0d867e73417b
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.000223332550377
+                    y 0.0119068315253
+                    z 0.0146671291441
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    PersistenceSetting BlueprintPersistenceSetting_InheritFromParent
+FloatEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 28676476
+    Realm Realm_Client
+    DefaultValue 0.25
+    IncDecValue 1.0
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 12362477
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id 2662400
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value Vec3 (1,0,0)
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value Float32 0.3
+                ValueRef *nullGuid*
+                Id -141474859
+                AccessType FieldAccessType_Target
+            member(4)::DataField
+                Value Float32 0.15
+                ValueRef *nullGuid*
+                Id -141474858
+                AccessType FieldAccessType_Target
+            member(5)::DataField
+                Value Float32 0.8
+                ValueRef *nullGuid*
+                Id -141474857
+                AccessType FieldAccessType_Target
+            member(6)::DataField
+                Value Vec3 (0,0.8,0)
+                ValueRef *nullGuid*
+                Id -141474864
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 138559945
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls *nullArray*
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputV3
+                Result 0
+                Param1 12362477
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputV3
+                Result 1
+                Param1 -1423556568
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_AddV3
+                Result 0
+                Param1 0
+                Param2 1
+            member(3)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 16
+                Param2 0
+    EvaluateOnEvent False

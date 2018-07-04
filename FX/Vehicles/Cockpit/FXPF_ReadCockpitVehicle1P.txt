@@ -1,0 +1,169 @@
+LogicPrefabBlueprint fae02093248d3f4ffccb289637ba9619
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/Vehicles/Cockpit/FXPF_ReadCockpitVehicle1P
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000002
+                            SourceFieldId 723834779
+                            TargetFieldId 1658462601
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 225375086
+                            TargetFieldId 177607
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId -1815171158
+                            TargetFieldId 1658462601
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 225375086
+                            TargetFieldId 177604
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 2077757561
+                            Flags 18
+                        member(5)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId 1311670913
+                            Flags 18
+                        member(6)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId 696659824
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000000
+                    Flags 2
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000002
+            member(1) 00000003
+            member(2) 00000001
+            member(3) 00000004
+            member(4) 00000005
+        TimeDeltaType TimeDeltaType_None
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2077757561
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1311670913
+                AccessType FieldAccessType_Source
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 696659824
+                AccessType FieldAccessType_Source
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 162957241
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 1
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 177604
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 177607
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 2087696823
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False
+PropertyDefaultValueEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 135190353
+    Realm Realm_Client
+    WrappedType PropertyDebugTypeClass_Float
+    WrappedTypeHash 2134484916
+PropertyDefaultValueEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 160533946
+    Realm Realm_Client
+    WrappedType PropertyDebugTypeClass_Float
+    WrappedTypeHash 2134484916
+SchematicChannelEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 16144387
+    Realm Realm_Client
+    Channel FX/Vehicles/Cockpit/MP_InVehicle1P/628367400cdcc747a469bd5c0164f282
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 0
+    OutputRefProperties *nullArray*
+SchematicChannelEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 9520413
+    Realm Realm_Client
+    Channel FX/Vehicles/Cockpit/MP_InCockpit1P/ff8e1103c37c1040b76bba1629ae92bd
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 0
+    OutputRefProperties *nullArray*

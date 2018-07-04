@@ -1,0 +1,406 @@
+SpatialPrefabBlueprint 96fc07574e4366655f2884fc986e2401
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name ArtAssets/Props/FuelTank_02/DWPF_FuelTank_02_explosive4
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 71afd5bc42dd52449690dc0239edf4b0
+                            SourceFieldId 225375086
+                            TargetFieldId 2662400
+                            Flags 17
+                        member(1)::PropertyConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId -141474860
+                            TargetFieldId 1156999542
+                            Flags 19
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 838548383
+                            TargetFieldId 0
+                    Interface 00000006
+                    Flags 15
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source e95a1e5498e7e9499f6ba1d31c6eb499
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 405295703
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source e95a1e5498e7e9499f6ba1d31c6eb499
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 405295703
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(2)::EventConnection
+                        Source 00000005
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source e95a1e5498e7e9499f6ba1d31c6eb499
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 405295703
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(4)::EventConnection
+                        Source e95a1e5498e7e9499f6ba1d31c6eb499
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 405295703
+                        TargetEvent::EventSpec
+                            Id 204720338
+                        TargetType EventConnectionTargetType_Server
+                    member(5)::EventConnection
+                        Source 00000005
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 1998320403
+                        TargetType EventConnectionTargetType_Server
+                    member(6)::EventConnection
+                        Source e95a1e5498e7e9499f6ba1d31c6eb499
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 405295703
+                        TargetEvent::EventSpec
+                            Id 405295703
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(7)::EventConnection
+                        Source 00000006
+                        Target e95a1e5498e7e9499f6ba1d31c6eb499
+                        SourceEvent::EventSpec
+                            Id -274579609
+                        TargetEvent::EventSpec
+                            Id -274579609
+                        TargetType EventConnectionTargetType_Server
+                    member(8)::EventConnection
+                        Source e95a1e5498e7e9499f6ba1d31c6eb499
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id -847278421
+                        TargetEvent::EventSpec
+                            Id -847278421
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) e95a1e5498e7e9499f6ba1d31c6eb499
+            member(1) 00000005
+            member(2) 00000001
+            member(3) 71afd5bc42dd52449690dc0239edf4b0
+            member(4) 00000003
+            member(5) 00000004
+            member(6) 00000000
+        TimeDeltaType TimeDeltaType_None
+SpatialPrefabReferenceObjectData 71afd5bc42dd52449690dc0239edf4b0
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 416657265
+            Blueprint DynamicWorld/CentralComponents/CentralDamage/DamageController_FireExplosive4/e86520acd48d2b429069b386007bb3af
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 1.10243046284
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    PersistenceSetting BlueprintPersistenceSetting_InheritFromParent
+ObjectReferenceObjectData e95a1e5498e7e9499f6ba1d31c6eb499
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 69098217
+            Blueprint ArtAssets/Props/FuelTank_02/FuelTank_02/dc6db234cb74314369a2760af3e93870
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+DynamicDestructionDepthEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1615731134
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    BoundingBox::AxisAlignedBox
+        min::Vec3
+            x -0.688516139984
+            y 0.0
+            z -1.05235242844
+        max::Vec3
+            x 0.801459670067
+            y 0.946732342243
+            z 0.92193120718
+    Realm Realm_ClientAndServer
+    DepthScale 0.0
+    Enabled True
+EffectReferenceObjectData 00000001
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 48939135
+            Blueprint FX/Destruction/PropDest/FX_PropDest_FuelTank_02/bba993b02cb4e841abf77497af8fc7c4
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.694273948669
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart False
+    AffectedByLightprobeVisibility False
+OBBData 00000002
+    $::BaseShapeData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 100663296
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0564717650414
+            y 0.473366171122
+            z -0.0652106404305
+    HalfExtents::Vec3
+        x 0.744987905025
+        y 0.473366171122
+        z 0.98714184761
+SpatialPrefabReferenceObjectData 00000003
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 345753257
+            Blueprint DynamicWorld/CentralComponents/CentralDamage/DamageController_FireDamage/ee67691d9ec6b3280fa4514f461a01ab
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 1.21905601025
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    PersistenceSetting BlueprintPersistenceSetting_InheritFromParent
+BoolEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 102986356
+    Realm Realm_ClientAndServer
+    DefaultValue False
+DelayEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 113831614
+    Delay 60.0
+    Realm Realm_ClientAndServer
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce True
+    RemoveDuplicateEvents True
+InterfaceDescriptorData 00000006
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Float32 0.64
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -274579609
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 405295703
+        member(1)::DynamicEvent
+            Id -847278421
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

@@ -1,0 +1,248 @@
+LogicPrefabBlueprint ad9e89facb3c17c39e8cfb9b0205e781
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Commander/Logic/UICoreCommander
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000006
+                            Target 00000005
+                            SourceFieldId -1810789047
+                            TargetFieldId -876663471
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000007
+                            Target 00000003
+                            SourceFieldId -1810789047
+                            TargetFieldId -454793442
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000002
+                            Target 00000006
+                            SourceFieldId 428018036
+                            TargetFieldId 0
+                        member(1)::LinkConnection
+                            Source 00000001
+                            Target 00000007
+                            SourceFieldId -1314972309
+                            TargetFieldId 0
+                        member(2)::LinkConnection
+                            Source 00000006
+                            Target 00000001
+                            SourceFieldId -1314972309
+                            TargetFieldId 428018036
+                    Interface 00000002
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000006
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -80368276
+                        TargetEvent::EventSpec
+                            Id 632821888
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id -1706350819
+                        TargetEvent::EventSpec
+                            Id 201149837
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000007
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -80368276
+                        TargetEvent::EventSpec
+                            Id 2088909055
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000006
+            member(1) 00000004
+            member(2) 00000005
+            member(3) 00000007
+            member(4) 00000003
+            member(5) 00000001
+            member(6) 00000000
+        TimeDeltaType TimeDeltaType_None
+LogicPrefabReferenceObjectData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 63885572
+            Blueprint UI/Ingame/Menu/Logic/UIQuickScoreboardLogic/fce78c23ad0553028bc4ba011fae00a7
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+LogicPrefabReferenceObjectData 00000001
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1653631821
+            Blueprint UI/Ingame/Logic/TeamRequirement/0468ab63a5e3c04cad8729709747148a
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1706350819
+        member(1)::DynamicEvent
+            Id 852775516
+    OutputEvents *nullArray*
+    InputLinks::array
+        member(0)::DynamicLink
+            Id 428018036
+    OutputLinks *nullArray*
+SchematicChannelEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 143361542
+    Realm Realm_ClientAndServer
+    Channel Sound/AudioSoundStateChannel/753e6f40fd3b94cbeccbdfa81ffcf6b9
+    InputProperties::array
+        member(0) 2
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*
+SchematicChannelEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 42935747
+    Realm Realm_Client
+    Channel UI/Ingame/Menu/Logic/UIChannelInGameMenu/316656853002ca851a8e5f70592bb573
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*
+SchematicChannelEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 151653117
+    Realm Realm_ClientAndServer
+    Channel UI/Ingame/Commander/Logic/UIChannelCommander/1b90880c27aba740afc3c68360677aa7
+    InputProperties::array
+        member(0) 0
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*
+StateNodeEntityData 00000006
+    $::StateNodeEntityBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1729591693
+        StateName UICoreCommander
+        Realm Realm_Client
+        IsRoot False
+    EventTriggersInfo *nullArray*
+    ConsumedEventsInfo *nullArray*
+StateNodeEntityData 00000007
+    $::StateNodeEntityBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 105008377
+        StateName Commanding
+        Realm Realm_Client
+        IsRoot False
+    EventTriggersInfo *nullArray*
+    ConsumedEventsInfo *nullArray*

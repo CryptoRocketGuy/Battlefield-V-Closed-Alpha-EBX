@@ -1,0 +1,237 @@
+UIWidgetBlueprint 9b2788b15c61ca3745d199f48d69dc2a
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/InGame/Deploy/Widgets/UIBreakthroughDeploySectorsWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId 225375086
+                            TargetFieldId 5862146
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000008
+                            Target 00000000
+                            SourceFieldId -291319045
+                            TargetFieldId -1298441311
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000006
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -395651742
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000006
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 2088909055
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+        Object 00000000
+UIBreakthroughDeploySectorsWidgetData 00000000
+    $::UIShapeBaseData
+        $::BFUIWidgetEntityData
+            $::UIWidgetEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 197784877
+                Size::UIElementSize
+                    X 1920.0
+                    Y 1080.0
+                Layers *nullArray*
+                TextureMappings *nullArray*
+                Components::array
+                    member(0) 00000002
+                    member(1) 00000003
+                    member(2) 00000004
+                    member(3) 00000008
+                Visible True
+            CustomLayout::BFUICustomLayout
+                SnapSettings::BFUISnapLayoutSettings
+                    Left BFUISnapLayoutMode_Default
+                    Right BFUISnapLayoutMode_Default
+                    Top BFUISnapLayoutMode_Default
+                    Bottom BFUISnapLayoutMode_Default
+                OverrideDefaultLayout False
+            SortBasedOnZ False
+            UseStencilMask False
+            UseInputStencilMask False
+            InputEnabled True
+        MasterFade 1.0
+        NumSubDivisions 1
+        LineWidth 1.5
+        LineAlpha 1.0
+    ProcectionType UIVisualWidgetType_DeployMap
+    ContestedColor::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    ContestedSectorAlpha 0.0
+    FriendlySectorAlpha 0.0
+    EnemySectorAlpha 0.0
+    FriendlySectorNeighbouringContestedAlpha 0.0
+    EnemySectorNeighbouringContestedAlpha 0.0
+    LostSectorColorBlend 0.0
+    ProjectToVisualWidget False
+    HideDeactivatedSectors False
+CurveData 00000001
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Complex
+    Time::array
+        member(0) 0.0
+        member(1) 1.0
+        member(2) 2.0
+    Value::array
+        member(0) 0.0
+        member(1) 1.0
+        member(2) 0.0
+    InTanX::array
+        member(0) 1.0
+        member(1) 1.0
+        member(2) 1.0
+    InTanY::array
+        member(0) 0.0
+        member(1) 0.0
+        member(2) 0.0
+    OutTanX::array
+        member(0) 1.0
+        member(1) 1.0
+        member(2) 1.0
+    OutTanY::array
+        member(0) 0.0
+        member(1) 0.0
+        member(2) 0.0
+    IsWeighted False
+DelayEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 35044077
+    Delay 2.0
+    Realm Realm_Client
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+FloatEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 43640592
+    Realm Realm_Client
+    DefaultValue 0.15000000596
+    IncDecValue 0.15000000596
+FloatInterpolatorEntityData 00000004
+    $::PropertyInterpolatorEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 138054144
+        Realm Realm_Client
+        InterpolationType PropertyInterpolationType_Quad
+        InterpolationMode PropertyInterpolationMode_EaseOut
+        Duration 1.5
+        UseRealTimeClock True
+        ForceFrameCorrectOutput False
+        DynamicDuration False
+    In 0.0
+    DefaultValue 0.15000000596
+    Velocity 1.0
+    UseVelocity False
+FloatTrackData 00000005
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 1
+                ExposePins True
+                IsDisabled False
+            SourcePinId -291319045
+            TargetPinId 0
+            TargetPinNameHash 231633466
+    CurveData 00000001
+InterfaceDescriptorData 00000006
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 2088909055
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+TimelineData 00000007
+    $::TimelineTrackData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+        Conditions *nullArray*
+        UpdatePassFlags 3072
+        BucketPreChildrenOrder 0
+        BucketOrder 2
+        ExposePins False
+        IsDisabled False
+    Children::array
+        member(0) 00000005
+TimelineEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 20293787
+    Realm Realm_Client
+    TimelineData 00000007
+    DeltaTimeClock Clock_SimTimeWithWorldDilation
+    BlendInTime 0.0
+    BlendOutTime 0.0
+    InitTime 0.0
+    StartTime 0.0
+    EndTime 2.0
+    JumpTime 0.0
+    PlaybackRate 1.0
+    ExternalTime 0.0
+    ExternalAudioTime 0.0
+    UpdatePassFlags 3136
+    AutoPlay True
+    AutoInitConnectedProperties False
+    ResetTimeOnStarted True
+    AllowAnimationCarryForward False
+    SyncTimelines False
+    HoldLastFrame True
+    TimelineInterpolation False
+    RuntimeFramerate 0
+    Looping True
+    Infinite True

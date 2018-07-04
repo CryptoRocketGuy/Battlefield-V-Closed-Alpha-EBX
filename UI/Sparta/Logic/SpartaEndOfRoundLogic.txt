@@ -1,0 +1,209 @@
+LogicPrefabBlueprint 09e8f4bf5aa75f61a17de9611296f3ca
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Sparta/Logic/SpartaEndOfRoundLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 1366997273
+                            TargetFieldId 1366997273
+                            Flags 18
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 1656349510
+                            TargetFieldId 1656349510
+                            Flags 18
+                        member(2)::PropertyConnection
+                            Source 00000004
+                            Target 00000006
+                            SourceFieldId 1691843338
+                            TargetFieldId 1659472860
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 1691843338
+                            TargetFieldId 1081898668
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 15
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1684951102
+                        TargetEvent::EventSpec
+                            Id -1684951102
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000005
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -653759140
+                        TargetEvent::EventSpec
+                            Id -1573253508
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 808953156
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000000
+            member(1) 00000006
+            member(2) 00000004
+            member(3) 00000001
+            member(4) 00000005
+            member(5) 00000002
+        TimeDeltaType TimeDeltaType_None
+LogicPrefabReferenceObjectData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 199309416
+            Blueprint UI/Sparta/Logic/SpartaNavigationLogic/c644eec3260835bfa4c242026713cf18
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+BFLevelControlEntityData 00000001
+    $::LevelControlEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 77042372
+        LevelToLoad *nullString*
+        InclusionOptions *nullString*
+        StartPoint *nullString*
+        RollCredits False
+        DoPersistentSave False
+        CheckSinglePlayerLevelInstalled True
+        ForceReloadResources False
+    SaveName *nullString*
+EventSyncEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 40450495
+    LocalPlayerId LocalPlayerId_0
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1366997273
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1656349510
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1684951102
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SchematicChannelEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 31462925
+    Realm Realm_Client
+    Channel UI/Ingame/Shared/Logic/UIRoundOutcomeChannel/abecd8cc73274c8de35b1664d0f7aec9
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 27
+    OutputRefProperties *nullArray*
+TwinkleFromJsEventEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 14309120
+    Realm Realm_Client
+    JsMessageType cas.restartCoopLevel
+    DDFClassName *nullString*
+    CustomParameterDefines *nullArray*
+WSPropertyDebugEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 162309695
+    Realm Realm_Client
+    Owner *nullString*
+    EntityName SpartaEndOfRoundLogic
+    SubName *nullString*
+    Inputs::array
+        member(0)::PropertyDebugInput
+            Name RoundId
+            NameInternal InputRoundId
+            NameHash 1659472860
+            TypeName Uint64
+            TypeClass PropertyDebugTypeClass_Uint64
+            TypeNameHash 2965126273
+            Index 0
+    SupportsGameView False
+    ShowDataPath False
+    ShowOnScreen False
+    RuntimeVisible True

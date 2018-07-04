@@ -1,0 +1,98 @@
+AIWeaponData ab4b0eb591cb774490a774d14055ceca
+    $::GameAIWeaponData
+        $::Asset
+            $::DataContainer
+            Name GameSystems/AI/tools/Weapons/HMG
+    FiringWeaponClass WeaponClass_MachineGun
+    VoPrimaryFireType VoPrimaryFireType_MachineGun
+    WeaponRange 300.0
+    MinimumUsageDistance 3.0
+    MaximumUsageDistance -1.0
+    VehicleMaxTargetLOSLost 5.0
+    MinEnterVehicleDistance -1.0
+    ExitVehicleDisableTime 2.0
+    EvasionVolume *nullGuid*
+    PreferredRange *nullGuid*
+    PreferredRangeVehicleTarget *nullGuid*
+    IndoorPreferredRange *nullGuid*
+    OutdoorPreferredRange *nullGuid*
+    FiringIntervalPattern *nullGuid*
+    SustainFiringData *nullGuid*
+    BurstIntervalPattern 29ebb716f704fb45849660fedece9c6d
+    CreepingAirBarrage *nullGuid*
+    SprayPattern *nullGuid*
+    AccuracyHitBox *nullGuid*
+    VehicleAimerSettings 5db17e8c8a0d004b89917158873f34fe
+    VisionOverride GameSystems/AI/Config/Sensing/VisionSensingData_FieldGun/ad4b0827ac04134eb3647f76e1977a59
+    HearingOverride GameSystems/AI/Config/Sensing/HearingSensingData_TankTurret/98006ddacedb95cd044075896b901ccf
+    TargetModifier *nullGuid*
+    TargetingSettingsOverride *nullGuid*
+    VehicleInaccuracySettings c8d00beba9afa64cbfe307ea7d58bece
+    SuppressedBehavior *nullGuid*
+    DamageModifier *nullGuid*
+    DamageModifierExtended *nullGuid*
+    FriendlyWeaponRestrictions dd7df431e8cb61488831a14b2cdba3bf
+    EnemyWeaponRestrictions f1307f158cc28a4497c366466f968a2b
+    SpecialBehavior *nullGuid*
+    HumanTargetHitProbability *nullGuid*
+    DistanceToAwareTimeOverrideCentral GameSystems/AI/config/Sensing/DistanceToAwareTimeCombined_TankTurret/104426199211468aaaf3cd8bd5350e5e
+    DistanceToAwareTimeOverridePeripheral *nullGuid*
+    ValidAgainst ValidAgainst_All
+    TargetPreference TargetPreference_Soldiers
+    MinPrecisionToFire -1.0
+    WeaponThreatScale 1.0
+    ValidWeaponScale 1.0
+    InValidWeaponScale 1.0
+    HighIntensityRadiusOverride -1.0
+    MediumIntensityRadiusOverride -1.0
+    UseTargetExtrapolation False
+    CausesEvasionOnFire False
+    UseShootspaceForVision True
+WeaponRestrictions 1406cdbc76c7b74d8a90c955367c8c50
+    $::DataContainer
+    FireDelayMin 3.0
+    FireDelayMax 5.0
+BurstIntervalPattern 29ebb716f704fb45849660fedece9c6d
+    $::DataContainer
+    BurstInterval::array
+        member(0)::BurstInterval
+            BurstLength 2.0
+            BurstLengthVariation 0.5
+            TimeBetweenBursts 2.0
+            TimeBetweenBurstsVariation 1.0
+        member(1)::BurstInterval
+            BurstLength 2.0
+            BurstLengthVariation 0.5
+            TimeBetweenBursts 1.5
+            TimeBetweenBurstsVariation 1.0
+        member(2)::BurstInterval
+            BurstLength 2.0
+            BurstLengthVariation 0.5
+            TimeBetweenBursts 1.0
+            TimeBetweenBurstsVariation 1.0
+VehicleAimerSettings 5db17e8c8a0d004b89917158873f34fe
+    $::DataContainer
+    MinPrecisionToFire 8.0
+    IsParabolic False
+    AimHigh False
+    TrackTowardsTarget False
+    TrackBeyondTarget True
+WeaponRestrictions 7c4d9adfb636654b92eacdb4ec46cc80
+    $::DataContainer
+    FireDelayMin 0.0
+    FireDelayMax 0.0
+VehicleInaccuracySettings c8d00beba9afa64cbfe307ea7d58bece
+    $::DataContainer
+    MinAimAngle 0.10000000149
+    MaxAimAngle 10.0
+    AccuracyIncreaseSpeed 0.125
+    AccuracyDecreaseSpeed 0.25
+    ResetOnReTarget True
+WeaponRestrictions dd7df431e8cb61488831a14b2cdba3bf
+    $::DataContainer
+    FireDelayMin 1.0
+    FireDelayMax 2.0
+WeaponRestrictions f1307f158cc28a4497c366466f968a2b
+    $::DataContainer
+    FireDelayMin 1.0
+    FireDelayMax 2.0

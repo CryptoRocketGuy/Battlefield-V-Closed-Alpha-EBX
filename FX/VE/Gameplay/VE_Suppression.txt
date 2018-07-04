@@ -1,0 +1,321 @@
+VisualEnvironmentBlueprint ab4d0741833ea0419aa4b82edcd793ec
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_Suppression
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000005
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId -466435462
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId 2037512782
+                            TargetFieldId 177608
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId -627891373
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1635202463
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1635202463
+                        TargetEvent::EventSpec
+                            Id 212633683
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -62145612
+                        TargetEvent::EventSpec
+                            Id 2089008817
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000002
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+        Object 00000001
+    TimeDeltaType TimeDeltaType_None
+DofComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 158851256
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) RadialBlurEnableCommonDof
+            member(1) Enable
+            member(2) RadialBlurStartRadiusCommonDof
+            member(3) RadialBlurTransitionWidthCommonDof
+            member(4) RadialBlurHorizontalScaleCommonDof
+            member(5) RadialBlurPositionCommonDof
+            member(6) RadialBlurAspectRatioBlend
+            member(7) FocusDofNearStart
+            member(8) FocusDofNearEnd
+            member(9) FocusDofFarStart
+            member(10) FocusDofFarEnd
+            member(11) BlurAdd
+            member(12) FocusDofMaxBlur
+            member(13) RadialBlurAmountCommonDof
+            member(14) BlurFactor
+        PropertyOverrideMasks::array
+            member(0) 3962736
+            member(1) 10485760
+            member(2) 0
+    BokehChromaticAberrationFgColor::Vec3
+        x 1.0
+        y 0.20000000298
+        z 1.0
+    BokehChromaticAberrationBgColor::Vec3
+        x 0.20000000298
+        y 1.0
+        z 0.20000000298
+    Realm Realm_Client
+    DofSource DofSource_Linear
+    FocusDofMaxBlur 5.0
+    BlurFactor 1.0
+    BlurAdd 0.0
+    FocusDistance 5.0
+    RadialBlurAmountCommonDof 0.0
+    RadialBlurStartRadiusCommonDof 0.15000000596
+    RadialBlurTransitionWidthCommonDof 0.699999988079
+    RadialBlurTiltCommonDof 0.0
+    RadialBlurHorizontalScaleCommonDof 1.75
+    RadialBlurAspectRatioBlend 1.0
+    RadialBlurPositionCommonDof::Vec2
+        x 0.0
+        y 0.0
+    SimpleDofBlurFilter BfGaussian9Pixels
+    SimpleDofStandardDeviation 2.0
+    SpriteDofBokehTexture *nullGuid*
+    FocusDofNearStart 10.0
+    FocusDofNearEnd 11.0
+    FocusDofFarStart 500000000.0
+    FocusDofFarEnd 5000000000.0
+    PbrFocusLengthDof 50.0
+    PbrFilmWidthDof 36.0
+    PbrFStopDof 2.0
+    OpticalVignettingAmount 0.0
+    OpticalVignettingAspectRatio 1.0
+    OpticalVignettingAnamorphicSqueeze 0.0
+    OpticalVignettingSizeCompensation 0.0
+    OpticalVignettingOperation VignettingOperation_Min
+    BokehChromaticAberrationScale 1.0
+    BokehChromaticAberrationRadius 0.5
+    BokehChromaticAberrationWidth 0.0500000007451
+    BokehChromaticAberrationRadiusThreshold 0.0
+    BokehChromaticAberrationRadiusThresholdWidth 0.00999999977648
+    BokehChromaticAberrationEnergyThreshold 0.0
+    HipToIronsightsFade 1.0
+    IronsightsDofStartFade 0.5
+    IronsightsFocalDistance 1.5
+    MaskedBlurAmount 1.0
+    MaskedBlurTexture *nullGuid*
+    SimpleDofMaxBlur 3.0
+    SimpleDofNearStart 5.0
+    SimpleDofNearEnd 7.0
+    SimpleDofFarStart 5.0
+    SimpleDofFarEnd 7.0
+    SpriteDofNearStart 5.0
+    SpriteDofNearEnd 7.0
+    SpriteDofFarStart 5.0
+    SpriteDofFarEnd 7.0
+    SpriteDofMaxBlur 6.0
+    IronsightsDofCircleDistance 0.34999999404
+    FullScreenBlurAddCommonDof 0.0
+    Enable True
+    DebugDrawFocusPlane False
+    RadialBlurEnableCommonDof True
+    OpticalVignettingEnable False
+    RGBBokehTextureEnable False
+    BokehChromaticAberrationEnable False
+    IronsightsDofActive False
+    MaskedBlurEnabled False
+    UseCameraSettings False
+    IronsightsDofCircleBlur False
+VisualEnvironmentEntityData 00000001
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 179205729
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+                member(1) 00000004
+                member(2) 00000005
+                member(3) 00000002
+            ClientRuntimeComponentCount 1
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 1.0
+    FutureVisibility 0.0
+    Priority 260
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True
+EventGateEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 65669196
+    Realm Realm_Client
+    DefaultOpen True
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2037512782
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 166560634
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 1
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 177608
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 1
+                Param1 1090519040
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_PowF
+                Result 1
+                Param1 0
+                Param2 1
+            member(3)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 2
+                Param1 1036831949
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 0
+                Param1 0
+                Param2 2
+            member(5)::MathEntityInstruction
+                Code MathOpCode_AddF
+                Result 0
+                Param1 1
+                Param2 0
+            member(6)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 1
+                Param1 1065353216
+                Param2 0
+            member(7)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 2087688425
+                Param2 0
+            member(8)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False
+RandomFloatEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 65972288
+    Realm Realm_Client
+    Min -20.0
+    Max 20.0
+    TrueRandom False

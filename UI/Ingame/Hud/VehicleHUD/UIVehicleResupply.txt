@@ -1,0 +1,93 @@
+SpatialPrefabBlueprint 368486fc1d4e47d2e17cc1d31ab0580d
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/VehicleHUD/UIVehicleResupply
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 2662400
+                            TargetFieldId 2662400
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 268173282
+                            TargetFieldId 1416974389
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId -1302118572
+                            TargetFieldId -1302118572
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+            member(1) 00000002
+        TimeDeltaType TimeDeltaType_None
+UIVehicleResupplyEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 153343033
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Realm Realm_Client
+    StationActivationRange 0.0
+    Enabled True
+    IsVehicleInRangeOfResupply False
+    CanVehicleResupply False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2662400
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SchematicChannelEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 19987624
+    Realm Realm_ClientAndServer
+    Channel UI/Ingame/Shared/Logic/UIVehicleEntityChannel/b6c7393fe17ec4c80d3a19b399e173da
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 13
+        member(1) 20
+    OutputRefProperties *nullArray*

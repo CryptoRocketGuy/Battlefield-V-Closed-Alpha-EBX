@@ -1,0 +1,2805 @@
+ObjectBlueprint 34499a36b777873b0fa2405a76b0ce3c
+    $::Blueprint
+        $::EntityBusData
+            $::DataBusData
+                $::Asset
+                    $::DataContainer
+                    Name ArtAssets/Props/ChimneyRuinsSet_01/ChimneyRuins_02_breakble
+                PropertyConnections *nullArray*
+                LinkConnections *nullArray*
+                Interface *nullGuid*
+                Flags 0
+            EventConnections::array
+                member(0)::EventConnection
+                    Source 00000006
+                    Target 00000016
+                    SourceEvent::EventSpec
+                        Id -1452333337
+                    TargetEvent::EventSpec
+                        Id 5862146
+                    TargetType EventConnectionTargetType_ClientAndServer
+                member(1)::EventConnection
+                    Source 00000016
+                    Target 00000004
+                    SourceEvent::EventSpec
+                        Id 193453899
+                    TargetEvent::EventSpec
+                        Id -274579609
+                    TargetType EventConnectionTargetType_Server
+                member(2)::EventConnection
+                    Source 00000005
+                    Target 00000015
+                    SourceEvent::EventSpec
+                        Id -1452333337
+                    TargetEvent::EventSpec
+                        Id 5862146
+                    TargetType EventConnectionTargetType_ClientAndServer
+                member(3)::EventConnection
+                    Source 00000015
+                    Target 00000008
+                    SourceEvent::EventSpec
+                        Id 193453899
+                    TargetEvent::EventSpec
+                        Id -274579609
+                    TargetType EventConnectionTargetType_Server
+                member(4)::EventConnection
+                    Source 00000008
+                    Target 00000014
+                    SourceEvent::EventSpec
+                        Id -1452333337
+                    TargetEvent::EventSpec
+                        Id 5862146
+                    TargetType EventConnectionTargetType_ClientAndServer
+                member(5)::EventConnection
+                    Source 00000014
+                    Target 00000007
+                    SourceEvent::EventSpec
+                        Id 193453899
+                    TargetEvent::EventSpec
+                        Id -274579609
+                    TargetType EventConnectionTargetType_Server
+    Object f114751218ac348f0b47c5d5a2c3ae0b
+RigidBodyData 13ad4b380ffebe8d7188da509e68c775
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_ClientAndServer
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset artassets/props/chimneyruinsset_01/chimneyruins_02_breakble_physics_win32/e460dc00cfd7c9b0683972575d815b3e
+        AssetIndex 0
+        TransformIndex 1
+        WorldIndex 0
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager True
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeCollision
+    Mass 1000.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Fixed
+    QualityType RigidBodyQualityType_Invalid
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 1
+        member(1) 2
+        member(2) 3
+        member(3) 4
+        member(4) 5
+        member(5) 0
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+BreakableModelEntityData f114751218ac348f0b47c5d5a2c3ae0b
+    $::GamePhysicsEntityData
+        $::GameComponentEntityData
+            $::ComponentEntityData
+                $::SpatialEntityData
+                    $::EntityData
+                        $::GameObjectData
+                            $::DataBusPeer
+                                $::GameDataContainer
+                                    $::DataContainer
+                                Flags 510989553
+                    Transform::LinearTransform
+                        right::Vec3
+                            x 1.0
+                            y 0.0
+                            z 0.0
+                        up::Vec3
+                            x 0.0
+                            y 1.0
+                            z 0.0
+                        forward::Vec3
+                            x 0.0
+                            y 0.0
+                            z 1.0
+                        trans::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                Components::array
+                    member(0) 00000003
+                    member(1) 00000007
+                    member(2) 00000008
+                    member(3) 00000004
+                    member(4) 00000006
+                    member(5) 00000005
+                    member(6) 0000000a
+                    member(7) 0000000c
+                    member(8) 00000009
+                    member(9) 00000016
+                    member(10) 00000015
+                    member(11) 00000014
+                    member(12) 00000000
+                    member(13) 00000002
+                    member(14) 00000001
+                ClientRuntimeComponentCount 11
+                ServerRuntimeComponentCount 11
+                ClientRuntimeTransformationCount 6
+                ServerRuntimeTransformationCount 6
+            Enabled True
+            EnableOutOfBoundsCheck True
+        PhysicsData 00000012
+        IsTraversable True
+        IsCharacterCollidable True
+    DecalVolumeShader *nullGuid*
+    DecalVolumeScaleFactor 2.0
+    Mesh artassets/props/chimneyruinsset_01/chimneyruins_02_breakble_Mesh/5f227a601cd26f8ddd76b4bc5967455d
+    BoneCount 0
+    EdgeModelLightMapData 00000017
+    Connections *nullArray*
+    TerrainShaderNodesEnable False
+BreakableControllerComponentData 00000000
+    $::DestructionControllerComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 498818
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        BreakingLength 8.0
+        FracturePosition 0.40000000596
+        DestructionRadius 0.0
+        Delay 0.0
+        RefineRadius 0.0
+        StructuralIntegrityAnalyzerEnable False
+    BreakablePartCount 6
+    NetworkIdCount 14
+BreakableModelHealthComponentData 00000001
+    $::GameHealthComponentData
+        $::HealthComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1838796
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+BreakableModelPhysicsComponentData 00000002
+    $::GamePhysicsComponentData
+        $::PhysicsComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 426606
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+            PhysicsBodies::array
+                member(0) 13ad4b380ffebe8d7188da509e68c775
+                member(1) 00000013
+            PhysicsConstraints *nullArray*
+            Parts::array
+                member(0)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(1)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(2)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(3)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(4)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                member(5)::PhysicsPartData
+                    Aabb::AxisAlignedBox
+                        min::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                        max::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+            InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+            MovableParts False
+        Realm Realm_ClientAndServer
+        EffectParameters *nullArray*
+    BreakableBodies::array
+        member(0) 13ad4b380ffebe8d7188da509e68c775
+        member(1) 00000013
+BreakablePartComponentData 00000003
+    $::DestructionPartComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 8824832
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        Objects *nullArray*
+        PartIndex 0
+        Fixed True
+        Fragile False
+    ClusterBoundingBox::AxisAlignedBox
+        min::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        max::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    HealthPercentage 100
+    MaterialHashes::array
+        member(0) 444571865
+    OnDestructionSound *nullGuid*
+    OnExplosionDestructionSound *nullGuid*
+    OnProjectileDestructionSound *nullGuid*
+    OnCollisionDestructionSound *nullGuid*
+    ClusterPositions *nullArray*
+    Collapsable True
+    DestroyNearbyStaticEntities False
+BreakablePartComponentData 00000004
+    $::DestructionPartComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 99441187
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        Objects::array
+            member(0) 0000000f
+        PartIndex 3
+        Fixed False
+        Fragile False
+    ClusterBoundingBox::AxisAlignedBox
+        min::Vec3
+            x -0.769869685173
+            y -0.932890951633
+            z -0.68607789278
+        max::Vec3
+            x 0.769869685173
+            y 0.932890951633
+            z 0.68607789278
+    HealthPercentage 100
+    MaterialHashes::array
+        member(0) 850677313
+    OnDestructionSound *nullGuid*
+    OnExplosionDestructionSound *nullGuid*
+    OnProjectileDestructionSound *nullGuid*
+    OnCollisionDestructionSound *nullGuid*
+    ClusterPositions::array
+        member(0)::Vec3
+            x -0.392235606909
+            y -1.4153213501
+            z -0.00173370365519
+        member(1)::Vec3
+            x 0.318829625845
+            y 0.596247553825
+            z -0.0257835388184
+        member(2)::Vec3
+            x 0.018863754347
+            y -0.657033383846
+            z 0.0062728500925
+        member(3)::Vec3
+            x -0.170989945531
+            y 1.39272212982
+            z 0.0
+        member(4)::Vec3
+            x 0.564397037029
+            y -1.03845763206
+            z -0.371910125017
+        member(5)::Vec3
+            x -0.332275032997
+            y 0.284180611372
+            z -0.00439430214465
+        member(6)::Vec3
+            x 0.240559801459
+            y -1.59897947311
+            z -0.00194581982214
+    Collapsable True
+    DestroyNearbyStaticEntities False
+BreakablePartComponentData 00000005
+    $::DestructionPartComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 31619426
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        Objects::array
+            member(0) 0000000e
+        PartIndex 5
+        Fixed False
+        Fragile False
+    ClusterBoundingBox::AxisAlignedBox
+        min::Vec3
+            x -0.769869685173
+            y -0.932890951633
+            z -0.68607789278
+        max::Vec3
+            x 0.769869685173
+            y 0.932890951633
+            z 0.68607789278
+    HealthPercentage 100
+    MaterialHashes::array
+        member(0) 817121857
+    OnDestructionSound *nullGuid*
+    OnExplosionDestructionSound *nullGuid*
+    OnProjectileDestructionSound *nullGuid*
+    OnCollisionDestructionSound *nullGuid*
+    ClusterPositions::array
+        member(0)::Vec3
+            x -0.392235606909
+            y -1.4153213501
+            z -0.00173370365519
+        member(1)::Vec3
+            x 0.318829625845
+            y 0.596247553825
+            z -0.0257835388184
+        member(2)::Vec3
+            x 0.018863754347
+            y -0.657033383846
+            z 0.0062728500925
+        member(3)::Vec3
+            x -0.170989945531
+            y 1.39272212982
+            z 0.0
+        member(4)::Vec3
+            x 0.564397037029
+            y -1.03845763206
+            z -0.371910125017
+        member(5)::Vec3
+            x -0.332275032997
+            y 0.284180611372
+            z -0.00439430214465
+        member(6)::Vec3
+            x 0.240559801459
+            y -1.59897947311
+            z -0.00194581982214
+    Collapsable True
+    DestroyNearbyStaticEntities False
+BreakablePartComponentData 00000006
+    $::DestructionPartComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 33126113
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        Objects::array
+            member(0) 0000000d
+        PartIndex 4
+        Fixed False
+        Fragile False
+    ClusterBoundingBox::AxisAlignedBox
+        min::Vec3
+            x -0.769869685173
+            y -0.932890951633
+            z -0.68607789278
+        max::Vec3
+            x 0.769869685173
+            y 0.932890951633
+            z 0.68607789278
+    HealthPercentage 100
+    MaterialHashes::array
+        member(0) 867455041
+    OnDestructionSound *nullGuid*
+    OnExplosionDestructionSound *nullGuid*
+    OnProjectileDestructionSound *nullGuid*
+    OnCollisionDestructionSound *nullGuid*
+    ClusterPositions::array
+        member(0)::Vec3
+            x -0.392235606909
+            y -1.4153213501
+            z -0.00173370365519
+        member(1)::Vec3
+            x 0.318829625845
+            y 0.596247553825
+            z -0.0257835388184
+        member(2)::Vec3
+            x 0.018863754347
+            y -0.657033383846
+            z 0.0062728500925
+        member(3)::Vec3
+            x -0.170989945531
+            y 1.39272212982
+            z 0.0
+        member(4)::Vec3
+            x 0.564397037029
+            y -1.03845763206
+            z -0.371910125017
+        member(5)::Vec3
+            x -0.332275032997
+            y 0.284180611372
+            z -0.00439430214465
+        member(6)::Vec3
+            x 0.240559801459
+            y -1.59897947311
+            z -0.00194581982214
+    Collapsable True
+    DestroyNearbyStaticEntities False
+BreakablePartComponentData 00000007
+    $::DestructionPartComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 68984034
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        Objects::array
+            member(0) 00000010
+        PartIndex 1
+        Fixed False
+        Fragile False
+    ClusterBoundingBox::AxisAlignedBox
+        min::Vec3
+            x -0.769869685173
+            y -0.932890951633
+            z -0.68607789278
+        max::Vec3
+            x 0.769869685173
+            y 0.932890951633
+            z 0.68607789278
+    HealthPercentage 100
+    MaterialHashes::array
+        member(0) 884232769
+    OnDestructionSound *nullGuid*
+    OnExplosionDestructionSound *nullGuid*
+    OnProjectileDestructionSound *nullGuid*
+    OnCollisionDestructionSound *nullGuid*
+    ClusterPositions::array
+        member(0)::Vec3
+            x -0.392235606909
+            y -1.4153213501
+            z -0.00173370365519
+        member(1)::Vec3
+            x 0.318829625845
+            y 0.596247553825
+            z -0.0257835388184
+        member(2)::Vec3
+            x 0.018863754347
+            y -0.657033383846
+            z 0.0062728500925
+        member(3)::Vec3
+            x -0.170989945531
+            y 1.39272212982
+            z 0.0
+        member(4)::Vec3
+            x 0.564397037029
+            y -1.03845763206
+            z -0.371910125017
+        member(5)::Vec3
+            x -0.332275032997
+            y 0.284180611372
+            z -0.00439430214465
+        member(6)::Vec3
+            x 0.240559801459
+            y -1.59897947311
+            z -0.00194581982214
+    Collapsable True
+    DestroyNearbyStaticEntities False
+BreakablePartComponentData 00000008
+    $::DestructionPartComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 97764089
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        Objects::array
+            member(0) 00000011
+        PartIndex 2
+        Fixed False
+        Fragile False
+    ClusterBoundingBox::AxisAlignedBox
+        min::Vec3
+            x -0.769869685173
+            y -0.932890951633
+            z -0.68607789278
+        max::Vec3
+            x 0.769869685173
+            y 0.932890951633
+            z 0.68607789278
+    HealthPercentage 100
+    MaterialHashes::array
+        member(0) 901010497
+    OnDestructionSound *nullGuid*
+    OnExplosionDestructionSound *nullGuid*
+    OnProjectileDestructionSound *nullGuid*
+    OnCollisionDestructionSound *nullGuid*
+    ClusterPositions::array
+        member(0)::Vec3
+            x -0.392235606909
+            y -1.4153213501
+            z -0.00173370365519
+        member(1)::Vec3
+            x 0.318829625845
+            y 0.596247553825
+            z -0.0257835388184
+        member(2)::Vec3
+            x 0.018863754347
+            y -0.657033383846
+            z 0.0062728500925
+        member(3)::Vec3
+            x -0.170989945531
+            y 1.39272212982
+            z 0.0
+        member(4)::Vec3
+            x 0.564397037029
+            y -1.03845763206
+            z -0.371910125017
+        member(5)::Vec3
+            x -0.332275032997
+            y 0.284180611372
+            z -0.00439430214465
+        member(6)::Vec3
+            x 0.240559801459
+            y -1.59897947311
+            z -0.00194581982214
+    Collapsable True
+    DestroyNearbyStaticEntities False
+ClusterDOTComponentData 00000009
+    $::ClusterDOTBaseComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 9772692
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+    ImpactDamage 10
+    ImpactDOTDuration 1.0
+    ImpactDOTTickDuration 1.0
+    DistanceMultiplier 0.5
+    DelayedSpawnOffset 0.5
+    DelayedSpawnMinDuration 2.0
+    MinDepth 2.0
+    DOTSuppressionType SuppressionType_Explosion
+    SuppressionValue 0.0
+    MaterialPair::MaterialDecl
+        Packed 587204608
+    DamageVehicles False
+    DamageCharacters True
+    DamageBangers False
+DestructionVolumeComponentData 0000000a
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 15371985
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    DestructionVolumeData 0000000b
+DestructionVolumeData 0000000b
+    $::DataContainer
+    Asset ArtAssets/Destruction/DestructionVolume/Container_DestructionVolume_01/e1930f2a7eada34e870feb4e8db48532
+    Impacts::array
+        member(0)::Vec4
+            x 2.03626847267
+            y 10.6110219955
+            z 0.0
+            w 1.7193505764
+        member(1)::Vec4
+            x 0.134509205818
+            y 9.33881568909
+            z 0.0
+            w 1.91613352299
+        member(2)::Vec4
+            x 0.0851218104362
+            y 4.40458250046
+            z 0.0
+            w 1.79979372025
+        member(3)::Vec4
+            x 2.39712071419
+            y 9.83196163177
+            z 0.0
+            w 1.79979372025
+        member(4)::Vec4
+            x 3.98878192902
+            y 6.11161804199
+            z 0.0
+            w 1.79979372025
+        member(5)::Vec4
+            x 3.9104552269
+            y 5.26852369308
+            z 0.0
+            w 1.79979372025
+        member(6)::Vec4
+            x 3.9104552269
+            y 0.580000281334
+            z 0.0
+            w 1.79979372025
+        member(7)::Vec4
+            x 0.173405885696
+            y 0.580000281334
+            z 0.0
+            w 1.79979372025
+        member(8)::Vec4
+            x 0.173405885696
+            y 3.7975153923
+            z 0.0
+            w 1.79979372025
+    BoundingBox::AxisAlignedBox
+        min::Vec3
+            x -1.24744319916
+            y -2.65999984741
+            z -1.3306043148
+        max::Vec3
+            x 5.08994674683
+            y 15.6479310989
+            z 1.57776212692
+    PartToImpactIndices::array
+        member(0) 0
+        member(1) 0
+        member(2) 2
+        member(3) 3
+        member(4) 5
+        member(5) 7
+        member(6) 9
+EdgeModelComponentData 0000000c
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 13383478
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    RigidBodies::array
+        member(0) ArtAssets/Destruction/EdgeModels/EM32_BrickWall_BTM_32x64_01_C/e92a8765fb82f54d8f686c4c3cbaa52a
+    RigidMeshes::array
+        member(0) artassets/destruction/edgemodels/em32_brickwall_btm_32x64_01_c_Mesh/0665b2d12d4ebd489a4e76c7d8920b91
+    InstanceTransforms::array
+        member(0)::LinearTransform
+            right::Vec3
+                x -0.153657838702
+                y 0.988124132156
+                z 1.11022262758e-16
+            up::Vec3
+                x -7.75646003076e-17
+                y 1.00294987528e-16
+                z -1.0
+            forward::Vec3
+                x -0.988124132156
+                y -0.153657838702
+                z 6.12323029246e-17
+            trans::Vec3
+                x -0.0812480151653
+                y 8.62718772888
+                z 0.278729617596
+        member(1)::LinearTransform
+            right::Vec3
+                x -0.153657913208
+                y 0.988124132156
+                z 8.74227836789e-08
+            up::Vec3
+                x 9.98177611677e-08
+                y -7.29513587316e-08
+                z 1.0
+            forward::Vec3
+                x 0.988124132156
+                y 0.153657913208
+                z -8.74227836789e-08
+            trans::Vec3
+                x 0.167600631714
+                y 8.59875679016
+                z -0.382192611694
+        member(2)::LinearTransform
+            right::Vec3
+                x 8.74227765735e-08
+                y 1.0
+                z 8.7422769468e-08
+            up::Vec3
+                x 1.0
+                y -8.74227765735e-08
+                z -5.34821631426e-10
+            forward::Vec3
+                x -5.34814026398e-10
+                y 8.7422769468e-08
+                z -1.0
+            trans::Vec3
+                x -0.239999994636
+                y 8.53537368774
+                z -0.222192630172
+        member(3)::LinearTransform
+            right::Vec3
+                x 1.81860657176e-12
+                y 1.0
+                z -1.90734886019e-06
+            up::Vec3
+                x -1.0
+                y 5.45658613779e-12
+                z 1.90734886019e-06
+            forward::Vec3
+                x 1.90734886019e-06
+                y 1.90734886019e-06
+                z 1.0
+            trans::Vec3
+                x 0.639999985695
+                y 8.67221546173
+                z -0.222192630172
+        member(4)::LinearTransform
+            right::Vec3
+                x -0.153657838702
+                y 0.988124132156
+                z 1.11022262758e-16
+            up::Vec3
+                x -7.75646003076e-17
+                y 1.00294987528e-16
+                z -1.0
+            forward::Vec3
+                x -0.988124132156
+                y -0.153657838702
+                z 6.12323227769e-17
+            trans::Vec3
+                x 0.473608165979
+                y 8.71346950531
+                z 0.278729707003
+        member(5)::LinearTransform
+            right::Vec3
+                x -0.870505571365
+                y 0.49215850234
+                z -3.76508157984e-09
+            up::Vec3
+                x 0.49215850234
+                y 0.870505571365
+                z -1.91549770534e-06
+            forward::Vec3
+                x -9.39451012982e-07
+                y -1.66930453815e-06
+                z -1.0
+            trans::Vec3
+                x 1.87848508358
+                y 9.77924728394
+                z -0.222192630172
+        member(6)::LinearTransform
+            right::Vec3
+                x -0.705170333385
+                y 0.709037959576
+                z 3.885778998e-16
+            up::Vec3
+                x 2.30597652459e-16
+                y -3.18695828767e-16
+                z 1.0
+            forward::Vec3
+                x 0.709037959576
+                y 0.705170333385
+                z 6.12323823339e-17
+            trans::Vec3
+                x 2.02081274986
+                y 9.92079925537
+                z -0.382192611694
+        member(7)::LinearTransform
+            right::Vec3
+                x -0.70516961813
+                y 0.709038674831
+                z -5.55111313789e-17
+            up::Vec3
+                x -4.27131997367e-18
+                y -8.25387351159e-17
+                z -1.0
+            forward::Vec3
+                x -0.709038674831
+                y -0.70516961813
+                z 6.12322830723e-17
+            trans::Vec3
+                x 1.92464256287
+                y 9.96122169495
+                z 0.27872979641
+        member(8)::LinearTransform
+            right::Vec3
+                x -0.870505571365
+                y 0.49215862155
+                z -8.48900583605e-07
+            up::Vec3
+                x 0.49215862155
+                y 0.870505571365
+                z 5.1143285873e-07
+            forward::Vec3
+                x 9.9067881365e-07
+                y 2.74113940435e-08
+                z -1.0
+            trans::Vec3
+                x 2.36521434784
+                y 10.2633218765
+                z -0.222192585468
+        member(9)::LinearTransform
+            right::Vec3
+                x -0.70516961813
+                y 0.709038674831
+                z -5.55111512313e-17
+            up::Vec3
+                x -4.27131997367e-18
+                y -8.25387351159e-17
+                z -1.0
+            forward::Vec3
+                x -0.709038674831
+                y -0.70516961813
+                z 6.12323029246e-17
+            trans::Vec3
+                x 2.18872642517
+                y 10.2170677185
+                z 0.27872979641
+        member(10)::LinearTransform
+            right::Vec3
+                x -1.0
+                y 1.22464685259e-16
+                z 0.0
+            up::Vec3
+                x -1.22464685259e-16
+                y -1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 1.50636780262
+                y 7.69600057602
+                z 0.48706689477
+        member(11)::LinearTransform
+            right::Vec3
+                x -1.0
+                y 1.22464685259e-16
+                z 0.0
+            up::Vec3
+                x -1.22464685259e-16
+                y -1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 1.58005750179
+                y 7.69600057602
+                z -0.5023047328
+        member(12)::LinearTransform
+            right::Vec3
+                x -1.0
+                y 1.22464685259e-16
+                z 0.0
+            up::Vec3
+                x -1.22464685259e-16
+                y -1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 1.50636780262
+                y 7.69600057602
+                z 0.137271523476
+        member(13)::LinearTransform
+            right::Vec3
+                x -3.81469772037e-06
+                y 1.0
+                z -8.74151666608e-08
+            up::Vec3
+                x -8.74224426184e-08
+                y -8.74155006159e-08
+                z -1.0
+            forward::Vec3
+                x -1.0
+                y -3.81469772037e-06
+                z 8.74227765735e-08
+            trans::Vec3
+                x -0.0799999982119
+                y 4.04595088959
+                z 0.27872979641
+        member(14)::LinearTransform
+            right::Vec3
+                x -2.86102294922e-06
+                y 1.0
+                z -4.09272615798e-12
+            up::Vec3
+                x 1.19209289551e-07
+                y 4.43378667114e-12
+                z 1.0
+            forward::Vec3
+                x 1.0
+                y 2.86102294922e-06
+                z -1.19209289551e-07
+            trans::Vec3
+                x 0.474384397268
+                y 4.09798336029
+                z -0.382192671299
+        member(15)::LinearTransform
+            right::Vec3
+                x 6.12323426293e-17
+                y 1.0
+                z 0.0
+            up::Vec3
+                x 1.0
+                y -6.12323426293e-17
+                z 1.22464685259e-16
+            forward::Vec3
+                x 1.22464685259e-16
+                y -7.49879878611e-33
+                z -1.0
+            trans::Vec3
+                x -0.239999994636
+                y 4.04595041275
+                z 0.118729799986
+        member(16)::LinearTransform
+            right::Vec3
+                x -8.7422236561e-08
+                y 1.0
+                z -8.66251525622e-07
+            up::Vec3
+                x -1.0
+                y -8.74213341717e-08
+                z 1.04109722088e-06
+            forward::Vec3
+                x 1.04109710719e-06
+                y 8.66251639309e-07
+                z 1.0
+            trans::Vec3
+                x 0.639999985695
+                y 4.0459523201
+                z 0.118729799986
+        member(17)::LinearTransform
+            right::Vec3
+                x -2.86102294922e-06
+                y 1.0
+                z -4.09272615798e-12
+            up::Vec3
+                x 1.19209289551e-07
+                y 4.43378667114e-12
+                z 1.0
+            forward::Vec3
+                x 1.0
+                y 2.86102294922e-06
+                z -1.19209289551e-07
+            trans::Vec3
+                x -0.0799999982119
+                y 4.04595088959
+                z -0.382192611694
+        member(18)::LinearTransform
+            right::Vec3
+                x 0.153657838702
+                y -0.988124132156
+                z -8.74227765735e-08
+            up::Vec3
+                x 7.29513587316e-08
+                y 9.98177469569e-08
+                z -1.0
+            forward::Vec3
+                x 0.988124132156
+                y 0.153657838702
+                z 8.74227765735e-08
+            trans::Vec3
+                x -0.0696464776993
+                y 8.51638698578
+                z 0.278729557991
+        member(19)::LinearTransform
+            right::Vec3
+                x 0.153657913208
+                y -0.988124132156
+                z 1.66533453694e-16
+            up::Vec3
+                x 3.49159686352e-17
+                y 1.73964553149e-16
+                z 1.0
+            forward::Vec3
+                x -0.988124132156
+                y -0.153657913208
+                z 6.12323426293e-17
+            trans::Vec3
+                x 0.167600631714
+                y 8.59875679016
+                z -0.382192611694
+        member(20)::LinearTransform
+            right::Vec3
+                x 6.12323426293e-17
+                y -1.0
+                z 0.0
+            up::Vec3
+                x 1.0
+                y 6.12323426293e-17
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x -0.239999994636
+                y 8.53537368774
+                z -0.222192630172
+        member(21)::LinearTransform
+            right::Vec3
+                x -8.74227765735e-08
+                y -1.0
+                z 1.8199260694e-06
+            up::Vec3
+                x -1.0
+                y 8.74226202541e-08
+                z -8.54451371879e-08
+            forward::Vec3
+                x 8.54449737631e-08
+                y -1.8199260694e-06
+                z -1.0
+            trans::Vec3
+                x 0.639999985695
+                y 8.67221546173
+                z -0.222192630172
+        member(22)::LinearTransform
+            right::Vec3
+                x 0.153657838702
+                y -0.988124132156
+                z -8.74227765735e-08
+            up::Vec3
+                x 7.29513587316e-08
+                y 9.98177469569e-08
+                z -1.0
+            forward::Vec3
+                x 0.988124132156
+                y 0.153657838702
+                z 8.74227765735e-08
+            trans::Vec3
+                x 0.499212741852
+                y 8.54881477356
+                z 0.278729707003
+        member(23)::LinearTransform
+            right::Vec3
+                x -8.74232952697e-08
+                y 0.998547673225
+                z -0.0538749620318
+            up::Vec3
+                x -1.0
+                y -3.12072643283e-08
+                z 1.04429500425e-06
+            forward::Vec3
+                x 1.04109710719e-06
+                y 0.0538749620318
+                z 0.998547673225
+            trans::Vec3
+                x 4.26093626022
+                y 5.71957826614
+                z 0.119194030762
+        member(24)::LinearTransform
+            right::Vec3
+                x 6.12323426293e-17
+                y 1.0
+                z 2.22044604925e-16
+            up::Vec3
+                x -6.12323426293e-17
+                y 2.22044604925e-16
+                z -1.0
+            forward::Vec3
+                x -1.0
+                y 6.12323426293e-17
+                z 6.12323426293e-17
+            trans::Vec3
+                x 4.10093641281
+                y 5.72818613052
+                z 0.27872979641
+        member(25)::LinearTransform
+            right::Vec3
+                x 1.22736852826e-14
+                y 1.0
+                z 8.74227765735e-08
+            up::Vec3
+                x 8.74227765735e-08
+                y -8.74227765735e-08
+                z 1.0
+            forward::Vec3
+                x 1.0
+                y -4.63094384549e-15
+                z -8.74227765735e-08
+            trans::Vec3
+                x 4.10093593597
+                y 5.69252729416
+                z -0.382192611694
+        member(26)::LinearTransform
+            right::Vec3
+                x 6.11434107872e-17
+                y 0.998547673225
+                z -0.0538749657571
+            up::Vec3
+                x 1.0
+                y -5.46345581576e-17
+                z 1.22286821574e-16
+            forward::Vec3
+                x 1.19165783097e-16
+                y -0.0538749657571
+                z -0.998547673225
+            trans::Vec3
+                x 3.59999990463
+                y 5.71957826614
+                z -0.223016142845
+        member(27)::LinearTransform
+            right::Vec3
+                x 6.11434107872e-17
+                y 0.998547673225
+                z -0.0538749657571
+            up::Vec3
+                x 1.0
+                y -5.46345581576e-17
+                z 1.22286821574e-16
+            forward::Vec3
+                x 1.19165783097e-16
+                y -0.0538749657571
+                z -0.998547673225
+            trans::Vec3
+                x 3.59999990463
+                y 5.71957826614
+                z 0.119194440544
+        member(28)::LinearTransform
+            right::Vec3
+                x 0.87050563097
+                y -0.492158412933
+                z 1.00046554508e-06
+            up::Vec3
+                x 0.492158412933
+                y 0.87050563097
+                z 1.23114496375e-08
+            forward::Vec3
+                x -8.76970091213e-07
+                y 4.81670326735e-07
+                z 1.0
+            trans::Vec3
+                x 1.87848508358
+                y 9.77924728394
+                z -0.222192630172
+        member(29)::LinearTransform
+            right::Vec3
+                x 0.705170333385
+                y -0.70903801918
+                z 8.94070453228e-08
+            up::Vec3
+                x 0.709037959576
+                y 0.705170333385
+                z 4.37114735519e-08
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 1.96333408356
+                y 9.77821159363
+                z -0.120923534036
+        member(30)::LinearTransform
+            right::Vec3
+                x 0.70516961813
+                y -0.709038674831
+                z -8.74227623626e-08
+            up::Vec3
+                x 3.38240851994e-10
+                y 1.23634023907e-07
+                z -1.0
+            forward::Vec3
+                x 0.709038674831
+                y 0.70516961813
+                z 8.74227765735e-08
+            trans::Vec3
+                x 2.27430343628
+                y 10.1310224533
+                z 0.278729707003
+        member(31)::LinearTransform
+            right::Vec3
+                x 0.870505571365
+                y -0.492158532143
+                z -6.17477411424e-08
+            up::Vec3
+                x 0.492158532143
+                y 0.870505571365
+                z 2.34679447431e-07
+            forward::Vec3
+                x -6.17477411424e-08
+                y -2.34679447431e-07
+                z 1.0
+            trans::Vec3
+                x 2.36521434784
+                y 10.2633218765
+                z -0.222192585468
+        member(32)::LinearTransform
+            right::Vec3
+                x 0.70516961813
+                y -0.709038674831
+                z -8.74227623626e-08
+            up::Vec3
+                x 3.38240851994e-10
+                y 1.23634023907e-07
+                z -1.0
+            forward::Vec3
+                x 0.709038674831
+                y 0.70516961813
+                z 8.74227552572e-08
+            trans::Vec3
+                x 2.04016280174
+                y 9.89815998077
+                z 0.278729587793
+        member(33)::LinearTransform
+            right::Vec3
+                x 0.705170333385
+                y -0.709037959576
+                z 8.74227978898e-08
+            up::Vec3
+                x -1.23634009697e-07
+                y 3.38119587884e-10
+                z 1.0
+            forward::Vec3
+                x -0.709037959576
+                y -0.705170333385
+                z -8.74227481518e-08
+            trans::Vec3
+                x 2.0856013298
+                y 9.85056781769
+                z -0.382192641497
+        member(34)::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y -1.0
+                z 1.22464685259e-16
+            forward::Vec3
+                x 0.0
+                y -1.22464685259e-16
+                z -1.0
+            trans::Vec3
+                x 1.60898268223
+                y 7.7034072876
+                z -0.00768166780472
+        member(35)::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y -1.0
+                z 1.22464685259e-16
+            forward::Vec3
+                x 0.0
+                y -1.22464685259e-16
+                z -1.0
+            trans::Vec3
+                x 1.67910039425
+                y 7.7034072876
+                z -0.464476972818
+        member(36)::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y -1.0
+                z 1.22464685259e-16
+            forward::Vec3
+                x 0.0
+                y -1.22464685259e-16
+                z -1.0
+            trans::Vec3
+                x 1.60898268223
+                y 7.7034072876
+                z 0.415867298841
+        member(37)::LinearTransform
+            right::Vec3
+                x -8.74228121006e-08
+                y 0.99854773283
+                z -0.0538746081293
+            up::Vec3
+                x -1.0
+                y -8.25859842735e-08
+                z 9.20056990594e-08
+            forward::Vec3
+                x 8.74227907843e-08
+                y 0.0538746081293
+                z 0.99854773283
+            trans::Vec3
+                x 4.26093626022
+                y 0.228020995855
+                z 0.119194507599
+        member(38)::LinearTransform
+            right::Vec3
+                x 1.22736852826e-14
+                y 1.0
+                z 8.74227765735e-08
+            up::Vec3
+                x 8.74227765735e-08
+                y -8.74227765735e-08
+                z 1.0
+            forward::Vec3
+                x 1.0
+                y -4.63094384549e-15
+                z -8.74227765735e-08
+            trans::Vec3
+                x 4.10093641281
+                y 0.200969651341
+                z -0.382192611694
+        member(39)::LinearTransform
+            right::Vec3
+                x -3.49148124353e-15
+                y 1.0
+                z -8.74227765735e-08
+            up::Vec3
+                x -8.74227765735e-08
+                y -8.74227765735e-08
+                z -1.0
+            forward::Vec3
+                x -1.0
+                y 4.15126019362e-15
+                z 8.74227765735e-08
+            trans::Vec3
+                x 3.75999999046
+                y 0.236628383398
+                z 0.27872979641
+        member(40)::LinearTransform
+            right::Vec3
+                x 6.11434107872e-17
+                y 0.99854773283
+                z -0.0538746081293
+            up::Vec3
+                x 1.0
+                y -6.78300741613e-17
+                z -1.22286821574e-16
+            forward::Vec3
+                x -1.25763547716e-16
+                y -0.0538746081293
+                z -0.99854773283
+            trans::Vec3
+                x 3.59999990463
+                y 0.301602423191
+                z -0.231076538563
+        member(41)::LinearTransform
+            right::Vec3
+                x 6.11434107872e-17
+                y 0.99854773283
+                z -0.0538746081293
+            up::Vec3
+                x 1.0
+                y -6.78300741613e-17
+                z -1.22286821574e-16
+            forward::Vec3
+                x -1.25763547716e-16
+                y -0.0538746081293
+                z -0.99854773283
+            trans::Vec3
+                x 3.59999990463
+                y 0.228020995855
+                z 0.119194507599
+        member(42)::LinearTransform
+            right::Vec3
+                x 6.11434107872e-17
+                y -0.998547673225
+                z 0.0538749732077
+            up::Vec3
+                x -1.0
+                y 5.13791782453e-08
+                z 9.52289269662e-07
+            forward::Vec3
+                x -9.53674316406e-07
+                y -0.0538749732077
+                z -0.998547673225
+            trans::Vec3
+                x 4.26093626022
+                y 5.71957826614
+                z 0.119194030762
+        member(43)::LinearTransform
+            right::Vec3
+                x 1.22736852826e-14
+                y -1.0
+                z -8.74227765735e-08
+            up::Vec3
+                x 8.74227765735e-08
+                y 8.74227765735e-08
+                z -1.0
+            forward::Vec3
+                x 1.0
+                y 4.63094384549e-15
+                z 8.74227765735e-08
+            trans::Vec3
+                x 4.10093641281
+                y 5.72818613052
+                z 0.27872979641
+        member(44)::LinearTransform
+            right::Vec3
+                x 6.12323426293e-17
+                y -1.0
+                z 2.22044604925e-16
+            up::Vec3
+                x 6.12323426293e-17
+                y 2.22044604925e-16
+                z 1.0
+            forward::Vec3
+                x -1.0
+                y -6.12323426293e-17
+                z 6.12323426293e-17
+            trans::Vec3
+                x 4.10093593597
+                y 5.69252729416
+                z -0.382192611694
+        member(45)::LinearTransform
+            right::Vec3
+                x 8.74227836789e-08
+                y -0.998547673225
+                z 0.0538749657571
+            up::Vec3
+                x 1.0
+                y 9.20057132703e-08
+                z 8.25859203246e-08
+            forward::Vec3
+                x -8.74227836789e-08
+                y 0.0538749657571
+                z 0.998547673225
+            trans::Vec3
+                x 3.59999990463
+                y 5.71957826614
+                z 0.119194440544
+        member(46)::LinearTransform
+            right::Vec3
+                x 8.74227836789e-08
+                y -0.998547673225
+                z 0.0538749657571
+            up::Vec3
+                x 1.0
+                y 9.20057132703e-08
+                z 8.25859203246e-08
+            forward::Vec3
+                x -8.74227836789e-08
+                y 0.0538749657571
+                z 0.998547673225
+            trans::Vec3
+                x 3.59999990463
+                y 5.71957826614
+                z -0.223016142845
+        member(47)::LinearTransform
+            right::Vec3
+                x -0.0610709190369
+                y 0.998133420944
+                z -2.77555756156e-16
+            up::Vec3
+                x -4.41674610085e-17
+                y -2.80777181273e-16
+                z -1.0
+            forward::Vec3
+                x -0.998133420944
+                y -0.0610709190369
+                z 6.12323426293e-17
+            trans::Vec3
+                x 0.211649298668
+                y 0.347752213478
+                z 0.27872979641
+        member(48)::LinearTransform
+            right::Vec3
+                x -0.0610709637403
+                y 0.998133420944
+                z 5.55111512313e-17
+            up::Vec3
+                x -5.7727922481e-17
+                y -5.91470533922e-17
+                z 1.0
+            forward::Vec3
+                x 0.998133420944
+                y 0.0610709637403
+                z 6.12323426293e-17
+            trans::Vec3
+                x 0.188044369221
+                y 0.251315832138
+                z -0.382192611694
+        member(49)::LinearTransform
+            right::Vec3
+                x 8.74378471849e-08
+                y 0.999507784843
+                z -0.0313721299171
+            up::Vec3
+                x 1.0
+                y -9.0137447728e-08
+                z -8.46366532414e-08
+            forward::Vec3
+                x -8.74227907843e-08
+                y -0.0313721299171
+                z -0.999507784843
+            trans::Vec3
+                x -0.239999994636
+                y 0.206598639488
+                z 0.0996727496386
+        member(50)::LinearTransform
+            right::Vec3
+                x 6.12022001677e-17
+                y 0.999507784843
+                z -0.0313721299171
+            up::Vec3
+                x -1.0
+                y 1.33540302788e-16
+                z 2.3037127761e-15
+            forward::Vec3
+                x 2.3067682357e-15
+                y 0.0313721299171
+                z 0.999507784843
+            trans::Vec3
+                x 0.639999985695
+                y 0.348114907742
+                z -0.222165033221
+        member(51)::LinearTransform
+            right::Vec3
+                x -0.0610709190369
+                y 0.998133420944
+                z -2.77555756156e-16
+            up::Vec3
+                x -4.41674610085e-17
+                y -2.80777181273e-16
+                z -1.0
+            forward::Vec3
+                x -0.998133420944
+                y -0.0610709190369
+                z 6.12323426293e-17
+            trans::Vec3
+                x 0.481412649155
+                y 0.266465187073
+                z 0.27872979641
+        member(52)::LinearTransform
+            right::Vec3
+                x -0.0610709637403
+                y 0.998133420944
+                z 5.55111512313e-17
+            up::Vec3
+                x -5.7727922481e-17
+                y -5.91470533922e-17
+                z 1.0
+            forward::Vec3
+                x 0.998133420944
+                y 0.0610709637403
+                z 6.12323426293e-17
+            trans::Vec3
+                x -0.0809485316277
+                y 0.292512267828
+                z -0.382192611694
+        member(53)::LinearTransform
+            right::Vec3
+                x 3.81469772037e-06
+                y -1.0
+                z -7.27617965879e-12
+            up::Vec3
+                x 3.34759133632e-17
+                y 7.27617965879e-12
+                z -1.0
+            forward::Vec3
+                x 1.0
+                y 3.81469772037e-06
+                z 6.12323426293e-17
+            trans::Vec3
+                x -0.0799999982119
+                y 4.04595088959
+                z 0.27872979641
+        member(54)::LinearTransform
+            right::Vec3
+                x 2.86102294922e-06
+                y -1.0
+                z 8.74271179896e-08
+            up::Vec3
+                x 3.17862607346e-08
+                y 8.74272103601e-08
+                z 1.0
+            forward::Vec3
+                x -1.0
+                y -2.86102294922e-06
+                z 3.17865129773e-08
+            trans::Vec3
+                x 0.466577351093
+                y 4.00515699387
+                z -0.382192671299
+        member(55)::LinearTransform
+            right::Vec3
+                x 8.74227836789e-08
+                y -1.0
+                z -8.7422769468e-08
+            up::Vec3
+                x 1.0
+                y 8.74227765735e-08
+                z 8.74227765735e-08
+            forward::Vec3
+                x -8.7422769468e-08
+                y -8.74227765735e-08
+                z 1.0
+            trans::Vec3
+                x -0.239999994636
+                y 4.04595041275
+                z 0.118729799986
+        member(56)::LinearTransform
+            right::Vec3
+                x 6.12323426293e-17
+                y -1.0
+                z 9.53674316406e-07
+            up::Vec3
+                x -1.0
+                y -6.12322235153e-17
+                z 1.22464685259e-16
+            forward::Vec3
+                x -1.22464619084e-16
+                y -9.53674316406e-07
+                z -1.0
+            trans::Vec3
+                x 0.639999985695
+                y 4.0459523201
+                z 0.118729799986
+        member(57)::LinearTransform
+            right::Vec3
+                x 2.86102294922e-06
+                y -1.0
+                z 8.74271179896e-08
+            up::Vec3
+                x 3.17862607346e-08
+                y 8.74272103601e-08
+                z 1.0
+            forward::Vec3
+                x -1.0
+                y -2.86102294922e-06
+                z 3.17865129773e-08
+            trans::Vec3
+                x -0.0799999982119
+                y 4.04595088959
+                z -0.382192611694
+    LightMapUVs::array
+        member(0)::Vec4
+            x 0.0365176685154
+            y 0.117782950401
+            z 0.391827642918
+            w 0.117983460426
+        member(1)::Vec4
+            x 0.820728003979
+            y 0.23849222064
+            z 0.0358258634806
+            w 0.112167701125
+        member(2)::Vec4
+            x 0.480427354574
+            y 0.327685773373
+            z 0.82031416893
+            w 0.0427446626127
+        member(3)::Vec4
+            x 0.817037403584
+            y 0.0427486114204
+            z 0.487314522266
+            w 0.327684789896
+        member(4)::Vec4
+            x 0.038617733866
+            y 0.105282492936
+            z 0.390174746513
+            w 0.105369843543
+        member(5)::Vec4
+            x 0.55423617363
+            y 0.0293982662261
+            z 0.24690258503
+            w 0.958020448685
+        member(6)::Vec4
+            x 0.36064901948
+            y 0.0721480920911
+            z 0.0681140422821
+            w 0.0706135630608
+        member(7)::Vec4
+            x 0.0690923109651
+            y 0.0727612748742
+            z 0.359676927328
+            w 0.0742172151804
+        member(8)::Vec4
+            x 0.557909727097
+            y 0.0294019151479
+            z 0.243437379599
+            w 0.958016753197
+        member(9)::Vec4
+            x 0.0753095373511
+            y 0.0668505802751
+            z 0.353380918503
+            w 0.0680961608887
+        member(10)::Vec4
+            x 0.846740186214
+            y 0.165841117501
+            z 0.640523970127
+            w 0.331532180309
+        member(11)::Vec4
+            x 0.848234534264
+            y 0.189049899578
+            z 0.641951918602
+            w 0.312542289495
+        member(12)::Vec4
+            x 0.84674012661
+            y 0.173994451761
+            z 0.640400767326
+            w 0.324864327908
+        member(13)::Vec4
+            x 0.0276756063104
+            y 0.376156628132
+            z 0.313127696514
+            w 0.481443613768
+        member(14)::Vec4
+            x 0.329644292593
+            y 0.480052083731
+            z 0.0440208911896
+            w 0.377284407616
+        member(15)::Vec4
+            x 0.958051085472
+            y 0.196028977633
+            z 0.256437718868
+            w 0.480763763189
+        member(16)::Vec4
+            x 0.256437778473
+            y 0.48076364398
+            z 0.958051085472
+            w 0.196028918028
+        member(17)::Vec4
+            x 0.313127696514
+            y 0.481443583965
+            z 0.027675608173
+            w 0.37615659833
+        member(18)::Vec4
+            x 0.0338218584657
+            y 0.117507465184
+            z 0.394536077976
+            w 0.117720752954
+        member(19)::Vec4
+            x 0.820727944374
+            y 0.23849222064
+            z 0.0358258634806
+            w 0.112167701125
+        member(20)::Vec4
+            x 0.480427384377
+            y 0.327685773373
+            z 0.82031416893
+            w 0.0427446588874
+        member(21)::Vec4
+            x 0.817037403584
+            y 0.0427486896515
+            z 0.487314492464
+            w 0.327684819698
+        member(22)::Vec4
+            x 0.0346121750772
+            y 0.104685097933
+            z 0.394092649221
+            w 0.104834616184
+        member(23)::Vec4
+            x 0.398704737425
+            y 0.425838172436
+            z 0.743554413319
+            w 0.430238068104
+        member(24)::Vec4
+            x 0.172972634435
+            y 0.57181930542
+            z 0.256340146065
+            w 0.570495843887
+        member(25)::Vec4
+            x 0.256340205669
+            y 0.571576356888
+            z 0.172973588109
+            w 0.572881281376
+        member(26)::Vec4
+            x 0.75580906868
+            y 0.430285215378
+            z 0.386189937592
+            w 0.428620636463
+        member(27)::Vec4
+            x 0.743554353714
+            y 0.430238068104
+            z 0.398704767227
+            w 0.425838172436
+        member(28)::Vec4
+            x 0.554236114025
+            y 0.0293983258307
+            z 0.24690258503
+            w 0.958020508289
+        member(29)::Vec4
+            x 0.559900641441
+            y 0.0331217497587
+            z 0.246434241533
+            w 0.961728394032
+        member(30)::Vec4
+            x 0.0732172727585
+            y 0.0649456456304
+            z 0.355455160141
+            w 0.0662127360702
+        member(31)::Vec4
+            x 0.557909727097
+            y 0.0294019132853
+            z 0.243437379599
+            w 0.958016812801
+        member(32)::Vec4
+            x 0.067564919591
+            y 0.0701827555895
+            z 0.361197978258
+            w 0.0717332363129
+        member(33)::Vec4
+            x 0.362351834774
+            y 0.0707582235336
+            z 0.0664103850722
+            w 0.0691709890962
+        member(34)::Vec4
+            x 0.848820567131
+            y 0.177413716912
+            z 0.642560601234
+            w 0.322069227695
+        member(35)::Vec4
+            x 0.850242257118
+            y 0.188157960773
+            z 0.644035696983
+            w 0.313270896673
+        member(36)::Vec4
+            x 0.848820567131
+            y 0.167425274849
+            z 0.642560601234
+            w 0.330236583948
+        member(37)::Vec4
+            x 0.327491819859
+            y 0.259595066309
+            z 0.100807897747
+            w 0.260170608759
+        member(38)::Vec4
+            x 0.184700384736
+            y 0.260363399982
+            z 0.243596032262
+            w 0.260802984238
+        member(39)::Vec4
+            x 0.255842626095
+            y 0.259651720524
+            z 0.172314420342
+            w 0.259318619967
+        member(40)::Vec4
+            x 0.113193169236
+            y 0.2580499053
+            z 0.314871251583
+            w 0.25750285387
+        member(41)::Vec4
+            x 0.100807897747
+            y 0.260170608759
+            z 0.327491849661
+            w 0.259595066309
+        member(42)::Vec4
+            x 0.398704767227
+            y 0.425838172436
+            z 0.743554413319
+            w 0.430238068104
+        member(43)::Vec4
+            x 0.172972619534
+            y 0.57181930542
+            z 0.256340146065
+            w 0.570495903492
+        member(44)::Vec4
+            x 0.256340205669
+            y 0.571576356888
+            z 0.172973573208
+            w 0.572881281376
+        member(45)::Vec4
+            x 0.743554353714
+            y 0.430238068104
+            z 0.398704767227
+            w 0.425838202238
+        member(46)::Vec4
+            x 0.75580906868
+            y 0.430285185575
+            z 0.386189877987
+            w 0.428620636463
+        member(47)::Vec4
+            x 0.39285197854
+            y 0.256578147411
+            z 0.0360412783921
+            w 0.256205797195
+        member(48)::Vec4
+            x 0.0353359170258
+            y 0.258961707354
+            z 0.393538355827
+            w 0.259320437908
+        member(49)::Vec4
+            x 0.458599746227
+            y 0.188886940479
+            z 0.540789365768
+            w 0.188790053129
+        member(50)::Vec4
+            x 0.529229283333
+            y 0.184789821506
+            z 0.470223039389
+            w 0.184808835387
+        member(51)::Vec4
+            x 0.384991079569
+            y 0.258887082338
+            z 0.0441150069237
+            w 0.258529007435
+        member(52)::Vec4
+            x 0.0272925905883
+            y 0.257764309645
+            z 0.401374638081
+            w 0.258147954941
+        member(53)::Vec4
+            x 0.027675608173
+            y 0.376156628132
+            z 0.313127696514
+            w 0.481443613768
+        member(54)::Vec4
+            x 0.54192340374
+            y 0.878044247627
+            z 0.671358287334
+            w 0.87908744812
+        member(55)::Vec4
+            x 0.958051085472
+            y 0.196028962731
+            z 0.256437718868
+            w 0.480763733387
+        member(56)::Vec4
+            x 0.256437718868
+            y 0.480763614178
+            z 0.958051085472
+            w 0.196028903127
+        member(57)::Vec4
+            x 0.313127726316
+            y 0.481443613768
+            z 0.0276756063104
+            w 0.37615659833
+    MaskOverrides::array
+        member(0) 0
+        member(1) 0
+        member(2) 0
+        member(3) 0
+        member(4) 0
+        member(5) 0
+        member(6) 0
+        member(7) 0
+        member(8) 0
+        member(9) 0
+        member(10) 0
+        member(11) 0
+        member(12) 0
+        member(13) 0
+        member(14) 0
+        member(15) 0
+        member(16) 0
+        member(17) 0
+        member(18) 0
+        member(19) 0
+        member(20) 0
+        member(21) 0
+        member(22) 0
+        member(23) 0
+        member(24) 0
+        member(25) 0
+        member(26) 0
+        member(27) 0
+        member(28) 0
+        member(29) 0
+        member(30) 0
+        member(31) 0
+        member(32) 0
+        member(33) 0
+        member(34) 0
+        member(35) 0
+        member(36) 0
+        member(37) 0
+        member(38) 0
+        member(39) 0
+        member(40) 0
+        member(41) 0
+        member(42) 0
+        member(43) 0
+        member(44) 0
+        member(45) 0
+        member(46) 0
+        member(47) 0
+        member(48) 0
+        member(49) 0
+        member(50) 0
+        member(51) 0
+        member(52) 0
+        member(53) 0
+        member(54) 0
+        member(55) 0
+        member(56) 0
+        member(57) 0
+    MeshInstanceRanges::array
+        member(0) 58
+    ConnectionInstanceLookupTable::array
+        member(0) 0
+        member(1) 1
+        member(2) 2
+        member(3) 3
+        member(4) 4
+        member(5) 5
+        member(6) 6
+        member(7) 7
+        member(8) 8
+        member(9) 9
+        member(10) 10
+        member(11) 11
+        member(12) 12
+        member(13) 13
+        member(14) 14
+        member(15) 15
+        member(16) 16
+        member(17) 17
+        member(18) 18
+        member(19) 19
+        member(20) 20
+        member(21) 21
+        member(22) 22
+        member(23) 23
+        member(24) 24
+        member(25) 25
+        member(26) 26
+        member(27) 27
+        member(28) 28
+        member(29) 29
+        member(30) 30
+        member(31) 31
+        member(32) 32
+        member(33) 33
+        member(34) 34
+        member(35) 35
+        member(36) 36
+        member(37) 37
+        member(38) 38
+        member(39) 39
+        member(40) 40
+        member(41) 41
+        member(42) 42
+        member(43) 43
+        member(44) 44
+        member(45) 45
+        member(46) 46
+        member(47) 47
+        member(48) 48
+        member(49) 49
+        member(50) 50
+        member(51) 51
+        member(52) 52
+        member(53) 53
+        member(54) 54
+        member(55) 55
+        member(56) 56
+        member(57) 57
+    Connections::array
+        member(0)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 5
+            NeighbourPartIndex 2
+        member(1)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 10
+            NeighbourPartIndex 3
+        member(2)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 13
+            NeighbourPartIndex 3
+        member(3)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 18
+            NeighbourPartIndex 5
+        member(4)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 23
+            NeighbourPartIndex 1
+        member(5)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 28
+            NeighbourPartIndex 4
+        member(6)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 34
+            NeighbourPartIndex 1
+        member(7)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 37
+            NeighbourPartIndex 2
+        member(8)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 42
+            NeighbourPartIndex 0
+        member(9)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 47
+            NeighbourPartIndex 3
+        member(10)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 53
+            NeighbourPartIndex 0
+        member(11)::EdgeModelConnectionInfo
+            ConnectionInstanceRange 58
+            NeighbourPartIndex 2
+    PartConnectionRanges::array
+        member(0) 0
+        member(1) 2
+        member(2) 5
+        member(3) 8
+        member(4) 10
+        member(5) 12
+    AddToSpatialQueryManager False
+ObjectReferenceObjectData 0000000d
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint ArtAssets/Props/ChimneyRuinsSet_01/DC_ChimneyRuin_01_part1/148740095667fe4767efb4feca4455a9
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 4.02152109146
+                    y 2.96472620964
+                    z -0.196054339409
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+ObjectReferenceObjectData 0000000e
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint ArtAssets/Props/ChimneyRuinsSet_01/DC_ChimneyRuin_01_part1/148740095667fe4767efb4feca4455a9
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.388596087694
+                    y 2.1164727211
+                    z -0.0485402643681
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+ObjectReferenceObjectData 0000000f
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint ArtAssets/Props/ChimneyRuinsSet_01/DC_ChimneyRuin_01_part1/148740095667fe4767efb4feca4455a9
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 0.0
+                    y 0.0
+                    z -1.0
+                up::Vec3
+                    x 0.0
+                    y -1.0
+                    z 0.0
+                forward::Vec3
+                    x -1.0
+                    y 0.0
+                    z 0.0
+                trans::Vec3
+                    x 3.82871413231
+                    y 7.79030990601
+                    z -0.123376637697
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+ObjectReferenceObjectData 00000010
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint ArtAssets/Props/ChimneyRuinsSet_01/DC_ChimneyRuin_01_part1/148740095667fe4767efb4feca4455a9
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.666405498981
+                    y 13.1652545929
+                    z 0.123578906059
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+ObjectReferenceObjectData 00000011
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint ArtAssets/Props/ChimneyRuinsSet_01/DC_ChimneyRuin_01_part1/148740095667fe4767efb4feca4455a9
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x -1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y -1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x -0.0733253508806
+                    y 5.95514440536
+                    z -0.0569790005684
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+PhysicsEntityData 00000012
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    Asset artassets/props/chimneyruinsset_01/chimneyruins_02_breakble_physics_win32/e460dc00cfd7c9b0683972575d815b3e
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    RigidBodies *nullArray*
+    FloatPhysics *nullGuid*
+    Mass 1000010.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    Proximity *nullGuid*
+    Constraints *nullArray*
+    MovableParts False
+    IsComposite False
+RigidBodyData 00000013
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_Client
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset artassets/props/chimneyruinsset_01/chimneyruins_02_breakble_physics_win32/e460dc00cfd7c9b0683972575d815b3e
+        AssetIndex 0
+        TransformIndex 1
+        WorldIndex 1
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 1
+        AddToSpatialQueryManager False
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeProxy
+    Mass 1000.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Fixed
+    QualityType RigidBodyQualityType_Invalid
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 1
+        member(1) 2
+        member(2) 3
+        member(3) 4
+        member(4) 5
+        member(5) 0
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+DelayEntityData 00000014
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 110238254
+    Delay 0.5
+    Realm Realm_ClientAndServer
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+DelayEntityData 00000015
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 130830740
+    Delay 0.5
+    Realm Realm_ClientAndServer
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+DelayEntityData 00000016
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 116655050
+    Delay 0.5
+    Realm Realm_ClientAndServer
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+EdgeModelLightMapData 00000017
+    $::DataContainer
+    LightMapUvs *nullArray*

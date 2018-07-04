@@ -1,0 +1,940 @@
+CompositeMeshAsset cad4fdf1cad18b36fc6bb807c5908f78
+    $::MeshAsset
+        $::Asset
+            $::DataContainer
+            Name gameplay/vehicles/veh_transport_kettenkrad/veh_transport_kettenkrad_rendermesh_Mesh
+        BlendShapeChannelHashes *nullArray*
+        MeshSetResource 33f2f357d018c780
+        OccluderMeshResource 0000000000000000
+        LodGroup LodGroups/Vehicle_Generic/4c9c7be411892042ae4d8d4d4630c2bc
+        LodScale 1.0
+        CullScale 1.0
+        ShaderQualitySwitch -1
+        LodDistanceMethod LodDistanceMethod_BoundingSphere
+        CoverageValue 0.0
+        EnlightenType EnlightenType_Dynamic
+        EnlightenMeshLod -1
+        AutoLightmapUVsMaxDistance 0.300000011921
+        AutoLightmapUVsExpansionFactor 0.20000000298
+        AutoLightmapUVsMaxNormalDeviation 85.0
+        NormalProjectionWeight 0.0
+        ClusterSize 0.0
+        ProceduralAnimation *nullGuid*
+        Materials::array
+            member(0) 295d2c7f87a3110c5d9a98e495a42f1b
+            member(1) 9ce9b33732f7af4fb657484f504b2ab9
+            member(2) 290298702005354b9f705345a8eb0301
+            member(3) a6a08ecb1458be4c83caa7d6acfd9ddb
+        NameHash 2708420865
+        AudioMaterial *nullGuid*
+        ContentFlagRed False
+        ContentFlagWhite False
+        ContentFlagGreen False
+        ContentFlagYellow False
+        ContentFlagBlue False
+        ContentFlagPink False
+        ContentFlagPurple False
+        ContentFlagBrown False
+        ContentFlagOrange False
+        StreamingEnable True
+        OccluderMeshEnable False
+        OccluderHighPriority False
+        OccluderIsConservative True
+        DestructionMaterialEnable False
+        EnableEnlightenStaticOverride False
+        LightmapUVsScaleCharts True
+        AutoLightmapUVs False
+        DoNotRegister False
+    PartGrouping False
+MeshMaterial 290298702005354b9f705345a8eb0301
+    $::DataContainer
+    ShaderInstance *nullGuid*
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader Shaders/Legacy/presets/Objects/ObjectPreset_CS/8e81fd6fbf4a5e4e8f30dc7d2fd38435
+        BoolParameters *nullArray*
+        VectorParameters *nullArray*
+        VectorArrayParameters *nullArray*
+        TextureParameters::array
+            member(0)::TextureShaderParameter
+                ParameterName Diffuse
+                Value Gameplay/Vehicles/VEH_Transport_Kettenkrad/Textures/T_Transport_Kettenkrad_Instrument/58c71f51a1ae04eb4aa703e78658700d
+    TessellationType ShaderTessellationType_None
+    TessellationTriangleSize 12.0
+    TessellationMaxDistance 20.0
+    BackFaceCullEpsilon 0.5
+    ShapeFactor 0.75
+    DisplacementMap *nullGuid*
+    DisplacementScale 1.0
+    DisplacementBias 0.5
+    DisplacementMapTexCoord 0
+    CastShadow True
+    SmoothEdgeVertices False
+    DisplacementObjectScale False
+MeshMaterial 295d2c7f87a3110c5d9a98e495a42f1b
+    $::DataContainer
+    ShaderInstance *nullGuid*
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader Gameplay/Vehicles/Shaders/SS_VEH_Land/43bb6dffa0db514783c702f7080e2a3a
+        BoolParameters::array
+            member(0)::BoolShaderParameter
+                ParameterName UseUV2ForCamo
+                Value True
+            member(1)::BoolShaderParameter
+                ParameterName Color3UseCamo
+                Value False
+            member(2)::BoolShaderParameter
+                ParameterName Color2UseCamo
+                Value False
+            member(3)::BoolShaderParameter
+                ParameterName Color4UseCamo
+                Value False
+            member(4)::BoolShaderParameter
+                ParameterName Color5UseCamo
+                Value False
+            member(5)::BoolShaderParameter
+                ParameterName Color1UseCamo
+                Value True
+            member(6)::BoolShaderParameter
+                ParameterName Flag
+                Value True
+            member(7)::BoolShaderParameter
+                ParameterName OverrideInsignia
+                Value False
+        VectorParameters::array
+            member(0)::VectorShaderParameter
+                Value::Vec4
+                    x 0.850000023842
+                    y 0.600000023842
+                    z 0.0
+                    w 0.0
+                ParameterName GenericDustAmountBias
+                ParameterType ShaderParameterType_Vec2
+            member(1)::VectorShaderParameter
+                Value::Vec4
+                    x 3.5
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName ZimmeritScale
+                ParameterType ShaderParameterType_Scalar
+            member(2)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Zimmerit
+                ParameterType ShaderParameterType_Scalar
+            member(3)::VectorShaderParameter
+                Value::Vec4
+                    x 0.135633319616
+                    y 0.135633319616
+                    z 0.135633319616
+                    w 1.0
+                ParameterName DirtSmoothness
+                ParameterType ShaderParameterType_Color
+            member(4)::VectorShaderParameter
+                Value::Vec4
+                    x 0.560000002384
+                    y 0.560000002384
+                    z 0.560000002384
+                    w 1.0
+                ParameterName PaintSmoothness
+                ParameterType ShaderParameterType_Color
+            member(5)::VectorShaderParameter
+                Value::Vec4
+                    x 0.445201158524
+                    y 0.403234422207
+                    z 0.32115572691
+                    w 1.0
+                ParameterName DirtColor1
+                ParameterType ShaderParameterType_Color
+            member(6)::VectorShaderParameter
+                Value::Vec4
+                    x 8.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName DetailTiling
+                ParameterType ShaderParameterType_Scalar
+            member(7)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 1.0
+                    z 0.0
+                    w 0.0
+                ParameterName TextureRatio
+                ParameterType ShaderParameterType_Vec2
+            member(8)::VectorShaderParameter
+                Value::Vec4
+                    x 0.699999988079
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color5SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(9)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0648032650352
+                    y 0.0642939582467
+                    z 0.0642939582467
+                    w 1.0
+                ParameterName Color5
+                ParameterType ShaderParameterType_Color
+            member(10)::VectorShaderParameter
+                Value::Vec4
+                    x 0.184474989772
+                    y 0.184474989772
+                    z 0.184474989772
+                    w 1.0
+                ParameterName PaintSmoothness2
+                ParameterType ShaderParameterType_Color
+            member(11)::VectorShaderParameter
+                Value::Vec4
+                    x 3.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName ManualInsignia
+                ParameterType ShaderParameterType_Scalar
+            member(12)::VectorShaderParameter
+                Value::Vec4
+                    x 4.75
+                    y 1.75
+                    z 0.0
+                    w 0.0
+                ParameterName A_MarkingOffsetColumnRow
+                ParameterType ShaderParameterType_Vec2
+            member(13)::VectorShaderParameter
+                Value::Vec4
+                    x 1.5
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName A_MarkingScale
+                ParameterType ShaderParameterType_Scalar
+            member(14)::VectorShaderParameter
+                Value::Vec4
+                    x 2.59999990463
+                    y 1.0
+                    z 0.0
+                    w 0.0
+                ParameterName A_MarkingMaskScale
+                ParameterType ShaderParameterType_Vec2
+            member(15)::VectorShaderParameter
+                Value::Vec4
+                    x 5.75
+                    y 2.25
+                    z 0.0
+                    w 0.0
+                ParameterName B_MarkingOffsetColumnRow
+                ParameterType ShaderParameterType_Vec2
+            member(16)::VectorShaderParameter
+                Value::Vec4
+                    x 0.75
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName B_MarkingScale
+                ParameterType ShaderParameterType_Scalar
+            member(17)::VectorShaderParameter
+                Value::Vec4
+                    x 1.5
+                    y 1.0
+                    z 0.0
+                    w 0.0
+                ParameterName B_MarkingMaskScale
+                ParameterType ShaderParameterType_Vec2
+            member(18)::VectorShaderParameter
+                Value::Vec4
+                    x 4.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName CamoTiling
+                ParameterType ShaderParameterType_Scalar
+            member(19)::VectorShaderParameter
+                Value::Vec4
+                    x 0.800000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName CamoSmoothness2
+                ParameterType ShaderParameterType_Scalar
+            member(20)::VectorShaderParameter
+                Value::Vec4
+                    x 0.800000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName CamoSmoothness3
+                ParameterType ShaderParameterType_Scalar
+            member(21)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color1SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(22)::VectorShaderParameter
+                Value::Vec4
+                    x 0.300000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color4SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(23)::VectorShaderParameter
+                Value::Vec4
+                    x 0.699999988079
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color3SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(24)::VectorShaderParameter
+                Value::Vec4
+                    x 0.800000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color2SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(25)::VectorShaderParameter
+                Value::Vec4
+                    x 0.5
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName DirtLevel
+                ParameterType ShaderParameterType_Scalar
+            member(26)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName CamoStrength
+                ParameterType ShaderParameterType_Scalar
+            member(27)::VectorShaderParameter
+                Value::Vec4
+                    x 0.345931351185
+                    y 0.362337172031
+                    z 0.381326019764
+                    w 1.0
+                ParameterName Color1
+                ParameterType ShaderParameterType_Color
+            member(28)::VectorShaderParameter
+                Value::Vec4
+                    x 0.258631944656
+                    y 0.27049779892
+                    z 0.170529589057
+                    w 1.0
+                ParameterName CamoColor3
+                ParameterType ShaderParameterType_Color
+            member(29)::VectorShaderParameter
+                Value::Vec4
+                    x 0.339964747429
+                    y 0.356400251389
+                    z 0.218790173531
+                    w 1.0
+                ParameterName CamoColor2
+                ParameterType ShaderParameterType_Color
+            member(30)::VectorShaderParameter
+                Value::Vec4
+                    x 0.341110616922
+                    y 0.362026512623
+                    z 0.386429518461
+                    w 1.0
+                ParameterName CamoColor1
+                ParameterType ShaderParameterType_Color
+            member(31)::VectorShaderParameter
+                Value::Vec4
+                    x 0.122138775885
+                    y 0.0962612628937
+                    z 0.0762165561318
+                    w 1.0
+                ParameterName Color2
+                ParameterType ShaderParameterType_Color
+            member(32)::VectorShaderParameter
+                Value::Vec4
+                    x 0.181164234877
+                    y 0.122919924557
+                    z 0.0851556807756
+                    w 1.0
+                ParameterName Color3
+                ParameterType ShaderParameterType_Color
+            member(33)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0983771681786
+                    y 0.10224172473
+                    z 0.0856220424175
+                    w 1.0
+                ParameterName Color4
+                ParameterType ShaderParameterType_Color
+            member(34)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0595112405717
+                    y 0.0595112405717
+                    z 0.0595112405717
+                    w 1.0
+                ParameterName Color7
+                ParameterType ShaderParameterType_Color
+            member(35)::VectorShaderParameter
+                Value::Vec4
+                    x 12.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName NationalInsignia
+                ParameterType ShaderParameterType_Scalar
+            member(36)::VectorShaderParameter
+                Value::Vec4
+                    x 0.600000023842
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName SnowLingeringAmount
+                ParameterType ShaderParameterType_Scalar
+            member(37)::VectorShaderParameter
+                Value::Vec4
+                    x 0.800000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName LevelRoughPaint
+                ParameterType ShaderParameterType_Scalar
+            member(38)::VectorShaderParameter
+                Value::Vec4
+                    x 0.699999988079
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName LevelMetal
+                ParameterType ShaderParameterType_Scalar
+            member(39)::VectorShaderParameter
+                Value::Vec4
+                    x 0.449999988079
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName MudAmount
+                ParameterType ShaderParameterType_Scalar
+            member(40)::VectorShaderParameter
+                Value::Vec4
+                    x 4.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName MudSize
+                ParameterType ShaderParameterType_Scalar
+            member(41)::VectorShaderParameter
+                Value::Vec4
+                    x 0.20000000298
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName MudHeight
+                ParameterType ShaderParameterType_Scalar
+        VectorArrayParameters *nullArray*
+        TextureParameters::array
+            member(0)::TextureShaderParameter
+                ParameterName NSM
+                Value Gameplay/Vehicles/VEH_Transport_Kettenkrad/Textures/T_Transport_Kettenkrad/15122ba67df7f03fe751d4cd243349ff
+            member(1)::TextureShaderParameter
+                ParameterName CamoPatternTexture
+                Value Gameplay/Camo/Vehicles/Stripes01/7a8d389fd318b88784e8d35f354d7a22
+    TessellationType ShaderTessellationType_None
+    TessellationTriangleSize 12.0
+    TessellationMaxDistance 20.0
+    BackFaceCullEpsilon 0.5
+    ShapeFactor 0.75
+    DisplacementMap *nullGuid*
+    DisplacementScale 1.0
+    DisplacementBias 0.5
+    DisplacementMapTexCoord 0
+    CastShadow True
+    SmoothEdgeVertices False
+    DisplacementObjectScale False
+MeshMaterial 9ce9b33732f7af4fb657484f504b2ab9
+    $::DataContainer
+    ShaderInstance *nullGuid*
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader Gameplay/Vehicles/Shaders/SS_VEH_Land_AlphaTest/ef946312c6f09445ac76f3490ec46bef
+        BoolParameters::array
+            member(0)::BoolShaderParameter
+                ParameterName Color2UseCamo
+                Value False
+            member(1)::BoolShaderParameter
+                ParameterName Flag
+                Value True
+            member(2)::BoolShaderParameter
+                ParameterName Dents
+                Value False
+            member(3)::BoolShaderParameter
+                ParameterName OverrideInsignia
+                Value False
+            member(4)::BoolShaderParameter
+                ParameterName UseUV2ForCamo
+                Value True
+            member(5)::BoolShaderParameter
+                ParameterName Color6UseCamo
+                Value False
+            member(6)::BoolShaderParameter
+                ParameterName Color1UseCamo
+                Value True
+            member(7)::BoolShaderParameter
+                ParameterName Color3UseCamo
+                Value False
+            member(8)::BoolShaderParameter
+                ParameterName Color4UseCamo
+                Value False
+            member(9)::BoolShaderParameter
+                ParameterName Color5UseCamo
+                Value False
+        VectorParameters::array
+            member(0)::VectorShaderParameter
+                Value::Vec4
+                    x 3.5
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName ZimmeritScale
+                ParameterType ShaderParameterType_Scalar
+            member(1)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Zimmerit
+                ParameterType ShaderParameterType_Scalar
+            member(2)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 1.0
+                    z 0.0
+                    w 0.0
+                ParameterName A_MarkingMaskScale
+                ParameterType ShaderParameterType_Vec2
+            member(3)::VectorShaderParameter
+                Value::Vec4
+                    x 2.0
+                    y 2.75
+                    z 0.0
+                    w 0.0
+                ParameterName B_MarkingOffsetColumnRow
+                ParameterType ShaderParameterType_Vec2
+            member(4)::VectorShaderParameter
+                Value::Vec4
+                    x 0.5
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName B_MarkingScale
+                ParameterType ShaderParameterType_Scalar
+            member(5)::VectorShaderParameter
+                Value::Vec4
+                    x 0.40000000596
+                    y 1.5
+                    z 0.0
+                    w 0.0
+                ParameterName B_MarkingMaskScale
+                ParameterType ShaderParameterType_Vec2
+            member(6)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName A_MarkingScale
+                ParameterType ShaderParameterType_Scalar
+            member(7)::VectorShaderParameter
+                Value::Vec4
+                    x 2.0
+                    y 3.25
+                    z 0.0
+                    w 0.0
+                ParameterName A_MarkingOffsetColumnRow
+                ParameterType ShaderParameterType_Vec2
+            member(8)::VectorShaderParameter
+                Value::Vec4
+                    x 0.5
+                    y 0.5
+                    z 0.5
+                    w 1.0
+                ParameterName PaintSmoothness2
+                ParameterType ShaderParameterType_Color
+            member(9)::VectorShaderParameter
+                Value::Vec4
+                    x 0.560000002384
+                    y 0.560000002384
+                    z 0.560000002384
+                    w 1.0
+                ParameterName PaintSmoothness
+                ParameterType ShaderParameterType_Color
+            member(10)::VectorShaderParameter
+                Value::Vec4
+                    x 4.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName MudSize
+                ParameterType ShaderParameterType_Scalar
+            member(11)::VectorShaderParameter
+                Value::Vec4
+                    x 0.445201158524
+                    y 0.403234422207
+                    z 0.32115572691
+                    w 1.0
+                ParameterName DirtColor1
+                ParameterType ShaderParameterType_Color
+            member(12)::VectorShaderParameter
+                Value::Vec4
+                    x 8.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName DetailTiling
+                ParameterType ShaderParameterType_Scalar
+            member(13)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 1.0
+                    z 0.0
+                    w 0.0
+                ParameterName TextureRatio
+                ParameterType ShaderParameterType_Vec2
+            member(14)::VectorShaderParameter
+                Value::Vec4
+                    x 0.699999988079
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color5SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(15)::VectorShaderParameter
+                Value::Vec4
+                    x 0.5
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName DirtLevel
+                ParameterType ShaderParameterType_Scalar
+            member(16)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName CamoStrength
+                ParameterType ShaderParameterType_Scalar
+            member(17)::VectorShaderParameter
+                Value::Vec4
+                    x 0.341110616922
+                    y 0.362026512623
+                    z 0.386429518461
+                    w 1.0
+                ParameterName CamoColor1
+                ParameterType ShaderParameterType_Color
+            member(18)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color7SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(19)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Deterioration
+                ParameterType ShaderParameterType_Vec4
+            member(20)::VectorShaderParameter
+                Value::Vec4
+                    x 2.5
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName DeteriorationTilingFactor
+                ParameterType ShaderParameterType_Scalar
+            member(21)::VectorShaderParameter
+                Value::Vec4
+                    x 0.649999976158
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName LevelMetal
+                ParameterType ShaderParameterType_Scalar
+            member(22)::VectorShaderParameter
+                Value::Vec4
+                    x 0.800000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName LevelRoughPaint
+                ParameterType ShaderParameterType_Scalar
+            member(23)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0595112405717
+                    y 0.0595112405717
+                    z 0.0595112405717
+                    w 1.0
+                ParameterName Color7
+                ParameterType ShaderParameterType_Color
+            member(24)::VectorShaderParameter
+                Value::Vec4
+                    x 3.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName ManualInsignia
+                ParameterType ShaderParameterType_Scalar
+            member(25)::VectorShaderParameter
+                Value::Vec4
+                    x 0.600000023842
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName MudHeight
+                ParameterType ShaderParameterType_Scalar
+            member(26)::VectorShaderParameter
+                Value::Vec4
+                    x 12.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName NationalInsignia
+                ParameterType ShaderParameterType_Scalar
+            member(27)::VectorShaderParameter
+                Value::Vec4
+                    x 0.600000023842
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName SnowLingeringAmount
+                ParameterType ShaderParameterType_Scalar
+            member(28)::VectorShaderParameter
+                Value::Vec4
+                    x 0.20000000298
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName TerrainWeatheringStatic
+                ParameterType ShaderParameterType_Scalar
+            member(29)::VectorShaderParameter
+                Value::Vec4
+                    x 0.40000000596
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName MudAmount
+                ParameterType ShaderParameterType_Scalar
+            member(30)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color6SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(31)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 1.0
+                    w 1.0
+                ParameterName Color6
+                ParameterType ShaderParameterType_Color
+            member(32)::VectorShaderParameter
+                Value::Vec4
+                    x 0.339964747429
+                    y 0.356400251389
+                    z 0.218790173531
+                    w 1.0
+                ParameterName CamoColor2
+                ParameterType ShaderParameterType_Color
+            member(33)::VectorShaderParameter
+                Value::Vec4
+                    x 0.258631944656
+                    y 0.27049779892
+                    z 0.170529589057
+                    w 1.0
+                ParameterName CamoColor3
+                ParameterType ShaderParameterType_Color
+            member(34)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName CamoSmoothness1
+                ParameterType ShaderParameterType_Scalar
+            member(35)::VectorShaderParameter
+                Value::Vec4
+                    x 0.800000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName CamoSmoothness2
+                ParameterType ShaderParameterType_Scalar
+            member(36)::VectorShaderParameter
+                Value::Vec4
+                    x 0.800000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName CamoSmoothness3
+                ParameterType ShaderParameterType_Scalar
+            member(37)::VectorShaderParameter
+                Value::Vec4
+                    x 4.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName CamoTiling
+                ParameterType ShaderParameterType_Scalar
+            member(38)::VectorShaderParameter
+                Value::Vec4
+                    x 0.345931351185
+                    y 0.362337172031
+                    z 0.381326019764
+                    w 1.0
+                ParameterName Color1
+                ParameterType ShaderParameterType_Color
+            member(39)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color1SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(40)::VectorShaderParameter
+                Value::Vec4
+                    x 0.122138775885
+                    y 0.0962612628937
+                    z 0.0762165561318
+                    w 1.0
+                ParameterName Color2
+                ParameterType ShaderParameterType_Color
+            member(41)::VectorShaderParameter
+                Value::Vec4
+                    x 0.800000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color2SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(42)::VectorShaderParameter
+                Value::Vec4
+                    x 0.181164234877
+                    y 0.122919924557
+                    z 0.0851556807756
+                    w 1.0
+                ParameterName Color3
+                ParameterType ShaderParameterType_Color
+            member(43)::VectorShaderParameter
+                Value::Vec4
+                    x 0.699999988079
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color3SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(44)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0983771681786
+                    y 0.10224172473
+                    z 0.0856220424175
+                    w 1.0
+                ParameterName Color4
+                ParameterType ShaderParameterType_Color
+            member(45)::VectorShaderParameter
+                Value::Vec4
+                    x 0.300000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Color4SmoothMultiplier
+                ParameterType ShaderParameterType_Scalar
+            member(46)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0648032650352
+                    y 0.0642939582467
+                    z 0.0642939582467
+                    w 1.0
+                ParameterName Color5
+                ParameterType ShaderParameterType_Color
+        VectorArrayParameters *nullArray*
+        TextureParameters::array
+            member(0)::TextureShaderParameter
+                ParameterName NSM
+                Value Gameplay/Vehicles/VEH_Transport_Kettenkrad/Textures/T_Transport_Kettenkrad/15122ba67df7f03fe751d4cd243349ff
+            member(1)::TextureShaderParameter
+                ParameterName CamoPatternTexture
+                Value Gameplay/Camo/Vehicles/Stripes01/7a8d389fd318b88784e8d35f354d7a22
+            member(2)::TextureShaderParameter
+                ParameterName OpacityTexture
+                Value Gameplay/Vehicles/VEH_Halftrack_Hanomag/Textures/T_Hanomag_Wheel_A/7101167f517b831db5d9b8ebefe8b42c
+    TessellationType ShaderTessellationType_None
+    TessellationTriangleSize 12.0
+    TessellationMaxDistance 20.0
+    BackFaceCullEpsilon 0.5
+    ShapeFactor 0.75
+    DisplacementMap *nullGuid*
+    DisplacementScale 1.0
+    DisplacementBias 0.5
+    DisplacementMapTexCoord 0
+    CastShadow True
+    SmoothEdgeVertices False
+    DisplacementObjectScale False
+MeshMaterial a6a08ecb1458be4c83caa7d6acfd9ddb
+    $::DataContainer
+    ShaderInstance *nullGuid*
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader 208499efd6335b4a8a57518518af43e2/1206e9d4e69d494db0b3c9ec8e6165a2
+        BoolParameters *nullArray*
+        VectorParameters::array
+            member(0)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Smoothness
+                ParameterType ShaderParameterType_Scalar
+            member(1)::VectorShaderParameter
+                Value::Vec4
+                    x 0.800000011921
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Opacity
+                ParameterType ShaderParameterType_Scalar
+            member(2)::VectorShaderParameter
+                Value::Vec4
+                    x 0.00651209102944
+                    y 0.00651209102944
+                    z 0.00651209102944
+                    w 1.0
+                ParameterName BaseColor
+                ParameterType ShaderParameterType_Color
+        VectorArrayParameters *nullArray*
+        TextureParameters *nullArray*
+    TessellationType ShaderTessellationType_None
+    TessellationTriangleSize 12.0
+    TessellationMaxDistance 20.0
+    BackFaceCullEpsilon 0.5
+    ShapeFactor 0.75
+    DisplacementMap *nullGuid*
+    DisplacementScale 1.0
+    DisplacementBias 0.5
+    DisplacementMapTexCoord 0
+    CastShadow True
+    SmoothEdgeVertices False
+    DisplacementObjectScale False

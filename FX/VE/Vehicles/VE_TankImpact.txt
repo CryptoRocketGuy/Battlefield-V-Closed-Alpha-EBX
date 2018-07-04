@@ -1,0 +1,126 @@
+VisualEnvironmentBlueprint fd43cb694bcf024a88cc7f8d0f608c3d
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Vehicles/VE_TankImpact
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000001
+    TimeDeltaType TimeDeltaType_None
+VignetteComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 14218296
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Realm
+            member(1) Enable
+            member(2) Scale
+            member(3) Color
+            member(4) Opacity
+            member(5) Exponent
+        PropertyOverrideMasks::array
+            member(0) 63
+    Color::Vec3
+        x 0.40000000596
+        y 0.405000001192
+        z 0.469999998808
+    Realm Realm_Client
+    Scale::Vec2
+        x 1.39999997616
+        y 2.5
+    Exponent 1.0
+    Opacity 0.5
+    Enable True
+VisualEnvironmentEntityData 00000001
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 195093929
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+                member(1) 00000002
+            ClientRuntimeComponentCount 1
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 1.0
+    FutureVisibility 0.0
+    Priority 260
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True
+SequenceEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 28428161
+    Events *nullArray*
+    SequenceStartTime 0
+    SequenceLength 10000
+    Realm Realm_Client
+    PropertyTracks *nullArray*
+    CustomSequenceTracks *nullArray*
+    ClientUpdatePass UpdatePass_PostFrame
+    ServerUpdatePass UpdatePass_PreSim
+    ExternalTime 0.0
+    PlaybackSpeed 1.0
+    Looping True
+    AutoStart True
+    AutoPlayFirstFrame True
+    PlayInReverse False
+    UseRealTimeClock False

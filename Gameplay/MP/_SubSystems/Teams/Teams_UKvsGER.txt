@@ -1,0 +1,75 @@
+LogicPrefabBlueprint d341aa94b949a540aec5edc190c7deff
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MP/_SubSystems/Teams/Teams_UKvsGER
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -184790699
+                            TargetFieldId -1677182197
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId -184790699
+                            TargetFieldId -1677182200
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 1
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000003
+            member(1) 00000002
+            member(2) 00000001
+            member(3) 00000000
+        TimeDeltaType TimeDeltaType_None
+BFTeamEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 33524480
+    Id Team2
+    AvailableTeams::array
+        member(0) Gameplay/Teams/BFTeamData_GER/98bc673eec296542b8ad9de804eb12d2
+BFTeamEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 25226478
+    Id Team1
+    AvailableTeams::array
+        member(0) Gameplay/Teams/BFTeamData_UK/f390f14f10abaa4996516a4a050d7c48
+SchematicChannelEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 164040564
+    Realm Realm_Client
+    Channel UI/InGame/Shared/Logic/UIPreRoundChannel/20d0492abe7ed171e6b4d9458bc906fb
+    InputProperties::array
+        member(0) 10
+        member(1) 11
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*
+TeamEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 23913873
+    Team Gameplay/Teams/Neutral_Large/29c6968d2923b445817a4bba40a0636f
+    Id TeamNeutral

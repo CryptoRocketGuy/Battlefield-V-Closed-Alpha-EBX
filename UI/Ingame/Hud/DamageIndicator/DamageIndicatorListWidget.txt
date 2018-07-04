@@ -1,0 +1,173 @@
+UIWidgetBlueprint 4e439b4ba84f0ad78373b8a1e07ce147
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/DamageIndicator/DamageIndicatorListWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000002
+                            SourceFieldId 758755561
+                            TargetFieldId -1512192206
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -2066819013
+                            TargetFieldId -124041117
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -188171420
+                            TargetFieldId 0
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000004
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 1078813271
+                        TargetEvent::EventSpec
+                            Id 1078813271
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000004
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -2021844774
+                        TargetEvent::EventSpec
+                            Id -2021844774
+                        TargetType EventConnectionTargetType_Client
+        Object 00000001
+BFUILayoutGenericListEntityData 00000000
+    $::BFUILayoutEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 44176668
+        ElementOffsetScaling::Vec2
+            x 0.0
+            y 0.0
+    LayoutMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementStep::Vec2
+        x 0.0
+        y 0.0
+    ElementStepFactor::Vec2
+        x 0.0
+        y 0.0
+    ElementPivot::Vec2
+        x 0.0
+        y 0.0
+    HorizontalAlignment BFUILayoutHorizontalAlignment_Left
+    VerticalAlignment BFUILayoutVerticalAlignment_Top
+    AutoSizeElementsHorizontally False
+    AutoSizeElementsVertically False
+    DrawZeroSizeElement True
+BFUIListWidgetData 00000001
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1806949481
+            Size::UIElementSize
+                X 256.0
+                Y 256.0
+            Layers::array
+                member(0) 00000005
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000004
+                member(1) 00000002
+                member(2) 00000000
+                member(3) 00000003
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Ingame/Hud/DamageIndicator/2dDamageIndicatorCellWidget/1e24d87b44c073b120992db29f52ce38
+    MaxRows 0
+    SelectionInput -1
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit False
+    ValidateSetSelection False
+    WrapSelection False
+    AutoSizeWidgetHorizontally False
+    AutoSizeWidgetVertically False
+    Enabled True
+    ScrollIntoView False
+DataSourceQueryEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 152551502
+    Realm Realm_Client
+    InData *nullGuid*
+    ArrayIndex 0
+SchematicChannelEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 48679779
+    Realm Realm_Client
+    Channel UI/Ingame/LogitechLedChannel/53648715e64d6f2509d5da644f83ffb7
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*
+UIDamageTakenIndicatorEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 28504346
+    Realm Realm_Client
+    MaxIndicators 5
+    MaxDisplayTime 3.0
+UIElementLayerEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName New Layer
+    Elements *nullArray*
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True

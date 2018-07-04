@@ -1,0 +1,97 @@
+LogicPrefabBlueprint 9fc6d635f3af42429439f65d4af82639
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name ArtAssets/Lighting/Prefabs/Schematics/PF_Logic_ElectricSurge_01
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId -1514638932
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId -1696158145
+                            Flags 18
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 2037512782
+                            TargetFieldId 2037512782
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id -1377008551
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+        TimeDeltaType TimeDeltaType_None
+CompareBoolEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 166295119
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange False
+    TriggerOnStart True
+    AlwaysSend False
+ContinuousRandomFloatEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 169941340
+    Realm Realm_Client
+    MinValue 0.20000000298
+    MaxValue 0.800000011921
+    Multiplier 1.0
+    ChangeValueMinTime 0.20000000298
+    ChangeValueMaxTime 0.800000011921
+    NoiseAmountMin 0.0
+    NoiseAmountMax 0.0
+    UpdateOutputEveryNTick 2
+    Interpolate True
+    AutoStart False
+    TrueRandom True
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1696158145
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1514638932
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2037512782
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

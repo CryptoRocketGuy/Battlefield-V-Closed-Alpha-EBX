@@ -1,0 +1,184 @@
+SpatialPrefabBlueprint 5a0ae4bf7f3fbf4b95bd1b5dde527817
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Levels/MP/MP_ArcticFjord/Lighting/Prefabs/PFLS_FireLight_Docks_01
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId -1896948030
+                            TargetFieldId -1549681772
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+            member(2) 00000002
+            member(3) 00000003
+        TimeDeltaType TimeDeltaType_None
+PbrSphereLightEntityData 00000000
+    $::PbrAnalyticLightEntityData
+        $::LocalLightEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 25650042
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Enabled True
+        Color::Vec3
+            x 1.0
+            y 0.248400002718
+            z 0.00609999988228
+        ParticleColorScale::Vec3
+            x 0.15000000596
+            y 0.15000000596
+            z 0.15000000596
+        RadiosityColorScale::Vec3
+            x 1.0
+            y 1.0
+            z 1.0
+        LightColorMode LightColorMode_Temperature
+        Temperature 2000
+        Intensity 300000.0
+        ExposureCompensation 0.0
+        AttenuationRadius 10.0
+        AttenuationOffset 0.0
+        LightUnit LightUnitType_LuminousPower
+        CastShadows QualityScalableEnabled_Disabled
+        CastVolumetricShadows QualityScalableEnabled_Disabled
+        ShadowNearRadius 0.20000000298
+        ShadowRadius 0.0
+        CullScreenArea -1.0
+        FadeScreenArea 0.0
+        CullDistance -1.0
+        FadeDistance 0.0
+        ShadowCullScreenArea -1.0
+        ShadowFadeScreenArea 0.0
+        ShadowCullDistance -1.0
+        ShadowFadeDistance 0.0
+        ShadowDimmer 1.0
+        ShadowResolution ShadowResolutionQuality_Normal
+        Dimmer 1.0
+        ShadowUpdateSignal 0
+        ShadowUpdatePriority 0.0
+        ShadowmapRefresh ShadowmapRefreshPolicy_Always
+        EmissiveShapeEnable False
+        AffectDiffuse True
+        AffectSpecular True
+        CastShadowsEnable True
+        CastVolumetricShadowsEnable True
+        AffectRadiosity False
+    SphereRadius 0.0
+    IESProfile *nullGuid*
+    IESMultiplier 1.0
+    OnlyHempishere False
+    UseIESProfileAsMask False
+SimpleVolumetricsEntityData 00000001
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 3114772
+        Transform::LinearTransform
+            right::Vec3
+                x 22.8536491394
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 22.8536491394
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 22.8536491394
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Emission::Vec3
+        x 1.0
+        y 0.415554881096
+        z 0.162029370666
+    Exponent 2.0
+    FadeOutStartRadius 50.0
+    FadeFarDistance 250.0
+    EmissionScale 1.0
+    DrawPass SimpleVolumetricsDrawPass_BeforeTransparent
+    Enabled True
+SimpleVolumetricsEntityData 00000002
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 150575960
+        Transform::LinearTransform
+            right::Vec3
+                x 33.0054779053
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 33.0054779053
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 33.0054779053
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Emission::Vec3
+        x 1.0
+        y 0.414674848318
+        z 0.246201336384
+    Exponent 2.0
+    FadeOutStartRadius 25.0
+    FadeFarDistance 250.0
+    EmissionScale 0.0
+    DrawPass SimpleVolumetricsDrawPass_AfterTransparent
+    Enabled True
+WeatherSequencerListenerEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 16940445
+    Realm Realm_Client
+    WSFloatVariables::array
+        member(0) DynamicWorld/WeatherSequencer/WS_WeatherVariableDatabase/74f85464e184f54f8147cab2f3d23438
+    WSIntVariables *nullArray*
+    WSBoolVariables *nullArray*
+    Dummy 0

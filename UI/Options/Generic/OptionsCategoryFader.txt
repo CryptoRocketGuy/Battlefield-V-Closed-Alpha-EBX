@@ -1,0 +1,102 @@
+LogicPrefabBlueprint 4a5df8c9faa116d1ad09d975cdee04e4
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Options/Generic/OptionsCategoryFader
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 5862146
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId -1810789047
+                            TargetFieldId 177607
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 193453899
+                            TargetFieldId 205677681
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000002
+            member(1) 00000000
+        TimeDeltaType TimeDeltaType_None
+FloatInterpolatorEntityData 00000000
+    $::PropertyInterpolatorEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 141166915
+        Realm Realm_Client
+        InterpolationType PropertyInterpolationType_Cubic
+        InterpolationMode PropertyInterpolationMode_EaseOut
+        Duration 0.20000000298
+        UseRealTimeClock True
+        ForceFrameCorrectOutput False
+        DynamicDuration False
+    In 0.0
+    DefaultValue 0.0
+    Velocity 1.0
+    UseVelocity False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1810789047
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 205677681
+                AccessType FieldAccessType_Source
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 160088691
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputB
+                Result 0
+                Param1 177607
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 1358875319
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False

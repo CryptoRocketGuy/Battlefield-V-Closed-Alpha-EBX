@@ -1,0 +1,182 @@
+ScalableEmitterDocument b557b8dc6036c04ab0ab8b7da0434105
+    $::EmitterDocument
+        $::EmitterAsset
+            $::Asset
+                $::DataContainer
+                Name *nullString*
+    TemplateDataLow 00000001
+    TemplateDataMedium 00000001
+    TemplateDataHigh 00000001
+    TemplateDataUltra 00000001
+DefaultEvaluatorData 00000000
+    $::EvaluatorData
+        $::DataContainer
+        Parameter *nullGuid*
+    Values::Vec4
+        x 1.0
+        y 1.0
+        z 1.0
+        w 1.0
+EmitterTemplateData 00000001
+    $::DataContainer
+    RootProcessor 00000005
+    MaxCount 1
+    WorldAlignmentDirection::Vec3
+        x 0.0
+        y 1.0
+        z 0.0
+    OrientToPosition::Vec3
+        x 0.0
+        y 0.0
+        z -1.0
+    Lifetime 0.0
+    TimeScale 1.0
+    LifetimeFrameCount 0
+    KillRibbonTailDistance 0.0
+    ExclusionVolumeFadeOutTime 1.0
+    EmittableType EmittableType_Mesh
+    EmittableAlignment EmittableAlignment_Emittable
+    MotionStretchMultiplier 1.0
+    MotionStretchViewMultiplier 1.0
+    MotionStretchLengthClamp 100.0
+    MotionStretchRelativeLengthClamp 100.0
+    Mesh fx/test/ws_fire/mesh/meshpva_smallgroundfire_01_1000_embers_Mesh/496a336498d41e4ea7fa779e4d5f0c0d
+    ObjectVariation *nullGuid*
+    EmissiveExposureFactor 0.0
+    VertexPixelLightingBlendFactor 0.0
+    GlobalLocalNormalBlendFactor 0.0
+    SoftParticlesFadeDistanceMultiplier 0.0
+    LightWrapAroundFactor 0.5
+    BentNormalFactor 1.0
+    LightMultiplier 1.0
+    BendingFactor 0.0
+    MicroVariationSmoothingFactor 0.0
+    SunVolumetricShadowAbsorptionScale 1.0
+    SunVolumetricShadowAbsorptionR 1.0
+    SunVolumetricShadowAbsorptionG 1.0
+    SunVolumetricShadowAbsorptionB 1.0
+    SunVolumetricShadowPhaseG0 0.0
+    SunVolumetricShadowPhaseG1 0.0
+    SunVolumetricShadowOffset 0.0
+    CameraBias 0.0
+    FlipUProbability 0.0
+    FlipVProbability 0.0
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader *nullGuid*
+        BoolParameters *nullArray*
+        VectorParameters *nullArray*
+        VectorArrayParameters *nullArray*
+        TextureParameters *nullArray*
+    AnimationFrameCount 1.0
+    AnimationFrameColumnCount 1.0
+    EmitterDrawOrder EmitterDrawOrder_Default
+    ParticleCullingFactor 0.800000011921
+    MinSpawnDistance 0.0
+    MaxSpawnDistance 0.0
+    EmitterMaxSpawnDistance 0.0
+    MinScreenArea 1.0
+    MeshCullingDistance 0.0
+    MeshCullingNearDistance 0.0
+    SkipUpdateMaxCount -1
+    PreciseWindAndForceMaxDistance -1.0
+    TurbulenceMaxDistance -1.0
+    DistanceScaleLength 0.0
+    DistanceScaleNearValue 1.0
+    DistanceScaleFarValue 1.0
+    SpeedNormalizationValue 50.0
+    WindSpeedNormalizationValue 50.0
+    TravelledDistanceNormalizationValue 50.0
+    PerParticleEffectParameters *nullArray*
+    MinDistanceTravelledBeforeSpawn 0.0
+    CullFadeNearDistance 0.0
+    CullFadeNearRange 0.0
+    CullFadeFarDistance 0.0
+    CullFadeFarRange 0.0
+    DebugName Em_SmallGroundFire_04_1000_VA_Embers
+    RepeatParticleSpawning False
+    FollowSpawnSource False
+    FollowSpawnSourceVelocity False
+    KillParticlesWithEmitter True
+    SmoothRibbonSpawn False
+    ExclusionVolumeCullEnable False
+    ExclusionVolumeFadeOutEnable False
+    ExclusionVolumeWorldWindEnable False
+    Emissive False
+    Opaque True
+    MeshParticlesMotionBlur False
+    ReceiveSunShadow True
+    ForceNiceSorting False
+    LocalSpace True
+    AllowScale False
+    CameraSpace False
+    TransparencySunShadowEnable False
+    SunVolumetricShadowEnable False
+    EnablePyroShader False
+    CastPlanarReflectionEnable False
+    ForceFullRes False
+    FogFade True
+    LockRibbonDirection False
+    SkipSpawnOutsideView False
+    MeshCullingFromEmitterCenter False
+    PauseSimulationWhenCulled False
+    ModifyEmittableScaleWhenZooming False
+    AcceptGlobalParameter1 False
+    AcceptGlobalParameter2 False
+    AcceptGlobalParameter3 False
+    SkipNearCameraFade False
+    EmitterWindEvaluationEnable False
+    EmittableWindEvaluationEnable False
+UpdateVertexAnimData 00000002
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor 00000004
+        EvaluatorInput EfNormTime
+        EvaluatorInputParam *nullGuid*
+    ShaderFragment FX/Test/WS_Fire/VertexAnim/VSF_Embers/2a798bad6d86394fa207e0143b75d554
+    PerParticleRandomness 0.0
+    AnimationParameters::Vec4
+        x 1.0
+        y 1.0
+        z 1.0
+        w 1.0
+    FrequencyMultiplier 1.0
+SpawnRateData 00000003
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor 00000002
+        EvaluatorInput EfOne
+        EvaluatorInputParam *nullGuid*
+    SpawnRate 10000.0
+    DistributeOverTime True
+    DistributeOverDistance False
+SpawnSizeData 00000004
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor 00000006
+        EvaluatorInput EfOne
+        EvaluatorInputParam *nullGuid*
+    Size 0.300000011921
+UpdateAgeData 00000005
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor 00000003
+        EvaluatorInput EfOne
+        EvaluatorInputParam *nullGuid*
+    Lifetime -1.0
+    RandomLifetimeScale 0.0
+    MaxFactor 1.0
+UpdateSizeData 00000006
+    $::ProcessorData
+        $::DataContainer
+        Pre 00000000
+        NextProcessor *nullGuid*
+        EvaluatorInput EfOne
+        EvaluatorInputParam *nullGuid*
+    Pivot::Vec2
+        x 0.0
+        y 0.0
+    MultiplyWithSizeXYZ False

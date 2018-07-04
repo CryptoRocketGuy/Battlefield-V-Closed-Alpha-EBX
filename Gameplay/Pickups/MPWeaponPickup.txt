@@ -1,0 +1,273 @@
+PickupEntityAsset c355b69a46140e7205e67c497e0580d7
+    $::DataContainerPolicyAsset
+        $::Asset
+            $::DataContainer
+            Name Gameplay/Pickups/MPWeaponPickup
+    Data 761de74c9bdc294d9a6acadf7cf4742c
+DynamicWeaponPickupEntityData 761de74c9bdc294d9a6acadf7cf4742c
+    $::PickupEntityData
+        $::GamePhysicsEntityData
+            $::GameComponentEntityData
+                $::ComponentEntityData
+                    $::SpatialEntityData
+                        $::EntityData
+                            $::GameObjectData
+                                $::DataBusPeer
+                                    $::GameDataContainer
+                                        $::DataContainer
+                                    Flags 0
+                        Transform::LinearTransform
+                            right::Vec3
+                                x 1.0
+                                y 0.0
+                                z 0.0
+                            up::Vec3
+                                x 0.0
+                                y 1.0
+                                z 0.0
+                            forward::Vec3
+                                x 0.0
+                                y 0.0
+                                z 1.0
+                            trans::Vec3
+                                x 0.0
+                                y 0.0
+                                z 0.0
+                    Components::array
+                        member(0) ff3ae3f16cd88fc0599d7ef4512e396e
+                    ClientRuntimeComponentCount 1
+                    ServerRuntimeComponentCount 1
+                    ClientRuntimeTransformationCount 0
+                    ServerRuntimeTransformationCount 0
+                Enabled True
+                EnableOutOfBoundsCheck True
+            PhysicsData *nullGuid*
+            IsTraversable True
+            IsCharacterCollidable True
+        PhysicsBlueprint Gameplay/Pickups/DroppedKitPhysics/02de06e7a102f94e822d4bca4c259aee
+        Mesh *nullGuid*
+        PreferredWeaponSlot 0
+        TimeToLive 0.0
+        TimeToLiveWhenOutOfAmmo 3.0
+        IconName *nullString*
+        MinRandomSpareAmmoPercent 0
+        MaxRandomSpareAmmoPercent 0
+        MinRandomClipAmmoPercent 0
+        MaxRandomClipAmmoPercent 0
+        RandomizeAmmoOnDropForPlayer PickupPlayerEnum_AIOnly
+        InteractionRadius 2.5
+        DisplayWithinRadius 25.0
+        TacticalRadius 200.0
+        UseWeaponMesh True
+        UnspawnOnPickup False
+        UnspawnOnAmmoPickup False
+        ContentIsStatic False
+        PositionIsStatic False
+        AllowPickup True
+        AllowPickupWhenOutOfAmmo False
+        IgnoreNullWeaponSlots False
+        ForceWeaponSlotSelection True
+        SetAsActiveWeaponSlot True
+        DisplayInMiniMap True
+        HasAutomaticAmmoPickup False
+        ReplaceAllContent False
+        RemoveWeaponOnDrop False
+        UseDisplayWithinRadius False
+        KeepAmmoState True
+    WeaponSlots::array
+        member(0)::DynamicWeaponPickupSlotData
+            WeaponSlot 0
+            AltWeaponSlot -1
+            LinkedToWeaponSlot -1
+            TargetSlot 0
+RigidBodyData b500ab06ffbe5ba64f75d96fc9fdd4ad
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_Client
+        CollisionLayer RigidBodyCollisionLayer_DynamicNoCharacterCollisionLayer
+        Asset gameplay/pickups/droppedkitphysics_physics_win32/149661ca18ccf979737f8091b32aa0c7
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 1
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 0
+        AddToSpatialQueryManager False
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeProxy
+    Mass 10.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Keyframed
+    QualityType RigidBodyQualityType_Projectile
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices *nullArray*
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+RigidBodyData f34673750495dcfdb762a1a7889bafe7
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_ClientAndServer
+        CollisionLayer RigidBodyCollisionLayer_DynamicNoCharacterCollisionLayer
+        Asset gameplay/pickups/droppedkitphysics_physics_win32/149661ca18ccf979737f8091b32aa0c7
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 0
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 0
+        AddToSpatialQueryManager True
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeCollision
+    Mass 10.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Dynamic
+    QualityType RigidBodyQualityType_Projectile
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices *nullArray*
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+PickupPhysicsComponentData ff3ae3f16cd88fc0599d7ef4512e396e
+    $::GamePhysicsComponentData
+        $::PhysicsComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+            PhysicsBodies::array
+                member(0) f34673750495dcfdb762a1a7889bafe7
+                member(1) b500ab06ffbe5ba64f75d96fc9fdd4ad
+            PhysicsConstraints *nullArray*
+            Parts *nullArray*
+            InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+            MovableParts False
+        Realm Realm_ClientAndServer
+        EffectParameters *nullArray*

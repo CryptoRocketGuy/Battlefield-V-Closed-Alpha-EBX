@@ -1,0 +1,170 @@
+VisualEnvironmentBlueprint f05c1e44e97c1447bf495c644bdc1f92
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_CritState
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId 267135977
+                            TargetFieldId 177650
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 225375086
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId 177663
+                            TargetFieldId 177663
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId 177660
+                            TargetFieldId 177660
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId 177661
+                            TargetFieldId 177661
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId -1351264773
+                            TargetFieldId 5862146
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000001
+    TimeDeltaType TimeDeltaType_None
+ShaderParamsComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 143816478
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) ParameterName
+        PropertyOverrideMasks::array
+            member(0) 4
+    Value::Vec4
+        x 0.0
+        y 0.0
+        z 0.0
+        w 0.0
+    Realm Realm_Client
+    ParameterName CharacterGameplayHighlight
+VisualEnvironmentEntityData 00000001
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 198195766
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+                member(1) 00000004
+                member(2) 00000003
+            ClientRuntimeComponentCount 1
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 0.0
+    FutureVisibility 0.0
+    Priority 260
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 267135977
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1351264773
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+Vec3SplitterEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 155849421
+    Realm Realm_Client
+Vec4BuilderEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 162148122
+    Realm Realm_Client
+    X 0.0
+    Y 0.0
+    Z 0.0
+    W 0.0

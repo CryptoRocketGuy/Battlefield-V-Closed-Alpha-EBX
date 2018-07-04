@@ -1,0 +1,208 @@
+LogicPrefabBlueprint 0468ab63a5e3c04cad8729709747148a
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Logic/TeamRequirement
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000006
+                            Target 00000000
+                            SourceFieldId -1810789047
+                            TargetFieldId 193450864
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000004
+                            Target 00000001
+                            SourceFieldId -670664352
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId -670664352
+                            TargetFieldId 193450867
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000003
+                            Target 00000006
+                            SourceFieldId 428018036
+                            TargetFieldId 0
+                        member(1)::LinkConnection
+                            Source 00000003
+                            Target 00000005
+                            SourceFieldId 428018036
+                            TargetFieldId 0
+                        member(2)::LinkConnection
+                            Source 00000007
+                            Target 00000003
+                            SourceFieldId -1314972309
+                            TargetFieldId -1314972309
+                        member(3)::LinkConnection
+                            Source 00000005
+                            Target 00000007
+                            SourceFieldId -1314972309
+                            TargetFieldId 0
+                    Interface 00000003
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000005
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -80368276
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id -81881639
+                        TargetEvent::EventSpec
+                            Id 201149837
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 201149837
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000007
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -80368276
+                        TargetEvent::EventSpec
+                            Id -881608129
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000007
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1434085148
+                        TargetEvent::EventSpec
+                            Id 595218615
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000002
+            member(1) 00000000
+            member(2) 00000006
+            member(3) 00000005
+            member(4) 00000001
+            member(5) 00000004
+            member(6) 00000007
+        TimeDeltaType TimeDeltaType_None
+AndEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 167499556
+    Realm Realm_Client
+    InputCount 2
+CompareBoolEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 178693648
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange False
+    TriggerOnStart False
+    AlwaysSend False
+CompareBoolEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 167011723
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+    AlwaysSend False
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -881608129
+        member(1)::DynamicEvent
+            Id 595218615
+    InputLinks::array
+        member(0)::DynamicLink
+            Id 428018036
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id -1314972309
+SchematicChannelEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 3941391
+    Realm Realm_Client
+    Channel UI/Ingame/Shared/Logic/UITeamEntityChannel/515a213e6b8b45c2de49b5af890472ba
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 14
+    OutputRefProperties *nullArray*
+StateNodeEntityData 00000005
+    $::StateNodeEntityBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1723478281
+        StateName CheckRequirements
+        Realm Realm_Client
+        IsRoot False
+    EventTriggersInfo *nullArray*
+    ConsumedEventsInfo *nullArray*
+StateNodeEntityData 00000006
+    $::StateNodeEntityBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 114879090
+        StateName WaitingForTeamAndSpartaHide
+        Realm Realm_Client
+        IsRoot False
+    EventTriggersInfo *nullArray*
+    ConsumedEventsInfo *nullArray*
+StateNodeEntityData 00000007
+    $::StateNodeEntityBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1656052631
+        StateName HasTeamAndSpartaIsGone
+        Realm Realm_Client
+        IsRoot False
+    EventTriggersInfo *nullArray*
+    ConsumedEventsInfo *nullArray*

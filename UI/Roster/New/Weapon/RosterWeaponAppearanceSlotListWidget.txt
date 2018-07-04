@@ -1,0 +1,84 @@
+UIWidgetBlueprint 4b51fefcfcc8501c02b04785f6881790
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Roster/NEW/Weapon/RosterWeaponAppearanceSlotListWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -1104404473
+                            TargetFieldId -1104404473
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 547157899
+                        TargetEvent::EventSpec
+                            Id 547157899
+                        TargetType EventConnectionTargetType_Client
+        Object 00000000
+BFUIListWidgetData 00000000
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 179554981
+            Size::UIElementSize
+                X 422.0
+                Y 80.0
+            Layers *nullArray*
+            TextureMappings *nullArray*
+            Components *nullArray*
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Roster/NEW/Weapon/RosterWeaponAppearanceSlotCellWidget/9e0cbba3b3218a468427d6f125005f57
+    MaxRows 0
+    SelectionInput -1
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit False
+    ValidateSetSelection False
+    WrapSelection False
+    AutoSizeWidgetHorizontally False
+    AutoSizeWidgetVertically False
+    Enabled True
+    ScrollIntoView False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1104404473
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 547157899
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

@@ -1,0 +1,353 @@
+LogicPrefabBlueprint 3cd50d46c55cda44907924f45072628f
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/General/dwc_Barbwire_SoldierRestrictor
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000005
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id -1996040326
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000006
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id -1996040326
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000005
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 1637984329
+                        TargetType EventConnectionTargetType_Server
+                    member(3)::EventConnection
+                        Source 00000005
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 1374422353
+                        TargetType EventConnectionTargetType_Server
+                    member(4)::EventConnection
+                        Source 00000006
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 1637984329
+                        TargetType EventConnectionTargetType_Server
+                    member(5)::EventConnection
+                        Source 00000006
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 1374422353
+                        TargetType EventConnectionTargetType_Server
+                    member(6)::EventConnection
+                        Source 00000005
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 94555244
+                        TargetType EventConnectionTargetType_Server
+                    member(7)::EventConnection
+                        Source 00000006
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 94555244
+                        TargetType EventConnectionTargetType_Server
+                    member(8)::EventConnection
+                        Source 00000003
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 364399427
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(9)::EventConnection
+                        Source 00000003
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 538331554
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(10)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id -1996040326
+                        TargetType EventConnectionTargetType_Server
+                    member(11)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 1637984329
+                        TargetType EventConnectionTargetType_Server
+                    member(12)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 1374422353
+                        TargetType EventConnectionTargetType_Server
+                    member(13)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 94555244
+                        TargetType EventConnectionTargetType_Server
+                    member(14)::EventConnection
+                        Source 00000003
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -1800555684
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000002
+            member(1) 00000000
+            member(2) 00000005
+            member(3) 00000006
+            member(4) 00000004
+            member(5) 00000001
+        TimeDeltaType TimeDeltaType_None
+CharacterStateTriggerEntityData 00000000
+    $::TriggerEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 85091983
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        Delay 0.0
+        RunOnce False
+        Enabled True
+    Pitch 0.0
+    CharacterPose CPTForceToProne
+    SoldierWeapon *nullGuid*
+    SeatIndex 0
+    HealthToSet 100
+    HealthToCheck 100
+    AmmoToSet 75
+    PoseToCheck CPTForceToProne
+    ActiveWeaponSlot 0
+    MoveSpeedMultiplier 0.5
+    SprintSpeedMultiplier 0.5
+    JumpHeightMultiplier 0.600000023842
+    LookSpeedMultiplier 1.0
+    UsePitch False
+    ExcludeConnectedVehicles False
+    StayInVehicleOnMove False
+    LeaveVehicleOnMove True
+    ClearAreaOnMove True
+    CheckAllWeapons False
+    CheckOnlyReadyWeapons False
+    ContinueToCheckIfHoldingWrongWeapon False
+    ShouldCheckSeatIndex False
+    AllowRemoteControlledVehicles False
+    CheckHealthGreaterOrEqual True
+    UseExitPointWhenLeavingVehicle True
+    DisablePhysicsWhenLeavingVehicle False
+    LeaveRemoteVehicles False
+CharacterStateTriggerEntityData 00000001
+    $::TriggerEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 100176574
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        Delay 0.0
+        RunOnce False
+        Enabled True
+    Pitch 0.0
+    CharacterPose CPTForceToProne
+    SoldierWeapon *nullGuid*
+    SeatIndex 0
+    HealthToSet 100
+    HealthToCheck 100
+    AmmoToSet 75
+    PoseToCheck CPTForceToProne
+    ActiveWeaponSlot 0
+    MoveSpeedMultiplier 0.699999988079
+    SprintSpeedMultiplier 0.699999988079
+    JumpHeightMultiplier 0.800000011921
+    LookSpeedMultiplier 1.0
+    UsePitch False
+    ExcludeConnectedVehicles False
+    StayInVehicleOnMove False
+    LeaveVehicleOnMove True
+    ClearAreaOnMove True
+    CheckAllWeapons False
+    CheckOnlyReadyWeapons False
+    ContinueToCheckIfHoldingWrongWeapon False
+    ShouldCheckSeatIndex False
+    AllowRemoteControlledVehicles False
+    CheckHealthGreaterOrEqual True
+    UseExitPointWhenLeavingVehicle True
+    DisablePhysicsWhenLeavingVehicle False
+    LeaveRemoteVehicles False
+CharacterStateTriggerEntityData 00000002
+    $::TriggerEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 72171474
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        Delay 0.0
+        RunOnce False
+        Enabled True
+    Pitch 0.0
+    CharacterPose CPTForceToStand
+    SoldierWeapon *nullGuid*
+    SeatIndex 0
+    HealthToSet 100
+    HealthToCheck 100
+    AmmoToSet 75
+    PoseToCheck CPTForceToStand
+    ActiveWeaponSlot 0
+    MoveSpeedMultiplier 1.0
+    SprintSpeedMultiplier 1.0
+    JumpHeightMultiplier 1.0
+    LookSpeedMultiplier 1.0
+    UsePitch False
+    ExcludeConnectedVehicles False
+    StayInVehicleOnMove False
+    LeaveVehicleOnMove True
+    ClearAreaOnMove True
+    CheckAllWeapons False
+    CheckOnlyReadyWeapons False
+    ContinueToCheckIfHoldingWrongWeapon False
+    ShouldCheckSeatIndex False
+    AllowRemoteControlledVehicles False
+    CheckHealthGreaterOrEqual True
+    UseExitPointWhenLeavingVehicle True
+    DisablePhysicsWhenLeavingVehicle False
+    LeaveRemoteVehicles False
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 364399427
+        member(1)::DynamicEvent
+            Id 538331554
+        member(2)::DynamicEvent
+            Id -1800555684
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+PlayerFilterEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 69493769
+    Realm Realm_Server
+    InvertFilter False
+    ForwardToSpectators False
+PlayerFilterEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 86764863
+    Realm Realm_Server
+    InvertFilter False
+    ForwardToSpectators False
+PlayerFilterEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 83888292
+    Realm Realm_Server
+    InvertFilter False
+    ForwardToSpectators False

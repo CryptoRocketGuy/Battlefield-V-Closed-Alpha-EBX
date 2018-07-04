@@ -1,0 +1,93 @@
+LogicPrefabBlueprint 0a9b47d8c47f7cf858e5e67d58d557c6
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Roster/Prefabs/RosterScreenLogic
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -80368276
+                        TargetEvent::EventSpec
+                            Id 1723395486
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id 422471624
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1434085148
+                        TargetEvent::EventSpec
+                            Id 1723395486
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id 840687837
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -137490305
+                        TargetEvent::EventSpec
+                            Id -1095741813
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 00000000
+        TimeDeltaType TimeDeltaType_None
+EventSplitterEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 53718022
+    Realm Realm_Client
+    RunOnce False
+EventSplitterEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 62805281
+    Realm Realm_Client
+    RunOnce False
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -80368276
+        member(1)::DynamicEvent
+            Id -1434085148
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 840687837
+        member(1)::DynamicEvent
+            Id 422471624
+        member(2)::DynamicEvent
+            Id -1095741813
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

@@ -1,0 +1,301 @@
+UIWidgetBlueprint 6607d37c762328d85fd2cbdd4446df0b
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/Widgets/OvalGradientWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000004
+                            SourceFieldId 993810272
+                            TargetFieldId -1783395213
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId 972165084
+                            TargetFieldId 730894268
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 205677681
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000002
+BFUIElementBitmapEntityData 00000000
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 134217728
+            InstanceName Gradient
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 2003872419
+            Size::Vec2
+                x 240.0
+                y 120.0
+            LayoutMode UILayoutMode_PositionExpansion
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.5
+                Y 0.5
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 1.0
+                Height 1.0
+            Alpha 1.0
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    UVRect::Vec4
+        x 0.0
+        y 0.0
+        z 1.0
+        w 1.0
+    TextureSource::UITextureSource
+        UVRect::Vec4
+            x 0.0
+            y 0.0
+            z 1.0
+            w 1.0
+    TextureId *nullString*
+    DynamicTextureId HudVignetteOval
+    HorizontalAlignment UIElementAlignment_Center
+    VerticalAlignment UIElementAlignment_Center
+    BlendMode UIBlendMode_AlphaBlend
+    ZOrder 0
+    KeepSourceScale False
+    KeepSourceAspectRatio False
+    AutoSizeHorizontally False
+    AutoSizeVertically False
+    UseColorAsOverlay False
+    OverrideBlendMode False
+    InvertColor False
+BFUIProfileOptionFloatEntityData 00000001
+    $::BFUIProfileOptionEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 21117234
+        Realm Realm_Client
+        LocalPlayerId LocalPlayerId_0
+        Option 44845e495100e81199d2a461c47c3c11/98756a0298f3fc6b45c49c150a22c953
+    Realm Realm_Client
+    InValue 0.0
+    SetOnPropertyChange True
+BFUIWidgetEntityData 00000002
+    $::UIWidgetEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 189530266
+        Size::UIElementSize
+            X 240.0
+            Y 120.0
+        Layers::array
+            member(0) 00000005
+        TextureMappings::array
+            member(0) UI/Shared/TextureMappings/GradientTextures/178e0b72d2a23e49bc90491669aff990
+        Components::array
+            member(0) 00000001
+            member(1) 00000004
+        Visible True
+    CustomLayout::BFUICustomLayout
+        SnapSettings::BFUISnapLayoutSettings
+            Left BFUISnapLayoutMode_Default
+            Right BFUISnapLayoutMode_Default
+            Top BFUISnapLayoutMode_Default
+            Bottom BFUISnapLayoutMode_Default
+        OverrideDefaultLayout False
+    SortBasedOnZ False
+    UseStencilMask False
+    UseInputStencilMask False
+    InputEnabled True
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Float32 0.25
+                ValueRef *nullGuid*
+                Id 972165084
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 158461291
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 2
+                    member(2) 0
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 -1783395213
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 1
+                Param1 1056964608
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_LessF
+                Result 0
+                Param1 0
+                Param2 1
+            member(3)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 730894268
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 2
+                Param1 1073741824
+                Param2 0
+            member(5)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 2
+                Param1 0
+                Param2 2
+            member(6)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 2
+                Param1 1
+                Param2 2
+            member(7)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 3
+                Param1 1065353216
+                Param2 0
+            member(8)::MathEntityInstruction
+                Code MathOpCode_SubF
+                Result 3
+                Param1 3
+                Param2 1
+            member(9)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 4
+                Param1 1073741824
+                Param2 0
+            member(10)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 0
+                Param1 0
+                Param2 4
+            member(11)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 4
+                Param1 1065353216
+                Param2 0
+            member(12)::MathEntityInstruction
+                Code MathOpCode_SubF
+                Result 0
+                Param1 0
+                Param2 4
+            member(13)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 0
+                Param1 3
+                Param2 0
+            member(14)::MathEntityInstruction
+                Code MathOpCode_AddF
+                Result 0
+                Param1 1
+                Param2 0
+            member(15)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 193418252
+                Param2 0
+            member(16)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False
+UIElementLayerEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName Layer
+    Elements::array
+        member(0) 00000000
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True

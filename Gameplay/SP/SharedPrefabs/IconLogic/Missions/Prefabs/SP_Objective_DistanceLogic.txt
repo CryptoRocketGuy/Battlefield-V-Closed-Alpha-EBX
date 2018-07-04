@@ -1,0 +1,174 @@
+LogicPrefabBlueprint cd416b3a608403e8805caee5c5e4f23c
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/SP/SharedPrefabs/IconLogic/Missions/Prefabs/SP_Objective_DistanceLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -774513262
+                            TargetFieldId 224750341
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -774513262
+                            TargetFieldId -1103014029
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 1885855628
+                            TargetFieldId -1133602520
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 417262885
+                            TargetFieldId 417262885
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId -938623621
+                            TargetFieldId 1658462601
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId -938623621
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 969108095
+                            TargetFieldId 205677681
+                            Flags 18
+                        member(7)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -393029979
+                            TargetFieldId 901540267
+                            Flags 18
+                        member(8)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 2662400
+                            TargetFieldId -1810789047
+                            Flags 2
+                        member(9)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId -141474860
+                            TargetFieldId 2066049125
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -1079944492
+                            TargetFieldId -1079944492
+                    Interface 00000001
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000002
+            member(1) 00000000
+        TimeDeltaType TimeDeltaType_None
+AlphaAndScaleFromDistanceData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1762010179
+    ChangeTreshold 0.0
+    FramesPerTick 1
+    LerpTime 0.10000000149
+    NearLimit 20.0
+    FarLimit 50.0
+    HideNearDistance 0.0
+    HideFarDistance 50.0
+    MinAlpha 0.0
+    MaxAlpha 1.0
+    MinScale 0.0
+    MaxScale 1.0
+    BinoLerp 0.40000000596
+    BinoDelay 0.300000011921
+    BinoAlpha 1.0
+    BinoScale 0.850000023842
+    Distance 0.0
+    Active True
+    UseLink True
+    OverrideFull False
+    Bino False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 205677681
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value Float32 20
+                ValueRef *nullGuid*
+                Id 1885855628
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value Float32 50
+                ValueRef *nullGuid*
+                Id -774513262
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -938623621
+                AccessType FieldAccessType_Target
+            member(4)::DataField
+                Value Float32 1
+                ValueRef *nullGuid*
+                Id 417262885
+                AccessType FieldAccessType_Target
+            member(5)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 408560070
+                AccessType FieldAccessType_Source
+            member(6)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 901540267
+                AccessType FieldAccessType_Source
+            member(7)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2662400
+                AccessType FieldAccessType_Target
+            member(8)::DataField
+                Value Float32 0
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id -1079944492
+PropertyDefaultValueEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 161758907
+    Realm Realm_Client
+    WrappedType PropertyDebugTypeClass_Float
+    WrappedTypeHash 2134484916

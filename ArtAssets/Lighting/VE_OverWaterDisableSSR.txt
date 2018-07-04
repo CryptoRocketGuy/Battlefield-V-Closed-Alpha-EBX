@@ -1,0 +1,122 @@
+VisualEnvironmentBlueprint eba69dd04b90eace5e7740c6748c1958
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name ArtAssets/Lighting/VE_OverWaterDisableSSR
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000001
+    TimeDeltaType TimeDeltaType_None
+ScreenSpaceRaytraceComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 21696296
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) RaytraceEnable
+            member(1) RadialFadeStart
+            member(2) RadialFadeLength
+        PropertyOverrideMasks::array
+            member(0) 2147483672
+            member(1) 0
+    Realm Realm_Client
+    CameraFadeStart 200.0
+    CameraFadeLength 200.0
+    RadialFadeStart 15.0
+    RadialFadeLength 5.0
+    DistanceFadeStart 200.0
+    DistanceFadeLength 200.0
+    ScreenFadeStart 0.899999976158
+    ScreenFadeLength 0.10000000149
+    BorderFadeStart 0.899999976158
+    BorderFadeLength 0.10000000149
+    MirrorFadeStart 0.800000011921
+    MirrorFadeLength 0.20000000298
+    ThicknessFadeStart 0.135000005364
+    ThicknessFadeLength 0.135000005364
+    RoughnessFadeStart 0.20000000298
+    RoughnessFadeLength 0.10000000149
+    NormalFadeTexture *nullGuid*
+    MinSamples 1
+    MaxSamples 1
+    TemporalSamples 16
+    TemporalPeriod 32
+    MinRoughness 0.20000000298
+    MaxRoughness 0.5
+    ResolveSamples 4
+    NoiseThreshold 0.180000007153
+    ClampThreshold 10.0
+    ImportanceSamplingBias 0.699999988079
+    FilterBias 0.300000011921
+    FilterAngularBias 0.0
+    TemporalFilterResponsiveness 0.300000011921
+    RaytraceEnable True
+VisualEnvironmentEntityData 00000001
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 198406893
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+            ClientRuntimeComponentCount 1
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 0.0
+    FutureVisibility 0.0
+    Priority 50
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable False

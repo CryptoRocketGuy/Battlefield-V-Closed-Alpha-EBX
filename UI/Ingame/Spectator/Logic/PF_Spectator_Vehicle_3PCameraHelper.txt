@@ -1,0 +1,132 @@
+LogicPrefabBlueprint 3c7471f261ffa76b214f7dc478783f1d
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Spectator/Logic/PF_Spectator_Vehicle_3PCameraHelper
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId -316502065
+                            TargetFieldId -316502065
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId -316502065
+                            TargetFieldId -326935980
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId 1463476146
+                            TargetFieldId 1463476146
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 225375086
+                            TargetFieldId 1463476146
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -139752583
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -139752583
+                        TargetEvent::EventSpec
+                            Id 2089008817
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 1167108881
+                        TargetEvent::EventSpec
+                            Id 668205626
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 1167108881
+                        TargetEvent::EventSpec
+                            Id 212633683
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000002
+            member(2) 00000003
+        TimeDeltaType TimeDeltaType_None
+BoolEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 57928373
+    Realm Realm_Client
+    DefaultValue False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -316502065
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -139752583
+        member(1)::DynamicEvent
+            Id 1167108881
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MultiPropertyGateEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 177460932
+    Realm Realm_Client
+    RuntimeProperties::array
+        member(0)::MultiPropertyGatePropertyInfo
+            TypeHash 2520298017
+            PropertyHash 1463476146
+        member(1)::MultiPropertyGatePropertyInfo
+            TypeHash 214528599
+            PropertyHash 3978465231
+    WritePropertiesOnOpenGate True
+    Open False
+SchematicChannelEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 138733718
+    Realm Realm_ClientAndServer
+    Channel UI/Ingame/Spectator/Logic/SC_Spectator3PVehicleCamera/47dd34b76d4425e755f36e56bcf0aa4a
+    InputProperties::array
+        member(0) 0
+        member(1) 1
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*

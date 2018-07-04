@@ -1,0 +1,243 @@
+LogicPrefabBlueprint b8887f81c8d8bd214a8b53baaff43839
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/CentralDamage/DamageController_BarbwireDamage
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -1886803106
+                            TargetFieldId 2662400
+                            Flags 3
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 672785274
+                            TargetFieldId 2662400
+                            Flags 3
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 831160733
+                        TargetEvent::EventSpec
+                            Id 364399427
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000003
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 1426507586
+                        TargetEvent::EventSpec
+                            Id -1800555684
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000003
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 2058370172
+                        TargetEvent::EventSpec
+                            Id 538331554
+                        TargetType EventConnectionTargetType_Server
+                    member(3)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1079232144
+                        TargetEvent::EventSpec
+                            Id -1705074962
+                        TargetType EventConnectionTargetType_Server
+                    member(4)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -622195192
+                        TargetEvent::EventSpec
+                            Id -450336618
+                        TargetType EventConnectionTargetType_Server
+                    member(5)::EventConnection
+                        Source 00000003
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 256533204
+                        TargetEvent::EventSpec
+                            Id -1705074962
+                        TargetType EventConnectionTargetType_Server
+                    member(6)::EventConnection
+                        Source 00000003
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 633577772
+                        TargetEvent::EventSpec
+                            Id -450336618
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000001
+            member(1) 00000000
+            member(2) 00000002
+        TimeDeltaType TimeDeltaType_None
+DamagePlayerOverTimeEntityData 00000000
+    $::DamagePlayerOverTimeBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 344474534
+        Realm Realm_Server
+        DamageOrigin::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        Team TeamNeutral
+        Enabled False
+        OwnerIsDamageGiver True
+        DoTDamageShielded False
+    DamageOverTime::DamageOverTimeData
+        DoTDuration -1.0
+        DoTTickDuration 0.5
+        DoTTickDamage 3
+        DoTSuppressionValue 10.0
+        DoTSuppressionType SuppressionType_Explosion
+        DamageMaterial::MaterialDecl
+            Packed 591656968
+        UnlockAsset *nullGuid*
+DamagePlayerOverTimeEntityData 00000001
+    $::DamagePlayerOverTimeBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 355816619
+        Realm Realm_Server
+        DamageOrigin::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        Team TeamNeutral
+        Enabled False
+        OwnerIsDamageGiver True
+        DoTDamageShielded False
+    DamageOverTime::DamageOverTimeData
+        DoTDuration -1.0
+        DoTTickDuration 1.0
+        DoTTickDamage 8
+        DoTSuppressionValue 10.0
+        DoTSuppressionType SuppressionType_Explosion
+        DamageMaterial::MaterialDecl
+            Packed 964950024
+        UnlockAsset *nullGuid*
+LogicPrefabReferenceObjectData 00000002
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 73647157
+            Blueprint DynamicWorld/CentralComponents/General/dwc_Barbwire_SoldierRestrictor/3cd50d46c55cda44907924f45072628f
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1886803106
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 672785274
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -622195192
+        member(1)::DynamicEvent
+            Id -1079232144
+        member(2)::DynamicEvent
+            Id 633577772
+        member(3)::DynamicEvent
+            Id 256533204
+        member(4)::DynamicEvent
+            Id 2058370172
+        member(5)::DynamicEvent
+            Id 831160733
+        member(6)::DynamicEvent
+            Id 1426507586
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

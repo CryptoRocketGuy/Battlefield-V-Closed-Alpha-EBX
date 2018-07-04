@@ -1,0 +1,148 @@
+SpatialPrefabBlueprint 20e8b91f55e0122bef3a43d75b3cfcde
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Sound/Levels/SourcePatch/Levels_SourcePatch_Weather_OutsideDoor_Prefab
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 1925266716
+                            TargetFieldId -2024647575
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 231353798
+                            TargetFieldId 231353798
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 1033950080
+                            TargetFieldId 1033950080
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 230748069
+                        TargetEvent::EventSpec
+                            Id -1952177180
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 230748069
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 2089401213
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 2089401213
+                        TargetEvent::EventSpec
+                            Id -117303631
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 00000000
+        TimeDeltaType TimeDeltaType_None
+DiceSoundEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 171107562
+    Attach *nullGuid*
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    DefaultSound Sound/Levels/SourcePatch/Levels_SourcePatch_Weather_OutsideDoor_BaseConfig/29a7534e9d3e204a5d44fabf199ffabc
+    Sound *nullGuid*
+    MasterAmplitude 1.0
+    UpdatePosition False
+    PlayOnCreation True
+    EnableOnCreation True
+    ForgetOnDestroy False
+    DisableWhenDeactivated False
+LocatorEntityData 00000001
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 3455680
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Realm Realm_ClientAndServer
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 231353798
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1033950080
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 230748069
+        member(1)::DynamicEvent
+            Id 2089401213
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

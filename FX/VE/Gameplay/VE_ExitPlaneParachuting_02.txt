@@ -1,0 +1,167 @@
+VisualEnvironmentBlueprint eb2fc22fae1bcf4c8207e6845eab0fcb
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_ExitPlaneParachuting_02
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000001
+    TimeDeltaType TimeDeltaType_None
+DofComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 30406113
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Enable
+            member(1) BlurFactor
+            member(2) BlurAdd
+            member(3) FocusDistance
+            member(4) FocusDofNearStart
+            member(5) FocusDofNearEnd
+            member(6) FocusDofFarStart
+            member(7) FocusDofFarEnd
+        PropertyOverrideMasks::array
+            member(0) 3932384
+            member(1) 2097152
+            member(2) 0
+    BokehChromaticAberrationFgColor::Vec3
+        x 1.0
+        y 0.20000000298
+        z 1.0
+    BokehChromaticAberrationBgColor::Vec3
+        x 0.20000000298
+        y 1.0
+        z 0.20000000298
+    Realm Realm_Client
+    DofSource DofSource_Linear
+    FocusDofMaxBlur 6.0
+    BlurFactor 1.0
+    BlurAdd 1.0
+    FocusDistance 1.0
+    RadialBlurAmountCommonDof 0.0
+    RadialBlurStartRadiusCommonDof 0.25
+    RadialBlurTransitionWidthCommonDof 0.5
+    RadialBlurTiltCommonDof 0.0
+    RadialBlurHorizontalScaleCommonDof 1.0
+    RadialBlurAspectRatioBlend 1.0
+    RadialBlurPositionCommonDof::Vec2
+        x 0.0
+        y 0.0
+    SimpleDofBlurFilter BfGaussian9Pixels
+    SimpleDofStandardDeviation 2.0
+    SpriteDofBokehTexture *nullGuid*
+    FocusDofNearStart 0.0
+    FocusDofNearEnd 1.0
+    FocusDofFarStart 0.0
+    FocusDofFarEnd 10.0
+    PbrFocusLengthDof 50.0
+    PbrFilmWidthDof 36.0
+    PbrFStopDof 2.0
+    OpticalVignettingAmount 0.0
+    OpticalVignettingAspectRatio 1.0
+    OpticalVignettingAnamorphicSqueeze 0.0
+    OpticalVignettingSizeCompensation 0.0
+    OpticalVignettingOperation VignettingOperation_Min
+    BokehChromaticAberrationScale 1.0
+    BokehChromaticAberrationRadius 0.5
+    BokehChromaticAberrationWidth 0.0500000007451
+    BokehChromaticAberrationRadiusThreshold 0.0
+    BokehChromaticAberrationRadiusThresholdWidth 0.00999999977648
+    BokehChromaticAberrationEnergyThreshold 0.0
+    HipToIronsightsFade 1.0
+    IronsightsDofStartFade 0.5
+    IronsightsFocalDistance 1.5
+    MaskedBlurAmount 1.0
+    MaskedBlurTexture *nullGuid*
+    SimpleDofMaxBlur 3.0
+    SimpleDofNearStart 5.0
+    SimpleDofNearEnd 7.0
+    SimpleDofFarStart 5.0
+    SimpleDofFarEnd 7.0
+    SpriteDofNearStart 5.0
+    SpriteDofNearEnd 7.0
+    SpriteDofFarStart 5.0
+    SpriteDofFarEnd 7.0
+    SpriteDofMaxBlur 6.0
+    IronsightsDofCircleDistance 0.34999999404
+    FullScreenBlurAddCommonDof 0.0
+    Enable True
+    DebugDrawFocusPlane False
+    RadialBlurEnableCommonDof False
+    OpticalVignettingEnable False
+    RGBBokehTextureEnable False
+    BokehChromaticAberrationEnable False
+    IronsightsDofActive False
+    MaskedBlurEnabled False
+    UseCameraSettings False
+    IronsightsDofCircleBlur False
+VisualEnvironmentEntityData 00000001
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 187964859
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+            ClientRuntimeComponentCount 1
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 1.0
+    FutureVisibility 0.0
+    Priority 280
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable False

@@ -1,0 +1,472 @@
+SpatialPrefabBlueprint 5f29872e3a5f574ba88a05188d2c3432
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/AnimatedBarriers/dwc_BarrierExplosionTrigger
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000007
+                            SourceFieldId -1888396699
+                            TargetFieldId 177636
+                            Flags 3
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000006
+                            SourceFieldId -1888396699
+                            TargetFieldId 177636
+                            Flags 3
+                        member(2)::PropertyConnection
+                            Source 00000008
+                            Target 00000000
+                            SourceFieldId -1265099450
+                            TargetFieldId -2024647575
+                            Flags 3
+                        member(3)::PropertyConnection
+                            Source 00000008
+                            Target 00000001
+                            SourceFieldId 1479981327
+                            TargetFieldId -2024647575
+                            Flags 3
+                        member(4)::PropertyConnection
+                            Source 00000008
+                            Target 00000000
+                            SourceFieldId -1510543648
+                            TargetFieldId 2662400
+                            Flags 3
+                        member(5)::PropertyConnection
+                            Source 00000008
+                            Target 00000001
+                            SourceFieldId -1510543648
+                            TargetFieldId 2662400
+                            Flags 3
+                    LinkConnections *nullArray*
+                    Interface 00000008
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 1666281711
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000006
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 2088727237
+                        TargetEvent::EventSpec
+                            Id 229946160
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000007
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 2088727237
+                        TargetEvent::EventSpec
+                            Id 229946160
+                        TargetType EventConnectionTargetType_Server
+                    member(3)::EventConnection
+                        Source 00000001
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id 1666281711
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(4)::EventConnection
+                        Source 00000007
+                        Target 00000008
+                        SourceEvent::EventSpec
+                            Id 193445146
+                        TargetEvent::EventSpec
+                            Id 303689818
+                        TargetType EventConnectionTargetType_Server
+                    member(5)::EventConnection
+                        Source 00000006
+                        Target 00000008
+                        SourceEvent::EventSpec
+                            Id 193445146
+                        TargetEvent::EventSpec
+                            Id -2013718189
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+            member(2) 00000006
+            member(3) 00000007
+        TimeDeltaType TimeDeltaType_None
+DamageTriggerEntityData 00000000
+    $::GamePhysicsEntityData
+        $::GameComponentEntityData
+            $::ComponentEntityData
+                $::SpatialEntityData
+                    $::EntityData
+                        $::GameObjectData
+                            $::DataBusPeer
+                                $::GameDataContainer
+                                    $::DataContainer
+                                Flags 362681894
+                    Transform::LinearTransform
+                        right::Vec3
+                            x -1.0
+                            y 0.0
+                            z 0.0
+                        up::Vec3
+                            x 0.0
+                            y 1.0
+                            z 0.0
+                        forward::Vec3
+                            x 0.0
+                            y 0.0
+                            z -1.0
+                        trans::Vec3
+                            x 0.0
+                            y 1.25
+                            z -0.15000000596
+                Components::array
+                    member(0) 00000002
+                ClientRuntimeComponentCount 0
+                ServerRuntimeComponentCount 1
+                ClientRuntimeTransformationCount 0
+                ServerRuntimeTransformationCount 0
+            Enabled True
+            EnableOutOfBoundsCheck True
+        PhysicsData *nullGuid*
+        IsTraversable False
+        IsCharacterCollidable False
+    MaxHealth 50.0
+    Radius 1.0
+    DamageThreshold 30.0
+    ResetOnDestroyed True
+DamageTriggerEntityData 00000001
+    $::GamePhysicsEntityData
+        $::GameComponentEntityData
+            $::ComponentEntityData
+                $::SpatialEntityData
+                    $::EntityData
+                        $::GameObjectData
+                            $::DataBusPeer
+                                $::GameDataContainer
+                                    $::DataContainer
+                                Flags 339033338
+                    Transform::LinearTransform
+                        right::Vec3
+                            x 1.0
+                            y 0.0
+                            z 0.0
+                        up::Vec3
+                            x 0.0
+                            y 1.0
+                            z 0.0
+                        forward::Vec3
+                            x 0.0
+                            y 0.0
+                            z 1.0
+                        trans::Vec3
+                            x 0.0
+                            y 1.25
+                            z 0.15000000596
+                Components::array
+                    member(0) 00000003
+                ClientRuntimeComponentCount 0
+                ServerRuntimeComponentCount 1
+                ClientRuntimeTransformationCount 0
+                ServerRuntimeTransformationCount 0
+            Enabled True
+            EnableOutOfBoundsCheck True
+        PhysicsData *nullGuid*
+        IsTraversable False
+        IsCharacterCollidable False
+    MaxHealth 50.0
+    Radius 1.0
+    DamageThreshold 30.0
+    ResetOnDestroyed True
+DamageTriggerPhysicsComponentData 00000002
+    $::GamePhysicsComponentData
+        $::PhysicsComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+            PhysicsBodies::array
+                member(0) 00000005
+            PhysicsConstraints *nullArray*
+            Parts *nullArray*
+            InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+            MovableParts False
+        Realm Realm_ClientAndServer
+        EffectParameters *nullArray*
+    Material::MaterialDecl
+        Packed 616822841
+    Radius 1.0
+DamageTriggerPhysicsComponentData 00000003
+    $::GamePhysicsComponentData
+        $::PhysicsComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+            PhysicsBodies::array
+                member(0) 00000004
+            PhysicsConstraints *nullArray*
+            Parts *nullArray*
+            InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+            MovableParts False
+        Realm Realm_ClientAndServer
+        EffectParameters *nullArray*
+    Material::MaterialDecl
+        Packed 616822841
+    Radius 1.0
+RigidBodyData 00000004
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_Server
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset *nullGuid*
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 0
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 0
+        AddToSpatialQueryManager True
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeProxy
+    Mass 0.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Keyframed
+    QualityType RigidBodyQualityType_Invalid
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices *nullArray*
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+RigidBodyData 00000005
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_Server
+        CollisionLayer RigidBodyCollisionLayer_Invalid
+        Asset *nullGuid*
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 0
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 0
+        AddToSpatialQueryManager True
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeProxy
+    Mass 0.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Keyframed
+    QualityType RigidBodyQualityType_Invalid
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices *nullArray*
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True
+CompareFloatEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 361339058
+    Realm Realm_Server
+    A 180.0
+    B 100.0
+    TriggerOnPropertyChange False
+    TriggerOnStart False
+CompareFloatEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 344859850
+    Realm Realm_Server
+    A 180.0
+    B 100.0
+    TriggerOnPropertyChange False
+    TriggerOnStart False
+InterfaceDescriptorData 00000008
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1265099450
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1479981327
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1510543648
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 303689818
+        member(1)::DynamicEvent
+            Id -2013718189
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

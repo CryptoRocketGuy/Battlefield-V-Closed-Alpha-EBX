@@ -1,0 +1,1055 @@
+SpatialPrefabBlueprint 7849b24749f6564790db10f5628132e5
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/Fortifications/Resupply/dwr_SupplyStation_Axis_Health
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000022
+                            Target 00000001
+                            SourceFieldId -141474860
+                            TargetFieldId 443997333
+                            Flags 33
+                        member(1)::PropertyConnection
+                            Source 00000022
+                            Target 00000003
+                            SourceFieldId -141474860
+                            TargetFieldId 443997333
+                            Flags 33
+                        member(2)::PropertyConnection
+                            Source 00000022
+                            Target 00000001
+                            SourceFieldId 1077390183
+                            TargetFieldId -409930682
+                            Flags 9
+                        member(3)::PropertyConnection
+                            Source 00000022
+                            Target 00000003
+                            SourceFieldId -1735881582
+                            TargetFieldId -409930682
+                            Flags 9
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000012
+                            Target 00000001
+                            SourceFieldId 1697507582
+                            TargetFieldId 0
+                        member(1)::LinkConnection
+                            Source 00000013
+                            Target 00000003
+                            SourceFieldId 1697507582
+                            TargetFieldId 0
+                    Interface 00000022
+                    Flags 15
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 1ca6e22cffe7b94384b9eebe6eb82aa1
+                        SourceEvent::EventSpec
+                            Id -58885899
+                        TargetEvent::EventSpec
+                            Id 263085854
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 1ca6e22cffe7b94384b9eebe6eb82aa1
+                        SourceEvent::EventSpec
+                            Id -58885898
+                        TargetEvent::EventSpec
+                            Id 263085853
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -58885899
+                        TargetEvent::EventSpec
+                            Id -1980967410
+                        TargetType EventConnectionTargetType_Server
+                    member(3)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -58885898
+                        TargetEvent::EventSpec
+                            Id -1980967410
+                        TargetType EventConnectionTargetType_Server
+                    member(4)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -58885899
+                        TargetEvent::EventSpec
+                            Id -1980967410
+                        TargetType EventConnectionTargetType_Server
+                    member(5)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -58885898
+                        TargetEvent::EventSpec
+                            Id -1980967410
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000002
+            member(1) 00000001
+            member(2) 00000003
+            member(3) 1ca6e22cffe7b94384b9eebe6eb82aa1
+            member(4) 00000000
+            member(5) 00000028
+        TimeDeltaType TimeDeltaType_None
+LogicPrefabReferenceObjectData 1ca6e22cffe7b94384b9eebe6eb82aa1
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 115516956
+            Blueprint DynamicWorld/CentralComponents/Fortifications/dwc_Reconstructable_AssetConduitLogic/fa1eea0e2733ca04102cb23832a18ec1
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+LocatorEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 16316665
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.564374685287
+                y 0.682601571083
+                z 0.636858940125
+    Realm Realm_ClientAndServer
+ObjectReferenceObjectData 00000001
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 531062561
+            Blueprint DynamicWorld/Interactives/SupplyStation_Health/HealthStation_Healthpack_Lid/cffba90cae369a9c54888010e53f5cd6
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 0.972984969616
+                    y -7.45057793239e-09
+                    z 0.230865582824
+                up::Vec3
+                    x 7.11384107177e-09
+                    y 0.999999940395
+                    z 2.29098162663e-09
+                forward::Vec3
+                    x -0.230865523219
+                    y -5.86751425224e-10
+                    z 0.972984910011
+                trans::Vec3
+                    x 0.565101802349
+                    y 0.405146420002
+                    z 0.46902513504
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+ObjectReferenceObjectData 00000002
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 220802
+            Blueprint DynamicWorld/Interactives/SupplyStation_Health/HealthStation/3249c22949c00b2170f6d078e8e9c7c1
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+ObjectReferenceObjectData 00000003
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 521697492
+            Blueprint DynamicWorld/Interactives/SupplyStation_Health/HealthStation_Metal_Lid/84af80e5fb524004347e723154b8c227
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x -0.988044261932
+                    y -1.49011505357e-08
+                    z -0.15417085588
+                up::Vec3
+                    x -1.51147379057e-08
+                    y 1.0
+                    z 2.13146611472e-10
+                forward::Vec3
+                    x 0.15417085588
+                    y 2.54085041895e-09
+                    z -0.988044261932
+                trans::Vec3
+                    x 0.998162806034
+                    y 0.69001185894
+                    z -0.36698371172
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+CurveData 00000004
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Constant
+    Time::array
+        member(0) 0.0
+    Value::array
+        member(0) 0.565101802349
+    InTanX *nullArray*
+    InTanY *nullArray*
+    OutTanX *nullArray*
+    OutTanY *nullArray*
+    IsWeighted False
+CurveData 00000005
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Constant
+    Time::array
+        member(0) 0.0
+    Value::array
+        member(0) -0.36698371172
+    InTanX *nullArray*
+    InTanY *nullArray*
+    OutTanX *nullArray*
+    OutTanY *nullArray*
+    IsWeighted False
+CurveData 00000006
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Complex
+    Time::array
+        member(0) 0.0
+        member(1) 1.20000004768
+        member(2) 1.5666667223
+    Value::array
+        member(0) 0.0
+        member(1) -65.3840942383
+        member(2) -59.6536979675
+    InTanX::array
+        member(0) 1.0
+        member(1) 0.10681912303
+        member(2) 1.0
+    InTanY::array
+        member(0) 0.0
+        member(1) -0.994278490543
+        member(2) 0.0
+    OutTanX::array
+        member(0) 1.0
+        member(1) 0.10681912303
+        member(2) 1.0
+    OutTanY::array
+        member(0) 0.0
+        member(1) -0.994278490543
+        member(2) 0.0
+    IsWeighted False
+CurveData 00000007
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Constant
+    Time::array
+        member(0) 0.0
+    Value::array
+        member(0) 0.998162806034
+    InTanX *nullArray*
+    InTanY *nullArray*
+    OutTanX *nullArray*
+    OutTanY *nullArray*
+    IsWeighted False
+CurveData 00000008
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Constant
+    Time::array
+        member(0) 0.0
+    Value::array
+        member(0) 0.69001185894
+    InTanX *nullArray*
+    InTanY *nullArray*
+    OutTanX *nullArray*
+    OutTanY *nullArray*
+    IsWeighted False
+CurveData 00000009
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Constant
+    Time::array
+        member(0) 0.0
+    Value::array
+        member(0) 0.46902513504
+    InTanX *nullArray*
+    InTanY *nullArray*
+    OutTanX *nullArray*
+    OutTanY *nullArray*
+    IsWeighted False
+CurveData 0000000a
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Complex
+    Time::array
+        member(0) 0.0
+        member(1) 0.550000011921
+        member(2) 1.54999995232
+        member(3) 1.91666662693
+    Value::array
+        member(0) 0.0
+        member(1) 0.0
+        member(2) -70.9298324585
+        member(3) -69.2574768066
+    InTanX::array
+        member(0) 1.0
+        member(1) 1.0
+        member(2) 0.0167508199811
+        member(3) 1.0
+    InTanY::array
+        member(0) 0.0
+        member(1) 0.0
+        member(2) -0.999859690666
+        member(3) 0.0
+    OutTanX::array
+        member(0) 1.0
+        member(1) 1.0
+        member(2) 0.0167508199811
+        member(3) 1.0
+    OutTanY::array
+        member(0) 0.0
+        member(1) 0.0
+        member(2) -0.999859690666
+        member(3) 0.0
+    IsWeighted False
+CurveData 0000000b
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Zero
+    Time::array
+        member(0) 0.0
+    Value::array
+        member(0) 0.0
+    InTanX *nullArray*
+    InTanY *nullArray*
+    OutTanX *nullArray*
+    OutTanY *nullArray*
+    IsWeighted False
+CurveData 0000000c
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_One
+    Time *nullArray*
+    Value *nullArray*
+    InTanX *nullArray*
+    InTanY *nullArray*
+    OutTanX *nullArray*
+    OutTanY *nullArray*
+    IsWeighted False
+CurveData 0000000d
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Constant
+    Time::array
+        member(0) 0.0
+    Value::array
+        member(0) 0.405146420002
+    InTanX *nullArray*
+    InTanY *nullArray*
+    OutTanX *nullArray*
+    OutTanY *nullArray*
+    IsWeighted False
+CurveData 0000000e
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Zero
+    Time::array
+        member(0) 0.0
+    Value::array
+        member(0) 0.0
+    InTanX *nullArray*
+    InTanY *nullArray*
+    OutTanX *nullArray*
+    OutTanY *nullArray*
+    IsWeighted False
+CurveData 0000000f
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Complex
+    Time::array
+        member(0) 0.0
+        member(1) 1.20000004768
+        member(2) 1.5666667223
+    Value::array
+        member(0) -13.3480472565
+        member(1) -13.3480520248
+        member(2) -13.3480463028
+    InTanX::array
+        member(0) 1.0
+        member(1) 1.0
+        member(2) 1.0
+    InTanY::array
+        member(0) 0.0
+        member(1) 1.31445642637e-06
+        member(2) 0.0
+    OutTanX::array
+        member(0) 1.0
+        member(1) 1.0
+        member(2) 1.0
+    OutTanY::array
+        member(0) 0.0
+        member(1) 1.31445642637e-06
+        member(2) 0.0
+    IsWeighted False
+CurveData 00000010
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_One
+    Time *nullArray*
+    Value *nullArray*
+    InTanX *nullArray*
+    InTanY *nullArray*
+    OutTanX *nullArray*
+    OutTanY *nullArray*
+    IsWeighted False
+CurveData 00000011
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Complex
+    Time::array
+        member(0) 0.0
+        member(1) 0.550000011921
+        member(2) 1.54999995232
+        member(3) 1.91666662693
+    Value::array
+        member(0) 171.13130188
+        member(1) 171.131286621
+        member(2) 171.131286621
+        member(3) 171.131286621
+    InTanX::array
+        member(0) 1.0
+        member(1) 1.0
+        member(2) 1.0
+        member(3) 1.0
+    InTanY::array
+        member(0) 0.0
+        member(1) 0.0
+        member(2) 0.0
+        member(3) 0.0
+    OutTanX::array
+        member(0) 1.0
+        member(1) 1.0
+        member(2) 1.0
+        member(3) 1.0
+    OutTanY::array
+        member(0) 0.0
+        member(1) 0.0
+        member(2) 0.0
+        member(3) 0.0
+    IsWeighted False
+EntityTrackData 00000012
+    $::EntityTrackBaseData
+        $::TimelineTrackData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1610612736
+            Conditions *nullArray*
+            UpdatePassFlags 3072
+            BucketPreChildrenOrder 0
+            BucketOrder 10
+            ExposePins False
+            IsDisabled False
+        Children::array
+            member(0) 00000025
+        EntitySharingPolicy EntityTrackSharingPolicy_Combine
+        InheritedToChildConversationLines False
+        Required True
+        HandleDeletedEntity True
+    GuidChain *nullArray*
+    RequiredOn Realm_ClientAndServer
+EntityTrackData 00000013
+    $::EntityTrackBaseData
+        $::TimelineTrackData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1610612736
+            Conditions *nullArray*
+            UpdatePassFlags 3072
+            BucketPreChildrenOrder 0
+            BucketOrder 20
+            ExposePins False
+            IsDisabled False
+        Children::array
+            member(0) 00000026
+        EntitySharingPolicy EntityTrackSharingPolicy_Combine
+        InheritedToChildConversationLines False
+        Required True
+        HandleDeletedEntity True
+    GuidChain *nullArray*
+    RequiredOn Realm_ClientAndServer
+FloatTrackData 00000014
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 5
+                ExposePins False
+                IsDisabled False
+            SourcePinId 1564839879
+            TargetPinId 0
+            TargetPinNameHash -1278120689
+    CurveData 00000006
+FloatTrackData 00000015
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 14
+                ExposePins False
+                IsDisabled False
+            SourcePinId -752052604
+            TargetPinId 0
+            TargetPinNameHash 177663
+    CurveData 00000005
+FloatTrackData 00000016
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 1
+                ExposePins False
+                IsDisabled False
+            SourcePinId -465518175
+            TargetPinId 0
+            TargetPinNameHash -1104103067
+    CurveData 00000010
+FloatTrackData 00000017
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 6
+                ExposePins False
+                IsDisabled False
+            SourcePinId -576858691
+            TargetPinId 0
+            TargetPinNameHash -608043705
+    CurveData 0000000f
+FloatTrackData 00000018
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 16
+                ExposePins False
+                IsDisabled False
+            SourcePinId -1647281695
+            TargetPinId 0
+            TargetPinNameHash -608043705
+    CurveData 00000011
+FloatTrackData 00000019
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 3
+                ExposePins False
+                IsDisabled False
+            SourcePinId -672809850
+            TargetPinId 0
+            TargetPinNameHash 177660
+    CurveData 0000000d
+FloatTrackData 0000001a
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 11
+                ExposePins False
+                IsDisabled False
+            SourcePinId -454986967
+            TargetPinId 0
+            TargetPinNameHash -1104103067
+    CurveData 0000000c
+FloatTrackData 0000001b
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 17
+                ExposePins False
+                IsDisabled False
+            SourcePinId 2043911845
+            TargetPinId 0
+            TargetPinNameHash -1581943018
+    CurveData 0000000b
+FloatTrackData 0000001c
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 13
+                ExposePins False
+                IsDisabled False
+            SourcePinId -1728329868
+            TargetPinId 0
+            TargetPinNameHash 177660
+    CurveData 00000008
+FloatTrackData 0000001d
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 15
+                ExposePins False
+                IsDisabled False
+            SourcePinId 1012504548
+            TargetPinId 0
+            TargetPinNameHash -1278120689
+    CurveData 0000000a
+FloatTrackData 0000001e
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 7
+                ExposePins False
+                IsDisabled False
+            SourcePinId 2142237818
+            TargetPinId 0
+            TargetPinNameHash -1581943018
+    CurveData 0000000e
+FloatTrackData 0000001f
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 2
+                ExposePins False
+                IsDisabled False
+            SourcePinId 1430584008
+            TargetPinId 0
+            TargetPinNameHash 177661
+    CurveData 00000004
+FloatTrackData 00000020
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 12
+                ExposePins False
+                IsDisabled False
+            SourcePinId -2053781849
+            TargetPinId 0
+            TargetPinNameHash 177661
+    CurveData 00000007
+FloatTrackData 00000021
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 4
+                ExposePins False
+                IsDisabled False
+            SourcePinId -1661416733
+            TargetPinId 0
+            TargetPinNameHash 177663
+    CurveData 00000009
+InterfaceDescriptorData 00000022
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1077390183
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1735881582
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+KeyedTransformLayerData 00000023
+    $::TransformLayerData
+        $::TimelineTrackData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Conditions *nullArray*
+            UpdatePassFlags 64
+            BucketPreChildrenOrder 0
+            BucketOrder 18
+            ExposePins False
+            IsDisabled False
+        Weight 0000001a
+        Blendtype LayeredTransform_BlendType_WorldOverride
+    PreInfinityForMinRotation InfinityType_Constant
+    PostInfinityForMinRotation InfinityType_Constant
+    TranslationX 00000020
+    TranslationY 0000001c
+    TranslationZ 00000015
+    RotationX 0000001d
+    RotationY 00000018
+    RotationZ 0000001b
+    QuatKeyframes *nullArray*
+    ForceMinimumRotationPathBetweenKeys False
+KeyedTransformLayerData 00000024
+    $::TransformLayerData
+        $::TimelineTrackData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Conditions *nullArray*
+            UpdatePassFlags 64
+            BucketPreChildrenOrder 0
+            BucketOrder 8
+            ExposePins False
+            IsDisabled False
+        Weight 00000016
+        Blendtype LayeredTransform_BlendType_WorldOverride
+    PreInfinityForMinRotation InfinityType_Constant
+    PostInfinityForMinRotation InfinityType_Constant
+    TranslationX 0000001f
+    TranslationY 00000019
+    TranslationZ 00000021
+    RotationX 00000014
+    RotationY 00000017
+    RotationZ 0000001e
+    QuatKeyframes *nullArray*
+    ForceMinimumRotationPathBetweenKeys False
+LayeredTransformTrackData 00000025
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 9
+                ExposePins False
+                IsDisabled False
+            SourcePinId 2049354434
+            TargetPinId -409930682
+            TargetPinNameHash -409930682
+    LayerTracks::array
+        member(0) 00000024
+    UseTimelineSpace True
+LayeredTransformTrackData 00000026
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 19
+                ExposePins False
+                IsDisabled False
+            SourcePinId -755137978
+            TargetPinId -409930682
+            TargetPinNameHash -409930682
+    LayerTracks::array
+        member(0) 00000023
+    UseTimelineSpace True
+TimelineData 00000027
+    $::TimelineTrackData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+        Conditions *nullArray*
+        UpdatePassFlags 7168
+        BucketPreChildrenOrder 0
+        BucketOrder 21
+        ExposePins False
+        IsDisabled False
+    Children::array
+        member(0) 00000012
+        member(1) 00000013
+TimelineEntityData 00000028
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 19680236
+    Realm Realm_Client
+    TimelineData 00000027
+    DeltaTimeClock Clock_SimTimeWithWorldDilation
+    BlendInTime 0.0
+    BlendOutTime 0.0
+    InitTime 0.0
+    StartTime 0.0
+    EndTime 2.0
+    JumpTime 0.0
+    PlaybackRate 1.0
+    ExternalTime 0.0
+    ExternalAudioTime 0.0
+    UpdatePassFlags 7232
+    AutoPlay True
+    AutoInitConnectedProperties False
+    ResetTimeOnStarted True
+    AllowAnimationCarryForward False
+    SyncTimelines False
+    HoldLastFrame True
+    TimelineInterpolation False
+    RuntimeFramerate 0
+    Looping False
+    Infinite False

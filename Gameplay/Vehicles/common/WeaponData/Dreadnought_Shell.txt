@@ -1,0 +1,402 @@
+ProjectileBlueprint 2c3be51f3d29c44a858be869002b48bf
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/common/WeaponData/Dreadnought_Shell
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 46b327aa74187946bf37bbdf11786a3e
+    TimeDeltaType TimeDeltaType_None
+BulletEntityData 46b327aa74187946bf37bbdf11786a3e
+    $::MeshProjectileEntityData
+        $::ProjectileEntityData
+            $::GamePhysicsEntityData
+                $::GameComponentEntityData
+                    $::ComponentEntityData
+                        $::SpatialEntityData
+                            $::EntityData
+                                $::GameObjectData
+                                    $::DataBusPeer
+                                        $::GameDataContainer
+                                            $::DataContainer
+                                        Flags 505918278
+                            Transform::LinearTransform
+                                right::Vec3
+                                    x 1.0
+                                    y 0.0
+                                    z 0.0
+                                up::Vec3
+                                    x 0.0
+                                    y 1.0
+                                    z 0.0
+                                forward::Vec3
+                                    x 0.0
+                                    y 0.0
+                                    z 1.0
+                                trans::Vec3
+                                    x 0.0
+                                    y 0.0
+                                    z 0.0
+                        Components::array
+                            member(0) 00000002
+                            member(1) 00000003
+                        ClientRuntimeComponentCount 2
+                        ServerRuntimeComponentCount 2
+                        ClientRuntimeTransformationCount 1
+                        ServerRuntimeTransformationCount 1
+                    Enabled True
+                    EnableOutOfBoundsCheck False
+                PhysicsData 00000004
+                IsTraversable True
+                IsCharacterCollidable True
+            InitialSpeed 350.0
+            TimeToLive 20.0
+            MaxCount 0
+            InitMeshHideTime 0.0
+            VisualConvergeDistance 500.0
+            VisualConvergenceDelay 0.10000000149
+            VisualConvergenceDuration 0.10000000149
+            ProxyVisualConvergenceDelay -1.0
+            ProxyVisualConvergenceDuration -1.0
+            Explosion 00000000
+            SuppressionData *nullGuid*
+            AmmunitionType *nullString*
+            MaterialPair::MaterialDecl
+                Packed 251729920
+            HitReactionWeaponType AntHitReactionWeaponType_Explosion
+            VoiceOverInfo *nullGuid*
+            DetonateOnTimeout False
+            ServerProjectileDisabled False
+            HideOnDetonation False
+        InitialAngularVelocity::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        Mesh gameplay/vehicles/common/weapondata/dreadnought_shell_Mesh/cea9993032579842b70f264146e86b9f
+        TrailEffect FX/Weapons/Trail/FX_SmokeTrail_Sturmtiger_Shell/a8dc395bfab6c94fa976a98386834fa8
+        TrailEffect1p FX/Weapons/Trail/FX_SmokeTrail_Sturmtiger_Shell_1P/c0890a0bf3502a4b91ddcd466e4e4ed1
+        TrailEffectForFriendlies *nullGuid*
+        InstantAttachableTestDistance 3.0
+        InstantAttachableVisualConvergenceDelay -1.0
+        InstantAttachableVisualConvergenceDuration -1.0
+        MaxAttachableInclination 45.0
+        UnspawnAfterDetonationDelay 0.0
+        IsAttachable False
+        InstantAttachableTestUnderReticule True
+        UprightAttachable False
+        ExtraDamping False
+    AttachPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    FlyBySound *nullGuid*
+    RicochetSound *nullGuid*
+    DudExplosion *nullGuid*
+    Gravity -14.0
+    Drag 0.0
+    ImpactImpulse 7000.0
+    DetonationTimeVariation 0.0
+    VehicleDetonationRadius 0.0
+    VehicleDetonationActivationDelay 0.0
+    FlyBySoundRadius 5.0
+    FlyBySoundSpeed 10.0
+    Stamina 0.0
+    DistributeDamageOverTime 0.0
+    StartDamage 20.0
+    EndDamage 10.0
+    DamageFalloffStartDistance 100.0
+    DamageFalloffEndDistance 200.0
+    DamageCurve *nullGuid*
+    DamageOverTimeMultiplierCurve *nullGuid*
+    TimeToArmExplosion 0.0
+    FirstFrameTravelDistance 0.0
+    StopTrailEffectOnUnspawnFrameDelay 2
+    AttachMinSpeed 0.0
+    AttachMaterialMaxHardness 1.0
+    BulletUnspawnOnCollision BulletUnspawnOnCollision_Always
+    RicochetMinSpeed 50.0
+    RicochetSpeedMultiplier 0.20000000298
+    RicochetOutgoingSpeedThreshold 10.0
+    RicochetMaterialHardnessThreshold 0.0
+    RicochetAngleWeight 0.0
+    RicochetMaterialPair::MaterialDecl
+        Packed 2048
+    VehicleDetonationUsesFriendlyFireRules True
+    HasVehicleDetonation False
+    InstantHit False
+    StopTrailEffectOnUnspawn True
+    OnlyAllowOnePassThroughCollisionEffectPerUpdate False
+    RicochetBulletSpawnExplosion False
+BFExplosionEntityData 00000000
+    $::ExplosionEntityData
+        $::SpatialEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+        DetonationEffect a9771a3d2a239b499f54308fb9e0499d/67bde89e0f53614bb22c88ae6e380e54
+        DetonationEffectForFriendlies *nullGuid*
+        MaskVolume *nullGuid*
+        DestructionMaskVolume *nullGuid*
+        MaterialPair::MaterialDecl
+            Packed 235317248
+        SecondaryMaterialPair::MaterialDecl
+            Packed 2048
+        ShockwaveWindForce *nullGuid*
+        DamageIndicationType DamageIndicationType_GiverPlayer
+        EmpTime 0.0
+        MaxOcclusionRaycastRadius 2.0
+        InnerBlastRadius 6.0
+        BlastDamage 100.0
+        BlastRadius 12.0
+        SecondaryMaterialRaycastLengthMultiplier 1.0
+        BlastImpulse 5000.0
+        ShockwaveDamage 1.0
+        ShockwaveRadius 30.0
+        SecondaryMaterialRaycastMinLengthMultiplier 0.0
+        ShockwaveImpulse 500.0
+        ShockwaveTime 0.5
+        CameraShockwaveRadius 3.0
+        SpawnDelay 0.0
+        NoFriendliesEffectOnEnabledFriendlyFire True
+        UseEntityTransformForDetonationEffect False
+        SecondaryMaterialsActive False
+        HasStunEffect False
+        AllowDamageToOwner True
+        ApplyBlastDamageToVehiclesAndCharactersInstantly True
+        ForceServersideAiDamage False
+        DisableOcclusion False
+        DisableStaticEntityOcclusion True
+        DisableOcclusionOutsideBlastRadius True
+        TriggerImpairedHearing True
+        Enabled True
+    UnspottableTime 1.0
+    AttachableFlamesBlastRadiusMultiplier 1.0
+    NumAttachableFlamesUp 0
+    NumAttachableFlamesSide 0
+    NumAttachableFlamesDown 0
+    NumAttachableFlamesNarrowDown 0
+    IsCausingSuppression True
+    UnspotsOnExplode False
+    SpotsOnExplode False
+    AttachableFlamesWorldAligned True
+HealthStateData 00000001
+    $::DataContainer
+    Objects *nullArray*
+    LoosePartPhysics *nullArray*
+    SpawnPositionOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    SpawnedBangerBlueprint *nullGuid*
+    SpawnedBangerImpulseParams *nullGuid*
+    Health 0.0
+    SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+        DebrisCullDistance 30.0
+        DebrisCullDistanceOutsideView 5.0
+        SoundCullDistance 0.0
+        SoundCullDistanceOutsideView 0.0
+        EffectCullDistance 0.0
+        EffectCullDistanceOutsideView 0.0
+    PartIndex 0
+    BangerInheritsObjectVariation False
+    SpawnedObjectsInheritObjectVariation False
+    CopyDamageToBanger True
+    PhysicsEnabled True
+    IsTraversable True
+    IsWindowVaultTraversable False
+    CanSupportOtherParts False
+ImpactWarningComponentData 00000002
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 3421796
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    WarnTimeBeforeImpact 1.60000002384
+    SoldierImpactAreaPadding 15.0
+    SoldierImpactAreaHeight 8.0
+    IncomingArtillerySound Sound/Core/Projectiles/Flybys/Projectiles_Flybys_Rush_Artillery_Incoming/185b407b1b3e9b459471bf260379809a
+    TriggerWarningDistanceFromImpact 100.0
+    WarningSoundRadius 75.0
+PartComponentData 00000003
+    $::GameComponentData
+        $::ComponentData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 8091741
+            Components *nullArray*
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            Excluded False
+    HealthStates::array
+        member(0) 00000001
+    PartLinks *nullArray*
+    IsSupported False
+    IsFragile False
+    AffectsBoundingBox True
+    IsNetworkable False
+    IsWindow False
+    AnimatePhysics False
+PhysicsEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    Asset gameplay/vehicles/common/weapondata/dreadnought_shell_physics_win32/1306af98c0973f9334d239ec8a8fd4ab
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    RigidBodies::array
+        member(0) 00000005
+    FloatPhysics *nullGuid*
+    Mass 1000010.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    Proximity *nullGuid*
+    Constraints *nullArray*
+    MovableParts False
+    IsComposite False
+RigidBodyData 00000005
+    $::PhysicsBodyData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+        Realm Realm_ClientAndServer
+        CollisionLayer RigidBodyCollisionLayer_NoVehicleCollisionLayer
+        Asset *nullGuid*
+        AssetIndex 0
+        TransformIndex 0
+        WorldIndex 0
+        CollisionRootShapeIndex 0
+        RaycastRootShapeIndex 0
+        AddToSpatialQueryManager False
+    CenterOfMass::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    InertiaModifier::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    KeyframeTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    RigidBodyType RBTypeCollision
+    Mass 1.0
+    Material::MaterialDecl
+        Packed 2048
+    DynamicFriction -1.0
+    StaticFriction -1.0
+    Restitution -1.0
+    AngularVelocityDamping -1.0
+    LinearVelocityDamping -1.0
+    MotionType RigidBodyMotionType_Dynamic
+    QualityType RigidBodyQualityType_Invalid
+    SystemGroup 0
+    SubSystemId 0
+    SubSystemIdNoCollide 0
+    PartIndices::array
+        member(0) 0
+    FloatPhysics *nullGuid*
+    ComputeCenterOfMass True
+    IsRootController True

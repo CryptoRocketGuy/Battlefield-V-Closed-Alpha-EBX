@@ -1,0 +1,174 @@
+LogicPrefabBlueprint c36b99bdb4cc0b807f2da32af3fed5cf
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Animations/Prefab/1P_ThrowingBlade_MeshVisibility_PF
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000006
+                            Target 00000001
+                            SourceFieldId -1001694132
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 160749962
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000006
+                            Target 00000000
+                            SourceFieldId -1001694132
+                            TargetFieldId 193450864
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId 2088812747
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000004
+                            Target 00000003
+                            SourceFieldId 1130556714
+                            TargetFieldId -1574046412
+                    Interface 00000003
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 2101141402
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -81881639
+                        TargetEvent::EventSpec
+                            Id 782109762
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 12680908
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -81881639
+                        TargetEvent::EventSpec
+                            Id -641946993
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000003
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id 223744783
+                        TargetEvent::EventSpec
+                            Id 223744783
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 00000006
+            member(2) 00000004
+            member(3) 00000000
+            member(4) 00000002
+        TimeDeltaType TimeDeltaType_None
+AndEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 140358078
+    Realm Realm_Client
+    InputCount 2
+CompareBoolEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 164436807
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+    AlwaysSend False
+CompareBoolEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 149503630
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+    AlwaysSend False
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 223744783
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 12680908
+        member(1)::DynamicEvent
+            Id -641946993
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id -1574046412
+ReadAntGameStateEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1645248431
+    Realm Realm_Client
+    AntGameStates::array
+        member(0) 00000005
+    NumProperties 1
+    NumAntAssets 1
+    StartReadingContinouslyOnSpawn False
+    ReadOnceOnSpawn False
+ReadBoolGameState 00000005
+    $::ReadAntGameStateData
+        $::AntGameStateData
+            $::DataContainer
+            PropertyHash 160749962
+    GameState::AntRef
+        AssetGuid 78FE2DFBEC883ECC0000000000000000
+        ProjectId 0
+UnlockEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 55581724
+    Realm Realm_Client
+    UnlockGuids::array
+        member(0) 182FCD2CFACA4F40B38408CDC0F0D744
+    Logic UnlockEntityLogic_AND
+    ContextPlayerQueryType UnlockEntityPlayerQueryType_AllWeaponUnlocks
+    InvertTest False
+    ContextPlayer True

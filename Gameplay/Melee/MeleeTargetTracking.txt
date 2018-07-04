@@ -1,0 +1,203 @@
+LogicPrefabBlueprint 4e2607c6c494bc1b6d7a017e7affe7f7
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Melee/MeleeTargetTracking
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000005
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000005
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1285464092
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000005
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -1285464092
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000004
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000005
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 2121396772
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000005
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 508665427
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000005
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 2121396772
+                        TargetEvent::EventSpec
+                            Id 231942004
+                        TargetType EventConnectionTargetType_Client
+                    member(6)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 231942004
+                        TargetType EventConnectionTargetType_Client
+                    member(7)::EventConnection
+                        Source 00000005
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1285464092
+                        TargetEvent::EventSpec
+                            Id 231942004
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000004
+            member(2) 00000003
+            member(3) 00000001
+            member(4) 00000002
+        TimeDeltaType TimeDeltaType_None
+PlayerLookAtEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 34254991
+    IsTracking True
+    LookAtSoldier True
+    TargetTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+PrintDebugTextEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 50557479
+    Realm Realm_Client
+    TextColor::Vec3
+        x 1.0
+        y 0.0
+        z 0.0
+    Text OOT!
+    ScreenPosition::Vec2
+        x -1.0
+        y -1.0
+    TimeToShow -1.0
+    TextScale 1.0
+    PrefixLocalPlayerId True
+    PrefixRealm False
+    PrefixTick False
+    Enabled False
+PrintDebugTextEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 53645127
+    Realm Realm_Client
+    TextColor::Vec3
+        x 0.0
+        y 1.0
+        z 0.0
+    Text Start!
+    ScreenPosition::Vec2
+        x -1.0
+        y -1.0
+    TimeToShow -1.0
+    TextScale 1.0
+    PrefixLocalPlayerId True
+    PrefixRealm False
+    PrefixTick False
+    Enabled False
+PrintDebugTextEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 52363146
+    Realm Realm_Client
+    TextColor::Vec3
+        x 1.0
+        y 0.0
+        z 1.0
+    Text WeaponChanged!
+    ScreenPosition::Vec2
+        x -1.0
+        y -1.0
+    TimeToShow -1.0
+    TextScale 1.0
+    PrefixLocalPlayerId True
+    PrefixRealm False
+    PrefixTick False
+    Enabled False
+DelayEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 61903807
+    Delay 0.800000011921
+    Realm Realm_Client
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+InterfaceDescriptorData 00000005
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1285464092
+        member(1)::DynamicEvent
+            Id 2121396772
+        member(2)::DynamicEvent
+            Id 508665427
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

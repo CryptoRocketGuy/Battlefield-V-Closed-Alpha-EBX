@@ -1,0 +1,241 @@
+UIWidgetBlueprint f34fd66c0e05154bb5ded182144a937b
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Options/KeyBindings/OptionsKeybindingList
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000005
+                            SourceFieldId -2124113369
+                            TargetFieldId -1512192206
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId 103737856
+                            TargetFieldId -124041117
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000006
+                            Target 00000001
+                            SourceFieldId -2750101
+                            TargetFieldId -2750101
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000000
+                            Target 00000004
+                            SourceFieldId -1065407326
+                            TargetFieldId 2088812747
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId -188171420
+                            TargetFieldId 0
+                    Interface 00000006
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000004
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 2206773
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000003
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 1124842246
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+        Object 00000003
+LogicPrefabReferenceObjectData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 24030324
+            Blueprint UI/Shared/Logic/UIMousePadVisibilityLogic/ae675bdf3437e15194c8fdee5934cbf0
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+BFUIKeybindingsDataProviderEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 161897131
+    Realm Realm_Client
+    KeybindingType infantry
+BFUILayoutGenericListEntityData 00000002
+    $::BFUILayoutEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 41989519
+        ElementOffsetScaling::Vec2
+            x 0.0
+            y 0.0
+    LayoutMargin::Vec2
+        x 0.0
+        y 2.0
+    ElementMargin::Vec2
+        x 3.0
+        y 3.0
+    ElementStep::Vec2
+        x 0.0
+        y 0.0
+    ElementStepFactor::Vec2
+        x 0.0
+        y 1.0
+    ElementPivot::Vec2
+        x 0.0
+        y 0.0
+    HorizontalAlignment BFUILayoutHorizontalAlignment_Left
+    VerticalAlignment BFUILayoutVerticalAlignment_Top
+    AutoSizeElementsHorizontally True
+    AutoSizeElementsVertically False
+    DrawZeroSizeElement True
+BFUIListWidgetData 00000003
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1806771650
+            Size::UIElementSize
+                X 800.0
+                Y 700.0
+            Layers *nullArray*
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000002
+                member(1) 00000001
+                member(2) 00000005
+                member(3) 00000004
+                member(4) 00000007
+                member(5) 00000000
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask True
+        UseInputStencilMask True
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Options/KeyBindings/OptionsKeybindingCellWidget/aafb27fe4e9011f5cde1e4745270318a
+    MaxRows 0
+    SelectionInput 0
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit True
+    ValidateSetSelection True
+    WrapSelection False
+    AutoSizeWidgetHorizontally False
+    AutoSizeWidgetVertically False
+    Enabled True
+    ScrollIntoView True
+CompareBoolEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 191367675
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange False
+    TriggerOnStart False
+    AlwaysSend False
+DataSourceQueryEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 146245339
+    Realm Realm_Client
+    InData *nullGuid*
+    ArrayIndex 0
+InterfaceDescriptorData 00000006
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -2750101
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SchematicChannelEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 65373397
+    Realm Realm_Client
+    Channel Sound/UI/UIChannelAudio/74368aabab043d4fdfde77d415074aec
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*

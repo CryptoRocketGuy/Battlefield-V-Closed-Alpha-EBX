@@ -1,0 +1,294 @@
+VisualEnvironmentBlueprint 831909b7e38716468365759834e932a9
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_HitEffect
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000006
+                            SourceFieldId 79498123
+                            TargetFieldId 177650
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000004
+                            Target 00000001
+                            SourceFieldId 1819533979
+                            TargetFieldId 205597860
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000006
+                            Target 00000001
+                            SourceFieldId 193453899
+                            TargetFieldId -2115692030
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000005
+                            Target 00000006
+                            SourceFieldId 193453899
+                            TargetFieldId 177661
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000004
+                            Target 00000006
+                            SourceFieldId 1529367446
+                            TargetFieldId 177660
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1635202463
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1635202463
+                        TargetEvent::EventSpec
+                            Id 212633683
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -62145612
+                        TargetEvent::EventSpec
+                            Id 2089008817
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000004
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -340886526
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+        Object 00000002
+    TimeDeltaType TimeDeltaType_None
+LensReflectionComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 19534123
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Enable
+            member(1) MixStart
+            member(2) InputExponent
+            member(3) InnerColor
+            member(4) OuterColor
+            member(5) MixStop
+            member(6) InputScale
+            member(7) MaxOpacity
+            member(8) DistortionFactor
+        PropertyOverrideMasks::array
+            member(0) 2811
+    InnerColor::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    OuterColor::Vec3
+        x 0.107023097575
+        y 0.00585110625252
+        z 0.00364467687905
+    Realm Realm_Client
+    MixStart 0.300000011921
+    MixStop 1.79999995232
+    InputExponent 1.5
+    InputScale 1.0
+    MaxOpacity 1.0
+    Scale 1.0
+    DistortionFactor 0.949999988079
+    VerticalStretch 1.0
+    Enable True
+    TransposeReflection True
+ScreenEffectComponentData 00000001
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 152331436
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Shader
+            member(1) FrameWidth
+            member(2) InnerFrameOpacity
+            member(3) OuterFrameOpacity
+            member(4) ScreenEffectParams
+            member(5) FrameType
+        PropertyOverrideMasks::array
+            member(0) 125
+    ScreenEffectParams::Vec4
+        x 1.0
+        y 1.0
+        z 1.0
+        w 1.0
+    Realm Realm_Client
+    FrameType ScreenEffectFrameType_FullFrame
+    Shader FX/VE/Shaders/FXVS_DmgEffect_ScreenEffect/4f32877934c0b38b5293859a36c789c1
+    FrameWidth 0.699999988079
+    OuterFrameOpacity 1.0
+    InnerFrameOpacity 0.0
+    Angle 0.0
+VisualEnvironmentEntityData 00000002
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 186290817
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000001
+                member(1) 00000006
+                member(2) 00000000
+                member(3) 00000005
+                member(4) 00000003
+            ClientRuntimeComponentCount 2
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 1.0
+    FutureVisibility 0.0
+    Priority 270
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True
+EventGateEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 36494393
+    Realm Realm_Client
+    DefaultOpen True
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Float32 1
+                ValueRef *nullGuid*
+                Id 1819533979
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value Float32 1
+                ValueRef *nullGuid*
+                Id 79498123
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1529367446
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -340886526
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+RandomFloatEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 42874842
+    Realm Realm_Client
+    Min -1.0
+    Max 1.0
+    TrueRandom False
+Vec4BuilderEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 166748191
+    Realm Realm_Client
+    X 0.0
+    Y 0.0
+    Z 0.0
+    W 0.0

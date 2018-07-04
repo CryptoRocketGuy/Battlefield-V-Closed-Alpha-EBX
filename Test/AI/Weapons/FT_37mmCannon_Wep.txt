@@ -1,0 +1,116 @@
+AIWeaponData bff2f7fed989234aa6430988b0f3c5b6
+    $::GameAIWeaponData
+        $::Asset
+            $::DataContainer
+            Name Test/AI/Weapons/FT_37mmCannon_Wep
+    FiringWeaponClass WeaponClass_MachineGun
+    VoPrimaryFireType VoPrimaryFireType_MachineGun
+    WeaponRange -1.0
+    MinimumUsageDistance -1.0
+    MaximumUsageDistance -1.0
+    VehicleMaxTargetLOSLost -1.0
+    MinEnterVehicleDistance -1.0
+    ExitVehicleDisableTime -1.0
+    EvasionVolume *nullGuid*
+    PreferredRange *nullGuid*
+    PreferredRangeVehicleTarget *nullGuid*
+    IndoorPreferredRange *nullGuid*
+    OutdoorPreferredRange *nullGuid*
+    FiringIntervalPattern *nullGuid*
+    SustainFiringData *nullGuid*
+    BurstIntervalPattern cd7cd8a34777724c94a8d7dc903d7d7b
+    CreepingAirBarrage *nullGuid*
+    SprayPattern *nullGuid*
+    AccuracyHitBox *nullGuid*
+    VehicleAimerSettings 9e2590d00de68e478f4768588e17dde2
+    VisionOverride *nullGuid*
+    HearingOverride *nullGuid*
+    TargetModifier *nullGuid*
+    TargetingSettingsOverride bfd28fdfd5486041a3cb5d93a6743a84
+    VehicleInaccuracySettings 2304255d4dadc94da89e2690bf2bca11
+    SuppressedBehavior *nullGuid*
+    DamageModifier *nullGuid*
+    DamageModifierExtended *nullGuid*
+    FriendlyWeaponRestrictions *nullGuid*
+    EnemyWeaponRestrictions *nullGuid*
+    SpecialBehavior *nullGuid*
+    HumanTargetHitProbability *nullGuid*
+    DistanceToAwareTimeOverrideCentral *nullGuid*
+    DistanceToAwareTimeOverridePeripheral *nullGuid*
+    ValidAgainst ValidAgainst_All
+    TargetPreference TargetPreference_Vehicles
+    MinPrecisionToFire -1.0
+    WeaponThreatScale 1.0
+    ValidWeaponScale 1.0
+    InValidWeaponScale 1.0
+    HighIntensityRadiusOverride -1.0
+    MediumIntensityRadiusOverride -1.0
+    UseTargetExtrapolation True
+    CausesEvasionOnFire False
+    UseShootspaceForVision True
+VehicleInaccuracySettings 2304255d4dadc94da89e2690bf2bca11
+    $::DataContainer
+    MinAimAngle 0.0
+    MaxAimAngle 4.0
+    AccuracyIncreaseSpeed 0.13750000298
+    AccuracyDecreaseSpeed 0.40000000596
+    ResetOnReTarget True
+VehicleAimerSettings 9e2590d00de68e478f4768588e17dde2
+    $::DataContainer
+    MinPrecisionToFire 5.0
+    IsParabolic True
+    AimHigh False
+    TrackTowardsTarget False
+    TrackBeyondTarget False
+TargetingData bfd28fdfd5486041a3cb5d93a6743a84
+    $::DataContainer
+    AimOffsetY -0.25
+    VisibleTargetLimit 1.0
+    TargetLostTimer 7.5
+    TargetDistanceEvaluation::TinyPiecewiseLinearCurve
+        X0 0.0
+        Y0 10.0
+        X1 50.0
+        Y1 0.0
+    SuppressionScore::SuppressionValues
+        Front 1.0
+        Back 1.0
+    HumanSuppressionScoreMultiplier 1.0
+    SuppressionTimeLimit 5.0
+    AquiredTimer 2.0
+    AquiredObjectTimer 1.0
+    AquiredDistScale 0.5
+    TargetAimingTimer 2.0
+    CurrentHumanTargetAimingDistScale 1.0
+    LowHealthPercentage 0.25
+    CurrentHumanTargetLowHealthDistScale 1.0
+    ElevationAboveThreshold 2.0
+    ElevationDistScaleY 1.0
+    CurrentTargetDistScale 0.699999988079
+    TargetVisibleDistScale 0.10000000149
+    HumanPreferenceScale 2.5
+    TargetObjectDistScale 1.20000004768
+    VehicleTargetDistScale 1.0
+    TargetLOSLostTimer 5.0
+    TargetLOSLostScale 10.0
+    UseDistanceAsSeparateScaling False
+    BalanceDistribution False
+    CanTargetUnalertedAI True
+BurstIntervalPattern cd7cd8a34777724c94a8d7dc903d7d7b
+    $::DataContainer
+    BurstInterval::array
+        member(0)::BurstInterval
+            BurstLength 0.20000000298
+            BurstLengthVariation 0.0
+            TimeBetweenBursts 5.0
+            TimeBetweenBurstsVariation 1.0
+        member(1)::BurstInterval
+            BurstLength 0.20000000298
+            BurstLengthVariation 0.0
+            TimeBetweenBursts 5.0
+            TimeBetweenBurstsVariation 1.0
+        member(2)::BurstInterval
+            BurstLength 0.20000000298
+            BurstLengthVariation 0.0
+            TimeBetweenBursts 5.0
+            TimeBetweenBurstsVariation 1.0

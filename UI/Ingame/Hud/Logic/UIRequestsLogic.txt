@@ -1,0 +1,160 @@
+LogicPrefabBlueprint b5a2d2425e0562469ea6b3af13c3ec63
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/Logic/UIRequestsLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 205677681
+                            TargetFieldId 205677681
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 901540267
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -1819394802
+                            TargetFieldId 193450864
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 901540267
+                            Flags 34
+                        member(4)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId -141474860
+                            TargetFieldId 901540267
+                            Flags 34
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -274579609
+                        TargetEvent::EventSpec
+                            Id -1095741813
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1952177180
+                        TargetEvent::EventSpec
+                            Id -1952177180
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+        TimeDeltaType TimeDeltaType_None
+UIScreenRenderEntityData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 200989155
+            Blueprint UI/Ingame/Hud/Commorose/CommoRoseRequestsList/e9225327288d533760fa94f1e03af8f4
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    ScreenData UI/ScreenData/UIHudScreenData/159b157b17f2504ba719c4aec690b7bc
+    Scale 0.0010000000475
+    ProjectionMode UIScreenProjectionMode_Default
+    RenderPass UIScreenRenderingPass_BelowFlash
+    UpdateOrder 4
+    ViewId LocalPlayerViewId_RootView
+    Alpha 1.0
+    UseGameViewProjection False
+    EnableDepthCulling False
+    CenterScreen False
+AndEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 144853811
+    Realm Realm_Client
+    InputCount 2
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 901540267
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 205677681
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1952177180
+        member(1)::DynamicEvent
+            Id -274579609
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

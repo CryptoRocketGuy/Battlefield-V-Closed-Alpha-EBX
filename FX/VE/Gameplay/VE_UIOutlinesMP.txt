@@ -1,0 +1,180 @@
+VisualEnvironmentBlueprint b591f63bde6253556808eaf615eea93a
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_UIOutlinesMP
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 212387320
+                            TargetFieldId -1581153077
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 205677681
+                            TargetFieldId -1453293569
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 212387320
+                            TargetFieldId -1581153078
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 205677681
+                            TargetFieldId -1490126882
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 212387320
+                            TargetFieldId -1581153079
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 205677681
+                            TargetFieldId -1683501763
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000001
+    TimeDeltaType TimeDeltaType_None
+OutlineColorsComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 150044809
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Color2
+            member(1) Color3
+            member(2) Color2Alpha
+            member(3) Color3Alpha
+            member(4) Color1Alpha
+            member(5) Color1
+        PropertyOverrideMasks::array
+            member(0) 455
+    Color1::Vec3
+        x 0.07036010921
+        y 0.32777813077
+        z 0.0262412223965
+    Color2::Vec3
+        x 0.485149979591
+        y 0.0212190095335
+        z 0.0212190095335
+    Color3::Vec3
+        x 0.0781874284148
+        y 0.32777813077
+        z 0.49102088809
+    Color4::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Realm Realm_Client
+    Brightness 4.0
+    Color1Alpha 0.699999988079
+    Color2Alpha 0.699999988079
+    Color3Alpha 0.699999988079
+    Color4Alpha 1.0
+VisualEnvironmentEntityData 00000001
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 188140818
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+                member(1) 00000002
+                member(2) 00000004
+                member(3) 00000003
+            ClientRuntimeComponentCount 1
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 1.0
+    FutureVisibility 0.0
+    Priority 0
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True
+BFUIColorPresetsEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 27211889
+    Realm Realm_Client
+    ColorState UIIconState_Enemy
+BFUIColorPresetsEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 31183504
+    Realm Realm_Client
+    ColorState UIIconState_Friendly
+BFUIColorPresetsEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 19701992
+    Realm Realm_Client
+    ColorState UIIconState_Squad

@@ -1,0 +1,65 @@
+LogicPrefabBlueprint 336a06277117d74299b8984ef109c83b
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Test/Warsaw/Vehicles/common/LogicalPrefabs/TooltipsParaSpawn
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 775358998
+                        TargetEvent::EventSpec
+                            Id 2089152613
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -376662289
+                        TargetEvent::EventSpec
+                            Id 2089430886
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000002
+            member(1) 00000000
+        TimeDeltaType TimeDeltaType_None
+ActionMessageListenerEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 28534733
+    Realm Realm_Client
+    Message Gameplay/MP/AirplaneReachedWaypointEnter/d9ffea384cbb2649bf401b3bd391decc
+    Enabled True
+    QueueMessages True
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 775358998
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+UITooltipEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 65512647
+    Realm Realm_Client
+    Timer 3.0
+    Tooltips::array
+        member(0) UI/Metadata/UIVehicleTooltipsMetaData/2c90dea39779b94b9d8042b94096a4dc

@@ -1,0 +1,167 @@
+SpatialPrefabBlueprint 5ea9b702f824ec43b83a6dcb378d415f
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Levels/MP/MP_ArcticFjord/Lighting/Prefabs/PFLS_LensFlare_AirplaneInterior_01
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -1696158145
+                            TargetFieldId -1696158145
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1952177180
+                        TargetEvent::EventSpec
+                            Id -1952177180
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -117303631
+                        TargetEvent::EventSpec
+                            Id -117303631
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+LensFlareEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 173281733
+        Transform::LinearTransform
+            right::Vec3
+                x 0.999999880791
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 0.999999880791
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Dimmer 1.0
+    RenderMode LensFlareRenderMode_Half_Res
+    OccluderSize 0.20000000298
+    DepthBias 0.10000000149
+    Elements::array
+        member(0)::LensFlareElement
+            SizeOccluderCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            SizeScreenPosCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            SizeAngleCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            SizeCamDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            AlphaOccluderCurve::Vec4
+                x 0.0
+                y 0.0
+                z -1.0
+                w 1.0
+            AlphaScreenPosCurve::Vec4
+                x 0.0
+                y 0.0
+                z -0.506172716618
+                w 0.492592543364
+            AlphaAngleCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            AlphaCamDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z -0.994999885559
+                w 0.990050017834
+            RotationDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 0.0
+            Enable QualityScalableEnabled_Low
+            Shader::SurfaceShaderInstanceDataStruct
+                Shader ArtAssets/Lighting/Shaders/SS_FlareCore_01/cf60ada57658e342a665193755d1cb3a
+                BoolParameters *nullArray*
+                VectorParameters::array
+                    member(0)::VectorShaderParameter
+                        Value::Vec4
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                            w 1.0
+                        ParameterName FlareColor
+                        ParameterType ShaderParameterType_Color
+                    member(1)::VectorShaderParameter
+                        Value::Vec4
+                            x 4.95384740829
+                            y 4.95384740829
+                            z 4.95384740829
+                            w 1.0
+                        ParameterName DirtColor
+                        ParameterType ShaderParameterType_Color
+                VectorArrayParameters *nullArray*
+                TextureParameters *nullArray*
+            RayDistance 0.0
+            Size::Vec2
+                x 1.0
+                y 1.0
+            SizeCamDistMax 3.0
+            AlphaCamDistMax 3.0
+            RotationLocal 0.0
+            RotationDistMultiplier 1.0
+            EnableElement True
+            RotationAlignedToRay False
+    Visible True
+    DebugDrawOccluder False
+    ScreenClip False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1696158145
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1952177180
+        member(1)::DynamicEvent
+            Id -117303631
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

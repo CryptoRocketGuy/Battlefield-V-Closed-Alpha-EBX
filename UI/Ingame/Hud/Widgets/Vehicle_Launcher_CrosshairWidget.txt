@@ -1,0 +1,218 @@
+UIWidgetBlueprint e4b46f6c6a14534a9d6b8e4df56b5316
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/Widgets/Vehicle_Launcher_CrosshairWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId -266860638
+                            TargetFieldId 901540267
+                            Flags 34
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 1235095469
+                            TargetFieldId 212387320
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 993810272
+                            TargetFieldId 205677681
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId -141474860
+                            TargetFieldId 295930326
+                            Flags 34
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000001
+UIElementWidgetReferenceEntityData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 134217728
+            Blueprint UI/Ingame/Hud/Widgets/GrenadeCrosshairWidget/bccb1e7a62b3ac40bed92adfd52e02d8
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    UIElementTransform::UIElementTransform
+        Rotation::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        RotationPivot::Vec3
+            x 0.5
+            y 0.5
+            z 0.0
+        Z 0.0
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    InstanceName Launcher Crosshair
+    InstanceNameHash 2876288099
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Size::Vec2
+        x 256.0
+        y 256.0
+    LayoutMode UILayoutMode_AnchorOffset
+    Offset::UIElementOffset
+        X 0.0
+        Y 38.0
+    Anchor::UIElementAnchor
+        X 0.5
+        Y 0.5
+    Position::UIElementOffset
+        X 0.0
+        Y 0.0
+    Expansion::UIElementRectExpansion
+        X 0.0
+        Y 0.0
+        Width 0.0
+        Height 0.0
+    Alpha 1.0
+    CodeAccessIdentifier *nullString*
+    UseElementSize False
+BFUICrosshairProjectionWidgetData 00000001
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 169969822
+            Size::UIElementSize
+                X 256.0
+                Y 256.0
+            Layers::array
+                member(0) 00000005
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000002
+                member(1) 00000003
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    VerticalAngleOffset 0.0
+    HorizontalAngleOffset 0.0
+BFUIProfileOptionColorStringToVec4EntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 32836976
+    Realm Realm_Client
+    Option e4facad4a871e5118d61f2433ca1a0c9/10865dc01224571d4958a6545e886258
+BFUIProfileOptionFloatEntityData 00000003
+    $::BFUIProfileOptionEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 14390492
+        Realm Realm_Client
+        LocalPlayerId LocalPlayerId_0
+        Option 9ae85730a9bf104a9386fd8a7c78bb27/086e138e58784e409e7e38401eff5af1
+    Realm Realm_Client
+    InValue 1.0
+    SetOnPropertyChange True
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Boolean False
+                ValueRef *nullGuid*
+                Id -266860638
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value Boolean False
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+UIElementLayerEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName New Layer
+    Elements::array
+        member(0) 00000000
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True

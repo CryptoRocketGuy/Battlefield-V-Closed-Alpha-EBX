@@ -1,0 +1,209 @@
+UIWidgetBlueprint 63a1189f009d707a952d92b19f618283
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Deploy/Widgets/UIDeploy3DBaseSpawnPointCellWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000003
+                            SourceFieldId 277353866
+                            TargetFieldId -124041117
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 277353866
+                            TargetFieldId -746427635
+                            Flags 18
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -836493134
+                            TargetFieldId -836493134
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId -141474860
+                            TargetFieldId 1822248235
+                            Flags 34
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000001
+UIElementWidgetReferenceEntityData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 134217728
+            Blueprint UI/Ingame/Deploy/Widgets/UIDeploy3DBaseSpawnSelectorWidget/4fb29525553ab140ba878128109edf7c
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    UIElementTransform::UIElementTransform
+        Rotation::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        RotationPivot::Vec3
+            x 0.5
+            y 0.5
+            z 0.0
+        Z 0.0
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    InstanceName BaseSpawn
+    InstanceNameHash 864038187
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Size::Vec2
+        x 256.0
+        y 256.0
+    LayoutMode UILayoutMode_AnchorOffset
+    Offset::UIElementOffset
+        X 0.0
+        Y 0.0
+    Anchor::UIElementAnchor
+        X 0.5
+        Y 0.5
+    Position::UIElementOffset
+        X 0.0
+        Y 0.0
+    Expansion::UIElementRectExpansion
+        X 0.0
+        Y 0.0
+        Width 0.0
+        Height 0.0
+    Alpha 1.0
+    CodeAccessIdentifier *nullString*
+    UseElementSize False
+BFUIListCellWidgetData 00000001
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 181259667
+            Size::UIElementSize
+                X 256.0
+                Y 256.0
+            Layers::array
+                member(0) 00000004
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000003
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DynamicWidth 256.0
+    DynamicHeight 256.0
+    Properties::array
+        member(0)::PropertyChannel
+            Realm Realm_Client
+            Id -836493134
+            FieldTypeHash -986197505
+    EventIds *nullArray*
+    Events *nullArray*
+    AutoDestroyOnListRemove True
+    CellEnabled True
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+ObjectCastEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 139970761
+    Realm Realm_Client
+    DataInput *nullGuid*
+    QualifiedTypeName BFUICapturePointObject
+    VerifyType True
+UIElementLayerEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName New Layer
+    Elements::array
+        member(0) 00000000
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True

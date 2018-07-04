@@ -1,0 +1,111 @@
+LogicPrefabBlueprint 482e67ec1ade2672b596762d413d5a66
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/VehicleSpawnerPrefabs/EnableDamageToAbandoned
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 2662400
+                            TargetFieldId 2088812747
+                            Flags 3
+                        member(1)::PropertyConnection
+                            Source aa7cabd309fe9b4eb2957b809ff3b904
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId -1541066415
+                            Flags 17
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target aa7cabd309fe9b4eb2957b809ff3b904
+                            SourceFieldId -141474860
+                            TargetFieldId 5862146
+                            Flags 3
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 2089008817
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -81881639
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target aa7cabd309fe9b4eb2957b809ff3b904
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000001
+            member(1) 00000000
+            member(2) aa7cabd309fe9b4eb2957b809ff3b904
+        TimeDeltaType TimeDeltaType_None
+SyncedBoolEntityData aa7cabd309fe9b4eb2957b809ff3b904
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 363560106
+CompareBoolEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 284124270
+    Realm Realm_Server
+    Bool False
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+    AlwaysSend False
+EventGateEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 93740052
+    Realm Realm_Server
+    DefaultOpen False
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2662400
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1541066415
+                AccessType FieldAccessType_Source
+            member(2)::DataField
+                Value Boolean False
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

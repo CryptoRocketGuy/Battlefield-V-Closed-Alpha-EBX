@@ -1,0 +1,492 @@
+UIWidgetBlueprint 7e6693f21c9e21d98b762fecac6b61a4
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Spectator/Widgets/UISpectatorBottomBorder
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId 1745773883
+                            TargetFieldId 901540267
+                            Flags 34
+                        member(1)::PropertyConnection
+                            Source 00000006
+                            Target 00000002
+                            SourceFieldId 1745919490
+                            TargetFieldId 901540267
+                            Flags 34
+                    LinkConnections *nullArray*
+                    Interface 00000005
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -1075488589
+                        TargetEvent::EventSpec
+                            Id -1075488589
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 1239604139
+                        TargetEvent::EventSpec
+                            Id 1239604139
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -627457553
+                        TargetEvent::EventSpec
+                            Id -627457553
+                        TargetType EventConnectionTargetType_Client
+        Object 00000004
+BFUIElementFillEntityData 00000000
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+            InstanceName Background
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 1383623595
+            Size::Vec2
+                x 1920.0
+                y 46.0
+            LayoutMode UILayoutMode_PositionExpansion
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.0
+                Y 1.0
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 1.0
+                Width 1.0
+                Height 0.0
+            Alpha 0.300000011921
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_ScreenEdge
+                Right BFUISnapLayoutMode_ScreenEdge
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_ScreenEdge
+            OverrideDefaultLayout True
+    Style UI/Styles/Fills/TunguskaPitchBlack/a77d6c00fdbc894684dd0d0abbf11091
+    BackgroundBlendMode UIBlendMode_AlphaBlend
+    OutlineBlendMode UIBlendMode_AlphaBlend
+    ZOrder 0
+    OverrideBackgroundBlendMode False
+    OverrideOutlineBlendMode False
+    DrawBackground True
+    DrawOutline True
+    UseColorAsOverlay False
+UIElementWidgetReferenceEntityData 00000001
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 0
+            Blueprint UI/Ingame/Spectator/Widgets/UISpectatorModeNavWidget/e01402b6563402edf23ce537e2e8705e
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    UIElementTransform::UIElementTransform
+        Rotation::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        RotationPivot::Vec3
+            x 0.5
+            y 0.5
+            z 0.0
+        Z 0.0
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    InstanceName ViewModeSelector
+    InstanceNameHash 1486427390
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Size::Vec2
+        x 256.0
+        y 256.0
+    LayoutMode UILayoutMode_AnchorOffset
+    Offset::UIElementOffset
+        X 0.0
+        Y 0.0
+    Anchor::UIElementAnchor
+        X 0.0
+        Y 1.0
+    Position::UIElementOffset
+        X 0.0
+        Y 0.0
+    Expansion::UIElementRectExpansion
+        X 0.0
+        Y 0.0
+        Width 0.0
+        Height 0.0
+    Alpha 1.0
+    CodeAccessIdentifier *nullString*
+    UseElementSize False
+UIElementWidgetReferenceEntityData 00000002
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 134217728
+            Blueprint UI/Ingame/Spectator/Widgets/UISpectatorFreeCamListRoot/67df46ac4f815349815aa55556e5ef35
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    UIElementTransform::UIElementTransform
+        Rotation::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        RotationPivot::Vec3
+            x 0.5
+            y 0.5
+            z 0.0
+        Z 0.0
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    InstanceName FreeFlySelector
+    InstanceNameHash 2689801495
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Size::Vec2
+        x 256.0
+        y 256.0
+    LayoutMode UILayoutMode_AnchorOffset
+    Offset::UIElementOffset
+        X 225.0
+        Y -2.5
+    Anchor::UIElementAnchor
+        X 0.0
+        Y 1.0
+    Position::UIElementOffset
+        X 0.0
+        Y 0.0
+    Expansion::UIElementRectExpansion
+        X 0.0
+        Y 0.0
+        Width 0.0
+        Height 0.0
+    Alpha 1.0
+    CodeAccessIdentifier *nullString*
+    UseElementSize False
+UIElementWidgetReferenceEntityData 00000003
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 134217728
+            Blueprint UI/Ingame/Spectator/Widgets/UISpectatorPlayerViewSelectWidget/c8c3f1c036a2494cb86272773c145536
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    UIElementTransform::UIElementTransform
+        Rotation::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        RotationPivot::Vec3
+            x 0.5
+            y 0.5
+            z 0.0
+        Z 0.0
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    InstanceName PlayerViewSelector
+    InstanceNameHash 3976874382
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Size::Vec2
+        x 256.0
+        y 256.0
+    LayoutMode UILayoutMode_AnchorOffset
+    Offset::UIElementOffset
+        X 300.0
+        Y -2.5
+    Anchor::UIElementAnchor
+        X 0.0
+        Y 1.0
+    Position::UIElementOffset
+        X 0.0
+        Y 0.0
+    Expansion::UIElementRectExpansion
+        X 0.0
+        Y 0.0
+        Width 0.0
+        Height 0.0
+    Alpha 1.0
+    CodeAccessIdentifier *nullString*
+    UseElementSize False
+BFUIWidgetEntityData 00000004
+    $::UIWidgetEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 186608030
+        Size::UIElementSize
+            X 1920.0
+            Y 46.0
+        Layers::array
+            member(0) 00000007
+            member(1) 00000008
+        TextureMappings *nullArray*
+        Components::array
+            member(0) 00000006
+        Visible True
+    CustomLayout::BFUICustomLayout
+        SnapSettings::BFUISnapLayoutSettings
+            Left BFUISnapLayoutMode_Default
+            Right BFUISnapLayoutMode_Default
+            Top BFUISnapLayoutMode_Default
+            Bottom BFUISnapLayoutMode_Default
+        OverrideDefaultLayout False
+    SortBasedOnZ False
+    UseStencilMask False
+    UseInputStencilMask False
+    InputEnabled True
+InterfaceDescriptorData 00000005
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -1075488589
+        member(1)::DynamicEvent
+            Id 1239604139
+        member(2)::DynamicEvent
+            Id -627457553
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SchematicChannelEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 26669674
+    Realm Realm_Client
+    Channel UI/Ingame/Spectator/Logic/UIChannelSpectatorStatus/675a8e3b890f7ac3f7d1ffb021ba8a41
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 1
+        member(1) 2
+    OutputRefProperties *nullArray*
+UIElementLayerEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName Background
+    Elements::array
+        member(0) 00000000
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True
+UIElementLayerEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName MenuBar
+    Elements::array
+        member(0) 00000001
+        member(1) 00000003
+        member(2) 00000002
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True

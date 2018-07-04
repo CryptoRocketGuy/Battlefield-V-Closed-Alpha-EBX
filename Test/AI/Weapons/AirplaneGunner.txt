@@ -1,0 +1,124 @@
+AIWeaponData 4b94a6de0247e14793c8e97e36b0902e
+    $::GameAIWeaponData
+        $::Asset
+            $::DataContainer
+            Name Test/AI/Weapons/AirplaneGunner
+    FiringWeaponClass WeaponClass_MachineGun
+    VoPrimaryFireType VoPrimaryFireType_MachineGun
+    WeaponRange 150.0
+    MinimumUsageDistance -1.0
+    MaximumUsageDistance -1.0
+    VehicleMaxTargetLOSLost -1.0
+    MinEnterVehicleDistance -1.0
+    ExitVehicleDisableTime -1.0
+    EvasionVolume *nullGuid*
+    PreferredRange *nullGuid*
+    PreferredRangeVehicleTarget *nullGuid*
+    IndoorPreferredRange *nullGuid*
+    OutdoorPreferredRange *nullGuid*
+    FiringIntervalPattern *nullGuid*
+    SustainFiringData *nullGuid*
+    BurstIntervalPattern 668225db1ff1d6439c722f5fa794883b
+    CreepingAirBarrage *nullGuid*
+    SprayPattern *nullGuid*
+    AccuracyHitBox *nullGuid*
+    VehicleAimerSettings 994d1fee08ab5f4b8bd01ce72ce9ac9f
+    VisionOverride *nullGuid*
+    HearingOverride *nullGuid*
+    TargetModifier *nullGuid*
+    TargetingSettingsOverride 1f574cb898166443b06230664c34220f
+    VehicleInaccuracySettings 3ce1f85c8a186a47bbd61e93f4c6bd97
+    SuppressedBehavior *nullGuid*
+    DamageModifier *nullGuid*
+    DamageModifierExtended *nullGuid*
+    FriendlyWeaponRestrictions *nullGuid*
+    EnemyWeaponRestrictions *nullGuid*
+    SpecialBehavior *nullGuid*
+    HumanTargetHitProbability *nullGuid*
+    DistanceToAwareTimeOverrideCentral *nullGuid*
+    DistanceToAwareTimeOverridePeripheral *nullGuid*
+    ValidAgainst ValidAgainst_All
+    TargetPreference TargetPreference_Vehicles
+    MinPrecisionToFire -1.0
+    WeaponThreatScale 10.0
+    ValidWeaponScale 1.0
+    InValidWeaponScale 1.0
+    HighIntensityRadiusOverride -1.0
+    MediumIntensityRadiusOverride -1.0
+    UseTargetExtrapolation True
+    CausesEvasionOnFire False
+    UseShootspaceForVision True
+TargetingData 1f574cb898166443b06230664c34220f
+    $::DataContainer
+    AimOffsetY -0.25
+    VisibleTargetLimit 1.0
+    TargetLostTimer 1.0
+    TargetDistanceEvaluation::TinyPiecewiseLinearCurve
+        X0 25.0
+        Y0 5.0
+        X1 120.0
+        Y1 1.0
+    SuppressionScore::SuppressionValues
+        Front 0.0
+        Back 0.0
+    HumanSuppressionScoreMultiplier 1.0
+    SuppressionTimeLimit 5.0
+    AquiredTimer 2.0
+    AquiredObjectTimer 1.0
+    AquiredDistScale 0.5
+    TargetAimingTimer 2.0
+    CurrentHumanTargetAimingDistScale 0.800000011921
+    LowHealthPercentage 0.25
+    CurrentHumanTargetLowHealthDistScale 1.0
+    ElevationAboveThreshold 2.0
+    ElevationDistScaleY 1.0
+    CurrentTargetDistScale 0.800000011921
+    TargetVisibleDistScale 0.10000000149
+    HumanPreferenceScale 1.0
+    TargetObjectDistScale 1.0
+    VehicleTargetDistScale 1.0
+    TargetLOSLostTimer 5.0
+    TargetLOSLostScale 10.0
+    UseDistanceAsSeparateScaling False
+    BalanceDistribution False
+    CanTargetUnalertedAI True
+WeaponRestrictions 3230b2a4115aab41b251156df003bb0b
+    $::DataContainer
+    FireDelayMin 0.0
+    FireDelayMax 0.0
+VehicleInaccuracySettings 3ce1f85c8a186a47bbd61e93f4c6bd97
+    $::DataContainer
+    MinAimAngle 0.0
+    MaxAimAngle 10.0
+    AccuracyIncreaseSpeed 0.0125000001863
+    AccuracyDecreaseSpeed 0.20000000298
+    ResetOnReTarget True
+BurstIntervalPattern 668225db1ff1d6439c722f5fa794883b
+    $::DataContainer
+    BurstInterval::array
+        member(0)::BurstInterval
+            BurstLength 2.0
+            BurstLengthVariation 0.5
+            TimeBetweenBursts 1.5
+            TimeBetweenBurstsVariation 0.5
+        member(1)::BurstInterval
+            BurstLength 2.0
+            BurstLengthVariation 0.5
+            TimeBetweenBursts 1.5
+            TimeBetweenBurstsVariation 0.5
+        member(2)::BurstInterval
+            BurstLength 2.0
+            BurstLengthVariation 0.5
+            TimeBetweenBursts 1.5
+            TimeBetweenBurstsVariation 0.5
+WeaponRestrictions 7b1c922fe5b88043b3454ceae9764369
+    $::DataContainer
+    FireDelayMin 3.0
+    FireDelayMax 5.0
+VehicleAimerSettings 994d1fee08ab5f4b8bd01ce72ce9ac9f
+    $::DataContainer
+    MinPrecisionToFire 5.0
+    IsParabolic False
+    AimHigh False
+    TrackTowardsTarget False
+    TrackBeyondTarget False

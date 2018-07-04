@@ -1,0 +1,94 @@
+SoundBusPatchAsset b07b991aed1b4b48b85577b82096336c
+    $::SoundBusPatchBaseAsset
+        $::Asset
+            $::DataContainer
+            Name Sound/BinauralObjectPatch_Stereo
+        Graph 36bd4844227bc24b9773842d650f109c
+        Busses::array
+            member(0) 493c7f9ffa1f5a4683defbdfed039e9d
+    OutputNodes::array
+        member(0) b0d20a85b63306458ef9c84317493828
+SoundGraphData 36bd4844227bc24b9773842d650f109c
+    $::AudioGraphData
+        $::DataContainer
+        Nodes::array
+            member(0) 493c7f9ffa1f5a4683defbdfed039e9d
+            member(1) b0d20a85b63306458ef9c84317493828
+        PublicParameters *nullArray*
+        PublicEvents *nullArray*
+        PublicAssetParameters *nullArray*
+        PublicValueCount 1
+        ValueCount 1
+    Info::SoundGraphInfo
+        Voices::array
+            member(0)::SoundGraphVoiceInfo
+                Plugins::array
+                    member(0)::SoundGraphPluginInfo
+                        Id 1400201776
+                        EnableAttributeReadMask 0
+                        ConnectionIndex 0
+                        OutputChannelCount 2
+                        ConstructParamsIndex 0
+                        ConstructParamCount 0
+                    member(1)::SoundGraphPluginInfo
+                        Id 1114197808
+                        EnableAttributeReadMask 0
+                        ConnectionIndex 1
+                        OutputChannelCount 2
+                        ConstructParamsIndex 0
+                        ConstructParamCount 0
+        LinkedPluginAttributes *nullArray*
+        Connections::array
+            member(0)::SoundGraphPluginConnection
+                Context c0d4f31d5e836c4b96ddb72fc098d9e6/8695bad81911c44aaff04a17e448bfb9
+                VoiceIndex 0
+                PluginIndex 0
+                SignalIndexAndConnectionInfo 8
+                ConnectionParamBaseIndex 0
+        ConnectionParams *nullArray*
+        ConstructParams *nullArray*
+        PluginsParamCount 9
+        PluginCount 2
+        DynamicSendCount 0
+    InputParameters *nullArray*
+    OutputParameters *nullArray*
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+BusNodeData 493c7f9ffa1f5a4683defbdfed039e9d
+    $::SoundBusData
+        $::AudioGraphNodeData
+            $::DataContainer
+        BusName Bus
+        ChannelCount 2
+        SubmixPlugin::SoundGraphPluginRef
+            IsValid True
+            VoiceIndex 0
+            PluginIndex 0
+    Out::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 0
+        IsConnected True
+    VuPlugin::SoundGraphPluginRef
+        IsValid False
+        VoiceIndex 0
+        PluginIndex 0
+BinauralObjectNodeData b0d20a85b63306458ef9c84317493828
+    $::ObjectNodeData
+        $::AudioGraphNodeData
+            $::DataContainer
+        In::AudioGraphNodePort
+            UnconnectedValue 0.0
+            ValueIndex 0
+            IsConnected True
+        VuPlugin::SoundGraphPluginRef
+            IsValid False
+            VoiceIndex 0
+            PluginIndex 0
+        ObjectPlugin::SoundGraphPluginRef
+            IsValid True
+            VoiceIndex 0
+            PluginIndex 1
+    BinauralMaster c0d4f31d5e836c4b96ddb72fc098d9e6/8695bad81911c44aaff04a17e448bfb9
+    PanningMethod PanningMethod_Vbap
+    StereoHandling StereoHandling_ConvertToLCR
+    LcrHandling LcrHandling_LR_Fixed_PlusMinus30_Degrees

@@ -1,0 +1,153 @@
+LogicPrefabBlueprint ba8d5d90fa700ddeef9dbb8aca74102b
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/Prefabs/Equipment_SpeedBoost
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 225375086
+                            TargetFieldId 2662400
+                            Flags 1
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000003
+                            SourceFieldId 225375086
+                            TargetFieldId 1852934188
+                            Flags 17
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 563803070
+                            TargetFieldId 208768368
+                            Flags 3
+                        member(3)::PropertyConnection
+                            Source 00000000
+                            Target 00000004
+                            SourceFieldId 225375086
+                            TargetFieldId 176040160
+                            Flags 1
+                        member(4)::PropertyConnection
+                            Source 00000004
+                            Target 00000002
+                            SourceFieldId 936870923
+                            TargetFieldId -1423556568
+                            Flags 1
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId 399480657
+                            TargetFieldId 0
+                    Interface 00000003
+                    Flags 15
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -328282953
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(1)::EventConnection
+                        Source 00000003
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -328282953
+                        TargetEvent::EventSpec
+                            Id 1303794898
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 668205626
+                        TargetType EventConnectionTargetType_NetworkedClientAndServer
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+            member(2) 00000004
+        TimeDeltaType TimeDeltaType_None
+BoolEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 133394790
+    Realm Realm_ClientAndServer
+    DefaultValue False
+DelayEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 337007767
+    Delay 1.0
+    Realm Realm_Server
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+InputModifierEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 503316480
+    Realm Realm_ClientAndServer
+    Action 1072802250
+    Offset 0.0
+    Scale 1.0
+    Enabled False
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -708873817
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1852934188
+                AccessType FieldAccessType_Source
+            member(2)::DataField
+                Value Float32 5
+                ValueRef *nullGuid*
+                Id 563803070
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -328282953
+    OutputEvents *nullArray*
+    InputLinks::array
+        member(0)::DynamicLink
+            Id 399480657
+    OutputLinks *nullArray*
+PropertyCastEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 418046861
+    Realm Realm_ClientAndServer
+    Precision -5
+    FloatValue 0.0
+    IntValue 0
+    UintValue 0
+    StringValue *nullString*
+    IntToChar False
+    BoolValue False

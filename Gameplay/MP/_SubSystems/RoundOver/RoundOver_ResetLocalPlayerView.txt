@@ -1,0 +1,142 @@
+LogicPrefabBlueprint 72a46fcc7a0cc8adf0e95a0a42f3a9c0
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MP/_SubSystems/RoundOver/RoundOver_ResetLocalPlayerView
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 3
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000004
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 5862146
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000005
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 2089008817
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1433873616
+                        TargetEvent::EventSpec
+                            Id 229946160
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000000
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1433873616
+                        TargetEvent::EventSpec
+                            Id 212633683
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000000
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -1433873616
+                        TargetEvent::EventSpec
+                            Id 193453899
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000003
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 113784753
+                        TargetType EventConnectionTargetType_Server
+                    member(6)::EventConnection
+                        Source 00000005
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(7)::EventConnection
+                        Source 00000002
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -1573253508
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000005
+            member(2) 00000001
+            member(3) 00000003
+            member(4) 00000002
+        TimeDeltaType TimeDeltaType_None
+BFLocalPlayerEventGateData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 57053846
+    AllowMultipleOpens False
+BFSetPlayerViewData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 72408174
+DelayEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 37589994
+    Delay 5.0
+    Realm Realm_Client
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+EventSyncEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 60319758
+    LocalPlayerId LocalPlayerId_0
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 5862146
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 193453899
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+LocalPlayerEventEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 33674223
+    Realm Realm_Client
+    LocalPlayerId LocalPlayerId_Invalid
+    AllLocalPlayers False

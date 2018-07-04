@@ -1,0 +1,599 @@
+LogicPrefabBlueprint 782bb467cf59e07337580da8d49517ce
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/Prefabs/PF_Airplane3pCamera
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 0000000d
+                            SourceFieldId -1174111641
+                            TargetFieldId 1975932280
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 0000000c
+                            SourceFieldId -1174111641
+                            TargetFieldId 177617
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -1174111641
+                            TargetFieldId 88991863
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -1174111641
+                            TargetFieldId 640467086
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 0000000c
+                            Target 0000000d
+                            SourceFieldId 193453899
+                            TargetFieldId 1741960948
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 0000000f
+                            Target 00000002
+                            SourceFieldId 731416433
+                            TargetFieldId 1800624758
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000005
+                            Target 0000000d
+                            SourceFieldId -1148217668
+                            TargetFieldId 5861280
+                            Flags 2
+                        member(7)::PropertyConnection
+                            Source 0000000d
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId -1379054756
+                            Flags 2
+                        member(8)::PropertyConnection
+                            Source 00000004
+                            Target 00000008
+                            SourceFieldId 2089387576
+                            TargetFieldId 5862146
+                            Flags 2
+                        member(9)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -1399230854
+                            TargetFieldId -1379054756
+                            Flags 2
+                        member(10)::PropertyConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId 1849681172
+                            TargetFieldId 640467086
+                            Flags 2
+                        member(11)::PropertyConnection
+                            Source 00000006
+                            Target 00000004
+                            SourceFieldId 1849681172
+                            TargetFieldId 5862146
+                            Flags 2
+                        member(12)::PropertyConnection
+                            Source 00000000
+                            Target 0000000b
+                            SourceFieldId -1174111641
+                            TargetFieldId -1174111641
+                            Flags 18
+                        member(13)::PropertyConnection
+                            Source 00000010
+                            Target 00000006
+                            SourceFieldId -709588
+                            TargetFieldId -1461717327
+                            Flags 2
+                        member(14)::PropertyConnection
+                            Source 00000010
+                            Target 00000003
+                            SourceFieldId -709588
+                            TargetFieldId -1810789047
+                            Flags 2
+                        member(15)::PropertyConnection
+                            Source 00000010
+                            Target 00000000
+                            SourceFieldId -709588
+                            TargetFieldId -1810789047
+                            Flags 2
+                        member(16)::PropertyConnection
+                            Source 0000000e
+                            Target 00000001
+                            SourceFieldId 731416433
+                            TargetFieldId 1800624758
+                            Flags 2
+                        member(17)::PropertyConnection
+                            Source 00000001
+                            Target 0000000b
+                            SourceFieldId -1399230854
+                            TargetFieldId -617418383
+                            Flags 18
+                        member(18)::PropertyConnection
+                            Source 0000000b
+                            Target 00000001
+                            SourceFieldId 52476933
+                            TargetFieldId 88991863
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000003
+                            Target 0000000b
+                            SourceFieldId 2088812853
+                            TargetFieldId 900618364
+                        member(1)::LinkConnection
+                            Source 00000009
+                            Target 0000000b
+                            SourceFieldId 1629659105
+                            TargetFieldId 536234081
+                        member(2)::LinkConnection
+                            Source 0000000a
+                            Target 0000000b
+                            SourceFieldId 1629659105
+                            TargetFieldId -1621129582
+                        member(3)::LinkConnection
+                            Source 00000000
+                            Target 0000000b
+                            SourceFieldId 772552445
+                            TargetFieldId 772552445
+                        member(4)::LinkConnection
+                            Source 00000006
+                            Target 0000000b
+                            SourceFieldId 452546764
+                            TargetFieldId 772552445
+                    Interface 0000000b
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+            member(1) 00000008
+            member(2) 00000003
+            member(3) 00000004
+            member(4) 0000000c
+            member(5) 0000000d
+            member(6) 00000005
+            member(7) 00000002
+            member(8) 0000000f
+            member(9) 00000001
+            member(10) 0000000e
+            member(11) 00000009
+            member(12) 0000000a
+            member(13) 00000006
+            member(14) 00000010
+        TimeDeltaType TimeDeltaType_None
+ChasingCameraTransformEntityData 00000000
+    $::CameraTransformerEntityData
+        $::CustomSchedulableEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1751573760
+        UpdatePass CameraTransformerUpdatePass_PostFrame
+        CameraTransformerUpdatePriority 100
+        UsePriorityUpdate False
+        Active False
+    MaxDistance 14.0
+    MaxInertiaVelocity 25.0
+    InTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    LinInertiaX 0.330000013113
+    LinInertiaY 0.34999999404
+    LinInertiaZ 0.280000001192
+    AngInertia 0.649999976158
+ConditionalTransformEntityData 00000001
+    $::ConditionalStateEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 161461540
+        Realm Realm_Client
+        Condition False
+    ValueIfTrue::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    ValueIfFalse::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+ConditionalTransformEntityData 00000002
+    $::ConditionalStateEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 159449855
+        Realm Realm_Client
+        Condition False
+    ValueIfTrue::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    ValueIfFalse::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+StarfighterCameraTransformerEntityData 00000003
+    $::CameraTransformerEntityData
+        $::CustomSchedulableEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1777579802
+        UpdatePass CameraTransformerUpdatePass_PostFrame
+        CameraTransformerUpdatePriority 100
+        UsePriorityUpdate False
+        Active False
+    LookAheadAngInertia 0.660000026226
+    LookAheadLinInertia 0.330000013113
+    InTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    CamLinOffset::Vec3
+        x 0.0
+        y 2.5
+        z -10.0
+    CamAngOffset::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    LookAheadLin::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    LookAheadAng::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+TransformToRotationEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 160711021
+    Realm Realm_Client
+    In::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    Degrees True
+Vector3EntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 26901435
+    Realm Realm_Client
+    DefaultVec3::Vec3
+        x 0.0
+        y 1.0
+        z 0.0
+TransformQueryEntityData 00000006
+    $::GameplayQueryBaseEntityData
+        $::CustomSchedulableEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1757202097
+    Realm Realm_Client
+    Input::QueryEntityResult
+        PointerCastToInt 0
+    QueryFromIndex 0
+    Latency 0.0
+    UseCachedWorldTransform True
+    UsePhysicsTransform False
+    UpdateLinkWhenActivated False
+    AlwaysEnabled True
+FloatCurve 00000007
+    $::DataContainer
+    Points::array
+        member(0)::FloatCurvePoint
+            X -180.0
+            Y 0.0500000007451
+            K 0.0
+        member(1)::FloatCurvePoint
+            X -90.0
+            Y 0.0500000007451
+            K 0.0
+        member(2)::FloatCurvePoint
+            X 0.0
+            Y 0.5
+            K 0.0
+        member(3)::FloatCurvePoint
+            X 90.0
+            Y 0.0500000007451
+            K 0.0
+        member(4)::FloatCurvePoint
+            X 180.0
+            Y 0.0500000007451
+            K 0.0
+    CurveType FloatCurveType_Smooth
+FloatCurveEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 147559725
+    Realm Realm_Client
+    In 0.0
+    Curve 00000007
+    OutputIntegral False
+GameObjectProxyEntityData 00000009
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1642174273
+    Realm Realm_ClientAndServer
+    TargetObjectType GameShared.CameraComponentData
+GameObjectProxyEntityData 0000000a
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1615272817
+    Realm Realm_Client
+    TargetObjectType CasablancaShared.SimplePlaneControlsEntityData
+InterfaceDescriptorData 0000000b
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1174111641
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -617418383
+                AccessType FieldAccessType_Source
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 52476933
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id 900618364
+        member(1)::DynamicLink
+            Id 772552445
+        member(2)::DynamicLink
+            Id 536234081
+        member(3)::DynamicLink
+            Id -1621129582
+MathEntityData 0000000c
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 158843975
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls *nullArray*
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputT
+                Result 0
+                Param1 177617
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_FieldT
+                Result 0
+                Param1 0
+                Param2 3
+            member(2)::MathEntityInstruction
+                Code MathOpCode_FieldT
+                Result 1
+                Param1 0
+                Param2 2
+            member(3)::MathEntityInstruction
+                Code MathOpCode_ConstI
+                Result 0
+                Param1 100
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_MulV3I
+                Result 1
+                Param1 1
+                Param2 0
+            member(5)::MathEntityInstruction
+                Code MathOpCode_AddV3
+                Result 0
+                Param1 0
+                Param2 1
+            member(6)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 16
+                Param2 0
+    EvaluateOnEvent False
+MathEntityData 0000000d
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 134981579
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 1
+                    member(2) 2
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputT
+                Result 0
+                Param1 1975932280
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_FieldT
+                Result 0
+                Param1 0
+                Param2 3
+            member(2)::MathEntityInstruction
+                Code MathOpCode_InputV3
+                Result 1
+                Param1 1741960948
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_InputV3
+                Result 2
+                Param1 5861280
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 1878358299
+                Param2 0
+            member(5)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 64
+                Param2 0
+    EvaluateOnEvent False
+ProfileOptionEntityData 0000000e
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 11414072
+    ProfileOption 0e71c1504db0474a82d7f37df1a6f3b8/3d0b4f69d6f53046ba3507701a51f859
+ProfileOptionEntityData 0000000f
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 21123041
+    ProfileOption 8b254e0b6a618448a4a99d1f49091401/671dfcd12ff4b74e88dc27dd0d81d727
+VehicleEntryComponentProxyEntityData 00000010
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 16054150
+    Realm Realm_Client

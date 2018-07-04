@@ -1,0 +1,166 @@
+LogicPrefabBlueprint da5f33725527fec8b08926d3eb9810da
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/VehicleHUD/UIVehiclePlayerColor
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -1399230854
+                            TargetFieldId -1379054756
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId -164729151
+                            TargetFieldId 1800624758
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 250338621
+                            TargetFieldId 1800624758
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000001
+                            Target 00000003
+                            SourceFieldId -1399230854
+                            TargetFieldId 212387320
+                            Flags 18
+                        member(4)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 2089047092
+                            TargetFieldId 88991863
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 230872759
+                            TargetFieldId 88991863
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 303919618
+                            TargetFieldId -1379054756
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000001
+            member(1) 00000000
+            member(2) 00000002
+        TimeDeltaType TimeDeltaType_None
+ConditionalVec3EntityData 00000000
+    $::ConditionalStateEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 148581456
+        Realm Realm_Client
+        Condition False
+    ValueIfTrue::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    ValueIfFalse::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+ConditionalVec3EntityData 00000001
+    $::ConditionalStateEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 161767380
+        Realm Realm_Client
+        Condition False
+    ValueIfTrue::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    ValueIfFalse::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+LogicPrefabReferenceObjectData 00000002
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 20152901
+            Blueprint UI/Shared/UIColorPresets/53cc2919e14e02f25d545e91967788b2
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -164729151
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 250338621
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 212387320
+                AccessType FieldAccessType_Source
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

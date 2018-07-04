@@ -1,0 +1,374 @@
+LogicPrefabBlueprint b426808c6d62c83ccb18c3717d20e0aa
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/Prefabs/FXPF_Soldier_Breathe
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000007
+                            Target 00000003
+                            SourceFieldId 193453899
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000006
+                            Target 00000004
+                            SourceFieldId -491672553
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000009
+                            Target 00000005
+                            SourceFieldId 193453899
+                            TargetFieldId 132663973
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000006
+                            Target 00000007
+                            SourceFieldId 2027857690
+                            TargetFieldId 2027857690
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000006
+                            Target 00000007
+                            SourceFieldId -1240630183
+                            TargetFieldId -1240630183
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 0000000a
+                            Target 00000008
+                            SourceFieldId 1825598696
+                            TargetFieldId 1658462601
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000006
+                            Target 00000002
+                            SourceFieldId 824639024
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(7)::PropertyConnection
+                            Source 00000008
+                            Target 00000007
+                            SourceFieldId 225375086
+                            TargetFieldId 2087770465
+                            Flags 2
+                        member(8)::PropertyConnection
+                            Source 00000006
+                            Target 00000008
+                            SourceFieldId -141474860
+                            TargetFieldId 2066049125
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000006
+                            SourceFieldId -610833119
+                            TargetFieldId 2041933293
+                    Interface 00000006
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000007
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1245643072
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000006
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1346817272
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000003
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000005
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000005
+                        Target 00000009
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000004
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_Client
+                    member(6)::EventConnection
+                        Source 00000004
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -81881639
+                        TargetEvent::EventSpec
+                            Id 2089401213
+                        TargetType EventConnectionTargetType_Client
+                    member(7)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -81881639
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000004
+            member(1) 00000005
+            member(2) 00000009
+            member(3) 00000007
+            member(4) 00000003
+            member(5) 0000000a
+            member(6) 00000008
+            member(7) 00000000
+            member(8) 00000002
+        TimeDeltaType TimeDeltaType_None
+WSVFXEntityData 00000000
+    $::WSVFXEntityBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1657649076
+        Attach 00000001
+        RawTransformEffectLocation::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        EffectParameters *nullArray*
+        MaxInstances 4
+        TransformAxisLength 1.0
+        PlayEffect False
+        StayAttached True
+        RenderTransform False
+    Effect FX/Soldier/FX_Soldier_Breathing_Cold/9f13309d9d623fa3bf78fc798181d6ee
+AnimatableAttachData 00000001
+    $::EntityAttachData
+        $::EntityLinkData
+            $::DataContainer
+            LinkName AttachToAnimatable
+        PropertyName AttachOffset
+        CoordinateSpace *nullGuid*
+        Offset *nullGuid*
+        UseRotation True
+    Bone GameplayBones_HeadBone
+CompareBoolEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 172423425
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange True
+    TriggerOnStart True
+    AlwaysSend False
+CompareBoolEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 189896423
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange False
+    TriggerOnStart False
+    AlwaysSend False
+CompareBoolEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 156484598
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange True
+    TriggerOnStart True
+    AlwaysSend False
+EventRepeaterEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 185115845
+    Realm Realm_Client
+    EventCount -1
+    DelayBetweenEvents 0.0
+InterfaceDescriptorData 00000006
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -491672553
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2027857690
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1240630183
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 824639024
+                AccessType FieldAccessType_Target
+            member(4)::DataField
+                Value Float32 0
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1346817272
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id 2041933293
+MathEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 170505483
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls *nullArray*
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 -1240630183
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 1
+                Param1 0
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_GreaterF
+                Result 0
+                Param1 0
+                Param2 1
+            member(3)::MathEntityInstruction
+                Code MathOpCode_InputB
+                Result 1
+                Param1 2027857690
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_NotB
+                Result 1
+                Param1 1
+                Param2 0
+            member(5)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 2087770465
+                Param2 0
+            member(6)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 1
+                Param1 0
+                Param2 0
+            member(7)::MathEntityInstruction
+                Code MathOpCode_GreaterF
+                Result 2
+                Param1 0
+                Param2 1
+            member(8)::MathEntityInstruction
+                Code MathOpCode_AndB
+                Result 0
+                Param1 0
+                Param2 1
+            member(9)::MathEntityInstruction
+                Code MathOpCode_AndB
+                Result 0
+                Param1 0
+                Param2 2
+            member(10)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 1
+                Param2 0
+    EvaluateOnEvent True
+PropertyDefaultValueEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 163001218
+    Realm Realm_Client
+    WrappedType PropertyDebugTypeClass_Float
+    WrappedTypeHash 2134484916
+RandomFloatEntityData 00000009
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 38113472
+    Realm Realm_Client
+    Min 3.0
+    Max 4.0
+    TrueRandom False
+WeatherSequencerListenerEntityData 0000000a
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 12559686
+    Realm Realm_Client
+    WSFloatVariables::array
+        member(0) DynamicWorld/WeatherSequencer/WS_WeatherVariableDatabase/f2a9f16d17a20045bccf5d1df300a96c
+    WSIntVariables *nullArray*
+    WSBoolVariables *nullArray*
+    Dummy 0

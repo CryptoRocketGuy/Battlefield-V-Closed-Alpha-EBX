@@ -1,0 +1,299 @@
+LogicPrefabBlueprint 6019e9ae5290902dc972ec13a4da4dcb
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Shared/Logic/FlagFactionProvider
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000004
+                            SourceFieldId 1255017820
+                            TargetFieldId 176040160
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000004
+                            Target 00000006
+                            SourceFieldId 245372264
+                            TargetFieldId -1197429070
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000005
+                            Target 00000006
+                            SourceFieldId 193453899
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000007
+                            Target 00000001
+                            SourceFieldId -1604758245
+                            TargetFieldId -1074593195
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId 193453899
+                            TargetFieldId -2000508012
+                            Flags 18
+                        member(5)::PropertyConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId 193453899
+                            TargetFieldId -297586887
+                            Flags 18
+                        member(6)::PropertyConnection
+                            Source 00000003
+                            Target 00000007
+                            SourceFieldId -1074593163
+                            TargetFieldId 193450806
+                            Flags 2
+                        member(7)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId 1419764413
+                            TargetFieldId 1591366968
+                            Flags 2
+                        member(8)::PropertyConnection
+                            Source 00000003
+                            Target 00000005
+                            SourceFieldId -141474860
+                            TargetFieldId 193450866
+                            Flags 2
+                        member(9)::PropertyConnection
+                            Source 00000003
+                            Target 00000005
+                            SourceFieldId -141474859
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(10)::PropertyConnection
+                            Source 00000003
+                            Target 00000005
+                            SourceFieldId -141474858
+                            TargetFieldId 193450864
+                            Flags 2
+                        member(11)::PropertyConnection
+                            Source 00000003
+                            Target 00000006
+                            SourceFieldId -141474857
+                            TargetFieldId 193450866
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -422257871
+                        TargetEvent::EventSpec
+                            Id -1514204099
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -422257872
+                        TargetEvent::EventSpec
+                            Id -1514204100
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000002
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -296215058
+                        TargetEvent::EventSpec
+                            Id -1514204097
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+            member(2) 00000007
+            member(3) 00000004
+            member(4) 00000005
+            member(5) 00000006
+            member(6) 00000002
+        TimeDeltaType TimeDeltaType_None
+LogicPrefabReferenceObjectData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 25820891
+            Blueprint UI/Ingame/Shared/Logic/GameModeInfoProvider/32cc9807ea03f783bf080096e975893b
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+FactionEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 154812891
+    Realm Realm_Client
+    TeamId TeamNeutral
+IntToEventEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 156096054
+    Realm Realm_Client
+    PossibleMatches::array
+        member(0)::IntSelection
+            Value 2
+            EventHash -422257871
+        member(1)::IntSelection
+            Value 3
+            EventHash -422257872
+    InputValue 0
+    TriggerOnPropertyChanged True
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -2000508012
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -297586887
+                AccessType FieldAccessType_Source
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1074593163
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value SvgImage 
+                ValueRef UI/Images/Factions/FactionUKMono/aab730e8839c174848460325a211e5cf
+                Id -141474860
+                AccessType FieldAccessType_Target
+            member(4)::DataField
+                Value SvgImage 
+                ValueRef UI/Images/Factions/FactionGERMono/3d33957e8d75497909c351302e9cf2c4
+                Id -141474859
+                AccessType FieldAccessType_Target
+            member(5)::DataField
+                Value SvgImage 
+                ValueRef *nullGuid*
+                Id -141474858
+                AccessType FieldAccessType_Target
+            member(6)::DataField
+                Value SvgImage "FactionGERMono"
+                ValueRef UI/Images/Factions/Enemy_Icon/ba527ff54fa121acfd65b4389352355d
+                Id -141474857
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+PropertyCastEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 157946021
+    Realm Realm_Client
+    Precision -5
+    FloatValue 0.0
+    IntValue 0
+    UintValue 0
+    StringValue *nullString*
+    IntToChar False
+    BoolValue False
+PropertySelectEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 179458404
+    Realm Realm_Client
+    TypeHash 154131648
+    InputPropertyHashes::array
+        member(0) 193450866
+        member(1) 193450867
+        member(2) 193450864
+    InputEventHashes::array
+        member(0) -1514204099
+        member(1) -1514204100
+        member(2) -1514204097
+    OutHash 193453899
+    InputCount 3
+    SelectedIndex 0
+    AutoSelectOnPropertyChanged False
+PropertySelectEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 156304286
+    Realm Realm_Client
+    TypeHash 154131648
+    InputPropertyHashes::array
+        member(0) 193450866
+        member(1) 193450867
+    InputEventHashes::array
+        member(0) -1514204099
+        member(1) -1514204100
+    OutHash 193453899
+    InputCount 2
+    SelectedIndex 0
+    AutoSelectOnPropertyChanged False
+TeamIdToIntEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 150076806
+    Realm Realm_Client
+    TeamId TeamNeutral
+    Int 0

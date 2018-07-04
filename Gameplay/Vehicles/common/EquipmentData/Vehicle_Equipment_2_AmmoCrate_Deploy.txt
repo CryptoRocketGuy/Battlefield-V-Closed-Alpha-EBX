@@ -1,0 +1,253 @@
+WeaponFiringDataAsset b3fdb1ac7141494e8a571e21255d56ff
+    $::GameDataContainerAsset
+        $::Asset
+            $::DataContainer
+            Name Gameplay/Vehicles/common/EquipmentData/Vehicle_Equipment_2_AmmoCrate_Deploy
+        Data f4c40646eb5bd04d99e62d9c6e04dcfd
+FiringFunctionData 261f7379adc3b94588ae2aa68a410c11
+    $::GameDataContainer
+        $::DataContainer
+    WeaponDispersion::WeaponDispersion
+        StandDispersion::FiringDispersionData
+            MinAngle 0.0
+            MaxAngle 0.0
+            IncreasePerShot 0.0
+            DecreasePerSecond 5.0
+            NumSubdividesForUniformDispersion 4
+            NumInnerCirclesForUniformDispersion 1
+            EnableUniformDispersion False
+        CrouchDispersion::FiringDispersionData
+            MinAngle 0.0
+            MaxAngle 0.0
+            IncreasePerShot 0.0
+            DecreasePerSecond 5.0
+            NumSubdividesForUniformDispersion 4
+            NumInnerCirclesForUniformDispersion 1
+            EnableUniformDispersion False
+        ProneDispersion::FiringDispersionData
+            MinAngle 0.0
+            MaxAngle 0.0
+            IncreasePerShot 0.0
+            DecreasePerSecond 5.0
+            NumSubdividesForUniformDispersion 4
+            NumInnerCirclesForUniformDispersion 1
+            EnableUniformDispersion False
+        JumpDispersionAngle 0.0
+        ProneTransitionDispersionAngle 0.0
+        MoveDispersionAngle 0.0
+        MoveZoomedDispersionAngle 0.0
+        DecreasePerSecond 5.0
+    Shot::ShotConfigData
+        InitialPosition::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        InitialDirection::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        InitialSpeed::Vec3
+            x 0.0
+            y 0.0
+            z 8.0
+        CameraSpawnOffset::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        InitialPositionAdjustedByPitch *nullArray*
+        InitialDirectionScaleByPitch *nullArray*
+        InitialSpeedScaleByPitch::array
+            member(0)::InitialSpeedScaleByPitchData
+                InitialSpeedScale::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Pitch 30.0
+            member(1)::InitialSpeedScaleByPitchData
+                InitialSpeedScale::Vec3
+                    x 1.0
+                    y -1.0
+                    z 2.0
+                Pitch 90.0
+        InheritedWeaponSpeedAmount::InheritedWeaponSpeed
+            Forward 1.0
+            Left 1.0
+            Up 1.0
+        MuzzleExplosion *nullGuid*
+        ProjectileData 2ec74b17d74be51188e5f6f569074501/55dd8a90bd2e5fd4534596ee69074501
+        SecondaryProjectileData *nullGuid*
+        Projectile 2ec74b17d74be51188e5f6f569074501/934781fce8f467782e1c0ffb2b4a1f52
+        SecondaryProjectile *nullGuid*
+        SpawnDelay 0.25
+        NumberOfBulletsPerShell 1
+        NumberOfBulletsPerShot 1
+        NumberOfBulletsPerBurst 3
+        SpawnCollisionEffectsForBulletsPercentage 1.0
+        UseSpawnDelayForQuickSwitch False
+        RelativeTargetAiming False
+        ForceSpawnToCamera False
+        SpawnVisualAtWeaponBone False
+        ActiveForceSpawnToCamera True
+        EnableTargetAiming False
+    OverHeat::OverHeatData
+        OverHeatEffect::FireEffectData
+            Offset::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Rotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomOffset::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            ZoomRotation::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+            Effect *nullGuid*
+            EffectForFriendlies *nullGuid*
+            UseZoomOffset False
+            UseZoomRotation False
+            DisableDuringZoom False
+            UpdateTransform False
+            StopLoopingEffects False
+        HeatPerBullet 0.0
+        HeatDropPerSecond 0.20000000298
+        OverHeatDropDelay 0.0
+        OverHeatPenaltyTime 3.0
+        OverHeatThreshold 0.800000011921
+        RoFPenaltyMultiplierCurve *nullGuid*
+        StopZoomWhenOverheated False
+    PreFireEffects1p *nullArray*
+    PreFireEffects3p *nullArray*
+    FireEffects1p *nullArray*
+    FireEffects3p *nullArray*
+    Sound Sound/Core/Vehicles/Shared/Gadgets/Vehicles_Shared_Gadgets_MedicBagDeploy/6d7ce0cd1a23c341b9c5f1fb8c42d7d4
+    SoundRemotePlayer *nullGuid*
+    FireLogic::FireLogicData
+        HoldAndRelease::HoldAndReleaseData
+            MaxHoldTime 10.0
+            MinPowerModifier 1.0
+            MaxPowerModifier 2.0
+            PowerIncreasePerSecond 0.10000000149
+            Delay 0.0
+            KilledHoldingPowerModifier 0.0
+            ForceFireWhenKilledHolding True
+            PreciseReplicatedPowerModifier False
+            SecondaryActionCancelHoldAndRelease False
+            OnlyTriggerPrimaryFireIfReleasedBeforeDelay False
+            TriggerSecondaryFireWhenMaxHoldTimePass False
+        BoltAction::BoltActionData
+            BoltActionDelay 0.5
+            SuppressionBoltActionDelay 0.0
+            BoltActionTime 1.0
+            BoltActionTimeCompletedFraction 1.0
+            HoldBoltActionUntilFireRelease True
+            HoldBoltActionUntilZoomRelease True
+            ForceBoltActionOnFireTrigger False
+            UnZoomOnBoltAction True
+            ReturnToZoomAfterBoltAction True
+            TriggerBoltActionWhenOutOfAmmo False
+        Recoil::RecoilData
+            MaxRecoilAngleX 0.0
+            MinRecoilAngleX 0.0
+            MaxRecoilAngleY 0.0
+            MinRecoilAngleY 0.0
+            MaxRecoilAngleZ 0.0
+            MinRecoilAngleZ 0.0
+            MaxRecoilFov 0.0
+            MinRecoilFov 0.0
+            RecoilFollowsDispersion True
+        FireInputAction 1942541403
+        ReloadInputAction 1131457753
+        CycleFireModeInputAction -1145593149
+        TriggerPullWeight 0.10000000149
+        RateOfFire 550.0
+        RateOfFireForBurst 550.0
+        RateOfFireForSingleFire -1.0
+        BurstsPerMinute 0.0
+        ClientFireRateMultiplier 1.0
+        PreFireDelay 0.0
+        PendingFireWindow 0.0
+        AutomaticDelay 0.0
+        FireLogicType fltSingleFire
+        FireLogicTypeArray *nullArray*
+        ReloadInfoArray::array
+            member(0)::ReloadInfo
+                MaxAmmoCountInWeapon -1
+                MinAmmoCountInWeapon -1
+                ReloadType rtMagazine
+                ReloadThreshold 1.0
+                ReloadSpeed 1.0
+                ReloadDelay 0.0
+                BridgeDelay 0.0
+                ReloadTime 10.0
+                ReloadTimeBulletsLeft -1.0
+                PostReloadDelay 0.0
+                ReloadTimerArray *nullArray*
+        ReloadLogic rlReloadUnaffectedByWeaponSwitch
+        CorrectedAutomaticFireReplication False
+        FireLogicSwitchOnZoom False
+        ReloadInfoIgnoreAmmoToFillMagCheck False
+        OnlyReloadStripperClipSize False
+        HoldOffReloadUntilFireRelease False
+        HoldOffReloadUntilZoomRelease False
+        ForceReloadActionOnFireTrigger False
+        AlwaysAutoReload True
+        AutoReloadIgnoreFireTriggerPressed True
+        ClosedBolt True
+    Ammo::AmmoConfigData
+        MagazineCapacity 1
+        NumberOfMagazines 3
+        InitialAmmo -1
+        StripperClipSize -1
+        TraceFrequency 1
+        AmmoPickupMinAmount 0
+        AmmoPickupMaxAmount 0
+        AutoReplenishDelay 5.0
+        AutoReplenishSpeedupFactor 1.0
+        AutoReplenishSuppressionTime 0.0
+        AutoReplenishSuppressionFactor 1.0
+        AutoReplenishSuppressionSpeedupFactor 1.0
+        AutoReplenishMagazinesForPassiveReplenish -1
+        AutoReplenishExtraMagazinesForActiveReplenish 0
+        AmmoBagPickupDelayMultiplier 1.0
+        AmmoBagPickupAmount 0
+        PersistentAmmoSettings *nullGuid*
+        SpawnWithoutAmmo False
+        AutoReplenishMagazine False
+        AutoReplenishWhenInactive True
+        AllowFullReplenishIfPrimaryIsEmpty False
+    SelfHealTimeWhenDeployed 0.0
+    UsePrimaryAmmo True
+    UnlimitedAmmoForAI False
+    IsPassiveWeapon True
+WeaponFiringData f4c40646eb5bd04d99e62d9c6e04dcfd
+    $::GameDataContainer
+        $::DataContainer
+    PrimaryFire 261f7379adc3b94588ae2aa68a410c11
+    DeployTime 2.0
+    ReactivateCooldownTime 0.0
+    DisableZoomOnDeployTime 0.25
+    DisableZoomOnAltDeployTime -1.0
+    DisableZoomOnAutomaticSwitchbackDeployTime -1.0
+    AltDeployTime 2.0
+    DeployTimeForAutomaticSwitchback -1.0
+    AltDeployId -1
+    WeaponSway *nullGuid*
+    Rumble::RumbleFiringData
+        LowRumble 0.0
+        HighRumble 0.0
+        RumbleDuration 0.20000000298
+    SupportDelayStand 0.0
+    SupportDelayProne 0.0
+    UseAutoAiming True
+    InflictSelfDamage False
+    ShowEnemyNametagOnAim True
+    ReloadWholeMags False
+    AbortReloadOnSprint False
+    UseRemoteDamageGiverInfo False
+    IsSilenced False

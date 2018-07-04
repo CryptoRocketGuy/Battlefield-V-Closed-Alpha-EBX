@@ -1,0 +1,207 @@
+VisualEnvironmentBlueprint a5d007b32aabe144aa2d03c9123fdeb9
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_Skydive
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000003
+    TimeDeltaType TimeDeltaType_None
+ColorCorrectionComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 18356978
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Contrast
+            member(1) Enable
+            member(2) Saturation
+        PropertyOverrideMasks::array
+            member(0) 262
+    Brightness::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Contrast::Vec3
+        x 1.37582445145
+        y 1.37582445145
+        z 1.37582445145
+    Saturation::Vec3
+        x 0.522521615028
+        y 0.522521615028
+        z 0.522521615028
+    Realm Realm_Client
+    Hue 0.0
+    ColorGradingTexture *nullGuid*
+    ColorGradingMaxHdrValue 1.0
+    HdrColorGradingLut *nullGuid*
+    Enable True
+    ColorGradingEnable False
+MotionBlurComponentData 00000001
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 18365778
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) MotionBlurEnable
+            member(1) RadialBlurEnable
+            member(2) RadialBlurScale
+            member(3) RadialBlurOffset
+        PropertyOverrideMasks::array
+            member(0) 2880
+    Realm Realm_Client
+    MotionBlurScale 1.0
+    DepthCheckMaxDistance -1.0
+    MotionBlurCutoffRadius 0.0
+    CutoffGradientScale 1.0
+    RadialBlurCenter::Vec2
+        x 0.5
+        y 0.5
+    RadialBlurOffset 0.5
+    CircularOffsetFactor 1.0
+    RadialBlurScale 1.0
+    MotionBlurEnable True
+    MotionBlurCentered False
+    RadialBlurEnable True
+VignetteComponentData 00000002
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 16918613
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Realm
+            member(1) Enable
+            member(2) Scale
+            member(3) Exponent
+            member(4) Color
+            member(5) Opacity
+        PropertyOverrideMasks::array
+            member(0) 63
+    Color::Vec3
+        x 0.0500000007451
+        y 0.0500000007451
+        z 0.0500000007451
+    Realm Realm_Client
+    Scale::Vec2
+        x 1.5
+        y 1.5
+    Exponent 1.0
+    Opacity 1.0
+    Enable True
+VisualEnvironmentEntityData 00000003
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 189379859
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000002
+                member(1) 00000000
+                member(2) 00000001
+            ClientRuntimeComponentCount 3
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 0.0
+    FutureVisibility 0.0
+    Priority 10
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True

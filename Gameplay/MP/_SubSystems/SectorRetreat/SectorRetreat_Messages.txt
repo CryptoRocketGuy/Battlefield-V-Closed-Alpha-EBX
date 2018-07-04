@@ -1,0 +1,108 @@
+LogicPrefabBlueprint bbfc876059afd948f7acfd5fc3888ca3
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MP/_SubSystems/SectorRetreat/SectorRetreat_Messages
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId -758876579
+                            TargetFieldId 1486593166
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -141474860
+                            TargetFieldId -1359288710
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -376662289
+                        TargetEvent::EventSpec
+                            Id 2089417369
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -376662289
+                        TargetEvent::EventSpec
+                            Id -1688613187
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+            member(2) 00000004
+            member(3) 00000003
+        TimeDeltaType TimeDeltaType_None
+ActionMessageListenerEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 21722559
+    Realm Realm_Client
+    Message Gameplay/MP/_SubSystems/SectorRetreat/ActionMessages/RetreatFailedGameModeMessage/8e8fa8c3342cb44cb534feecb9f0be1b
+    Enabled True
+    QueueMessages True
+ActionMessageSenderEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 195231461
+    Realm Realm_Client
+    Message Gameplay/MP/_SubSystems/ActionMessages/UICriticalGameModeMessage/b4419662cf9df044b7ca3c7381216f59
+    InputPropertyIndices::array
+        member(0) 2
+    InputPropertyRefIndices::array
+        member(0) 0
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+LocalizedStringIdPickerEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 21288669
+    Realm Realm_Client
+    Sid ID_GAMEMODE_SECTORRETREAT_RETREATFAILED
+VoiceOverEventEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 47406321
+    VoEvent Sound/VO/Logic/Logic_MP/MP_Cleanup/be51b592549e134e839c95a631edc21c
+    EventPlayer *nullGuid*
+    ExtraEventPlayer *nullGuid*
+    TriggerDelay 0.0
+    FinishedDelay 0.0
+    TrackSourcePositionNameHashes *nullArray*
+    RunOnce False
+    CancelOnDeinit True

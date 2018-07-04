@@ -1,0 +1,188 @@
+LogicPrefabBlueprint 5664586338e2d382f921a4a58804ae3e
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/General/dwc_InteractionPlatformSplitter
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId -1399230854
+                            TargetFieldId 858290427
+                            Flags 1
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId 193453899
+                            TargetFieldId 594026294
+                            Flags 17
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId -141474860
+                            TargetFieldId 193450866
+                            Flags 1
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId -141474859
+                            TargetFieldId 193450867
+                            Flags 1
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId -141474859
+                            TargetFieldId 193450864
+                            Flags 1
+                        member(5)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId -141474859
+                            TargetFieldId 193450865
+                            Flags 1
+                        member(6)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId -141474859
+                            TargetFieldId 193450870
+                            Flags 1
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 1723395486
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(1)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -847345426
+                        TargetEvent::EventSpec
+                            Id 1070022026
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(2)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1978208716
+                        TargetEvent::EventSpec
+                            Id 1070022026
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(3)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1997317476
+                        TargetEvent::EventSpec
+                            Id 1070022024
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(4)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1997317473
+                        TargetEvent::EventSpec
+                            Id 1070022030
+                        TargetType EventConnectionTargetType_ClientAndServer
+        Objects::array
+            member(0) 00000001
+            member(1) 00000000
+            member(2) 00000004
+            member(3) 00000002
+        TimeDeltaType TimeDeltaType_None
+DelayEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 12048285
+    Delay 0.0
+    Realm Realm_ClientAndServer
+    TimeDeltaType TimeDeltaType_World
+    AutoStart True
+    RunOnce False
+    RemoveDuplicateEvents True
+EventToIntEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 129213502
+    Realm Realm_ClientAndServer
+    Selections::array
+        member(0)::IntSelection
+            Value 0
+            EventHash 1070022026
+        member(1)::IntSelection
+            Value 1
+            EventHash 1070022027
+        member(2)::IntSelection
+            Value 2
+            EventHash 1070022024
+        member(3)::IntSelection
+            Value 3
+            EventHash 1070022025
+        member(4)::IntSelection
+            Value 4
+            EventHash 1070022030
+    InitializeProperty True
+FloatHubEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 418631751
+    Realm Realm_ClientAndServer
+    InputCount 5
+    InputSelect 0
+    HashedInput::array
+        member(0) 193450866
+        member(1) 193450867
+        member(2) 193450864
+        member(3) 193450865
+        member(4) 193450870
+        member(5) 193450871
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 594026294
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value Float32 0
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value Float32 0.55
+                ValueRef *nullGuid*
+                Id -141474859
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+PlatformSplitterEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 128406916
+    Realm Realm_ClientAndServer
+    RunOnce False

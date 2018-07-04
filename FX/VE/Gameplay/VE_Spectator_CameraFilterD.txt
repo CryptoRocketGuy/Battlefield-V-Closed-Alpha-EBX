@@ -1,0 +1,207 @@
+VisualEnvironmentBlueprint fe064a271e2d5440874b8f4acdbd2599
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_Spectator_CameraFilterD
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 225375086
+                            TargetFieldId -1952177180
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 225375086
+                            TargetFieldId -1952177180
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000004
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -742954499
+                        TargetEvent::EventSpec
+                            Id 668205626
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000004
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 1734043228
+                        TargetEvent::EventSpec
+                            Id -1541066415
+                        TargetType EventConnectionTargetType_Client
+        Object 00000002
+    TimeDeltaType TimeDeltaType_None
+ColorCorrectionComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 135618843
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Realm
+            member(1) Enable
+            member(2) Saturation
+            member(3) Brightness
+            member(4) Contrast
+            member(5) Hue
+        PropertyOverrideMasks::array
+            member(0) 287
+    Brightness::Vec3
+        x 1.5168377161
+        y 1.50769996643
+        z 1.27028882504
+    Contrast::Vec3
+        x 1.02289998531
+        y 1.02289998531
+        z 1.02289998531
+    Saturation::Vec3
+        x 1.5168377161
+        y 1.5168377161
+        z 1.5168377161
+    Realm Realm_Client
+    Hue 0.0
+    ColorGradingTexture *nullGuid*
+    ColorGradingMaxHdrValue 1.0
+    HdrColorGradingLut *nullGuid*
+    Enable True
+    ColorGradingEnable False
+VignetteComponentData 00000001
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 143567721
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Enable
+        PropertyOverrideMasks::array
+            member(0) 32
+    Color::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    Realm Realm_Client
+    Scale::Vec2
+        x 2.0
+        y 2.0
+    Exponent 1.0
+    Opacity 0.0
+    Enable True
+VisualEnvironmentEntityData 00000002
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 188291416
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000003
+                member(1) 00000000
+                member(2) 00000001
+                member(3) 00000004
+            ClientRuntimeComponentCount 2
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 0.0
+    FutureVisibility 0.0
+    Priority 220002
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True
+BoolEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 56312486
+    Realm Realm_Client
+    DefaultValue True
+SchematicChannelEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 15572815
+    Realm Realm_Client
+    Channel UI/Ingame/Spectator/Logic/UIChannelSpectatorCamera/f6f69c6699509fdba45ada832b4b9526
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*

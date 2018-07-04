@@ -1,0 +1,282 @@
+VisualEnvironmentBlueprint bedd5a6a3fa56587ed97f4e581557994
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_KillerInfo
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000003
+    TimeDeltaType TimeDeltaType_None
+ScreenEffectComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 4629967
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Shader
+            member(1) FrameWidth
+            member(2) OuterFrameOpacity
+            member(3) InnerFrameOpacity
+            member(4) Angle
+            member(5) ScreenEffectParams
+        PropertyOverrideMasks::array
+            member(0) 249
+    ScreenEffectParams::Vec4
+        x 1.0
+        y 1.0
+        z 1.0
+        w 1.0
+    Realm Realm_Client
+    FrameType ScreenEffectFrameType_FullFrame
+    Shader FX/VE/Shaders/FXVS_EAPScreenTest/51f06e0fa59ab44f81f3fbfd04eed608
+    FrameWidth 0.75
+    OuterFrameOpacity 1.0
+    InnerFrameOpacity 0.0
+    Angle 0.0
+TonemapComponentData 00000001
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 3169930
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) BloomScale
+            member(1) LensDirtBias
+            member(2) LensDirtTexture
+            member(3) LensDirtFactor
+            member(4) GaussianSharpness
+            member(5) BloomMethod
+            member(6) BloomSoftClip
+            member(7) LensDirtExponent
+        PropertyOverrideMasks::array
+            member(0) 3758096833
+            member(1) 8192
+    BloomScale::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Gaussian1Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Gaussian2Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Gaussian3Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Gaussian4Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Gaussian5Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    LensDirtBias::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    LensDirtFactor::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    LensDirtExponent::Vec3
+        x 1.5168377161
+        y 1.5168377161
+        z 1.5168377161
+    Realm Realm_Client
+    EV 10.0
+    ExposureCompensation 0.0
+    AutoExposureDarkestExclude 0.0
+    AutoExposureBrightestExclude 0.0
+    DarkAdaptationTime 3.0
+    LightAdaptationTime 1.0
+    AutoExposureHigherThreshold 0.0
+    AutoExposureLowerThreshold 0.0
+    MinEV -6.0
+    MaxEV 16.0
+    SpotMeterScale 1.0
+    TonemapMethod TonemapMethod_FilmicNeutral
+    BlackPoint 0.0
+    WhitePoint 1.0
+    CrossOverPoint 0.0
+    ShoulderCrossOverPoint 0.0
+    ToeStrength 0.0
+    ShoulderStrength 0.0
+    Saturation 4.0
+    BloomSoftClip 2.0
+    BloomMethod BloomMethod_GaussianSimple
+    GaussianSharpness 0.5
+    Gaussian1Weight 1.0
+    Gaussian2Weight 1.0
+    Gaussian3Weight 1.0
+    Gaussian4Weight 1.0
+    Gaussian5Weight 1.0
+    FFTThreshold 1.0
+    FFTCutoff 10000.0
+    FFTKernelScale 0.25
+    FFTKernelRotation 0.0
+    FFTSpikeScaleLimit 10000.0
+    FFTKernelTexture *nullGuid*
+    ChromostereopsisScale 1.0
+    ChromostereopsisOffset 1.0
+    LensDirtTexture ArtAssets/Lighting/Textures/T_DirtyLens/29077b42c22b9477229241f436e0c49a
+    AutomaticExposure True
+    ClampEV True
+    FFTSpikeScaleLimitEnable True
+    ChromostereopsisEnable False
+VignetteComponentData 00000002
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 28065815
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Enable
+            member(1) Scale
+            member(2) Exponent
+            member(3) Opacity
+        PropertyOverrideMasks::array
+            member(0) 60
+    Color::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    Realm Realm_Client
+    Scale::Vec2
+        x 0.0
+        y 0.0
+    Exponent 0.20000000298
+    Opacity 0.5
+    Enable True
+VisualEnvironmentEntityData 00000003
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 175482406
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000001
+                member(1) 00000000
+                member(2) 00000002
+            ClientRuntimeComponentCount 3
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 1.0
+    FutureVisibility 0.0
+    Priority 0
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable False
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1402926186
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

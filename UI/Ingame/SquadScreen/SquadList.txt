@@ -1,0 +1,642 @@
+UIWidgetBlueprint 5bf472e45edf10ef98ca93af9cbee7df
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/SquadScreen/SquadList
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000006
+                            Target 00000004
+                            SourceFieldId 1567224004
+                            TargetFieldId 1567224004
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000005
+                            Target 00000007
+                            SourceFieldId -372499808
+                            TargetFieldId -1240901670
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000007
+                            Target 00000001
+                            SourceFieldId 193453899
+                            TargetFieldId 2089429248
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000006
+                            Target 00000002
+                            SourceFieldId -1262060808
+                            TargetFieldId 901540267
+                            Flags 34
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000006
+                            SourceFieldId -2100971754
+                            TargetFieldId -2001106849
+                            Flags 18
+                        member(5)::PropertyConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId 575917670
+                            TargetFieldId 901540267
+                            Flags 34
+                        member(6)::PropertyConnection
+                            Source 00000002
+                            Target 00000006
+                            SourceFieldId -2100971754
+                            TargetFieldId -977002843
+                            Flags 18
+                        member(7)::PropertyConnection
+                            Source 00000006
+                            Target 00000007
+                            SourceFieldId -141474860
+                            TargetFieldId 226981187
+                            Flags 2
+                        member(8)::PropertyConnection
+                            Source 00000006
+                            Target 00000002
+                            SourceFieldId -141474859
+                            TargetFieldId 708554502
+                            Flags 34
+                        member(9)::PropertyConnection
+                            Source 00000006
+                            Target 00000002
+                            SourceFieldId -141474859
+                            TargetFieldId 295930326
+                            Flags 34
+                        member(10)::PropertyConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId -141474859
+                            TargetFieldId 295930326
+                            Flags 34
+                        member(11)::PropertyConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId -141474859
+                            TargetFieldId 708554502
+                            Flags 34
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000005
+                            Target 00000004
+                            SourceFieldId -188171420
+                            TargetFieldId 0
+                        member(1)::LinkConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId 1628349775
+                            TargetFieldId 0
+                        member(2)::LinkConnection
+                            Source 00000005
+                            Target 00000002
+                            SourceFieldId 1628349775
+                            TargetFieldId 0
+                    Interface 00000006
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000006
+                        SourceEvent::EventSpec
+                            Id -1786004225
+                        TargetEvent::EventSpec
+                            Id -1786004225
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000006
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1811179559
+                        TargetEvent::EventSpec
+                            Id -1811179559
+                        TargetType EventConnectionTargetType_Client
+        Object 00000005
+BFUIElementBlurEntityData 00000000
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+            InstanceName Blur
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 0.823068082333
+                y 0.846065580845
+                z 0.874509811401
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 2087736428
+            Size::Vec2
+                x 2.0
+                y 260.0
+            LayoutMode UILayoutMode_PositionExpansion
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.0
+                Y 0.0
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 0.0
+                Height 1.0
+            Alpha 1.0
+            Visible False
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    MaskTexture *nullString*
+    BlendMode UIBlendMode_AlphaBlend
+    OverrideBlendMode False
+BFUIElementFillEntityData 00000001
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 134217728
+            InstanceName Line
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 1.0
+                y 1.0
+                z 1.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 2087656651
+            Size::Vec2
+                x 2.0
+                y 260.0
+            LayoutMode UILayoutMode_AnchorOffset
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.0
+                Y 0.0
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 0.0
+                Height 1.0
+            Alpha 0.800000011921
+            Visible False
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    Style UI/Styles/Fills/CasaSolidTechnicalWhite/a5deb12524b4264880428ae3c73b62f9
+    BackgroundBlendMode UIBlendMode_Add
+    OutlineBlendMode UIBlendMode_AlphaBlend
+    ZOrder 0
+    OverrideBackgroundBlendMode True
+    OverrideOutlineBlendMode False
+    DrawBackground True
+    DrawOutline True
+    UseColorAsOverlay False
+UIElementWidgetReferenceEntityData 00000002
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 167772160
+            Blueprint UI/Ingame/SquadScreen/SquadScreenNoSquad/1ce78fc0583c7a47843578e5629700d0
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    UIElementTransform::UIElementTransform
+        Rotation::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        RotationPivot::Vec3
+            x 0.5
+            y 0.5
+            z 0.0
+        Z 0.0
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    InstanceName No Squad
+    InstanceNameHash 1457409110
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Size::Vec2
+        x 256.0
+        y 256.0
+    LayoutMode UILayoutMode_AnchorOffset
+    Offset::UIElementOffset
+        X 0.0
+        Y 0.0
+    Anchor::UIElementAnchor
+        X 0.0
+        Y 0.0
+    Position::UIElementOffset
+        X 0.0
+        Y 0.0
+    Expansion::UIElementRectExpansion
+        X 0.0
+        Y 0.0
+        Width 0.0
+        Height 0.0
+    Alpha 1.0
+    CodeAccessIdentifier *nullString*
+    UseElementSize False
+UIElementWidgetReferenceEntityData 00000003
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 167772160
+            Blueprint UI/Ingame/SquadScreen/SquadScreenXPBoostWidget/2b6a4803f7f1d6fbf3f1fd607c75c8ef
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    UIElementTransform::UIElementTransform
+        Rotation::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        RotationPivot::Vec3
+            x 0.5
+            y 0.5
+            z 0.0
+        Z 0.0
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    InstanceName XP boost
+    InstanceNameHash 879397768
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Size::Vec2
+        x 256.0
+        y 256.0
+    LayoutMode UILayoutMode_AnchorOffset
+    Offset::UIElementOffset
+        X 0.0
+        Y 0.0
+    Anchor::UIElementAnchor
+        X 0.0
+        Y 0.0
+    Position::UIElementOffset
+        X 0.0
+        Y 0.0
+    Expansion::UIElementRectExpansion
+        X 0.0
+        Y 0.0
+        Width 0.0
+        Height 0.0
+    Alpha 1.0
+    CodeAccessIdentifier *nullString*
+    UseElementSize False
+BFUILayoutGenericListEntityData 00000004
+    $::BFUILayoutEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 174299728
+        ElementOffsetScaling::Vec2
+            x 0.0
+            y 0.0
+    LayoutMargin::Vec2
+        x 2.0
+        y 0.0
+    ElementMargin::Vec2
+        x 0.0
+        y 0.0
+    ElementStep::Vec2
+        x 0.0
+        y 6.0
+    ElementStepFactor::Vec2
+        x 0.0
+        y 1.0
+    ElementPivot::Vec2
+        x 0.0
+        y 0.0
+    HorizontalAlignment BFUILayoutHorizontalAlignment_Left
+    VerticalAlignment BFUILayoutVerticalAlignment_Top
+    AutoSizeElementsHorizontally False
+    AutoSizeElementsVertically False
+    DrawZeroSizeElement True
+BFUIListWidgetData 00000005
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1806982601
+            Size::UIElementSize
+                X 520.0
+                Y 250.0
+            Layers::array
+                member(0) 00000008
+                member(1) 00000009
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000004
+                member(1) 00000007
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask True
+        UseInputStencilMask True
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Ingame/SquadScreen/SquadListCell/bbaef1c17cd3129044e73ea8ede8c66e
+    MaxRows 0
+    SelectionInput -1
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit False
+    ValidateSetSelection False
+    WrapSelection False
+    AutoSizeWidgetHorizontally False
+    AutoSizeWidgetVertically False
+    Enabled True
+    ScrollIntoView False
+InterfaceDescriptorData 00000006
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1567224004
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 575917670
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id -1262060808
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -2001106849
+                AccessType FieldAccessType_Source
+            member(4)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -977002843
+                AccessType FieldAccessType_Source
+            member(5)::DataField
+                Value Float32 2
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+            member(6)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id -141474859
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1811179559
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -1786004225
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 150201881
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 1
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 226981187
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 -1240901670
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 2088167975
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 8
+                Param2 0
+    EvaluateOnEvent False
+UIElementLayerEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName External elements
+    Elements::array
+        member(0) 00000002
+        member(1) 00000003
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True
+UIElementLayerEntityData 00000009
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName Obsolete
+    Elements::array
+        member(0) 00000000
+        member(1) 00000001
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible False

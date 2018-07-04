@@ -1,0 +1,71 @@
+LogicPrefabBlueprint d553464a44df9d4399b3838190286255
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MP/AutoTeamSmall
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId -506841730
+                            Flags 3
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId -1668047956
+                            Flags 3
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -182176866
+                        TargetEvent::EventSpec
+                            Id -182176866
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+        TimeDeltaType TimeDeltaType_None
+AutoTeamEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 367856304
+    TeamAssignMode TamEqualTeams
+    PlayerCountNeededToAutoBalance 6
+    TeamDifferenceToAutoBalance 2
+    EnableSquads True
+    RotateTeamOnNewRound False
+    AutoBalance False
+InclusionSettingEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 12619213
+    Realm Realm_Server
+    Setting OverallGameMode
+    Settings::array
+        member(0) StandAlone
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -182176866
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

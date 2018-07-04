@@ -1,0 +1,1118 @@
+VisualEnvironmentBlueprint 8daf9f30fc294314b756b94704e8f11c
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Levels/FrontEnd/Lighting/VE_Frontend_Customize
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 0000000e
+                            Target 00000005
+                            SourceFieldId 380706731
+                            TargetFieldId 230748069
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 0000000e
+                            Target 00000005
+                            SourceFieldId -1762605276
+                            TargetFieldId 193438506
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 0000000e
+                            Target 00000002
+                            SourceFieldId 1402926186
+                            TargetFieldId 1402926186
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 0000000c
+    TimeDeltaType TimeDeltaType_None
+CameraParamsComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 14240102
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) SunShadowmapViewDistance
+            member(1) ViewDistance
+            member(2) NearPlane
+            member(3) SunShadowmapExtrusionLength
+            member(4) SunShadowmapSliceSchemeWeight
+            member(5) LodScale
+            member(6) ShadowDistanceScale
+            member(7) CullScreenAreaScale
+            member(8) VegetationMaxWiggleDistance
+        PropertyOverrideMasks::array
+            member(0) 1022
+    Realm Realm_Client
+    ViewDistance 60.0
+    NearPlane -1.0
+    SunShadowmapViewDistance 100.0
+    SunShadowmapExtrusionLength -1.0
+    SunShadowmapSliceSchemeWeight 0.97000002861
+    LodScale -1.0
+    ShadowDistanceScale -1.0
+    CullScreenAreaScale -1.0
+    VegetationMaxWiggleDistance -1.0
+ColorCorrectionComponentData 00000001
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 11843905
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Enable
+            member(1) ColorGradingEnable
+            member(2) Brightness
+            member(3) Saturation
+            member(4) Hue
+            member(5) ColorGradingMaxHdrValue
+            member(6) HdrColorGradingLut
+            member(7) Contrast
+        PropertyOverrideMasks::array
+            member(0) 983
+    Brightness::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Contrast::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Saturation::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Realm Realm_Client
+    Hue 0.0
+    ColorGradingTexture *nullGuid*
+    ColorGradingMaxHdrValue 1.0
+    HdrColorGradingLut Levels/FrontEnd/Lighting/MP_FrontendCustomize_HDRCube_02/8b8fa1be337a41fb60d4d24904ef01c5
+    Enable True
+    ColorGradingEnable True
+DofComponentData 00000002
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 161589258
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) FullScreenBlurAddCommonDof
+            member(1) FocusDofMaxBlur
+            member(2) Enable
+            member(3) DofSource
+            member(4) BlurFactor
+            member(5) BlurAdd
+            member(6) MaskedBlurEnabled
+            member(7) MaskedBlurAmount
+            member(8) IronsightsDofActive
+            member(9) OpticalVignettingEnable
+            member(10) OpticalVignettingAmount
+            member(11) OpticalVignettingAspectRatio
+            member(12) OpticalVignettingAnamorphicSqueeze
+            member(13) OpticalVignettingSizeCompensation
+            member(14) OpticalVignettingOperation
+            member(15) RGBBokehTextureEnable
+            member(16) BokehChromaticAberrationEnable
+            member(17) BokehChromaticAberrationRadius
+            member(18) BokehChromaticAberrationWidth
+            member(19) BokehChromaticAberrationRadiusThreshold
+            member(20) BokehChromaticAberrationRadiusThresholdWidth
+            member(21) BokehChromaticAberrationEnergyThreshold
+            member(22) BokehChromaticAberrationFgColor
+            member(23) BokehChromaticAberrationBgColor
+            member(24) RadialBlurEnableCommonDof
+            member(25) RadialBlurStartRadiusCommonDof
+            member(26) RadialBlurTransitionWidthCommonDof
+            member(27) RadialBlurTiltCommonDof
+            member(28) RadialBlurHorizontalScaleCommonDof
+            member(29) BokehChromaticAberrationScale
+            member(30) RadialBlurAspectRatioBlend
+            member(31) IronsightsDofCircleDistance
+            member(32) SpriteDofMaxBlur
+            member(33) DebugDrawFocusPlane
+            member(34) HipToIronsightsFade
+            member(35) IronsightsDofCircleBlur
+            member(36) IronsightsDofStartFade
+            member(37) UseCameraSettings
+            member(38) SimpleDofMaxBlur
+            member(39) SimpleDofNearStart
+            member(40) SimpleDofNearEnd
+            member(41) SimpleDofFarStart
+            member(42) SimpleDofFarEnd
+            member(43) SpriteDofNearStart
+            member(44) SpriteDofNearEnd
+            member(45) SpriteDofBokehTexture
+            member(46) FocusDofFarEnd
+            member(47) FocusDofFarStart
+            member(48) FocusDofNearEnd
+            member(49) FocusDofNearStart
+            member(50) SimpleDofStandardDeviation
+            member(51) SimpleDofBlurFilter
+            member(52) FocusDistance
+            member(53) PbrFStopDof
+            member(54) PbrFocusLengthDof
+            member(55) PbrFilmWidthDof
+        PropertyOverrideMasks::array
+            member(0) 4294950651
+            member(1) 2147286719
+            member(2) 0
+    BokehChromaticAberrationFgColor::Vec3
+        x 1.0
+        y 0.20000000298
+        z 1.0
+    BokehChromaticAberrationBgColor::Vec3
+        x 0.20000000298
+        y 1.0
+        z 0.20000000298
+    Realm Realm_Client
+    DofSource DofSource_PhysicallyBased
+    FocusDofMaxBlur 15.0
+    BlurFactor 1.0
+    BlurAdd 0.0
+    FocusDistance 9.0
+    RadialBlurAmountCommonDof 0.0
+    RadialBlurStartRadiusCommonDof 0.389999985695
+    RadialBlurTransitionWidthCommonDof 0.5
+    RadialBlurTiltCommonDof 0.0
+    RadialBlurHorizontalScaleCommonDof 1.0
+    RadialBlurAspectRatioBlend 1.0
+    RadialBlurPositionCommonDof::Vec2
+        x 0.0
+        y 0.0
+    SimpleDofBlurFilter BfGaussian3Pixels
+    SimpleDofStandardDeviation 2.0
+    SpriteDofBokehTexture ArtAssets/Lighting/Textures/T_DOFSprite_02/8bcd681544983c3c137be086c0089f04
+    FocusDofNearStart 0.0
+    FocusDofNearEnd 2.0
+    FocusDofFarStart 0.300000011921
+    FocusDofFarEnd 50.0
+    PbrFocusLengthDof 20.0
+    PbrFilmWidthDof 35.0
+    PbrFStopDof 1.0
+    OpticalVignettingAmount 0.0
+    OpticalVignettingAspectRatio 1.0
+    OpticalVignettingAnamorphicSqueeze 0.0
+    OpticalVignettingSizeCompensation 0.0
+    OpticalVignettingOperation VignettingOperation_Min
+    BokehChromaticAberrationScale 1.0
+    BokehChromaticAberrationRadius 0.5
+    BokehChromaticAberrationWidth 0.0500000007451
+    BokehChromaticAberrationRadiusThreshold 0.0
+    BokehChromaticAberrationRadiusThresholdWidth 0.00999999977648
+    BokehChromaticAberrationEnergyThreshold 0.0
+    HipToIronsightsFade 1.0
+    IronsightsDofStartFade 0.5
+    IronsightsFocalDistance 1.5
+    MaskedBlurAmount 0.0
+    MaskedBlurTexture *nullGuid*
+    SimpleDofMaxBlur 3.0
+    SimpleDofNearStart 0.0
+    SimpleDofNearEnd 7.0
+    SimpleDofFarStart 5.0
+    SimpleDofFarEnd 7.0
+    SpriteDofNearStart 5.0
+    SpriteDofNearEnd 7.0
+    SpriteDofFarStart 5.0
+    SpriteDofFarEnd 7.0
+    SpriteDofMaxBlur 6.0
+    IronsightsDofCircleDistance 0.34999999404
+    FullScreenBlurAddCommonDof 0.0
+    Enable False
+    DebugDrawFocusPlane False
+    RadialBlurEnableCommonDof False
+    OpticalVignettingEnable False
+    RGBBokehTextureEnable False
+    BokehChromaticAberrationEnable False
+    IronsightsDofActive False
+    MaskedBlurEnabled True
+    UseCameraSettings False
+    IronsightsDofCircleBlur False
+DynamicAOComponentData 00000003
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 19322926
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) SsaoRadius
+            member(1) SsaoFade
+            member(2) DynamicAOFactor
+            member(3) AffectLocalLight
+            member(4) AffectOutdoorLight
+            member(5) TemporalFilterEnable
+            member(6) SsaoMaxDistanceInner
+            member(7) HbaoBlurSharpness
+            member(8) HbaoMaxFootprintRadius
+            member(9) HbaoContrast
+            member(10) HbaoAttenuation
+            member(11) HbaoAngleBias
+            member(12) HbaoRadius
+            member(13) Enable
+            member(14) HbaoPowerExponent
+            member(15) SsaoMaxDistanceOuter
+        PropertyOverrideMasks::array
+            member(0) 258046
+    Realm Realm_Client
+    DynamicAOFactor 1.0
+    SsaoFade 1.0
+    SsaoRadius 1.0
+    SsaoMaxDistanceInner 1.0
+    SsaoMaxDistanceOuter 1.0
+    HbaoRadius 2.04299998283
+    HbaoAngleBias 0.0
+    HbaoAttenuation 1.40400004387
+    HbaoContrast 1.53199994564
+    HbaoMaxFootprintRadius 0.0170000009239
+    HbaoPowerExponent 0.0
+    HbaoBlurRadius 8.0
+    HbaoBlurSharpness 1.0
+    Enable True
+    AffectOutdoorLight True
+    AffectLocalLight True
+    TemporalFilterEnable True
+FilmGrainComponentData 00000004
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 27598259
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Texture
+            member(1) Enable
+            member(2) TextureScale
+            member(3) ColorScale
+            member(4) LinearFilteringEnable
+            member(5) RandomEnable
+            member(6) GrainGreyFraction
+            member(7) GrainLuminanceControlEnable
+            member(8) GrainShadowThreshold
+            member(9) GrainHighlightThreshold
+            member(10) GrainShadowIntensity
+            member(11) GrainHighlightIntensity
+        PropertyOverrideMasks::array
+            member(0) 8189
+    ColorScale::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Realm Realm_Client
+    TextureScale::Vec2
+        x 1.0
+        y 1.0
+    Texture ArtAssets/Lighting/FilmGrain/T_FilmGrain_01_M/7850c048215f87fa9216c93651c75d7c
+    GrainGreyFraction 0.0
+    GrainShadowThreshold 0.5
+    GrainHighlightThreshold 0.600000023842
+    GrainShadowIntensity 1.0
+    GrainHighlightIntensity 0.5
+    Enable True
+    LinearFilteringEnable True
+    RandomEnable True
+    GrainLuminanceControlEnable True
+FogComponentData 00000005
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 164897415
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) FogDistanceMultiplier
+            member(1) HeightFogVisibilityRange
+            member(2) HeightFogDepth
+            member(3) HeightFogAltitude
+            member(4) HeightFogFollowCamera
+            member(5) HeightFogEnable
+            member(6) ForwardLightScatteringSmoothness
+            member(7) ForwardLightScatteringExtinction
+            member(8) ForwardLightScatteringPresence
+            member(9) ForwardLightScatteringColor
+            member(10) ForwardLightScatteringStrength
+            member(11) ForwardLightScatteringPhaseG
+            member(12) ForwardLightScatteringUseSunPosition
+            member(13) ForwardLightScatteringEnabled
+            member(14) FogColorEnd
+            member(15) FogColorStart
+            member(16) FogColor
+            member(17) FogColorEnable
+            member(18) Enable
+            member(19) ForwardLightScatteringMaxBlurLength
+            member(20) Curve
+            member(21) End
+            member(22) FogGradientEnable
+            member(23) Start
+            member(24) FogColorCurve
+        PropertyOverrideMasks::array
+            member(0) 4294903767
+            member(1) 0
+    Curve::Vec4
+        x 0.0
+        y 0.197553873062
+        z 1.28798758984
+        w -0.260777235031
+    FogColor::Vec3
+        x 0.0166882351041
+        y 0.0654725059867
+        z 0.0975873470306
+    FogColorCurve::Vec4
+        x 0.0
+        y 0.0
+        z 0.0
+        w 0.90499997139
+    TransparencyFadeCurve::Vec4
+        x -2.0
+        y 3.0
+        z 0.0
+        w 0.0
+    ForwardLightScatteringColor::Vec3
+        x 0.0264677349478
+        y 0.0497065633535
+        z 0.0468392372131
+    Realm Realm_Client
+    FogDistanceMultiplier 1.0
+    Start 0.0
+    End 100.0
+    FogColorStart 200.0
+    FogColorEnd 5000.0
+    TransparencyFadeStart 0.0
+    TransparencyFadeEnd 100.0
+    TransparencyFadeClamp 0.0
+    ForwardLightScatteringRotationX 0.0
+    ForwardLightScatteringRotationY 60.0
+    ForwardLightScatteringPhaseG 0.976000010967
+    ForwardLightScatteringStrength 3.74399995804
+    ForwardLightScatteringPresence 0.995000004768
+    ForwardLightScatteringMaxBlurLength 0.178000003099
+    ForwardLightScatteringExtinction 10.045999527
+    ForwardLightScatteringSmoothness 3.97300004959
+    HeightFogFollowCamera 0.0
+    HeightFogAltitude -170.0
+    HeightFogDepth 120.0
+    HeightFogVisibilityRange 500.0
+    Enable False
+    FogGradientEnable True
+    FogColorEnable False
+    ForwardLightScatteringEnabled False
+    ForwardLightScatteringUseSunPosition False
+    HeightFogEnable True
+LensReflectionComponentData 00000006
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 15008947
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Enable
+        PropertyOverrideMasks::array
+            member(0) 2048
+    InnerColor::Vec3
+        x 0.300000011921
+        y 0.600000023842
+        z 0.600000023842
+    OuterColor::Vec3
+        x 0.5
+        y 0.300000011921
+        z 0.5
+    Realm Realm_Client
+    MixStart 0.300000011921
+    MixStop 0.5
+    InputExponent 2.0
+    InputScale 0.600000023842
+    MaxOpacity 0.20000000298
+    Scale 1.0
+    DistortionFactor 0.0
+    VerticalStretch 1.0
+    Enable True
+    TransposeReflection True
+ShaderParamsComponentData 00000007
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 19158304
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) ParameterName
+            member(1) Value
+        PropertyOverrideMasks::array
+            member(0) 5
+    Value::Vec4
+        x 0.0
+        y 0.0
+        z 0.0
+        w 0.0
+    Realm Realm_Client
+    ParameterName WSShaderParam
+ShaderParamsComponentData 00000008
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 18724179
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) ParameterName
+            member(1) Value
+        PropertyOverrideMasks::array
+            member(0) 5
+    Value::Vec4
+        x 0.0
+        y 0.0
+        z 0.0
+        w 0.0
+    Realm Realm_Client
+    ParameterName CharacterGameplayHighlight
+SubSurfaceScatteringComponentData 00000009
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1062310
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Profile0
+            member(1) Profile1
+            member(2) Profile2
+            member(3) Profile3
+            member(4) Profile4
+            member(5) Profile5
+            member(6) Profile6
+            member(7) ProfileOATS
+        PropertyOverrideMasks::array
+            member(0) 4080
+    SimpleSssColor::Vec3
+        x 0.20000000298
+        y 0.10000000149
+        z 0.0500000007451
+    Realm Realm_Client
+    SimpleSssRolloffKeyLight 0.330000013113
+    SimpleSssRolloffLocalLight 1.0
+    Profile0::SubSurfaceProfile
+        Preset SubSurfaceProfilePreset_Custom
+        ScatteringScale 0.00999999977648
+        ScatteringSpikeAmount 0.708999991417
+        RadiusR 1.0
+        RadiusG 0.651000022888
+        RadiusB 0.610000014305
+        TranslucencyScale 1.79999995232
+        TranslucencyBaseColorAmount 0.5
+        TranslucencyMultiplier 1.0
+        TranslucencyShadowBias 0.0
+        ScatteringEnable True
+        TranslucencyEnable True
+        AutomaticThicknessEnable False
+    Profile1::SubSurfaceProfile
+        Preset SubSurfaceProfilePreset_Custom
+        ScatteringScale 0.0010000000475
+        ScatteringSpikeAmount 0.40000000596
+        RadiusR 1.0
+        RadiusG 0.342999994755
+        RadiusB 0.289999991655
+        TranslucencyScale 1.0
+        TranslucencyBaseColorAmount 0.0
+        TranslucencyMultiplier 1.0
+        TranslucencyShadowBias 0.0
+        ScatteringEnable True
+        TranslucencyEnable False
+        AutomaticThicknessEnable False
+    Profile2::SubSurfaceProfile
+        Preset SubSurfaceProfilePreset_Custom
+        ScatteringScale 0.00221954705194
+        ScatteringSpikeAmount 0.40000000596
+        RadiusR 0.921000003815
+        RadiusG 1.0
+        RadiusB 0.699000000954
+        TranslucencyScale 0.00387091492303
+        TranslucencyBaseColorAmount 0.0
+        TranslucencyMultiplier 1.0
+        TranslucencyShadowBias -0.0379999987781
+        ScatteringEnable False
+        TranslucencyEnable True
+        AutomaticThicknessEnable False
+    Profile3::SubSurfaceProfile
+        Preset SubSurfaceProfilePreset_Custom
+        ScatteringScale 0.0010000000475
+        ScatteringSpikeAmount 0.40000000596
+        RadiusR 1.0
+        RadiusG 1.0
+        RadiusB 1.0
+        TranslucencyScale 0.0010000000475
+        TranslucencyBaseColorAmount 0.0
+        TranslucencyMultiplier 1.0
+        TranslucencyShadowBias 0.0469999983907
+        ScatteringEnable False
+        TranslucencyEnable True
+        AutomaticThicknessEnable False
+    Profile4::SubSurfaceProfile
+        Preset SubSurfaceProfilePreset_Custom
+        ScatteringScale 0.0010000000475
+        ScatteringSpikeAmount 0.40000000596
+        RadiusR 1.0
+        RadiusG 0.342999994755
+        RadiusB 0.289999991655
+        TranslucencyScale 1.0
+        TranslucencyBaseColorAmount 0.0
+        TranslucencyMultiplier 1.0
+        TranslucencyShadowBias 0.0
+        ScatteringEnable False
+        TranslucencyEnable False
+        AutomaticThicknessEnable False
+    Profile5::SubSurfaceProfile
+        Preset SubSurfaceProfilePreset_Custom
+        ScatteringScale 0.00150000001304
+        ScatteringSpikeAmount 0.40000000596
+        RadiusR 1.0
+        RadiusG 0.563000023365
+        RadiusB 0.354999989271
+        TranslucencyScale 1.0
+        TranslucencyBaseColorAmount 0.0
+        TranslucencyMultiplier 1.0
+        TranslucencyShadowBias 0.0
+        ScatteringEnable False
+        TranslucencyEnable False
+        AutomaticThicknessEnable False
+    Profile6::SubSurfaceProfile
+        Preset SubSurfaceProfilePreset_Custom
+        ScatteringScale 0.0010000000475
+        ScatteringSpikeAmount 0.40000000596
+        RadiusR 1.0
+        RadiusG 0.342999994755
+        RadiusB 0.289999991655
+        TranslucencyScale 1.0
+        TranslucencyBaseColorAmount 0.0
+        TranslucencyMultiplier 1.0
+        TranslucencyShadowBias 1.0
+        ScatteringEnable False
+        TranslucencyEnable False
+        AutomaticThicknessEnable False
+    ProfileOATS::SubSurfaceProfile
+        Preset SubSurfaceProfilePreset_Custom
+        ScatteringScale 0.0010000000475
+        ScatteringSpikeAmount 0.0
+        RadiusR 1.0
+        RadiusG 1.0
+        RadiusB 0.565999984741
+        TranslucencyScale 0.34999999404
+        TranslucencyBaseColorAmount 0.5
+        TranslucencyMultiplier 0.850000023842
+        TranslucencyShadowBias -0.0130000002682
+        ScatteringEnable False
+        TranslucencyEnable True
+        AutomaticThicknessEnable False
+    LocalLightTranslucencyEnable False
+TonemapComponentData 0000000a
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 22167073
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) BloomScale
+            member(1) LensDirtBias
+            member(2) LensDirtFactor
+            member(3) LensDirtExponent
+            member(4) ExposureCompensation
+            member(5) AutoExposureDarkestExclude
+            member(6) AutoExposureBrightestExclude
+            member(7) DarkAdaptationTime
+            member(8) LightAdaptationTime
+            member(9) AutomaticExposure
+            member(10) AutoExposureHigherThreshold
+            member(11) AutoExposureLowerThreshold
+            member(12) ClampEV
+            member(13) MaxEV
+            member(14) SpotMeterScale
+            member(15) TonemapMethod
+            member(16) BloomSoftClip
+            member(17) BloomMethod
+            member(18) GaussianSharpness
+            member(19) MinEV
+            member(20) FFTThreshold
+            member(21) FFTCutoff
+            member(22) FFTKernelScale
+            member(23) FFTKernelRotation
+            member(24) FFTSpikeScaleLimit
+        PropertyOverrideMasks::array
+            member(0) 3762289089
+            member(1) 50144
+    BloomScale::Vec3
+        x 0.00749903172255
+        y 0.00749903172255
+        z 0.00749903172255
+    Gaussian1Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Gaussian2Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Gaussian3Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Gaussian4Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Gaussian5Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    LensDirtBias::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    LensDirtFactor::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    LensDirtExponent::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Realm Realm_Client
+    EV 10.0
+    ExposureCompensation 0.0
+    AutoExposureDarkestExclude 0.0
+    AutoExposureBrightestExclude 0.0
+    DarkAdaptationTime 0.0
+    LightAdaptationTime 0.0
+    AutoExposureHigherThreshold 0.0
+    AutoExposureLowerThreshold 0.0
+    MinEV 6.0
+    MaxEV 7.0
+    SpotMeterScale 0.797999978065
+    TonemapMethod TonemapMethod_FilmicNeutral
+    BlackPoint 0.0
+    WhitePoint 1.0
+    CrossOverPoint 0.0
+    ShoulderCrossOverPoint 0.0
+    ToeStrength 0.0
+    ShoulderStrength 0.0
+    Saturation 4.0
+    BloomSoftClip 0.137999996543
+    BloomMethod BloomMethod_GaussianSimple
+    GaussianSharpness 0.944999992847
+    Gaussian1Weight 1.0
+    Gaussian2Weight 1.0
+    Gaussian3Weight 1.0
+    Gaussian4Weight 1.0
+    Gaussian5Weight 1.0
+    FFTThreshold 0.0
+    FFTCutoff 7018.34912109
+    FFTKernelScale 0.133000001311
+    FFTKernelRotation 14.8620004654
+    FFTSpikeScaleLimit 3623.85302734
+    FFTKernelTexture *nullGuid*
+    ChromostereopsisScale 1.0
+    ChromostereopsisOffset 1.0
+    LensDirtTexture *nullGuid*
+    AutomaticExposure True
+    ClampEV True
+    FFTSpikeScaleLimitEnable True
+    ChromostereopsisEnable False
+VignetteComponentData 0000000b
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 22532813
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Exponent
+            member(1) Enable
+            member(2) Scale
+            member(3) Opacity
+        PropertyOverrideMasks::array
+            member(0) 60
+    Color::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    Realm Realm_Client
+    Scale::Vec2
+        x 1.0
+        y 2.0
+    Exponent 0.5
+    Opacity 0.266999989748
+    Enable False
+VisualEnvironmentEntityData 0000000c
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 185724487
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000001
+                member(1) 00000000
+                member(2) 0000000a
+                member(3) 00000009
+                member(4) 00000005
+                member(5) 00000003
+                member(6) 0000000b
+                member(7) 00000004
+                member(8) 00000002
+                member(9) 0000000e
+                member(10) 00000006
+                member(11) 0000000d
+                member(12) 00000007
+                member(13) 00000008
+            ClientRuntimeComponentCount 13
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 1.0
+    FutureVisibility 0.0
+    Priority 0
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable False
+WindComponentData 0000000d
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1808109
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) WindStrength
+            member(1) WindVariationMultiplier
+            member(2) WindVariationRateMultiplier
+            member(3) WindMicroVariationMultiplier
+            member(4) TurbulenceMultiplier
+            member(5) TurbulenceScale
+        PropertyOverrideMasks::array
+            member(0) 252
+    Realm Realm_Client
+    WindDirection 0.0
+    WindStrength 0.0
+    WindVariationMultiplier 0.0
+    WindVariationRateMultiplier 0.0
+    WindMicroVariationMultiplier 0.0
+    TurbulenceMultiplier 0.0
+    TurbulenceScale 0.0
+SchematicChannelEntityData 0000000e
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 2519881
+    Realm Realm_Client
+    Channel UI/Roster/SchematicChannels/RosterVisualEnvChannel/24501fd3a9bdfd29e1fff8f69111a6ef
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 0
+        member(1) 2
+        member(2) 3
+    OutputRefProperties *nullArray*

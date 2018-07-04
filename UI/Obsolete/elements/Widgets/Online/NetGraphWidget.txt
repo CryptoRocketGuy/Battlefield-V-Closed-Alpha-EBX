@@ -1,0 +1,376 @@
+UIWidgetBlueprint 545a91771c07146e5ea7086e61a3e82e
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Obsolete/elements/Widgets/Online/NetGraphWidget
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000000
+UINetGraphWidgetData 00000000
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 190583047
+            Size::UIElementSize
+                X 415.0
+                Y 450.0
+            Layers *nullArray*
+            TextureMappings *nullArray*
+            Components *nullArray*
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DataSeries::array
+        member(0)::NetGraphDataSeries
+            DataSeriesLabelFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesValuesFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesBackgroundFillColor::UIElementColor
+                Rgb::Vec3
+                    x 0.231000006199
+                    y 0.231000006199
+                    z 0.231000006199
+                Alpha 0.5
+            DataSeriesName *nullString*
+            DataSeriesInfoType NetGraphDataSeriesInfoType_Header
+            DataSeriesHeight 27.0
+            DataSeriesLabelFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesValuesFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_16px/dd0e543f89e6824e93247233f1d38cd5
+            DataSeriesLineWidth 0.0
+        member(1)::NetGraphDataSeries
+            DataSeriesLabelFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesValuesFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesBackgroundFillColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 0.0
+            DataSeriesName ID_M_NETGRAPH_TICKRATE
+            DataSeriesInfoType NetGraphDataSeriesInfoType_Update
+            DataSeriesHeight 27.0
+            DataSeriesLabelFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesValuesFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesLineWidth 0.0
+        member(2)::NetGraphDataSeries
+            DataSeriesLabelFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 0.391999989748
+                    z 1.0
+                Alpha 1.0
+            DataSeriesValuesFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesBackgroundFillColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 0.0
+            DataSeriesName ID_M_NETGRAPH_SERVERTICK
+            DataSeriesInfoType NetGraphDataSeriesInfoType_ServerTickTime
+            DataSeriesHeight 23.0
+            DataSeriesLabelFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesValuesFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesLineWidth 0.0
+        member(3)::NetGraphDataSeries
+            DataSeriesLabelFontColor::UIElementColor
+                Rgb::Vec3
+                    x 0.391999989748
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesValuesFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesBackgroundFillColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 0.0
+            DataSeriesName ID_M_NETGRAPH_LATENCY
+            DataSeriesInfoType NetGraphDataSeriesInfoType_NetwDelay
+            DataSeriesHeight 23.0
+            DataSeriesLabelFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesValuesFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesLineWidth 0.0
+        member(4)::NetGraphDataSeries
+            DataSeriesLabelFontColor::UIElementColor
+                Rgb::Vec3
+                    x 0.391999989748
+                    y 0.391999989748
+                    z 1.0
+                Alpha 1.0
+            DataSeriesValuesFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesBackgroundFillColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 0.0
+            DataSeriesName ID_M_NETGRAPH_NETWORKVARIATION
+            DataSeriesInfoType NetGraphDataSeriesInfoType_NetwVariation
+            DataSeriesHeight 23.0
+            DataSeriesLabelFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesValuesFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesLineWidth 0.0
+        member(5)::NetGraphDataSeries
+            DataSeriesLabelFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 0.391999989748
+                Alpha 1.0
+            DataSeriesValuesFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesBackgroundFillColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 0.0
+            DataSeriesName ID_M_NETGRAPH_PACKETLOSS
+            DataSeriesInfoType NetGraphDataSeriesInfoType_PacketLoss
+            DataSeriesHeight 23.0
+            DataSeriesLabelFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesValuesFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesLineWidth 0.0
+        member(6)::NetGraphDataSeries
+            DataSeriesLabelFontColor::UIElementColor
+                Rgb::Vec3
+                    x 0.626999974251
+                    y 1.0
+                    z 0.168999999762
+                Alpha 1.0
+            DataSeriesValuesFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesBackgroundFillColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 0.0
+            DataSeriesName ID_M_NETGRAPH_EXTROFFSET
+            DataSeriesInfoType NetGraphDataSeriesInfoType_BehindSrvTime
+            DataSeriesHeight 23.0
+            DataSeriesLabelFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesValuesFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesLineWidth 0.0
+        member(7)::NetGraphDataSeries
+            DataSeriesLabelFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 0.536000013351
+                    z 0.0
+                Alpha 1.0
+            DataSeriesValuesFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesBackgroundFillColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 0.0
+            DataSeriesName ID_M_NETGRAPH_DOWNSTREAM
+            DataSeriesInfoType NetGraphDataSeriesInfoType_DownStrm
+            DataSeriesHeight 23.0
+            DataSeriesLabelFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesValuesFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesLineWidth 0.0
+        member(8)::NetGraphDataSeries
+            DataSeriesLabelFontColor::UIElementColor
+                Rgb::Vec3
+                    x 0.899999976158
+                    y 0.899999976158
+                    z 0.899999976158
+                Alpha 1.0
+            DataSeriesValuesFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataSeriesBackgroundFillColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 0.0
+            DataSeriesName ID_M_NETGRAPH_RECIEVERATE
+            DataSeriesInfoType NetGraphDataSeriesInfoType_ReceiveRate
+            DataSeriesHeight 23.0
+            DataSeriesLabelFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesValuesFontStyle UI/Fonts/StylesCasablanca/BF-Text_Medium_12px/0dbce2c18a92e741b2c927795ea415cf
+            DataSeriesLineWidth 0.0
+    BackgroundColor::UIElementColor
+        Rgb::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+        Alpha 0.0
+    CriticalValueColor::UIElementColor
+        Rgb::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        Alpha 0.75
+    GraphProperties::NetGraphProperties
+        GraphGridColor::UIElementColor
+            Rgb::Vec3
+                x 0.20000000298
+                y 0.20000000298
+                z 0.20000000298
+            Alpha 0.20000000298
+        GraphBorderColor::UIElementColor
+            Rgb::Vec3
+                x 0.20000000298
+                y 0.20000000298
+                z 0.20000000298
+            Alpha 0.20000000298
+        GraphMargin 1.0
+        GraphNumHeightDividers 9
+        GraphVertLineIntervals 10.0
+    DataColumns::array
+        member(0)::NetGraphDataColumn
+            DataColumnFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataColumnName *nullString*
+            DataColumnInfoType NetGraphDataColumnInfoType_Empty
+            DataColumnMaxWidth 5.0
+        member(1)::NetGraphDataColumn
+            DataColumnFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataColumnName *nullString*
+            DataColumnInfoType NetGraphDataColumnInfoType_Label
+            DataColumnMaxWidth 110.0
+        member(2)::NetGraphDataColumn
+            DataColumnFontColor::UIElementColor
+                Rgb::Vec3
+                    x 0.800000011921
+                    y 0.800000011921
+                    z 0.800000011921
+                Alpha 1.0
+            DataColumnName *nullString*
+            DataColumnInfoType NetGraphDataColumnInfoType_Unit
+            DataColumnMaxWidth 35.0
+        member(3)::NetGraphDataColumn
+            DataColumnFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataColumnName *nullString*
+            DataColumnInfoType NetGraphDataColumnInfoType_Current
+            DataColumnMaxWidth 65.0
+        member(4)::NetGraphDataColumn
+            DataColumnFontColor::UIElementColor
+                Rgb::Vec3
+                    x 0.899999976158
+                    y 0.899999976158
+                    z 0.899999976158
+                Alpha 1.0
+            DataColumnName ID_M_NETGRAPH_AVG
+            DataColumnInfoType NetGraphDataColumnInfoType_Average
+            DataColumnMaxWidth 65.0
+        member(5)::NetGraphDataColumn
+            DataColumnFontColor::UIElementColor
+                Rgb::Vec3
+                    x 0.10000000149
+                    y 0.850000023842
+                    z 0.10000000149
+                Alpha 1.0
+            DataColumnName ID_M_NETGRAPH_MIN
+            DataColumnInfoType NetGraphDataColumnInfoType_Min
+            DataColumnMaxWidth 65.0
+        member(6)::NetGraphDataColumn
+            DataColumnFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 0.800000011921
+                    z 0.10000000149
+                Alpha 1.0
+            DataColumnName ID_M_NETGRAPH_MAX
+            DataColumnInfoType NetGraphDataColumnInfoType_Max
+            DataColumnMaxWidth 65.0
+        member(7)::NetGraphDataColumn
+            DataColumnFontColor::UIElementColor
+                Rgb::Vec3
+                    x 1.0
+                    y 1.0
+                    z 1.0
+                Alpha 1.0
+            DataColumnName *nullString*
+            DataColumnInfoType NetGraphDataColumnInfoType_Empty
+            DataColumnMaxWidth 5.0

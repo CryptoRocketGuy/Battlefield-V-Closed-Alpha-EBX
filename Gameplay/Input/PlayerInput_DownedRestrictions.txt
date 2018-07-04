@@ -1,0 +1,110 @@
+LogicPrefabBlueprint d47d15c250dc1f419b85e77ef01d19eb
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Input/PlayerInput_DownedRestrictions
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000000
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000003
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id -559281700
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1864525248
+                        TargetEvent::EventSpec
+                            Id 1928776733
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 17616808
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(3)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 200011209
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000002
+            member(1) 00000003
+            member(2) 00000001
+        TimeDeltaType TimeDeltaType_None
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 17616808
+        member(1)::DynamicEvent
+            Id 200011209
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+InvertedInputRestrictionEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 92100663
+    EnabledInputs::array
+        member(0) 500159693
+        member(1) 500159692
+        member(2) 1131373846
+        member(3) 1131373847
+        member(4) -1130837898
+        member(5) 617030942
+        member(6) -1727611543
+        member(7) 1582600270
+        member(8) 1017609819
+        member(9) -1921408025
+        member(10) -754024050
+        member(11) 1018573301
+        member(12) -168540387
+        member(13) 318571905
+        member(14) -1949531621
+        member(15) -442021152
+        member(16) 1077554143
+    OverridePreviousInputRestriction True
+    ApplyRestrictionsToSpecificPlayer True
+    ApplyToAllOnInvalidPlayer False
+PlayerFilterEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 96403649
+    Realm Realm_Server
+    InvertFilter False
+    ForwardToSpectators False
+PlayerFilterEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 84854781
+    Realm Realm_Server
+    InvertFilter False
+    ForwardToSpectators False

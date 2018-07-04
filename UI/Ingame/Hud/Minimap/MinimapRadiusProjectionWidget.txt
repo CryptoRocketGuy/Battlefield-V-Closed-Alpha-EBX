@@ -1,0 +1,347 @@
+UIWidgetBlueprint cfe498b89acec544b663c55e903c1c08
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/Minimap/MinimapRadiusProjectionWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId 231223453
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId -2024647575
+                            TargetFieldId -2024647575
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000004
+                            Target 00000006
+                            SourceFieldId 193453899
+                            TargetFieldId 1587879627
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId -1181936457
+                            TargetFieldId 1371334748
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000004
+                            SourceFieldId -333221533
+                            TargetFieldId -996560163
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000003
+                            Target 00000006
+                            SourceFieldId -333221533
+                            TargetFieldId 1849555402
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000001
+BFUIElementShapeEntityData 00000000
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 134217728
+            InstanceName Circle
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 1.0
+                y 1.0
+                z 1.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 1547361719
+            Size::Vec2
+                x 1.0
+                y 1.0
+            LayoutMode UILayoutMode_AnchorOffset
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.5
+                Y 0.5
+            Position::UIElementOffset
+                X 0.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 0.0
+                Height 0.0
+            Alpha 1.0
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    ShapeDefinition UI/Ingame/Deploy/Assets/DakarCentreCircle/7104ac02ad53844c9f2db1e0a5b07aa2
+    RampWidth 1.0
+    ExtraGeometry 1.0
+    BlendMode UIBlendMode_AlphaBlend
+    ZOrder 0
+    KeepAspectRatio True
+    ScaleLineWidths True
+    UseColorAsOverlay False
+    OverrideBlendMode False
+BFUIMinimapProjectionWidgetData 00000001
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 188334192
+            Size::UIElementSize
+                X 1.0
+                Y 1.0
+            Layers::array
+                member(0) 00000005
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000004
+                member(1) 00000002
+                member(2) 00000006
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    MinimapWorldViewAsset dfe3663afbc4e5119a0efe3a81321462/3c2f82e642c1d0ee70899fc93d01956c
+    WorldTransform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    AreaRadius 0.0
+    UseLink False
+    ClipToEdge False
+ScaleTransformBuilderEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 167149961
+    Realm Realm_Client
+    Scale::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -333221533
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1181936457
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 139063953
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 2
+                    member(1) 0
+                    member(2) 1
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 -996560163
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 1371334748
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 2
+                Param1 1073741824
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 3
+                Param1 0
+                Param2 1
+            member(4)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 2
+                Param1 3
+                Param2 2
+            member(5)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 3
+                Param1 1073741824
+                Param2 0
+            member(6)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 0
+                Param1 0
+                Param2 1
+            member(7)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 0
+                Param1 0
+                Param2 3
+            member(8)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 1
+                Param1 1065353216
+                Param2 0
+            member(9)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 2088167974
+                Param2 0
+            member(10)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 16
+                Param2 0
+    EvaluateOnEvent False
+UIElementLayerEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName Dakar
+    Elements::array
+        member(0) 00000000
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True
+WSPropertyDebugEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 151948956
+    Realm Realm_Client
+    Owner *nullString*
+    EntityName *nullString*
+    SubName Radius
+    Inputs::array
+        member(0)::PropertyDebugInput
+            Name ZoneRadius
+            NameInternal InputZoneRadius
+            NameHash 1936715637
+            TypeName Float32
+            TypeClass PropertyDebugTypeClass_Float
+            TypeNameHash 2134484916
+            Index 0
+        member(1)::PropertyDebugInput
+            Name HackRadius
+            NameInternal InputHackRadius
+            NameHash 1849555402
+            TypeName Float32
+            TypeClass PropertyDebugTypeClass_Float
+            TypeNameHash 2134484916
+            Index 1
+        member(2)::PropertyDebugInput
+            Name DefaultRadius
+            NameInternal InputDefaultRadius
+            NameHash 463683360
+            TypeName Float32
+            TypeClass PropertyDebugTypeClass_Float
+            TypeNameHash 2134484916
+            Index 2
+        member(3)::PropertyDebugInput
+            Name Scale
+            NameInternal InputScale
+            NameHash 1587879627
+            TypeName Vec3
+            TypeClass PropertyDebugTypeClass_Vec3
+            TypeNameHash 2089241862
+            Index 3
+    SupportsGameView False
+    ShowDataPath False
+    ShowOnScreen False
+    RuntimeVisible True

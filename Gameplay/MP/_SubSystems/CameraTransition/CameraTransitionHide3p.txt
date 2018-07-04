@@ -1,0 +1,159 @@
+LogicPrefabBlueprint 2303ba2611a5403208fc29cad7dcec22
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MP/_SubSystems/CameraTransition/CameraTransitionHide3p
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 208768797
+                            TargetFieldId 177636
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 15
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -377987477
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 76c648ca6d80c94dbb144e8e454e3b2e
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 1186550160
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 76c648ca6d80c94dbb144e8e454e3b2e
+                        SourceEvent::EventSpec
+                            Id 2088727237
+                        TargetEvent::EventSpec
+                            Id 1187295123
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 76c648ca6d80c94dbb144e8e454e3b2e
+            member(2) 00000000
+        TimeDeltaType TimeDeltaType_None
+CharacterProxyData 76c648ca6d80c94dbb144e8e454e3b2e
+    $::BlueprintProxyData
+        $::BlueprintProxyPropertyFilterData
+            $::LogicReferenceObjectData
+                $::ReferenceObjectData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 38323830
+                    Blueprint Gameplay/Characters/Soldiers/MP_Soldier/c3b80db743c0e441971dc997970d35a5
+                    BlueprintTransform::LinearTransform
+                        right::Vec3
+                            x 1.0
+                            y 0.0
+                            z 0.0
+                        up::Vec3
+                            x 0.0
+                            y 1.0
+                            z 0.0
+                        forward::Vec3
+                            x 0.0
+                            y 0.0
+                            z 1.0
+                        trans::Vec3
+                            x 0.0
+                            y 0.0
+                            z 0.0
+                    ObjectVariation *nullGuid*
+                    StreamRealm StreamRealm_None
+                    RadiosityTypeOverride RadiosityTypeOverride_None
+                    LightmapResolutionScale 0
+                    RenderingOverrides::RenderingOverrides
+                        ShadowEnable RenderingOverride_Inherit
+                        SunShadowEnable RenderingOverride_Inherit
+                        LocalShadowEnable RenderingOverride_Inherit
+                        DynamicReflectionEnable RenderingOverride_Inherit
+                        StaticReflectionEnable RenderingOverride_Inherit
+                        DistantShadowCacheEnable RenderingOverride_Inherit
+                        RenderLateEnable RenderingOverride_Inherit
+                        RootShaderEffect RenderingOverride_Inherit
+                    ForceSeparateEnlightenSystem False
+                    CastSunShadowEnable True
+                    CastReflectionEnable True
+                    CastEnvmapEnable True
+                    Excluded False
+                    CreateIndestructibleEntity False
+                LocalPlayerId LocalPlayerId_0
+                SubRealm SubRealm_All
+        PreviewSpawnPosition::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+        ConnectedProperties *nullArray*
+        PreviewInGameView False
+    Template *nullGuid*
+    UseLocalPlayerCharacter True
+BFRealtimeDelayEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 36845537
+    Delay 1.0
+    Realm Realm_Client
+    TimeDeltaType TimeDeltaType_World
+    UseRealTimeClock True
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+CompareFloatEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 147967123
+    Realm Realm_Client
+    A 0.0
+    B 0.850000023842
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 208768797
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -377987477
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

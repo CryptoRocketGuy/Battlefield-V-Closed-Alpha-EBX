@@ -1,0 +1,199 @@
+RigidMeshAsset bf05f66e7fc64445a94d8edc3f7bb6be
+    $::MeshAsset
+        $::Asset
+            $::DataContainer
+            Name artassets/props/_lightfixtures/industryportablelamp_01/industryportablelamp_01_Mesh
+        BlendShapeChannelHashes *nullArray*
+        MeshSetResource 8d6b7550e309901b
+        OccluderMeshResource 0000000000000000
+        LodGroup LodGroups/WorldSmall_LodNormal_CullNormal/fbc3d173e46511814f58eb24f8f01168
+        LodScale 1.0
+        CullScale 1.0
+        ShaderQualitySwitch -1
+        LodDistanceMethod LodDistanceMethod_BoundingSphere
+        CoverageValue 0.0
+        EnlightenType EnlightenType_Dynamic
+        EnlightenMeshLod -1
+        AutoLightmapUVsMaxDistance 0.300000011921
+        AutoLightmapUVsExpansionFactor 0.20000000298
+        AutoLightmapUVsMaxNormalDeviation 85.0
+        NormalProjectionWeight 0.0
+        ClusterSize 0.0
+        ProceduralAnimation *nullGuid*
+        Materials::array
+            member(0) 802057849ed9ce598c58526650a9297a
+            member(1) dfc533ff8c598549947f802e8d4322d8
+            member(2) e9b0ca266a688c4482d70dd21ad5da9e
+        NameHash 3151442160
+        AudioMaterial *nullGuid*
+        ContentFlagRed False
+        ContentFlagWhite True
+        ContentFlagGreen False
+        ContentFlagYellow False
+        ContentFlagBlue False
+        ContentFlagPink False
+        ContentFlagPurple False
+        ContentFlagBrown False
+        ContentFlagOrange False
+        StreamingEnable True
+        OccluderMeshEnable False
+        OccluderHighPriority False
+        OccluderIsConservative True
+        DestructionMaterialEnable False
+        EnableEnlightenStaticOverride False
+        LightmapUVsScaleCharts True
+        AutoLightmapUVs False
+        DoNotRegister False
+MeshMaterial 802057849ed9ce598c58526650a9297a
+    $::DataContainer
+    ShaderInstance *nullGuid*
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader ArtAssets/Lighting/Shaders/SS_MathLampBulbLit_01/b80a269d11041f4493f2c4bbdd2936d8
+        BoolParameters *nullArray*
+        VectorParameters::array
+            member(0)::VectorShaderParameter
+                Value::Vec4
+                    x 30000.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Intensity
+                ParameterType ShaderParameterType_Scalar
+            member(1)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName Glow_Y
+                ParameterType ShaderParameterType_Scalar
+            member(2)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName EmissiveIntensity
+                ParameterType ShaderParameterType_Scalar
+            member(3)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName ExposureAmount
+                ParameterType ShaderParameterType_Scalar
+        VectorArrayParameters *nullArray*
+        TextureParameters *nullArray*
+    TessellationType ShaderTessellationType_None
+    TessellationTriangleSize 12.0
+    TessellationMaxDistance 20.0
+    BackFaceCullEpsilon 0.5
+    ShapeFactor 0.75
+    DisplacementMap *nullGuid*
+    DisplacementScale 1.0
+    DisplacementBias 0.5
+    DisplacementMapTexCoord 0
+    CastShadow True
+    SmoothEdgeVertices False
+    DisplacementObjectScale False
+MeshMaterial dfc533ff8c598549947f802e8d4322d8
+    $::DataContainer
+    ShaderInstance *nullGuid*
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader Shaders/PresetShaders/Objects/ObjectPreset_CS+NX_DetailArray/a959b0cc36f598f79816e7e660f78227
+        BoolParameters::array
+            member(0)::BoolShaderParameter
+                ParameterName ColorTweakMaskEnable
+                Value True
+        VectorParameters::array
+            member(0)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName DetailIntensity
+                ParameterType ShaderParameterType_Scalar
+            member(1)::VectorShaderParameter
+                Value::Vec4
+                    x 2.0
+                    y 2.0
+                    z 0.0
+                    w 0.0
+                ParameterName DetailArrayTiling
+                ParameterType ShaderParameterType_Vec2
+            member(2)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0551167726517
+                    y 0.0854392424226
+                    z 0.124771818519
+                    w 1.0
+                ParameterName ColorTweak
+                ParameterType ShaderParameterType_Color
+        VectorArrayParameters *nullArray*
+        TextureParameters::array
+            member(0)::TextureShaderParameter
+                ParameterName _BaseColor
+                Value ArtAssets/Props/_LightFixtures/IndustryPortableLamp_01/T_IndustryPortableLamp_01_CS/4fbb93779c8d0c225dcf561f16639bdc
+            member(1)::TextureShaderParameter
+                ParameterName _Normal
+                Value ArtAssets/Props/_LightFixtures/IndustryPortableLamp_01/T_IndustryPortableLamp_01_NX/3e2ed8febef1f8e049b6c3e785d84685
+    TessellationType ShaderTessellationType_None
+    TessellationTriangleSize 12.0
+    TessellationMaxDistance 20.0
+    BackFaceCullEpsilon 0.5
+    ShapeFactor 0.75
+    DisplacementMap *nullGuid*
+    DisplacementScale 1.0
+    DisplacementBias 0.5
+    DisplacementMapTexCoord 0
+    CastShadow True
+    SmoothEdgeVertices False
+    DisplacementObjectScale False
+MeshMaterial e9b0ca266a688c4482d70dd21ad5da9e
+    $::DataContainer
+    ShaderInstance *nullGuid*
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader ArtAssets/Lighting/Shaders/SS_LampBodyEmissive_CS+NM/668b218253f83a459bc44d2084dbeeea
+        BoolParameters::array
+            member(0)::BoolShaderParameter
+                ParameterName DisableRootShaderEffects
+                Value True
+        VectorParameters::array
+            member(0)::VectorShaderParameter
+                Value::Vec4
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName EmissiveIntensity
+                ParameterType ShaderParameterType_Scalar
+            member(1)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName ExposureAmount
+                ParameterType ShaderParameterType_Scalar
+        VectorArrayParameters *nullArray*
+        TextureParameters::array
+            member(0)::TextureShaderParameter
+                ParameterName BaseColor
+                Value ArtAssets/Props/_LightFixtures/IndustryPortableLamp_01/T_IndustryPortableLamp_01_CS/4fbb93779c8d0c225dcf561f16639bdc
+            member(1)::TextureShaderParameter
+                ParameterName Normal
+                Value ArtAssets/Props/_LightFixtures/IndustryPortableLamp_01/T_IndustryPortableLamp_01_NX/3e2ed8febef1f8e049b6c3e785d84685
+    TessellationType ShaderTessellationType_None
+    TessellationTriangleSize 12.0
+    TessellationMaxDistance 20.0
+    BackFaceCullEpsilon 0.5
+    ShapeFactor 0.75
+    DisplacementMap *nullGuid*
+    DisplacementScale 1.0
+    DisplacementBias 0.5
+    DisplacementMapTexCoord 0
+    CastShadow True
+    SmoothEdgeVertices False
+    DisplacementObjectScale False

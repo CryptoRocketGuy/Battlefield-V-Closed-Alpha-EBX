@@ -1,0 +1,222 @@
+LogicPrefabBlueprint 6fc58631e38621646e202faaf061125d
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/Prefabs/Equipment_WingRepair
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId 193453899
+                            TargetFieldId 193450867
+                            Flags 1
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000005
+                            SourceFieldId -755725538
+                            TargetFieldId 5862146
+                            Flags 1
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -924188002
+                            TargetFieldId 193450864
+                            Flags 1
+                        member(3)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId -529943935
+                            Flags 17
+                        member(4)::PropertyConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId -1254617153
+                            TargetFieldId 177629
+                            Flags 1
+                        member(5)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 504103240
+                            Flags 3
+                        member(6)::PropertyConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId -924188002
+                            TargetFieldId 2089008817
+                            Flags 1
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -1968472300
+                            TargetFieldId 267102406
+                    Interface 00000002
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -588438990
+                        TargetEvent::EventSpec
+                            Id 193450866
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(1)::EventConnection
+                        Source 00000004
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 2089011355
+                        TargetEvent::EventSpec
+                            Id 544089616
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000005
+            member(1) 00000001
+            member(2) 00000003
+            member(3) 00000000
+            member(4) 00000004
+        TimeDeltaType TimeDeltaType_None
+BFVehicleStateTriggerEntityData 00000000
+    $::VehicleStateTriggerEntityData
+        $::TriggerEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 1951378671
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Delay 0.0
+            RunOnce False
+            Enabled True
+        LockAmount 0.0
+        SeatSpecificIndexForHuman 0
+        SeatSpecificIndexForAi 0
+        BulletCount 1
+        HealthToSet 100
+        HealthToCheck 100
+        DestructionRadius 5.0
+        AllowHumanToEnterAllSeats True
+        RestrictHumanToSpecificSeat False
+        AllowAiToEnterAllSeats True
+        BanAiFromSpecificSeat False
+        TriggerCriticalOnHealthSet False
+        CheckHealthGreaterOrEqual True
+        ShouldDestroyVehicles True
+        ShouldDestroyBangers True
+    Realm Realm_Server
+    DamageToGive 0.0
+    ShouldUnspawnExplosionPacks True
+AndEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 403374943
+    Realm Realm_ClientAndServer
+    InputCount 2
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -755725538
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -924188002
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -529943935
+                AccessType FieldAccessType_Source
+            member(3)::DataField
+                Value Float32 150
+                ValueRef *nullGuid*
+                Id -1254617153
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -588438990
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id 267102406
+MathEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 408010461
+    Realm Realm_ClientAndServer
+    Assembly::MathEntityAssembly
+        FunctionCalls *nullArray*
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 177629
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_NegF
+                Result 0
+                Param1 0
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False
+MultiEventGateEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 506165889
+    Realm Realm_ClientAndServer
+    EventCount 1
+    Events::array
+        member(0)::MultiEventGateEventInfo
+            InEventHash 193450866
+            OutEventHash 2089011355
+    Open False
+NotEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 419505165
+    Realm Realm_ClientAndServer
+    In False

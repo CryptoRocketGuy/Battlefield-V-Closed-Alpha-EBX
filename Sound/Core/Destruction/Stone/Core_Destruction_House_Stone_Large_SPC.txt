@@ -1,0 +1,141 @@
+SoundPatchConfigurationAsset 47eeb39743f1d641a05b60fbd8a66f4b
+    $::SoundAsset
+        $::Asset
+            $::DataContainer
+            Name Sound/Core/Destruction/Stone/Core_Destruction_House_Stone_Large_SPC
+        Scope 939dc7121ced4b4f81b9a751282d92e1/a7ac14875e81ff488ab91cad4d57ec61
+        ReferencedData::array
+            member(0)::SoundDataReference
+                DataOwner Sound/Core/Destruction/SourcePatch/Core_Destruction_House_Stone_SourcePatch/5cbcea5d54270e4289b0576271ae89b5
+                SoundData Sound/Core/Destruction/Stone/Core_Destruction_Stone_Crack_XLarge_VAR_04_Wave/e4fc053aa7e5e5f57cdcd2bc7214a5c6
+            member(1)::SoundDataReference
+                DataOwner Sound/Core/Destruction/SourcePatch/Core_Destruction_House_Stone_SourcePatch/b4f846279aea7e4abc331f9c025bd0fb
+                SoundData Sound/Core/Destruction/Stone/Core_Destruction_Stone_Crack_Distant_Medium_02/365bd7027f7b72d9c307be56eea34fcf
+            member(2)::SoundDataReference
+                DataOwner Sound/Core/Destruction/SourcePatch/Core_Destruction_House_Stone_SourcePatch/4117d95439809f468f41e892da7b35d4
+                SoundData Sound/Core/Destruction/Stone/Core_Destruction_Stone_Debris_Large_03_Wave/aedb94d462276a506624cb836c4317ac
+        MaxActiveInstanceCount 30
+    Sound Sound/Core/Destruction/SourcePatch/Core_Destruction_House_Stone_SourcePatch/82c53ddf5c2f86408d4118f68de4fe7d
+    Loudness 112.0
+    Radius 0.0
+    Mixer *nullGuid*
+    NodeConfigs::array
+        member(0) 52ae1eff5e08b14582d3189793c2c2b8
+        member(1) 535cf82f7c6d264f9b1361f56393c8f1
+    ParameterConfigs::array
+        member(0) 831f2651edaec24c8cb7bebd7d5eb7d1
+        member(1) 4a0fd0d4c54ed643b384bbeeb3f43358
+        member(2) 78a7387535be9a4f870ed654a3985643
+        member(3) fea4bc47254ce04198ad2f7a4350550a
+        member(4) 2e1c091ce4382846be9ca3960a5463b4
+        member(5) 0a934930a1bbab42aa6c5b78b5163502
+        member(6) 0c98495c6027514a8925455619539043
+        member(7) ef83999edbd54c47989a8be42706df8b
+        member(8) 753ba72e2eeed0459c8606d0b8b348de
+    DebugData *nullGuid*
+AudioGraphValueParameterConfigData 0a934930a1bbab42aa6c5b78b5163502
+    $::AudioGraphParameterConfigData
+        $::DataContainer
+        NameHash 108125994
+    Value 0.800000011921
+AudioGraphValueParameterConfigData 0c98495c6027514a8925455619539043
+    $::AudioGraphParameterConfigData
+        $::DataContainer
+        NameHash 2705987245
+    Value 1.10000002384
+AudioGraphValueParameterConfigData 2e1c091ce4382846be9ca3960a5463b4
+    $::AudioGraphParameterConfigData
+        $::DataContainer
+        NameHash 3298418640
+    Value 1.20000004768
+AudioGraphAssetParameterConfigData 4a0fd0d4c54ed643b384bbeeb3f43358
+    $::AudioGraphParameterConfigData
+        $::DataContainer
+        NameHash 3085889161
+    Asset Sound/Core/Destruction/Stone/Core_Destruction_Stone_Crack_Distant_Medium_02/365bd7027f7b72d9c307be56eea34fcf
+MultiCrossfaderNodeConfigData 52ae1eff5e08b14582d3189793c2c2b8
+    $::AudioGraphNodeConfigData
+        $::DataContainer
+        Node Sound/Core/Destruction/SourcePatch/Core_Destruction_House_Stone_SourcePatch/4ccdcc7332fb9c488a623e1c62592437
+    CrossfaderGroups::array
+        member(0)::MultiCrossfaderConfigGroup
+            FadeAmplitude 1.0
+            FadeBegin 10.0
+            FadeEnd 40.0
+            FadeType FaderType_Linear
+ObjectOutputNodeConfigData 535cf82f7c6d264f9b1361f56393c8f1
+    $::OutputNodeConfigData
+        $::AudioGraphNodeConfigData
+            $::DataContainer
+            Node Sound/Core/Destruction/SourcePatch/Core_Destruction_House_Stone_SourcePatch/deba93d1b2f92044ba01a7a277ee5439
+        MinDistance 15.0
+        AttenuationCurve::AudioCurve
+            Points::array
+                member(0)::AudioCurvePoint
+                    X 0.502475202084
+                    Y 0.0
+                    K -0.197046101093
+                member(1)::AudioCurvePoint
+                    X 50.2404289246
+                    Y -12.6286201477
+                    K -0.367617070675
+                member(2)::AudioCurvePoint
+                    X 99.781539917
+                    Y -32.4607315063
+                    K -0.295818626881
+                member(3)::AudioCurvePoint
+                    X 153.934677124
+                    Y -56.6334991455
+                    K -1.01169157028
+                member(4)::AudioCurvePoint
+                    X 200.79649353
+                    Y -130.539138794
+                    K -1.85980010033
+            CurveType AudioCurveType_Spline
+        HFDampingDistance 0.75
+        HFDampingObstruction 0.75
+        HFDampingOcclusion 0.5
+        Gain 0.0
+        ExpectedPeakAmplitude 0.0
+        MixGroup 6ef50547e873df11b364a6a8deb4f741/aff482821d746847a92b73b198355b4a
+        EnableHdr True
+    OutsideGain -12.0
+    BleedMinDistance -1.0
+    BleedMaxDistance 4.0
+    Direction::Vec3
+        x 0.0
+        y 1.0
+        z 0.0
+    InnerAngle 360.0
+    OuterAngle 360.0
+    HFDampingAngle 1.0
+    ReverbAttenuationCurve::AudioCurve
+        Points *nullArray*
+        CurveType AudioCurveType_Spline
+    ReverbGain -23.0
+    ObjectPatch *nullGuid*
+AudioGraphValueParameterConfigData 753ba72e2eeed0459c8606d0b8b348de
+    $::AudioGraphParameterConfigData
+        $::DataContainer
+        NameHash 608513385
+    Value 0.0
+AudioGraphAssetParameterConfigData 78a7387535be9a4f870ed654a3985643
+    $::AudioGraphParameterConfigData
+        $::DataContainer
+        NameHash 3512742429
+    Asset Sound/Core/Destruction/Stone/Core_Destruction_Stone_Debris_Large_03_Wave/aedb94d462276a506624cb836c4317ac
+AudioGraphAssetParameterConfigData 831f2651edaec24c8cb7bebd7d5eb7d1
+    $::AudioGraphParameterConfigData
+        $::DataContainer
+        NameHash 1980056974
+    Asset Sound/Core/Destruction/Stone/Core_Destruction_Stone_Crack_XLarge_VAR_04_Wave/e4fc053aa7e5e5f57cdcd2bc7214a5c6
+AudioGraphValueParameterConfigData ef83999edbd54c47989a8be42706df8b
+    $::AudioGraphParameterConfigData
+        $::DataContainer
+        NameHash 1155156964
+    Value 1.10000002384
+AudioGraphValueParameterConfigData fea4bc47254ce04198ad2f7a4350550a
+    $::AudioGraphParameterConfigData
+        $::DataContainer
+        NameHash 2123324631
+    Value 1.79999995232

@@ -1,0 +1,226 @@
+LogicPrefabBlueprint 5fb72f3ec861df48aafc29501650c230
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Roster/Prefabs/CheckScrapItem
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000004
+                            SourceFieldId 2088937072
+                            TargetFieldId -1969142196
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId -758876579
+                            TargetFieldId -1204114666
+                            Flags 18
+                        member(2)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId -1141221956
+                            TargetFieldId 886871593
+                            Flags 18
+                        member(3)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId -1615630641
+                            TargetFieldId 268503081
+                            Flags 18
+                        member(4)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -1113133251
+                            TargetFieldId -1113133251
+                            Flags 18
+                        member(5)::PropertyConnection
+                            Source 00000001
+                            Target 00000003
+                            SourceFieldId 834700998
+                            TargetFieldId 2089008817
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -141474860
+                            TargetFieldId -8764481
+                            Flags 34
+                        member(7)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -141474859
+                            TargetFieldId 1452535884
+                            Flags 34
+                        member(8)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -141474858
+                            TargetFieldId -5219460
+                            Flags 34
+                        member(9)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -141474859
+                            TargetFieldId -563993809
+                            Flags 34
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -59447593
+                        TargetEvent::EventSpec
+                            Id 231202870
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 748385385
+                        TargetEvent::EventSpec
+                            Id 193450866
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 2089011355
+                        TargetEvent::EventSpec
+                            Id -117918657
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000002
+            member(1) 00000004
+            member(2) 00000000
+            member(3) 00000003
+        TimeDeltaType TimeDeltaType_None
+UIPopupEntityData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 177187434
+            Blueprint UI/Popups/ScrapItemPopup/ee580f1a5a52164d9863fc95f25b76ae
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 1
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2088937072
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1113133251
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 834700998
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value CString "SCRAP"
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+            member(4)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id -141474859
+                AccessType FieldAccessType_Target
+            member(5)::DataField
+                Value CString "CANCEL"
+                ValueRef *nullGuid*
+                Id -141474858
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 748385385
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 231202870
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+LocalizedStringIdPickerEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 14351661
+    Realm Realm_Client
+    Sid ID_M_SCRAPITEM
+MultiEventGateEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 182210886
+    Realm Realm_Client
+    EventCount 1
+    Events::array
+        member(0)::MultiEventGateEventInfo
+            InEventHash 193450866
+            OutEventHash 2089011355
+    Open True
+UIGetMetaDataEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 148432664
+    UIObject *nullGuid*
+    StringKey *nullString*
+    HashKey 0
+    UIMetaDataType UIGenericUnlockMetaData

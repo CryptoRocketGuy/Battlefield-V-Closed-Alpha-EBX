@@ -1,0 +1,152 @@
+LogicPrefabBlueprint 0528884eed6192d5d9d5d33f05767a7b
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MP/_SubSystems/GenerateTeamEvent
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 1753756911
+                            TargetFieldId 1658462601
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId 225375086
+                            TargetFieldId 1753756911
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000001
+                            Target 00000003
+                            SourceFieldId 225375086
+                            TargetFieldId 1753756911
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -141474860
+                            TargetFieldId 2066049125
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000000
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 814308174
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 814308174
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -332763188
+                        TargetEvent::EventSpec
+                            Id 227737705
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -332763188
+                        TargetEvent::EventSpec
+                            Id 193442660
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -332763188
+                        TargetEvent::EventSpec
+                            Id 227737706
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -332763188
+                        TargetEvent::EventSpec
+                            Id 193442660
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000003
+            member(1) 00000002
+            member(2) 00000001
+        TimeDeltaType TimeDeltaType_None
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1753756911
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value Boolean False
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 814308174
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 227737705
+        member(1)::DynamicEvent
+            Id 227737706
+        member(2)::DynamicEvent
+            Id 193442660
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+PropertyDefaultValueEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 163209200
+    Realm Realm_Client
+    WrappedType PropertyDebugTypeClass_Bool
+    WrappedTypeHash 2520298017
+TeamFilterEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 196169822
+    Realm Realm_Client
+    Team Team2
+    InvertFilter False
+    GenerateEventForEveryMatchingTeamMember True
+    GetTeamFromPlayerEvent False
+    ForwardToSpectators False
+TeamFilterEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 184554736
+    Realm Realm_Client
+    Team Team1
+    InvertFilter False
+    GenerateEventForEveryMatchingTeamMember True
+    GetTeamFromPlayerEvent False
+    ForwardToSpectators False

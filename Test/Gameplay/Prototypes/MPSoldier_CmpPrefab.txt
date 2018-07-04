@@ -1,0 +1,94 @@
+LogicPrefabBlueprint cce7e2712d2ac647919d783ada8161d7
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Test/Gameplay/Prototypes/MPSoldier_CmpPrefab
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId -1035175189
+                            TargetFieldId 1658462601
+                            Flags 3
+                        member(1)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId -141474860
+                            TargetFieldId 2066049125
+                            Flags 3
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 225375086
+                            TargetFieldId 1572829120
+                            Flags 19
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 1629659105
+                            TargetFieldId 1938067004
+                    Interface 00000001
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+            member(1) 00000003
+            member(2) 00000002
+        TimeDeltaType TimeDeltaType_None
+GameObjectProxyEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1629719049
+    Realm Realm_ClientAndServer
+    TargetObjectType CasablancaShared.BFSoldierHealthComponentData
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Boolean False
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1572829120
+                AccessType FieldAccessType_Source
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id 1938067004
+PropertyDefaultValueEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 274903387
+    Realm Realm_Server
+    WrappedType PropertyDebugTypeClass_Bool
+    WrappedTypeHash 2520298017
+SchematicChannelEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 18497425
+    Realm Realm_ClientAndServer
+    Channel Test/Gameplay/Prototypes/CmpGameStatusHub/1fc254e4d44c8f38249ac6590b99205b
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 2
+    OutputRefProperties *nullArray*

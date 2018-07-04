@@ -1,0 +1,93 @@
+SpatialPrefabBlueprint 781973794a340659a852f0f6db863a52
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name levels/mp/mp_arcticfjord/lighting/prefabs/pfls_frenchcurtain_03_a_nongroupable_autogen_gen4
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 93748240
+                            TargetFieldId 177636
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 1564494525
+                            TargetFieldId 1000
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 2088727237
+                        TargetEvent::EventSpec
+                            Id 1489724583
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 193445146
+                        TargetEvent::EventSpec
+                            Id 1489724580
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000002
+            member(1) 00000003
+            member(2) 00000000
+        TimeDeltaType TimeDeltaType_None
+CompareFloatEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 166370485
+    Realm Realm_Client
+    A 0.0
+    B 0.5
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1000
+                AccessType FieldAccessType_Source
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+ObjectVariationSwitchEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 61518570
+    Variation1 Levels/MP/MP_ArcticFjord/Variations/FrenchCurtain_01_Cloth_WL_Night/ab51aaa2887b99499e1f93d0de77f4dc
+    Variation2 Levels/MP/MP_ArcticFjord/Variations/FrenchCurtain_01_Cloth_WL/3370b1457502d9f72277ba41653f9df2
+WeatherSequencerListenerEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 21003146
+    Realm Realm_Client
+    WSFloatVariables::array
+        member(0) DynamicWorld/WeatherSequencer/WS_WeatherVariableDatabase/001d3d0a5026014a8c07125a6f1d1b13
+    WSIntVariables *nullArray*
+    WSBoolVariables *nullArray*
+    Dummy 0

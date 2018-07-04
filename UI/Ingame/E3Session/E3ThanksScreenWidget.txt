@@ -1,0 +1,275 @@
+UIWidgetBlueprint 736c87acbdbafa499a056acf6bd08438
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/E3Session/E3ThanksScreenWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000005
+                            Target 00000000
+                            SourceFieldId 601669547
+                            TargetFieldId 205677681
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000003
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000005
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 650265526
+                        TargetEvent::EventSpec
+                            Id -1980646519
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000003
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -1203115814
+                        TargetEvent::EventSpec
+                            Id 2089460481
+                        TargetType EventConnectionTargetType_Client
+        Object 00000007
+BFUIElementTextFieldEntityData 00000000
+    $::BFUIElementEntityData
+        $::UIElementEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 134217728
+            InstanceName DescriptionText
+            UIElementTransform::UIElementTransform
+                Rotation::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+                RotationPivot::Vec3
+                    x 0.5
+                    y 0.5
+                    z 0.0
+                Z 0.0
+            Color::Vec3
+                x 1.0
+                y 1.0
+                z 1.0
+            Transform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            InstanceNameHash 2969243998
+            Size::Vec2
+                x 1920.0
+                y 60.0
+            LayoutMode UILayoutMode_AnchorOffset
+            Offset::UIElementOffset
+                X 0.0
+                Y 0.0
+            Anchor::UIElementAnchor
+                X 0.5
+                Y 0.40000000596
+            Position::UIElementOffset
+                X 40.0
+                Y 0.0
+            Expansion::UIElementRectExpansion
+                X 0.0
+                Y 0.0
+                Width 1.0
+                Height 0.0
+            Alpha 0.800000011921
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+    Text::BFUILegacyElementText
+        Sid THANK YOU FOR PLAYING!
+        VerticalAlignment UIElementAlignment_Center
+        HorizonalAlignment UIElementAlignment_Center
+        HorizonalAlignmentForRTL UIElementAlignment_Center
+        Wordwrap False
+    FontStyle UI/Fonts/StylesCasablanca/BF-Head_Regular_60px/286fe73da1ec0d4185c2d1bc32a6d2c7
+    FontEffect *nullGuid*
+    TextOffset 0.0
+    AutoAdjustLeftPadding 0.0
+    AutoAdjustRightPadding 0.0
+    AutoScroll UIAutoScroll_None
+    FieldText *nullString*
+    LocalizedText *nullGuid*
+    RowSpacing 0.0
+    BlendMode UIBlendMode_Add
+    ZOrder 0
+    AutoAdjustWidth False
+    ClipToRect False
+    Password False
+    WordWrap False
+    PixelSnapping False
+    UseColorAsOverlay False
+    OverrideBlendMode True
+CurveData 00000001
+    $::DataContainer
+    PreInfinity InfinityType_Constant
+    PostInfinity InfinityType_Constant
+    CurveType CurveType_Complex
+    Time::array
+        member(0) 0.0
+        member(1) 0.3065969944
+        member(2) 1.61491942406
+        member(3) 2.06167054176
+    Value::array
+        member(0) 0.0
+        member(1) 0.0
+        member(2) 1.0
+        member(3) 1.0
+    InTanX::array
+        member(0) 1.0
+        member(1) 1.0
+        member(2) 1.0
+        member(3) 1.0
+    InTanY::array
+        member(0) 0.0
+        member(1) 0.0
+        member(2) 0.0
+        member(3) 0.0
+    OutTanX::array
+        member(0) 1.0
+        member(1) 1.0
+        member(2) 1.0
+        member(3) 1.0
+    OutTanY::array
+        member(0) 0.0
+        member(1) 0.0
+        member(2) 0.0
+        member(3) 0.0
+    IsWeighted False
+FloatTrackData 00000002
+    $::PropertyTrackBaseData
+        $::SchematicPinTrackData
+            $::TimelineTrackData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 0
+                Conditions *nullArray*
+                UpdatePassFlags 64
+                BucketPreChildrenOrder 0
+                BucketOrder 1
+                ExposePins True
+                IsDisabled False
+            SourcePinId 601669547
+            TargetPinId 0
+            TargetPinNameHash 611740330
+    CurveData 00000001
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1203115814
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -1980646519
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+TimelineData 00000004
+    $::TimelineTrackData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+        Conditions *nullArray*
+        UpdatePassFlags 3072
+        BucketPreChildrenOrder 0
+        BucketOrder 2
+        ExposePins False
+        IsDisabled False
+    Children::array
+        member(0) 00000002
+TimelineEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 45444576
+    Realm Realm_Client
+    TimelineData 00000004
+    DeltaTimeClock Clock_SimTimeWithWorldDilation
+    BlendInTime 0.0
+    BlendOutTime 0.0
+    InitTime 0.0
+    StartTime 0.0
+    EndTime 30.0
+    JumpTime 0.0
+    PlaybackRate 1.0
+    ExternalTime 0.0
+    ExternalAudioTime 0.0
+    UpdatePassFlags 3136
+    AutoPlay False
+    AutoInitConnectedProperties False
+    ResetTimeOnStarted True
+    AllowAnimationCarryForward False
+    SyncTimelines False
+    HoldLastFrame False
+    TimelineInterpolation False
+    RuntimeFramerate 0
+    Looping False
+    Infinite False
+UIElementLayerEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 0
+    LayerName BaseLayer
+    Elements::array
+        member(0) 00000000
+    InclusionSettings::UIElementInclusionSettings
+        CustomInclusionCritera *nullArray*
+        IsSingleplayerLayer True
+        IsMultiplayerLayer True
+        IsSDLayer True
+        IsHDLayer True
+    Visible True
+UIWidgetEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 186793782
+    Size::UIElementSize
+        X 1920.0
+        Y 1080.0
+    Layers::array
+        member(0) 00000006
+    TextureMappings::array
+        member(0) UI/Ingame/Hud/TextureMappings/E3SessionHudTextures/2380fd6f43de2a4c9f364bd96c2f4ad8
+    Components::array
+        member(0) 00000005
+    Visible True

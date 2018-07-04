@@ -1,0 +1,325 @@
+WorldPartData 45bc9745fe24b5469ba2c6ae32760b8e
+    $::LayerData
+        $::PrefabBlueprint
+            $::Blueprint
+                $::EntityBusData
+                    $::DataBusData
+                        $::Asset
+                            $::DataContainer
+                            Name Levels/MP/MP_ArcticFjord/Water_Schematic
+                        PropertyConnections *nullArray*
+                        LinkConnections *nullArray*
+                        Interface *nullGuid*
+                        Flags 0
+                    EventConnections *nullArray*
+            Objects::array
+                member(0) 6822eccf9058ad4e814845dd1bb9f7a5
+                member(1) 7728b8993c9ba044b0f6ffcff6efea7b
+                member(2) 0083877bef709f4ab915e49229dce2c0
+                member(3) a68e6e9b69f39047b274ae4d83f59ff0
+                member(4) fe566fe3cd1cf845bb8a1c950e225970
+                member(5) 8e619f066440b1428b4d21d0db267022
+                member(6) f42abd18376bde4bac9dc8c3a581d1c5
+                member(7) 0d752e4db87d794eac62f0cb52ea5283
+            TimeDeltaType TimeDeltaType_None
+        HackToSolveRealTimeTweakingIssue 68FBA72A4C790201BADD4BE973A7AF0C
+        Enabled True
+WaterTiledSimulationEntityData 0083877bef709f4ab915e49229dce2c0
+    $::WaterSimulationEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 1736934144
+        Enable True
+    WaveAmplitudeScale 1.0
+    EffectSetup *nullGuid*
+    ShoreDepth 0.5
+    HoleDepth -1.0
+    ShoreEnable True
+MathEntityData 0d752e4db87d794eac62f0cb52ea5283
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 422475021
+    Realm Realm_ClientAndServer
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 1
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 177629
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 177628
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_AddF
+                Result 0
+                Param1 0
+                Param2 1
+            member(3)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 177631
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 0
+                Param1 0
+                Param2 1
+            member(5)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 1
+                Param1 1060320051
+                Param2 0
+            member(6)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 2087696823
+                Param2 0
+            member(7)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False
+WaterFftSimulationTileEntityData 6822eccf9058ad4e814845dd1bb9f7a5
+    $::WaterSimulationEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 132915816
+        Enable True
+    WindDistribution::SplineCurve
+        XValues0::Vec4
+            x 0.0
+            y 0.00179856119212
+            z 0.271582722664
+            w 0.27338129282
+        XValues1::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        XValues2::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        YValues0::Vec4
+            x 0.0
+            y 0.0
+            z 0.222772270441
+            w 0.222772270441
+        YValues1::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        YValues2::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        YValues3::Vec4
+            x 0.0
+            y 1.0
+            z 0.0
+            w 0.0
+        GValues0::Vec4
+            x 0.000104267783172
+            y 0.0
+            z 0.00330034596846
+            w -0.761904776096
+        GValues1::Vec4
+            x 0.0
+            y 0.495049387217
+            z -0.00188591238111
+            w 0.0
+        GValues2::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        GValues3::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        GValues4::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        GValues5::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        SplineType SplineType_5ControlPoints
+    Resolution::PlatformScalableInt
+        Default 256
+        Gen4a 64
+        Gen4b 64
+        Linux 64
+    TileDimension 100.0
+    Choppiness 2.68600010872
+    WaveAmplitude 0.414999991655
+    WindSpeed 11.7899999619
+    WindAngle 209.082992554
+    LowPassFilter 1.0
+    HighPassFilter 0.0
+    FoamHalfLife 4.0
+    FoamThreshold 0.10000000149
+    FoamMaxValue 0.360000014305
+    PhysicsSimulationEnabled True
+    EnableFoam True
+WaterFftSimulationTileEntityData 7728b8993c9ba044b0f6ffcff6efea7b
+    $::WaterSimulationEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 129509495
+        Enable True
+    WindDistribution::SplineCurve
+        XValues0::Vec4
+            x 0.0
+            y 0.0197841729969
+            z 0.31654676795
+            w 0.318345338106
+        XValues1::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        XValues2::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        YValues0::Vec4
+            x 0.0
+            y 0.0
+            z 0.153465345502
+            w 0.153465345502
+        YValues1::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        YValues2::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        YValues3::Vec4
+            x 0.0
+            y 1.0
+            z 0.0
+            w 0.0
+        GValues0::Vec4
+            x -0.0207920782268
+            y 0.0291725583375
+            z 0.00213551870547
+            w -0.559579908848
+        GValues1::Vec4
+            x 0.00194483727682
+            y 0.352358788252
+            z -0.00147647142876
+            w -0.0283333063126
+        GValues2::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        GValues3::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        GValues4::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        GValues5::Vec4
+            x 0.0
+            y 0.0
+            z 0.0
+            w 0.0
+        SplineType SplineType_5ControlPoints
+    Resolution::PlatformScalableInt
+        Default 64
+        Gen4a 32
+        Gen4b 32
+        Linux 32
+    TileDimension 4.0
+    Choppiness 2.05200004578
+    WaveAmplitude 0.331999987364
+    WindSpeed 5.36899995804
+    WindAngle 326.174987793
+    LowPassFilter 1.0
+    HighPassFilter 0.0
+    FoamHalfLife 0.25
+    FoamThreshold -1.12800002098
+    FoamMaxValue 0.0010000000475
+    PhysicsSimulationEnabled False
+    EnableFoam False
+SyncedFloatEntityData 8e619f066440b1428b4d21d0db267022
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 278880654
+    Max 0.0
+    Precision SyncedFloatPrecision_Full
+FloatEntityData a68e6e9b69f39047b274ae4d83f59ff0
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 24022694
+    Realm Realm_ClientAndServer
+    DefaultValue 0.75
+    IncDecValue 1.0
+SyncedFloatEntityData f42abd18376bde4bac9dc8c3a581d1c5
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 280832756
+    Max 0.0
+    Precision SyncedFloatPrecision_Full
+SchematicChannelEntityData fe566fe3cd1cf845bb8a1c950e225970
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 24073982
+    Realm Realm_ClientAndServer
+    Channel Gameplay/WorldSequencer/WeatherState_Hub/edf23dd5b615174a9429124d162205e2
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 3
+        member(1) 6
+    OutputRefProperties *nullArray*

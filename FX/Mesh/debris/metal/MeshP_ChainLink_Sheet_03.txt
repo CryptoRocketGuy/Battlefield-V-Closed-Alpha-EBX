@@ -1,0 +1,73 @@
+ObjectVariation 5861ffe9e94ef7477519c43a4d804da8
+    $::Asset
+        $::DataContainer
+        Name FX/Mesh/Debris/Metal/MeshP_ChainLink_Sheet_03
+    NameHash 1001654127
+MeshMaterialVariation e40f7c43e1d9e145bab41ccd48b61a55
+    $::DataContainer
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader FX/Mesh/Shaders/FXMS_PropPreset_AlphaTest_RadialMask_Erosion/e1b39cd5a12597499a94430c4504403b
+        BoolParameters::array
+            member(0)::BoolShaderParameter
+                ParameterName UseAlphaErode
+                Value True
+            member(1)::BoolShaderParameter
+                ParameterName UseObjectScale
+                Value True
+        VectorParameters::array
+            member(0)::VectorShaderParameter
+                Value::Vec4
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName SmoothnessScale
+                ParameterType ShaderParameterType_Scalar
+            member(1)::VectorShaderParameter
+                Value::Vec4
+                    x 1.5
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName RadialMask_Radius
+                ParameterType ShaderParameterType_Scalar
+            member(2)::VectorShaderParameter
+                Value::Vec4
+                    x 4.0
+                    y 0.0
+                    z 0.0
+                    w 0.0
+                ParameterName RadialMask_Hardness
+                ParameterType ShaderParameterType_Scalar
+            member(3)::VectorShaderParameter
+                Value::Vec4
+                    x 0.100481517613
+                    y 0.100481517613
+                    z 0.100481517613
+                    w 1.0
+                ParameterName BaseColor
+                ParameterType ShaderParameterType_Color
+            member(4)::VectorShaderParameter
+                Value::Vec4
+                    x 60.0
+                    y 60.0
+                    z 0.0
+                    w 0.0
+                ParameterName TextureTiling
+                ParameterType ShaderParameterType_Vec2
+            member(5)::VectorShaderParameter
+                Value::Vec4
+                    x 3.29999995232
+                    y 3.29999995232
+                    z 0.0
+                    w 0.0
+                ParameterName NoiseDiffuseTiling
+                ParameterType ShaderParameterType_Vec2
+        VectorArrayParameters *nullArray*
+        TextureParameters::array
+            member(0)::TextureShaderParameter
+                ParameterName AlphaTexture
+                Value ArtAssets/Common/Architecture/FenceNet_Barbwire_01/T_FenceGrating_NX/0dad72ea3cca469ee6846a8cbac44618
+            member(1)::TextureShaderParameter
+                ParameterName NoiseTexture
+                Value FX/Lensflare/Textures/LookUp_Noise/938277c463527105ced1abf5951d26c6

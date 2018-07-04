@@ -1,0 +1,169 @@
+LogicPrefabBlueprint e2d6f1332bb9b346b838bbbfad80c2b0
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Awards/AwardTrackerQueueLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000004
+                            SourceFieldId 205847108
+                            TargetFieldId 205847108
+                            Flags 18
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId -1418291194
+                            TargetFieldId 205847108
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 223744692
+                            TargetFieldId 0
+                    Interface 00000004
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 1009471935
+                        TargetEvent::EventSpec
+                            Id 1009471935
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -376662289
+                        TargetEvent::EventSpec
+                            Id -1849152589
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id -376662289
+                        TargetEvent::EventSpec
+                            Id 933280440
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000003
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 712791270
+                        TargetEvent::EventSpec
+                            Id 2089417369
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000003
+                        Target 00000005
+                        SourceEvent::EventSpec
+                            Id 712791270
+                        TargetEvent::EventSpec
+                            Id -1719452920
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 00000000
+            member(2) 00000002
+            member(3) 00000003
+            member(4) 00000005
+        TimeDeltaType TimeDeltaType_None
+ActionMessageAsset fa9878d76c42514d9b49290f87e8002c
+    $::DataContainerPolicyAsset
+        $::Asset
+            $::DataContainer
+            Name UI/Awards/UICurrencyReceivedMessage
+    Properties::array
+        member(0)::PropertyChannel
+            Realm Realm_Client
+            Id -1804139991
+            FieldTypeHash 214528599
+ActionMessageListenerEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1621514546
+    Realm Realm_Client
+    Message UI/Awards/UIAwardProgressReceivedMessage/d07c756c81ccc34eafb7900e390bfaaa
+    Enabled True
+    QueueMessages True
+ActionMessageQueueEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 37346595
+    Realm Realm_Client
+    MessagePriority -1
+    AutoProcessQueue True
+ActionMessageSenderEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 188608884
+    Realm Realm_Client
+    Message UI/Awards/UIAwardProgressReceivedMessage/d07c756c81ccc34eafb7900e390bfaaa
+    InputPropertyIndices *nullArray*
+    InputPropertyRefIndices::array
+        member(0) 0
+ClientPersistenceAwardsTrackerEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 26832876
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 205847108
+                AccessType FieldAccessType_Source
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 1009471935
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -1849152589
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+WSPrintDebugTextEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 62098246
+    Realm Realm_Client
+    Owner *nullString*
+    EntityName AwardTrackerQueueLogic
+    SubName *nullString*
+    Events::array
+        member(0)::PrintDebugTextInput
+            Name AwardProgressionReceived
+            NameInternal InputAwardProgressionReceived
+            NameHash 2575514376
+            Index 0
+        member(1)::PrintDebugTextInput
+            Name Process
+            NameInternal InputProcess
+            NameHash 933280440
+            Index 1
+    SupportsGameView False
+    ShowOnScreen False
+    PrintAsStream False

@@ -1,0 +1,215 @@
+SpatialPrefabBlueprint 86af197c8f9d7245a5a51bd9a0b4a452
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/Fortifications/StationaryWeapons/dwr_StationaryMG_01
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 3b27988c807c1046af532911ac2f9904
+                            SourceFieldId 225375086
+                            TargetFieldId 2662400
+                            Flags 19
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 3b27988c807c1046af532911ac2f9904
+                            SourceFieldId 225375086
+                            TargetFieldId 418027479
+                            Flags 19
+                        member(2)::PropertyConnection
+                            Source 3b27988c807c1046af532911ac2f9904
+                            Target 00000001
+                            SourceFieldId 1450382364
+                            TargetFieldId 225375086
+                            Flags 3
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 3b27988c807c1046af532911ac2f9904
+                            SourceFieldId -141474860
+                            TargetFieldId 2089309528
+                            Flags 17
+                        member(4)::PropertyConnection
+                            Source 00000002
+                            Target 3b27988c807c1046af532911ac2f9904
+                            SourceFieldId -141474859
+                            TargetFieldId 418027479
+                            Flags 19
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 15
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 1617dc2f184bc847a3f911ca751a0970
+                        Target 1617dc2f184bc847a3f911ca751a0970
+                        SourceEvent::EventSpec
+                            Id 1583149458
+                        TargetEvent::EventSpec
+                            Id -1452333337
+                        TargetType EventConnectionTargetType_NetworkedClientAndServer
+                    member(1)::EventConnection
+                        Source 1617dc2f184bc847a3f911ca751a0970
+                        Target 3b27988c807c1046af532911ac2f9904
+                        SourceEvent::EventSpec
+                            Id 1583149458
+                        TargetEvent::EventSpec
+                            Id -274579609
+                        TargetType EventConnectionTargetType_Server
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 1617dc2f184bc847a3f911ca751a0970
+                        SourceEvent::EventSpec
+                            Id 2089022476
+                        TargetEvent::EventSpec
+                            Id 263085853
+                        TargetType EventConnectionTargetType_NetworkedClientAndServer
+                    member(3)::EventConnection
+                        Source 00000001
+                        Target 1617dc2f184bc847a3f911ca751a0970
+                        SourceEvent::EventSpec
+                            Id 1653725917
+                        TargetEvent::EventSpec
+                            Id 263085854
+                        TargetType EventConnectionTargetType_NetworkedClientAndServer
+        Objects::array
+            member(0) 1617dc2f184bc847a3f911ca751a0970
+            member(1) 00000000
+            member(2) 3b27988c807c1046af532911ac2f9904
+            member(3) 00000001
+        TimeDeltaType TimeDeltaType_None
+LogicPrefabReferenceObjectData 1617dc2f184bc847a3f911ca751a0970
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 131864342
+            Blueprint DynamicWorld/CentralComponents/Fortifications/dwc_Reconstructable_AssetConduitLogic/fa1eea0e2733ca04102cb23832a18ec1
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+SpatialPrefabReferenceObjectData 3b27988c807c1046af532911ac2f9904
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 479733563
+            Blueprint Gameplay/VehicleSpawnerPrefabs/SpawnerPrefab_Stationary_MG_Fixed/d894ca2c82cbd644a15d3020fb8f686f
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    PersistenceSetting BlueprintPersistenceSetting_InheritFromParent
+BoolEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 15299472
+    Realm Realm_Server
+    DefaultValue True
+CompareFloatRangeEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 270107203
+    Realm Realm_Server
+    Value 0.0
+    Min 0.0500000007451
+    Max 0.899999976158
+    TriggerOnPropertyChange True
+    TriggerOnStart False
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value TeamId TeamNeutral
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id -141474859
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

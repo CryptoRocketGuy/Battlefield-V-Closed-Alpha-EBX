@@ -1,0 +1,166 @@
+UIWidgetBlueprint 95688992d5e8905fec0084659511e39e
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Hud/Commorose/CommoRoseObjectivesDistributionWidget
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000004
+                            Target 00000002
+                            SourceFieldId 1884767464
+                            TargetFieldId -1512192206
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -1528343047
+                            TargetFieldId -124041117
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -348114046
+                            TargetFieldId -348114046
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -996560163
+                            TargetFieldId -996560163
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 1252467433
+                            TargetFieldId 1252467433
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -1211338812
+                            TargetFieldId -1211338812
+                            Flags 2
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -188171420
+                            TargetFieldId 0
+                    Interface 00000003
+                    Flags 14
+                EventConnections *nullArray*
+        Object 00000001
+BFUILayoutRadialListEntityData 00000000
+    $::BFUILayoutEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 173433671
+        ElementOffsetScaling::Vec2
+            x 0.0
+            y 0.0
+    CenterPoint::Vec2
+        x 0.0
+        y 0.0
+    Radius 0.0
+    ElementStep 0.0
+    WeightingAngle 0.0
+    CenterElementIndex 0
+    HorizontalAlignment BFUILayoutHorizontalAlignment_Center
+    CenterElementEnabled False
+    CounterClockwiseLayout True
+BFUIListWidgetData 00000001
+    $::BFUIWidgetEntityData
+        $::UIWidgetEntityData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 1788066581
+            Size::UIElementSize
+                X 400.0
+                Y 400.0
+            Layers *nullArray*
+            TextureMappings *nullArray*
+            Components::array
+                member(0) 00000000
+                member(1) 00000004
+                member(2) 00000002
+            Visible True
+        CustomLayout::BFUICustomLayout
+            SnapSettings::BFUISnapLayoutSettings
+                Left BFUISnapLayoutMode_Default
+                Right BFUISnapLayoutMode_Default
+                Top BFUISnapLayoutMode_Default
+                Bottom BFUISnapLayoutMode_Default
+            OverrideDefaultLayout False
+        SortBasedOnZ False
+        UseStencilMask False
+        UseInputStencilMask False
+        InputEnabled True
+    DataInput *nullGuid*
+    CellWidget UI/Ingame/Hud/Commorose/CommoRoseObjectivesDistributionCellWidget/60837c1205291ebaab37543972607746
+    MaxRows 0
+    SelectionInput -1
+    XOffset 0.0
+    YOffset 0.0
+    RenderFirstInWidget False
+    AutoSetSelectionOnInit False
+    ValidateSetSelection False
+    WrapSelection False
+    AutoSizeWidgetHorizontally False
+    AutoSizeWidgetVertically False
+    Enabled True
+    ScrollIntoView False
+DataSourceQueryEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 162485423
+    Realm Realm_Client
+    InData *nullGuid*
+    ArrayIndex 0
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -348114046
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -996560163
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1252467433
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1211338812
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+UIObjectivesDataProviderEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 25164023
+    OutputOnlyVisibleForTeam True

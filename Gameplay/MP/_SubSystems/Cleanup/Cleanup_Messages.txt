@@ -1,0 +1,203 @@
+LogicPrefabBlueprint 813215153c0d9d0310cae4b34461810d
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/MP/_SubSystems/Cleanup/Cleanup_Messages
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000006
+                            Target 00000003
+                            SourceFieldId -758876579
+                            TargetFieldId 1486593166
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000005
+                            Target 00000002
+                            SourceFieldId -758876579
+                            TargetFieldId 1486593166
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000004
+                            Target 00000002
+                            SourceFieldId -141474860
+                            TargetFieldId -1359288710
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000004
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000008
+                        SourceEvent::EventSpec
+                            Id -376662289
+                        TargetEvent::EventSpec
+                            Id -1688613187
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -376662289
+                        TargetEvent::EventSpec
+                            Id 2089417369
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target 00000007
+                        SourceEvent::EventSpec
+                            Id -376662289
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000007
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -699931768
+                        TargetEvent::EventSpec
+                            Id 2089417369
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000007
+                        Target 00000009
+                        SourceEvent::EventSpec
+                            Id -699931768
+                        TargetEvent::EventSpec
+                            Id -1688613187
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 00000008
+            member(2) 00000003
+            member(3) 00000000
+            member(4) 00000002
+            member(5) 00000009
+            member(6) 00000006
+            member(7) 00000005
+            member(8) 00000007
+        TimeDeltaType TimeDeltaType_None
+ActionMessageListenerEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 4845057
+    Realm Realm_Client
+    Message Gameplay/MP/_SubSystems/Cleanup/ActionMessages/CleanupEnded/9382422129b3254990c9bfc7abdb7013
+    Enabled True
+    QueueMessages True
+ActionMessageListenerEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 27045600
+    Realm Realm_Client
+    Message Gameplay/MP/_SubSystems/Cleanup/ActionMessages/CleanupStartedSecure/2de29b6861f2cc4a9c7490cdfce9b15b
+    Enabled True
+    QueueMessages True
+ActionMessageSenderEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 174248493
+    Realm Realm_Client
+    Message Gameplay/MP/_SubSystems/ActionMessages/UICriticalGameModeMessage/b4419662cf9df044b7ca3c7381216f59
+    InputPropertyIndices::array
+        member(0) 2
+    InputPropertyRefIndices::array
+        member(0) 0
+ActionMessageSenderEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 196357605
+    Realm Realm_Client
+    Message Gameplay/MP/_SubSystems/ActionMessages/UICriticalGameModeMessage/b4419662cf9df044b7ca3c7381216f59
+    InputPropertyIndices *nullArray*
+    InputPropertyRefIndices::array
+        member(0) 0
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id -141474860
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+LocalizedStringIdPickerEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 16420973
+    Realm Realm_Client
+    Sid ID_GAMEMODE_CLEANUPMESSAGES_SECTORSECURED
+LocalizedStringIdPickerEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 30059775
+    Realm Realm_Client
+    Sid ID_GAMEMODE_CLEANUPMESSAGES_CLEARSECTOR
+TeamFilterEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 58759663
+    Realm Realm_Client
+    Team Team1
+    InvertFilter False
+    GenerateEventForEveryMatchingTeamMember False
+    GetTeamFromPlayerEvent False
+    ForwardToSpectators False
+VoiceOverEventEntityData 00000008
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 47954206
+    VoEvent Sound/VO/Logic/Logic_MP/MP_Cleanup/f68603f3ce86dc4a82154dae4f92a8c8
+    EventPlayer *nullGuid*
+    ExtraEventPlayer *nullGuid*
+    TriggerDelay 2.5
+    FinishedDelay 0.0
+    TrackSourcePositionNameHashes *nullArray*
+    RunOnce False
+    CancelOnDeinit True
+VoiceOverEventEntityData 00000009
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 39259331
+    VoEvent Sound/VO/Logic/Logic_MP/MP_Cleanup/145712f6b22ad040a1256512e03d6b9e
+    EventPlayer *nullGuid*
+    ExtraEventPlayer *nullGuid*
+    TriggerDelay 2.5
+    FinishedDelay 0.0
+    TrackSourcePositionNameHashes *nullArray*
+    RunOnce False
+    CancelOnDeinit True

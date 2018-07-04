@@ -1,0 +1,193 @@
+VisualEnvironmentBlueprint 1bb18e7c2ee5b740a6e30174a1527845
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Levels/MP/MP_ArcticFjord/Lighting/VE_MP_ArcticFjord_CharacterLighting
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000003
+    TimeDeltaType TimeDeltaType_None
+CharacterLightingComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 8662032
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) CharacterLightEnable
+            member(1) FirstPersonEnable
+            member(2) TopLight
+            member(3) StartFadeDistance
+            member(4) EndFadeDistance
+            member(5) BottomLight
+        PropertyOverrideMasks::array
+            member(0) 3843
+    TopLight::Vec3
+        x 678.293457031
+        y 681.023376465
+        z 800.000183105
+    BottomLight::Vec3
+        x 50.0
+        y 50.0
+        z 50.0
+    Realm Realm_Client
+    CameraUpRotation 0.0
+    CharacterLightingMode CharacterLightingMode_Add
+    BlendFactor 1.0
+    TopLightDirX 0.0
+    TopLightDirY 90.0
+    StartFadeDistance 0.0
+    EndFadeDistance 7.0
+    CharacterLightEnable True
+    FirstPersonEnable True
+    LockToCameraDirection False
+ShaderColorParamsComponentData 00000001
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 28078396
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) ParameterName
+            member(1) Value
+        PropertyOverrideMasks::array
+            member(0) 5
+    Value::Vec4
+        x 0.235001295805
+        y 0.269959688187
+        z 0.32777813077
+        w 1.0
+    Realm Realm_Client
+    ParameterName CharacterRimLightColor
+ShaderParamsComponentData 00000002
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 21188192
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) ParameterName
+            member(1) Value
+        PropertyOverrideMasks::array
+            member(0) 5
+    Value::Vec4
+        x 0.800000011921
+        y 0.800000011921
+        z 1.0
+        w 2.0
+    Realm Realm_Client
+    ParameterName CharacterGameplayHighlight
+VisualEnvironmentEntityData 00000003
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 168360329
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000001
+                member(1) 00000000
+                member(2) 00000002
+            ClientRuntimeComponentCount 3
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 1.0
+    FutureVisibility 0.0
+    Priority 1
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True

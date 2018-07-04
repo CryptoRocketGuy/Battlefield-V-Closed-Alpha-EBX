@@ -1,0 +1,341 @@
+ScalableEmitterDocument 08e10a5a842cd648b0e8b0232213933c
+    $::EmitterDocument
+        $::EmitterAsset
+            $::Asset
+                $::DataContainer
+                Name *nullString*
+    TemplateDataLow 00000001
+    TemplateDataMedium 00000001
+    TemplateDataHigh 00000001
+    TemplateDataUltra 00000001
+DefaultEvaluatorData 00000000
+    $::EvaluatorData
+        $::DataContainer
+        Parameter *nullGuid*
+    Values::Vec4
+        x 0.5
+        y 0.5
+        z 0.5
+        w 0.5
+EmitterTemplateData 00000001
+    $::DataContainer
+    RootProcessor 00000005
+    MaxCount 1
+    WorldAlignmentDirection::Vec3
+        x 0.0
+        y 1.0
+        z 0.0
+    OrientToPosition::Vec3
+        x 0.0
+        y 0.0
+        z -1.0
+    Lifetime 0.0
+    TimeScale 1.0
+    LifetimeFrameCount 0
+    KillRibbonTailDistance 0.0
+    ExclusionVolumeFadeOutTime 1.0
+    EmittableType EmittableType_Quad
+    EmittableAlignment EmittableAlignment_Screen
+    MotionStretchMultiplier 1.0
+    MotionStretchViewMultiplier 1.0
+    MotionStretchLengthClamp 100.0
+    MotionStretchRelativeLengthClamp 100.0
+    Mesh *nullGuid*
+    ObjectVariation *nullGuid*
+    EmissiveExposureFactor 1.0
+    VertexPixelLightingBlendFactor 0.0
+    GlobalLocalNormalBlendFactor 0.0
+    SoftParticlesFadeDistanceMultiplier -0.600000023842
+    LightWrapAroundFactor 0.5
+    BentNormalFactor 1.0
+    LightMultiplier 1.0
+    BendingFactor 0.0
+    MicroVariationSmoothingFactor 0.0
+    SunVolumetricShadowAbsorptionScale 1.0
+    SunVolumetricShadowAbsorptionR 1.0
+    SunVolumetricShadowAbsorptionG 1.0
+    SunVolumetricShadowAbsorptionB 1.0
+    SunVolumetricShadowPhaseG0 0.0
+    SunVolumetricShadowPhaseG1 0.0
+    SunVolumetricShadowOffset 0.0
+    CameraBias 30.0
+    FlipUProbability 0.0
+    FlipVProbability 0.0
+    Shader::SurfaceShaderInstanceDataStruct
+        Shader *nullGuid*
+        BoolParameters *nullArray*
+        VectorParameters *nullArray*
+        VectorArrayParameters *nullArray*
+        TextureParameters *nullArray*
+    AnimationFrameCount 1.0
+    AnimationFrameColumnCount 1.0
+    EmitterDrawOrder EmitterDrawOrder_Default
+    ParticleCullingFactor 1.0
+    MinSpawnDistance 0.0
+    MaxSpawnDistance 0.0
+    EmitterMaxSpawnDistance 0.0
+    MinScreenArea 1.0
+    MeshCullingDistance 0.0
+    MeshCullingNearDistance 0.0
+    SkipUpdateMaxCount -1
+    PreciseWindAndForceMaxDistance -1.0
+    TurbulenceMaxDistance -1.0
+    DistanceScaleLength 1500.0
+    DistanceScaleNearValue 1.0
+    DistanceScaleFarValue 1.39999997616
+    SpeedNormalizationValue 50.0
+    WindSpeedNormalizationValue 50.0
+    TravelledDistanceNormalizationValue 50.0
+    PerParticleEffectParameters *nullArray*
+    MinDistanceTravelledBeforeSpawn 0.0
+    CullFadeNearDistance 50.0
+    CullFadeNearRange 100.0
+    CullFadeFarDistance 1900.0
+    CullFadeFarRange 700.0
+    DebugName Em_Generic_Glow_Large_RedOrange
+    RepeatParticleSpawning False
+    FollowSpawnSource False
+    FollowSpawnSourceVelocity False
+    KillParticlesWithEmitter True
+    SmoothRibbonSpawn False
+    ExclusionVolumeCullEnable False
+    ExclusionVolumeFadeOutEnable False
+    ExclusionVolumeWorldWindEnable False
+    Emissive True
+    Opaque False
+    MeshParticlesMotionBlur False
+    ReceiveSunShadow True
+    ForceNiceSorting False
+    LocalSpace True
+    AllowScale False
+    CameraSpace False
+    TransparencySunShadowEnable False
+    SunVolumetricShadowEnable False
+    EnablePyroShader False
+    CastPlanarReflectionEnable False
+    ForceFullRes False
+    FogFade True
+    LockRibbonDirection False
+    SkipSpawnOutsideView False
+    MeshCullingFromEmitterCenter False
+    PauseSimulationWhenCulled False
+    ModifyEmittableScaleWhenZooming False
+    AcceptGlobalParameter1 False
+    AcceptGlobalParameter2 False
+    AcceptGlobalParameter3 False
+    SkipNearCameraFade False
+    EmitterWindEvaluationEnable False
+    EmittableWindEvaluationEnable False
+UpdateColorData 00000002
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor 00000007
+        EvaluatorInput EfOne
+        EvaluatorInputParam *nullGuid*
+    Color::Vec3
+        x 1.0
+        y 0.299659609795
+        z 0.076185375452
+SpawnRateData 00000003
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor 00000008
+        EvaluatorInput EfOne
+        EvaluatorInputParam *nullGuid*
+    SpawnRate 10.0
+    DistributeOverTime True
+    DistributeOverDistance False
+SpawnSizeData 00000004
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor 00000002
+        EvaluatorInput EfOne
+        EvaluatorInputParam *nullGuid*
+    Size 160.0
+UpdateAgeData 00000005
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor 00000003
+        EvaluatorInput EfOne
+        EvaluatorInputParam *nullGuid*
+    Lifetime -1.0
+    RandomLifetimeScale 0.0
+    MaxFactor 1.0
+UpdateClipScaleData 00000006
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor *nullGuid*
+        EvaluatorInput EfNormTime
+        EvaluatorInputParam *nullGuid*
+    Lookup::array
+        member(0) 32767
+        member(1) 32767
+        member(2) 32767
+        member(3) 32767
+        member(4) 29887
+        member(5) 29887
+        member(6) 29887
+        member(7) 29887
+        member(8) 29887
+        member(9) 29887
+        member(10) 29887
+        member(11) 29887
+        member(12) 29887
+        member(13) 29887
+        member(14) 29887
+        member(15) 29887
+        member(16) 29887
+        member(17) 29887
+        member(18) 29887
+        member(19) 29887
+        member(20) 29887
+        member(21) 29887
+        member(22) 29887
+        member(23) 29887
+        member(24) 29887
+        member(25) 29887
+        member(26) 29887
+        member(27) 29887
+        member(28) 29887
+        member(29) 29887
+        member(30) 29887
+        member(31) 29887
+        member(32) 29887
+        member(33) 29887
+        member(34) 29887
+        member(35) 29887
+        member(36) 29887
+        member(37) 29887
+        member(38) 29887
+        member(39) 29887
+        member(40) 29887
+        member(41) 29887
+        member(42) 29887
+        member(43) 29887
+        member(44) 29887
+        member(45) 29887
+        member(46) 29887
+        member(47) 29887
+        member(48) 29887
+        member(49) 29887
+        member(50) 29887
+        member(51) 29887
+        member(52) 29887
+        member(53) 29887
+        member(54) 29887
+        member(55) 29887
+        member(56) 29887
+        member(57) 29887
+        member(58) 29887
+        member(59) 29887
+        member(60) 29887
+        member(61) 29887
+        member(62) 29887
+        member(63) 29887
+        member(64) 29887
+        member(65) 29887
+        member(66) 29887
+        member(67) 29887
+        member(68) 29887
+        member(69) 29887
+        member(70) 29887
+        member(71) 29887
+        member(72) 29887
+        member(73) 29887
+        member(74) 29887
+        member(75) 29887
+        member(76) 29887
+        member(77) 29887
+        member(78) 29887
+        member(79) 29887
+        member(80) 29887
+        member(81) 29887
+        member(82) 29887
+        member(83) 29887
+        member(84) 29887
+        member(85) 29887
+        member(86) 29887
+        member(87) 29887
+        member(88) 29887
+        member(89) 29887
+        member(90) 29887
+        member(91) 29887
+        member(92) 29887
+        member(93) 29887
+        member(94) 29887
+        member(95) 29887
+        member(96) 29887
+        member(97) 29887
+        member(98) 29887
+        member(99) 29887
+        member(100) 29887
+        member(101) 29887
+        member(102) 29887
+        member(103) 29887
+        member(104) 29887
+        member(105) 29887
+        member(106) 29887
+        member(107) 29887
+        member(108) 29887
+        member(109) 29887
+        member(110) 29887
+        member(111) 29887
+        member(112) 29887
+        member(113) 29887
+        member(114) 29887
+        member(115) 29887
+        member(116) 29887
+        member(117) 29887
+        member(118) 29887
+        member(119) 29887
+        member(120) 29887
+        member(121) 29887
+        member(122) 29887
+        member(123) 29887
+        member(124) 29887
+        member(125) 29887
+        member(126) 29887
+        member(127) 29887
+        member(128) 29887
+        member(129) 29887
+        member(130) 29887
+        member(131) 29887
+UpdateSizeData 00000007
+    $::ProcessorData
+        $::DataContainer
+        Pre 00000000
+        NextProcessor 00000009
+        EvaluatorInput EfOne
+        EvaluatorInputParam *nullGuid*
+    Pivot::Vec2
+        x 0.0
+        y 0.0
+    MultiplyWithSizeXYZ False
+UpdateTextureCoordsData 00000008
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor 00000004
+        EvaluatorInput EfNormTime
+        EvaluatorInputParam *nullGuid*
+    BaseTexture 0c411bbbf9b7e711889ea695d07ff3bc/d826bf0a568c6798ed274a404177dccc
+    NormalTexture 51b61afa4ad81244a1db558d6724bbc7/479eddffb0309e4c95392f6240c340cc
+    ModifierU TCM_None
+    ModifierV TCM_None
+    ScaleU 1.0
+    ScaleV 1.0
+    BiasU 0.0
+    BiasV 0.0
+UpdateTransparencyData 00000009
+    $::ProcessorData
+        $::DataContainer
+        Pre *nullGuid*
+        NextProcessor 00000006
+        EvaluatorInput EfNormTime
+        EvaluatorInputParam *nullGuid*
+    CullThreshold 0.20000000298

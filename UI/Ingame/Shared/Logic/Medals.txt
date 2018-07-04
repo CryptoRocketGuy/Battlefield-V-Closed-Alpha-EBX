@@ -1,0 +1,207 @@
+LogicPrefabBlueprint 2e2afab93291117ba36366aa1d03d373
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Shared/Logic/Medals
+                    PropertyConnections *nullArray*
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000004
+                            Target 00000001
+                            SourceFieldId -1314972309
+                            TargetFieldId 0
+                        member(1)::LinkConnection
+                            Source 00000004
+                            Target 00000002
+                            SourceFieldId 1698993145
+                            TargetFieldId 0
+                    Interface 00000004
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000004
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 201149837
+                        TargetEvent::EventSpec
+                            Id 201149837
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -80368276
+                        TargetEvent::EventSpec
+                            Id -1952177180
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1434085148
+                        TargetEvent::EventSpec
+                            Id -1095741813
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000000
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id -1433993841
+                        TargetEvent::EventSpec
+                            Id -1726781178
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000001
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1434085148
+                        TargetEvent::EventSpec
+                            Id -642650694
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000001
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -80368276
+                        TargetEvent::EventSpec
+                            Id -969012504
+                        TargetType EventConnectionTargetType_Client
+                    member(6)::EventConnection
+                        Source 00000004
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 201149837
+                        TargetEvent::EventSpec
+                            Id 201149837
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+            member(2) 00000003
+            member(3) 00000002
+        TimeDeltaType TimeDeltaType_None
+UIScreenRenderEntityData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 37655406
+            Blueprint UI/Ingame/Deploy/UIMedalsRootWidget/03674c6a5c035b59f240b4f78f753e4e
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+    Color::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    ScreenData UI/ScreenData/UIHudOverlayScreenData/23c4ef61f9690e4e9f6b9d8126049ab7
+    Scale 0.0010000000475
+    ProjectionMode UIScreenProjectionMode_Default
+    RenderPass UIScreenRenderingPass_BelowFlash
+    UpdateOrder 0
+    ViewId LocalPlayerViewId_RootView
+    Alpha 1.0
+    UseGameViewProjection False
+    EnableDepthCulling False
+    CenterScreen False
+StateNodeEntityData 00000001
+    $::StateNodeEntityBaseData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 128512413
+        StateName Deploy
+        Realm Realm_Client
+        IsRoot False
+    EventTriggersInfo::array
+        member(0)::StateNavEventInfo
+            TriggerEventHash -681139563
+            OnEventHash -1656155807
+    ConsumedEventsInfo::array
+        member(0)::StateNavEventInfo
+            TriggerEventHash -681139563
+            OnEventHash -1656155807
+BFTelemetryStateNodeEntityData 00000002
+    $::StateNodeEntityData
+        $::StateNodeEntityBaseData
+            $::EntityData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 115579641
+            StateName Telem_Medals
+            Realm Realm_Client
+            IsRoot False
+        EventTriggersInfo *nullArray*
+        ConsumedEventsInfo *nullArray*
+    TelemetryId Medals
+BFUIInputEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 58808661
+    Realm Realm_Client
+    DisableGameInput True
+    DisableAimingInput True
+    EnableHybridMouseInput False
+InterfaceDescriptorData 00000004
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 201149837
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -1726781178
+    InputLinks::array
+        member(0)::DynamicLink
+            Id -1314972309
+        member(1)::DynamicLink
+            Id 1698993145
+    OutputLinks *nullArray*

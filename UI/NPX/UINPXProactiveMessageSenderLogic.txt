@@ -1,0 +1,288 @@
+LogicPrefabBlueprint 2c5d9cfc30df09999f6044f6a49e6fa6
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/NPX/UINPXProactiveMessageSenderLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId -566991021
+                            TargetFieldId -566991021
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId 612738192
+                            TargetFieldId 612738192
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId 1785382141
+                            TargetFieldId 1785382141
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId 280041841
+                            TargetFieldId 280041841
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId -2035401293
+                            TargetFieldId -2035401293
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId 1566701262
+                            TargetFieldId 1566701262
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId 994228863
+                            TargetFieldId 994228863
+                            Flags 2
+                        member(7)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 792859630
+                            TargetFieldId 792859630
+                            Flags 18
+                        member(8)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 2088949890
+                            TargetFieldId -640690510
+                            Flags 18
+                        member(9)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId 420660517
+                            TargetFieldId 420660517
+                            Flags 2
+                        member(10)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 1867573327
+                            TargetFieldId 2088812747
+                            Flags 2
+                        member(11)::PropertyConnection
+                            Source 00000005
+                            Target 00000001
+                            SourceFieldId 2088812853
+                            TargetFieldId 2088812853
+                            Flags 2
+                        member(12)::PropertyConnection
+                            Source 00000005
+                            Target 00000003
+                            SourceFieldId -566991021
+                            TargetFieldId -1512192206
+                            Flags 2
+                        member(13)::PropertyConnection
+                            Source 00000005
+                            Target 00000000
+                            SourceFieldId 280041841
+                            TargetFieldId 280041841
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000005
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000005
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 2089417369
+                        TargetEvent::EventSpec
+                            Id -109776961
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 2089417369
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000005
+                        Target 00000004
+                        SourceEvent::EventSpec
+                            Id 2089417369
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000004
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+            member(1) 00000001
+            member(2) 00000003
+            member(3) 00000004
+            member(4) 00000002
+        TimeDeltaType TimeDeltaType_None
+LogicPrefabReferenceObjectData 00000000
+    $::LogicReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 185780974
+            Blueprint UI/Ingame/Hud/Logic/UINPXPersistenceLogic/fa98b5b3cacdacb20d092ad9666e75e1
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+        SubRealm SubRealm_All
+ActionMessageSenderEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 193381339
+    Realm Realm_Client
+    Message UI/NPX/NPXProactiveTextMessage/89e98ffcdaa4ea41bc6164565d370cf9
+    InputPropertyIndices::array
+        member(0) 2
+        member(1) 3
+        member(2) 4
+        member(3) 5
+        member(4) 6
+        member(5) 7
+        member(6) 9
+    InputPropertyRefIndices::array
+        member(0) 0
+        member(1) 1
+CompareBoolEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 168253744
+    Realm Realm_Client
+    Bool False
+    TriggerOnPropertyChange False
+    TriggerOnStart False
+    AlwaysSend False
+DataSourceQueryEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 147253134
+    Realm Realm_Client
+    InData *nullGuid*
+    ArrayIndex 0
+DelayEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 46169429
+    Delay 0.25
+    Realm Realm_Client
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    RemoveDuplicateEvents True
+InterfaceDescriptorData 00000005
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -566991021
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 612738192
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1785382141
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 280041841
+                AccessType FieldAccessType_Target
+            member(4)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -2035401293
+                AccessType FieldAccessType_Target
+            member(5)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1566701262
+                AccessType FieldAccessType_Target
+            member(6)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 994228863
+                AccessType FieldAccessType_Target
+            member(7)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2088812853
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 2089417369
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

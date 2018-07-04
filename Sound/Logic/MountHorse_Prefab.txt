@@ -1,0 +1,169 @@
+LogicPrefabBlueprint aadd37bf20a410b88f5946220d80e671
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Sound/Logic/MountHorse_Prefab
+                    PropertyConnections *nullArray*
+                    LinkConnections::array
+                        member(0)::LinkConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId 1130556714
+                            TargetFieldId 1130556714
+                        member(1)::LinkConnection
+                            Source 00000000
+                            Target 00000003
+                            SourceFieldId -610833119
+                            TargetFieldId 1130556714
+                    Interface 00000003
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 1243755889
+                        TargetEvent::EventSpec
+                            Id 1928776733
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 1194874936
+                        TargetEvent::EventSpec
+                            Id -117303631
+                        TargetType EventConnectionTargetType_Client
+                    member(2)::EventConnection
+                        Source 00000003
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 2088518501
+                        TargetEvent::EventSpec
+                            Id 2088518501
+                        TargetType EventConnectionTargetType_Client
+                    member(3)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 928384381
+                        TargetEvent::EventSpec
+                            Id 1039590470
+                        TargetType EventConnectionTargetType_Client
+                    member(4)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -567703838
+                        TargetEvent::EventSpec
+                            Id -57393812
+                        TargetType EventConnectionTargetType_Client
+                    member(5)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 1944095500
+                        TargetEvent::EventSpec
+                            Id 1039231030
+                        TargetType EventConnectionTargetType_Client
+                    member(6)::EventConnection
+                        Source 00000002
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -299896585
+                        TargetEvent::EventSpec
+                            Id -34569587
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000002
+            member(1) 00000000
+        TimeDeltaType TimeDeltaType_None
+DiceSoundEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1673224654
+    Attach 00000001
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    DefaultSound Sound/Core/Vehicles/Land/Horse/Vehicles_Land_Horse_EnterExit/4fe5dd95baf9f465a858c9938e8212ae
+    Sound *nullGuid*
+    MasterAmplitude 1.0
+    UpdatePosition True
+    PlayOnCreation False
+    EnableOnCreation False
+    ForgetOnDestroy False
+    DisableWhenDeactivated False
+AnimatableAttachData 00000001
+    $::EntityAttachData
+        $::EntityLinkData
+            $::DataContainer
+            LinkName AttachToAnimatable
+        PropertyName AttachOffset
+        CoordinateSpace *nullGuid*
+        Offset *nullGuid*
+        UseRotation True
+    Bone GameplayBones_RootBone
+AntEventEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 1659554049
+    OnEnterEvents::array
+        member(0)::AntEventData
+            TagId 1314511817
+            Event::EventSpec
+                Id -567703838
+        member(1)::AntEventData
+            TagId 1540927733
+            Event::EventSpec
+                Id 1944095500
+        member(2)::AntEventData
+            TagId -1811295520
+            Event::EventSpec
+                Id -299896585
+        member(3)::AntEventData
+            TagId 705888940
+            Event::EventSpec
+                Id 928384381
+    OnUpdateEvents *nullArray*
+    OnLeaveEvents *nullArray*
+    RequireLink True
+    SendAsPlayerEvent False
+    AutoActivate False
+InterfaceDescriptorData 00000003
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -559281700
+        member(1)::DynamicEvent
+            Id 2088518501
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks::array
+        member(0)::DynamicLink
+            Id 1130556714

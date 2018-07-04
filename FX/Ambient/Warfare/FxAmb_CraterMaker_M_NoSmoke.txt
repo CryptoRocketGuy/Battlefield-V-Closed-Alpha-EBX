@@ -1,0 +1,96 @@
+SpatialPrefabBlueprint d33de8d05c1de0409553fbbffa074885
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/Ambient/Warfare/FxAmb_CraterMaker_M_NoSmoke
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 2133316636
+                            TargetFieldId 2662400
+                            Flags 1
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+ExplosionEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 435949247
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z -9.54266798914e-09
+            forward::Vec3
+                x 0.0
+                y 9.54266798914e-09
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    DetonationEffect *nullGuid*
+    DetonationEffectForFriendlies *nullGuid*
+    MaskVolume *nullGuid*
+    DestructionMaskVolume *nullGuid*
+    MaterialPair::MaterialDecl
+        Packed 335546368
+    SecondaryMaterialPair::MaterialDecl
+        Packed 2048
+    ShockwaveWindForce *nullGuid*
+    DamageIndicationType DamageIndicationType_GiverPlayer
+    EmpTime 0.0
+    MaxOcclusionRaycastRadius 0.5
+    InnerBlastRadius 0.5
+    BlastDamage 1.0
+    BlastRadius 1.0
+    SecondaryMaterialRaycastLengthMultiplier 1.0
+    BlastImpulse 5000.0
+    ShockwaveDamage 1.0
+    ShockwaveRadius 15.0
+    SecondaryMaterialRaycastMinLengthMultiplier 0.0
+    ShockwaveImpulse 500.0
+    ShockwaveTime 0.25
+    CameraShockwaveRadius 3.0
+    SpawnDelay 4.0
+    NoFriendliesEffectOnEnabledFriendlyFire True
+    UseEntityTransformForDetonationEffect False
+    SecondaryMaterialsActive False
+    HasStunEffect False
+    AllowDamageToOwner True
+    ApplyBlastDamageToVehiclesAndCharactersInstantly True
+    ForceServersideAiDamage False
+    DisableOcclusion False
+    DisableStaticEntityOcclusion False
+    DisableOcclusionOutsideBlastRadius True
+    TriggerImpairedHearing True
+    Enabled True
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value Boolean True
+                ValueRef *nullGuid*
+                Id 2133316636
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

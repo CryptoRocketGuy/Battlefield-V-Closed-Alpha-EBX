@@ -1,0 +1,80 @@
+LogicPrefabBlueprint 0503cd27328b464ebb619fedfe80a659
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/Fortifications/dwc_Reconstructable_SpawnPredestroyed
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId 1973182330
+                            TargetFieldId 2088812747
+                            Flags 1
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1433512622
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(1)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id -1766018865
+                        TargetType EventConnectionTargetType_ClientAndServer
+        Objects::array
+            member(0) 00000000
+            member(1) 00000002
+        TimeDeltaType TimeDeltaType_None
+CompareBoolEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 420883484
+    Realm Realm_ClientAndServer
+    Bool False
+    TriggerOnPropertyChange False
+    TriggerOnStart True
+    AlwaysSend False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1973182330
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id -1766018865
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+RandomDelayEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 116070212
+    MinDelay 0.0
+    MaxDelay 0.5
+    Realm Realm_ClientAndServer
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce False
+    TrueRandom False

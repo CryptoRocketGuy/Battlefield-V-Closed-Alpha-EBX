@@ -1,0 +1,95 @@
+LogicPrefabBlueprint 79f2faa98d897e804d62d49520748a13
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Shared/Logic/UITextBackplatePadding
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId 177661
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -1781588514
+                            TargetFieldId 193450867
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000001
+                            SourceFieldId -391085612
+                            TargetFieldId 193450866
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -1240901670
+                            TargetFieldId 177660
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 2089429248
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000000
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000001
+            member(1) 00000002
+        TimeDeltaType TimeDeltaType_None
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -391085612
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1781588514
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value Float32 40
+                ValueRef *nullGuid*
+                Id -1240901670
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2089429248
+                AccessType FieldAccessType_Source
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathOpEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 144055302
+    Realm Realm_Client
+    Operators::array
+        member(0) MathOp_Add
+Vec2BuilderEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 165287982
+    Realm Realm_Client
+    X 0.0
+    Y 0.0

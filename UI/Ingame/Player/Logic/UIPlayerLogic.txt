@@ -1,0 +1,102 @@
+LogicPrefabBlueprint 2709ba44d005964b99f47f281245a636
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name UI/Ingame/Player/Logic/UIPlayerLogic
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000002
+                            SourceFieldId -910201930
+                            TargetFieldId -910201930
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 2053052680
+                            TargetFieldId 2053052680
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 115862835
+                            TargetFieldId 115862835
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId -1493999974
+                            TargetFieldId -1493999974
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 2662400
+                            TargetFieldId 2662400
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000000
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -138704001
+                        TargetEvent::EventSpec
+                            Id -138704001
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 1200020548
+                        TargetEvent::EventSpec
+                            Id 1200020548
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 00000002
+        TimeDeltaType TimeDeltaType_None
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 2662400
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SchematicChannelEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 138338370
+    Realm Realm_Client
+    Channel UI/Ingame/Player/Logic/UIPlayerChannel/144d5a070d58a901aa624ddc11cbaa28
+    InputProperties::array
+        member(0) 1
+        member(1) 2
+        member(2) 3
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties::array
+        member(0) 0
+UIPlayerControlEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 196353679
+    Player *nullGuid*
+    Enabled False

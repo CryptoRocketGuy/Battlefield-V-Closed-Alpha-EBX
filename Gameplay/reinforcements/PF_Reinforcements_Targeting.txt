@@ -1,0 +1,162 @@
+SpatialPrefabBlueprint 6bb11bcb2207901e323e9c8645c10273
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/reinforcements/PF_Reinforcements_Targeting
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 12362477
+                            TargetFieldId 12362477
+                            Flags 18
+                        member(1)::PropertyConnection
+                            Source 00000003
+                            Target 00000001
+                            SourceFieldId 12362477
+                            TargetFieldId 227190399
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 1341576312
+                            TargetFieldId 2662400
+                            Flags 18
+                        member(3)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -2024647575
+                            TargetFieldId -409930682
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000002
+                            SourceFieldId 12362477
+                            TargetFieldId 5862146
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000002
+            member(1) 00000001
+            member(2) 00000003
+            member(3) 00000000
+        TimeDeltaType TimeDeltaType_None
+SpatialPrefabReferenceObjectData 00000000
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 157916211
+            Blueprint UI/Shared/Logic/SquadReinforcementTarget/32b9525214e5ab4da9faffe340b54ac2
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    PersistenceSetting BlueprintPersistenceSetting_InheritFromParent
+TransformBuilderEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 137905435
+    Realm Realm_Client
+    Left::Vec3
+        x 1.0
+        y 0.0
+        z 0.0
+    Up::Vec3
+        x 0.0
+        y 1.0
+        z 0.0
+    Forward::Vec3
+        x 0.0
+        y 0.0
+        z 1.0
+    Trans::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    IsWorldSpace False
+    WaitForAll False
+Vec3InterpolatorEntityData 00000002
+    $::PropertyInterpolatorEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 158780963
+        Realm Realm_Client
+        InterpolationType PropertyInterpolationType_Linear
+        InterpolationMode PropertyInterpolationMode_EaseInOutSmoothed
+        Duration 0.0500000007451
+        UseRealTimeClock False
+        ForceFrameCorrectOutput False
+        DynamicDuration False
+    In::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    DefaultValue::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+    Velocity 1.0
+    UseVelocity False
+SchematicChannelEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 20396662
+    Realm Realm_Client
+    Channel 06b03d28be3832418c1aa89893084cde/786b157ef267fc479a46d029c6a28940
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 2
+        member(1) 5
+    OutputRefProperties *nullArray*

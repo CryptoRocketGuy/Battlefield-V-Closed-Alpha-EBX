@@ -1,0 +1,270 @@
+LogicPrefabBlueprint 29a912d83afca37aa06bd4a612385f6d
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/Prefabs/math/GaugeNeedleMovement
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000005
+                            Target 00000000
+                            SourceFieldId 2089241862
+                            TargetFieldId 48673745
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId -2024647575
+                            TargetFieldId -1719166658
+                            Flags 18
+                        member(2)::PropertyConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId -1881926985
+                            TargetFieldId 189936718
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000004
+                            Target 00000001
+                            SourceFieldId 193453899
+                            TargetFieldId 408516922
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000003
+                            Target 00000005
+                            SourceFieldId 193453899
+                            TargetFieldId 177663
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000002
+                    Flags 14
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+            member(1) 00000005
+            member(2) 00000003
+            member(3) 00000004
+            member(4) 00000001
+        TimeDeltaType TimeDeltaType_None
+RotationTransformBuilderEntityData 00000000
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 161885651
+    Realm Realm_Client
+    Rotation::Vec3
+        x 0.0
+        y 0.0
+        z 0.0
+ContinuousRandomFloatEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 159829948
+    Realm Realm_Client
+    MinValue 0.0
+    MaxValue 1.0
+    Multiplier 1.0
+    ChangeValueMinTime 0.0340000018477
+    ChangeValueMaxTime 0.10000000149
+    NoiseAmountMin 0.0
+    NoiseAmountMax 0.0
+    UpdateOutputEveryNTick 2
+    Interpolate True
+    AutoStart False
+    TrueRandom True
+InterfaceDescriptorData 00000002
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1003798118
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1591366968
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1423556568
+                AccessType FieldAccessType_Target
+            member(3)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 467017806
+                AccessType FieldAccessType_Target
+            member(4)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1719166658
+                AccessType FieldAccessType_Source
+            member(5)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1881926985
+                AccessType FieldAccessType_Target
+            member(6)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1957353299
+                AccessType FieldAccessType_Target
+            member(7)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1360315499
+                AccessType FieldAccessType_Target
+            member(8)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1412701026
+                AccessType FieldAccessType_Target
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 6172424
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls *nullArray*
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 1692744776
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 2016591314
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 2
+                Param1 189936718
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 3
+                Param1 955872026
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_DivF
+                Result 4
+                Param1 2
+                Param2 3
+            member(5)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 5
+                Param1 871189069
+                Param2 0
+            member(6)::MathEntityInstruction
+                Code MathOpCode_PowF
+                Result 4
+                Param1 4
+                Param2 5
+            member(7)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 1
+                Param1 1
+                Param2 4
+            member(8)::MathEntityInstruction
+                Code MathOpCode_AddF
+                Result 1
+                Param1 1
+                Param2 2
+            member(9)::MathEntityInstruction
+                Code MathOpCode_DivF
+                Result 1
+                Param1 1
+                Param2 3
+            member(10)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 2
+                Param1 -1886920483
+                Param2 0
+            member(11)::MathEntityInstruction
+                Code MathOpCode_MulF
+                Result 1
+                Param1 1
+                Param2 2
+            member(12)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 2
+                Param1 656701250
+                Param2 0
+            member(13)::MathEntityInstruction
+                Code MathOpCode_PowF
+                Result 1
+                Param1 1
+                Param2 2
+            member(14)::MathEntityInstruction
+                Code MathOpCode_AddF
+                Result 0
+                Param1 0
+                Param2 1
+            member(15)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False
+MathEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 157367114
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls *nullArray*
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_ConstF
+                Result 0
+                Param1 0
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 189936718
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_SubF
+                Result 0
+                Param1 0
+                Param2 1
+            member(3)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent True
+VecBuilderEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 150549744
+    Realm Realm_Client
+    X 0.0
+    Y 0.0
+    Z 0.0
+    W 0.0

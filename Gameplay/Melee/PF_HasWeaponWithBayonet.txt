@@ -1,0 +1,128 @@
+LogicPrefabBlueprint 2870646629fbf0ad77037f303784e8ba
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Melee/PF_HasWeaponWithBayonet
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -1001694132
+                            TargetFieldId -1843751482
+                            Flags 18
+                        member(1)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId -1001694132
+                            TargetFieldId -1550347100
+                            Flags 17
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId -1001694132
+                            TargetFieldId 1894032191
+                            Flags 17
+                    LinkConnections *nullArray*
+                    Interface 00000000
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -448064315
+                        TargetEvent::EventSpec
+                            Id 223744783
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 1908275623
+                        TargetEvent::EventSpec
+                            Id 223744783
+                        TargetType EventConnectionTargetType_ClientAndServer
+                    member(2)::EventConnection
+                        Source 00000000
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -196417252
+                        TargetEvent::EventSpec
+                            Id 223744783
+                        TargetType EventConnectionTargetType_ClientAndServer
+        Objects::array
+            member(0) 00000001
+            member(1) 00000002
+            member(2) 00000003
+        TimeDeltaType TimeDeltaType_None
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1843751482
+                AccessType FieldAccessType_Source
+            member(1)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1550347100
+                AccessType FieldAccessType_Source
+            member(2)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1894032191
+                AccessType FieldAccessType_Source
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -448064315
+        member(1)::DynamicEvent
+            Id 1908275623
+        member(2)::DynamicEvent
+            Id -196417252
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+UnlockEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 65326974
+    Realm Realm_Client
+    UnlockGuids *nullArray*
+    Logic UnlockEntityLogic_OR
+    ContextPlayerQueryType UnlockEntityPlayerQueryType_ActiveWeaponUnlocks
+    InvertTest False
+    ContextPlayer True
+UnlockEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 101407907
+    Realm Realm_ClientAndServer
+    UnlockGuids *nullArray*
+    Logic UnlockEntityLogic_OR
+    ContextPlayerQueryType UnlockEntityPlayerQueryType_ActiveWeaponUnlocks
+    InvertTest False
+    ContextPlayer False
+UnlockEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 120652278
+    Realm Realm_ClientAndServer
+    UnlockGuids *nullArray*
+    Logic UnlockEntityLogic_OR
+    ContextPlayerQueryType UnlockEntityPlayerQueryType_ActiveWeaponUnlocks
+    InvertTest False
+    ContextPlayer True

@@ -1,0 +1,244 @@
+VisualEnvironmentBlueprint ec1af9ccc86d5c48881a50197709527c
+    $::ObjectBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name FX/VE/Gameplay/VE_Spectator_ColorCorrection_Test
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000005
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId -1996633556
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000004
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId 332991719
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000003
+                            Target 00000000
+                            SourceFieldId 193453899
+                            TargetFieldId -1722651591
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000002
+                            Target 00000005
+                            SourceFieldId 1999973720
+                            TargetFieldId 177661
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000002
+                            Target 00000005
+                            SourceFieldId 1999973720
+                            TargetFieldId 177660
+                            Flags 2
+                        member(5)::PropertyConnection
+                            Source 00000002
+                            Target 00000005
+                            SourceFieldId 1999973720
+                            TargetFieldId 177663
+                            Flags 2
+                        member(6)::PropertyConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId 616958995
+                            TargetFieldId 177661
+                            Flags 2
+                        member(7)::PropertyConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId 616958995
+                            TargetFieldId 177660
+                            Flags 2
+                        member(8)::PropertyConnection
+                            Source 00000002
+                            Target 00000004
+                            SourceFieldId 616958995
+                            TargetFieldId 177663
+                            Flags 2
+                        member(9)::PropertyConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId 1510280013
+                            TargetFieldId 177661
+                            Flags 2
+                        member(10)::PropertyConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId 1510280013
+                            TargetFieldId 177660
+                            Flags 2
+                        member(11)::PropertyConnection
+                            Source 00000002
+                            Target 00000003
+                            SourceFieldId 1510280013
+                            TargetFieldId 177663
+                            Flags 2
+                        member(12)::PropertyConnection
+                            Source 00000002
+                            Target 00000000
+                            SourceFieldId -1013015319
+                            TargetFieldId 193458845
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface *nullGuid*
+                    Flags 0
+                EventConnections *nullArray*
+        Object 00000001
+    TimeDeltaType TimeDeltaType_None
+ColorCorrectionComponentData 00000000
+    $::VisualEnvironmentComponentData
+        $::GameComponentData
+            $::ComponentData
+                $::GameObjectData
+                    $::DataBusPeer
+                        $::GameDataContainer
+                            $::DataContainer
+                        Flags 154183454
+                Components *nullArray*
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+                Excluded False
+        PropertyOverrides::array
+            member(0) Brightness
+            member(1) Contrast
+            member(2) Saturation
+            member(3) Enable
+            member(4) Hue
+            member(5) ColorGradingEnable
+            member(6) HdrColorGradingLut
+        PropertyOverrideMasks::array
+            member(0) 919
+    Brightness::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Contrast::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Saturation::Vec3
+        x 1.0
+        y 1.0
+        z 1.0
+    Realm Realm_Client
+    Hue 0.0
+    ColorGradingTexture *nullGuid*
+    ColorGradingMaxHdrValue 1.0
+    HdrColorGradingLut Levels/MP/MP_ArcticFjord/Lighting/MP_ArcticFjord_Night_HDRCube_01/0d1ae3063597b08ee8f1f140e07627f6
+    Enable True
+    ColorGradingEnable True
+VisualEnvironmentEntityData 00000001
+    $::GameComponentEntityData
+        $::ComponentEntityData
+            $::SpatialEntityData
+                $::EntityData
+                    $::GameObjectData
+                        $::DataBusPeer
+                            $::GameDataContainer
+                                $::DataContainer
+                            Flags 184289151
+                Transform::LinearTransform
+                    right::Vec3
+                        x 1.0
+                        y 0.0
+                        z 0.0
+                    up::Vec3
+                        x 0.0
+                        y 1.0
+                        z 0.0
+                    forward::Vec3
+                        x 0.0
+                        y 0.0
+                        z 1.0
+                    trans::Vec3
+                        x 0.0
+                        y 0.0
+                        z 0.0
+            Components::array
+                member(0) 00000000
+                member(1) 00000005
+                member(2) 00000004
+                member(3) 00000003
+                member(4) 00000002
+            ClientRuntimeComponentCount 1
+            ServerRuntimeComponentCount 0
+            ClientRuntimeTransformationCount 0
+            ServerRuntimeTransformationCount 0
+        Enabled True
+        EnableOutOfBoundsCheck True
+    Visibility 0.0
+    FutureVisibility 0.0
+    Priority 1000000
+    BlendMode VisualEnvironmentBlendMode_Lerp
+    ExplicitPriorityEnable True
+SchematicChannelEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 10509469
+    Realm Realm_Client
+    Channel UI/Ingame/Spectator/Logic/UIChannelSpectatorColorCorrectionOptions/9155381a3cae4c142a0edd6060b137c1
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties::array
+        member(0) 1
+        member(1) 2
+        member(2) 3
+        member(3) 4
+    OutputRefProperties *nullArray*
+Vec3BuilderEntityData 00000003
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 166840101
+    Realm Realm_Client
+    X 0.0
+    Y 0.0
+    Z 0.0
+Vec3BuilderEntityData 00000004
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 160740011
+    Realm Realm_Client
+    X 0.0
+    Y 0.0
+    Z 0.0
+Vec3BuilderEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 136441821
+    Realm Realm_Client
+    X 0.0
+    Y 0.0
+    Z 0.0

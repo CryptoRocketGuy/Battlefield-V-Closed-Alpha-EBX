@@ -1,0 +1,341 @@
+SpatialPrefabBlueprint 419ac61df7b34e4c9ba49e314fdd265f
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name ArtAssets/Lighting/Prefabs/PF_LensFlare_Industrial_01
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000001
+                            Target 00000000
+                            SourceFieldId -1696158145
+                            TargetFieldId -1696158145
+                            Flags 2
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 14
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -1952177180
+                        TargetEvent::EventSpec
+                            Id -1952177180
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id -117303631
+                        TargetEvent::EventSpec
+                            Id -117303631
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000000
+        TimeDeltaType TimeDeltaType_None
+LensFlareEntityData 00000000
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 176055193
+        Transform::LinearTransform
+            right::Vec3
+                x 0.999999880791
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 0.999999880791
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Dimmer 1.0
+    RenderMode LensFlareRenderMode_Half_Res
+    OccluderSize 0.10000000149
+    DepthBias 0.10000000149
+    Elements::array
+        member(0)::LensFlareElement
+            SizeOccluderCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            SizeScreenPosCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.323382914066
+                w 0.633233904839
+            SizeAngleCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            SizeCamDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z -0.138613760471
+                w 0.992227613926
+            AlphaOccluderCurve::Vec4
+                x 0.0
+                y 0.0
+                z -1.0
+                w 1.0
+            AlphaScreenPosCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            AlphaAngleCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            AlphaCamDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z -0.0710899680853
+                w 0.065379075706
+            RotationDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 0.0
+            Enable QualityScalableEnabled_Low
+            Shader::SurfaceShaderInstanceDataStruct
+                Shader ArtAssets/Lighting/Shaders/SS_FlareCore_01/cf60ada57658e342a665193755d1cb3a
+                BoolParameters *nullArray*
+                VectorParameters::array
+                    member(0)::VectorShaderParameter
+                        Value::Vec4
+                            x 1.86148333549
+                            y 1.67440223694
+                            z 1.27173733711
+                            w 1.0
+                        ParameterName FlareColor
+                        ParameterType ShaderParameterType_Color
+                    member(1)::VectorShaderParameter
+                        Value::Vec4
+                            x 4.95384740829
+                            y 4.95384740829
+                            z 4.95384740829
+                            w 1.0
+                        ParameterName DirtColor
+                        ParameterType ShaderParameterType_Color
+                VectorArrayParameters *nullArray*
+                TextureParameters *nullArray*
+            RayDistance 0.0
+            Size::Vec2
+                x 0.5
+                y 0.5
+            SizeCamDistMax 10.0
+            AlphaCamDistMax 30.0
+            RotationLocal 0.0
+            RotationDistMultiplier 1.0
+            EnableElement True
+            RotationAlignedToRay False
+        member(1)::LensFlareElement
+            SizeOccluderCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            SizeScreenPosCurve::Vec4
+                x 0.0
+                y 0.0
+                z -0.351677417755
+                w 0.903818428516
+            SizeAngleCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            SizeCamDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z -0.111110985279
+                w 0.998888850212
+            AlphaOccluderCurve::Vec4
+                x 0.0
+                y 0.0
+                z -1.0
+                w 1.0
+            AlphaScreenPosCurve::Vec4
+                x 0.0
+                y 0.0
+                z -0.660256206989
+                w 1.19233965874
+            AlphaAngleCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            AlphaCamDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z -0.0710899680853
+                w 0.065379075706
+            RotationDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 0.0
+            Enable QualityScalableEnabled_Low
+            Shader::SurfaceShaderInstanceDataStruct
+                Shader ArtAssets/Lighting/Shaders/SS_FlareAnaDiffract_01/0677db077b0c7e4bbf71a93f0c0dc738
+                BoolParameters *nullArray*
+                VectorParameters::array
+                    member(0)::VectorShaderParameter
+                        Value::Vec4
+                            x 1.0
+                            y 1.0
+                            z 0.0
+                            w 0.0
+                        ParameterName Streak
+                        ParameterType ShaderParameterType_Vec2
+                    member(1)::VectorShaderParameter
+                        Value::Vec4
+                            x 66.262550354
+                            y 66.262550354
+                            z 66.262550354
+                            w 1.0
+                        ParameterName Color
+                        ParameterType ShaderParameterType_Color
+                    member(2)::VectorShaderParameter
+                        Value::Vec4
+                            x 0.20000000298
+                            y 0.0
+                            z 0.0
+                            w 0.0
+                        ParameterName Intensity
+                        ParameterType ShaderParameterType_Scalar
+                VectorArrayParameters *nullArray*
+                TextureParameters *nullArray*
+            RayDistance 0.0
+            Size::Vec2
+                x 2.0
+                y 2.0
+            SizeCamDistMax 10.0
+            AlphaCamDistMax 15.0
+            RotationLocal 0.0
+            RotationDistMultiplier 1.0
+            EnableElement True
+            RotationAlignedToRay False
+        member(2)::LensFlareElement
+            SizeOccluderCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            SizeScreenPosCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            SizeAngleCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            SizeCamDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z -0.137231886387
+                w 0.543604135513
+            AlphaOccluderCurve::Vec4
+                x 0.0
+                y 0.0
+                z -3.45454502106
+                w 2.89136338234
+            AlphaScreenPosCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 1.0
+            AlphaAngleCurve::Vec4
+                x 0.0
+                y -2.44848012924
+                z 2.35771846771
+                w 0.0410553440452
+            AlphaCamDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z -1.01463389397
+                w 0.994926810265
+            RotationDistCurve::Vec4
+                x 0.0
+                y 0.0
+                z 0.0
+                w 0.0
+            Enable QualityScalableEnabled_Low
+            Shader::SurfaceShaderInstanceDataStruct
+                Shader ArtAssets/Lighting/Shaders/SS_FlareAnaStreak_01/33ae02ee604e4043b0559d4016c70c47
+                BoolParameters *nullArray*
+                VectorParameters::array
+                    member(0)::VectorShaderParameter
+                        Value::Vec4
+                            x 223.826370239
+                            y 223.826370239
+                            z 223.826370239
+                            w 1.0
+                        ParameterName StreakColor
+                        ParameterType ShaderParameterType_Color
+                    member(1)::VectorShaderParameter
+                        Value::Vec4
+                            x 2.0
+                            y 1.0
+                            z 0.0
+                            w 0.0
+                        ParameterName Streak
+                        ParameterType ShaderParameterType_Vec2
+                    member(2)::VectorShaderParameter
+                        Value::Vec4
+                            x 29.7532043457
+                            y 95.6284332275
+                            z 0.0
+                            w 1.0
+                        ParameterName Color
+                        ParameterType ShaderParameterType_Color
+                VectorArrayParameters *nullArray*
+                TextureParameters *nullArray*
+            RayDistance 0.0
+            Size::Vec2
+                x 1.20000004768
+                y 0.0799999982119
+            SizeCamDistMax 10.0
+            AlphaCamDistMax 30.0
+            RotationLocal 0.0
+            RotationDistMultiplier 1.0
+            EnableElement True
+            RotationAlignedToRay False
+    Visible True
+    DebugDrawOccluder False
+    ScreenClip False
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -1696158145
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1952177180
+        member(1)::DynamicEvent
+            Id -117303631
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*

@@ -1,0 +1,70 @@
+LogicPrefabBlueprint 1ac1741412d4b036c897b69c452f033d
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name DynamicWorld/CentralComponents/Footprints/dwc_Footprint_SpawnFromSpawned
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000000
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000002
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 1784788886
+                        TargetEvent::EventSpec
+                            Id 5862146
+                        TargetType EventConnectionTargetType_Server
+                    member(1)::EventConnection
+                        Source 00000001
+                        Target 00000000
+                        SourceEvent::EventSpec
+                            Id 193453899
+                        TargetEvent::EventSpec
+                            Id 2137481853
+                        TargetType EventConnectionTargetType_Server
+        Objects::array
+            member(0) 00000002
+            member(1) 00000001
+        TimeDeltaType TimeDeltaType_None
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents *nullArray*
+    OutputEvents::array
+        member(0)::DynamicEvent
+            Id 2137481853
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+RandomDelayEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 99595077
+    MinDelay 1.0
+    MaxDelay 2.0
+    Realm Realm_Server
+    TimeDeltaType TimeDeltaType_World
+    AutoStart False
+    RunOnce True
+    TrueRandom False
+SchematicChannelEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 26789556
+    Realm Realm_ClientAndServer
+    Channel Gameplay/Player_Hub/3955d4031500844d822f608c6e5d711e
+    InputProperties *nullArray*
+    InputRefProperties *nullArray*
+    OutputProperties *nullArray*
+    OutputRefProperties *nullArray*

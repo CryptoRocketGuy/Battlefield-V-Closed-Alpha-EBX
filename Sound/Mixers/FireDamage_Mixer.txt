@@ -1,0 +1,197 @@
+MixerAsset 668917ea0df9ce4785d969523f869cd1
+    $::Asset
+        $::DataContainer
+        Name Sound/Mixers/FireDamage_Mixer
+    Graph f3192cc6d1056d40b048934df5f17e9b
+    Presets::array
+        member(0) 419d31954456c64cadc322d5a7167c16
+    DefaultPreset 419d31954456c64cadc322d5a7167c16
+    Bypass False
+AudioGraphParameter 21e9d3965d2890458d6964ce1235a456
+    $::DataContainer
+    DefaultValue 0.0
+    NameHash 2406921240
+    ValueIndex 5
+MixerPreset 419d31954456c64cadc322d5a7167c16
+    $::DataContainer
+    NameHash 0
+    Groups::array
+        member(0)::MixerPresetGroupData
+            Group 6ef50547e873df11b364a6a8deb4f741/7a2ce0079ab05f4492b4a46e2e77620d
+            State MixGroupState_Normal
+            AttackTime 0.10000000149
+            ReleaseTime 0.20000000298
+            Priority 0
+            Properties::array
+                member(0)::MixGroupPropertyValue
+                    Property 0
+                    Value 0.0
+                    Controlled True
+                member(1)::MixGroupPropertyValue
+                    Property 1
+                    Value 1.0
+                    Controlled True
+                member(2)::MixGroupPropertyValue
+                    Property 4
+                    Value 24000.0
+                    Controlled True
+            IsDominant False
+            IsAdditive False
+    Nodes *nullArray*
+MixerSetPropertyNodeData 81245d22eb06924bb1d7d78c1e06a482
+    $::AudioGraphNodeData
+        $::DataContainer
+    Entries::array
+        member(0) e8571c4e1c02c5469c9bcd90a5c75d27
+        member(1) de4a1e074c93454f971c3f37f73ceaaa
+        member(2) d8727c8eaaf2d4459e9b23a5aeba4cb0
+ScaleClampNodeData bbc274d77e7ff44dba547787e9b6f97d
+    $::AudioGraphNodeData
+        $::DataContainer
+    In::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 4
+        IsConnected True
+    InMin::AudioGraphNodePort
+        UnconnectedValue 0.300000011921
+        ValueIndex 0
+        IsConnected False
+    InMax::AudioGraphNodePort
+        UnconnectedValue 0.850000023842
+        ValueIndex 0
+        IsConnected False
+    OutMin::AudioGraphNodePort
+        UnconnectedValue 3000.0
+        ValueIndex 0
+        IsConnected False
+    OutMax::AudioGraphNodePort
+        UnconnectedValue 24000.0
+        ValueIndex 0
+        IsConnected False
+    Out::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 2
+        IsConnected True
+ScaleClampNodeData bbe03440959f574f8773bcc43204538b
+    $::AudioGraphNodeData
+        $::DataContainer
+    In::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 4
+        IsConnected True
+    InMin::AudioGraphNodePort
+        UnconnectedValue 0.300000011921
+        ValueIndex 0
+        IsConnected False
+    InMax::AudioGraphNodePort
+        UnconnectedValue 0.699999988079
+        ValueIndex 0
+        IsConnected False
+    OutMin::AudioGraphNodePort
+        UnconnectedValue -6.0
+        ValueIndex 0
+        IsConnected False
+    OutMax::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 0
+        IsConnected False
+    Out::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 1
+        IsConnected True
+ScaleClampNodeData c9072aabeb2caa4c8d860f89deec202a
+    $::AudioGraphNodeData
+        $::DataContainer
+    In::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 4
+        IsConnected True
+    InMin::AudioGraphNodePort
+        UnconnectedValue 0.300000011921
+        ValueIndex 0
+        IsConnected False
+    InMax::AudioGraphNodePort
+        UnconnectedValue 0.75
+        ValueIndex 0
+        IsConnected False
+    OutMin::AudioGraphNodePort
+        UnconnectedValue 0.980000019073
+        ValueIndex 0
+        IsConnected False
+    OutMax::AudioGraphNodePort
+        UnconnectedValue 1.0
+        ValueIndex 0
+        IsConnected False
+    Out::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 3
+        IsConnected True
+MixerInputEntry d449cd293838c948ab1c877886b28bc3
+    $::AudioGraphNodePortGroup
+        $::DataContainer
+    Out::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 4
+        IsConnected True
+    Source 21e9d3965d2890458d6964ce1235a456
+    AccumulateMode MixerValueAccumulateMode_None
+    KeepValue False
+MixerSetPropertyEntry d8727c8eaaf2d4459e9b23a5aeba4cb0
+    $::AudioGraphNodePortGroup
+        $::DataContainer
+    In::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 3
+        IsConnected True
+    Target 1
+    Group 6ef50547e873df11b364a6a8deb4f741/7a2ce0079ab05f4492b4a46e2e77620d
+    AttackTime 0.10000000149
+    ReleaseTime 0.20000000298
+MixerSetPropertyEntry de4a1e074c93454f971c3f37f73ceaaa
+    $::AudioGraphNodePortGroup
+        $::DataContainer
+    In::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 2
+        IsConnected True
+    Target 4
+    Group 6ef50547e873df11b364a6a8deb4f741/7a2ce0079ab05f4492b4a46e2e77620d
+    AttackTime 0.10000000149
+    ReleaseTime 0.20000000298
+MixerSetPropertyEntry e8571c4e1c02c5469c9bcd90a5c75d27
+    $::AudioGraphNodePortGroup
+        $::DataContainer
+    In::AudioGraphNodePort
+        UnconnectedValue 0.0
+        ValueIndex 1
+        IsConnected True
+    Target 0
+    Group 6ef50547e873df11b364a6a8deb4f741/7a2ce0079ab05f4492b4a46e2e77620d
+    AttackTime 0.10000000149
+    ReleaseTime 0.20000000298
+MixerGraphData f3192cc6d1056d40b048934df5f17e9b
+    $::AudioGraphData
+        $::DataContainer
+        Nodes::array
+            member(0) f67067f7be3a28478639eebb63e1d7a5
+            member(1) bbe03440959f574f8773bcc43204538b
+            member(2) bbc274d77e7ff44dba547787e9b6f97d
+            member(3) c9072aabeb2caa4c8d860f89deec202a
+            member(4) 81245d22eb06924bb1d7d78c1e06a482
+        PublicParameters *nullArray*
+        PublicEvents *nullArray*
+        PublicAssetParameters *nullArray*
+        PublicValueCount 1
+        ValueCount 6
+    Inputs::array
+        member(0) 21e9d3965d2890458d6964ce1235a456
+    MixerInputInfos::array
+        member(0)::MixerInputInfo
+            Mode MixerValueAccumulateMode_None
+            KeepValue False
+    Outputs *nullArray*
+MixerInputNodeData f67067f7be3a28478639eebb63e1d7a5
+    $::AudioGraphNodeData
+        $::DataContainer
+    Entries::array
+        member(0) d449cd293838c948ab1c877886b28bc3

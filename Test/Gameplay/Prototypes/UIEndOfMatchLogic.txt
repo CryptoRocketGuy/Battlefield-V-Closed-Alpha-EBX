@@ -1,0 +1,68 @@
+LogicPrefabBlueprint ca4893c169405bbbd4447cea942c7c48
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Test/Gameplay/Prototypes/UIEndOfMatchLogic
+                    PropertyConnections *nullArray*
+                    LinkConnections *nullArray*
+                    Interface 00000000
+                    Flags 2
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000000
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 631125528
+                        TargetEvent::EventSpec
+                            Id 2089417369
+                        TargetType EventConnectionTargetType_Client
+                    member(1)::EventConnection
+                        Source 00000000
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 631125528
+                        TargetEvent::EventSpec
+                            Id -165975360
+                        TargetType EventConnectionTargetType_Client
+        Objects::array
+            member(0) 00000001
+            member(1) 00000002
+        TimeDeltaType TimeDeltaType_None
+InterfaceDescriptorData 00000000
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields *nullArray*
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id 631125528
+        member(1)::DynamicEvent
+            Id 677398064
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+SpartaSendMessageEntityData 00000001
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 38159386
+    PayloadField::PayloadFieldDefinition
+        Name CmpSpartaStartEndOfMatch
+        TypeNameHash 2560318315
+        PayloadFieldType PayloadFieldType_Simple
+        JsMessageType cmp.startEndOfMatch
+TwinkleOverlayEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 50259394
+    Realm Realm_Client
+    EnableMouseInput True
+    EnableKeyInput True
+    EnableHotkeyInput True

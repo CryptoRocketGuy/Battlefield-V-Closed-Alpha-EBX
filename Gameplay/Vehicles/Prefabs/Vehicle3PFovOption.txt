@@ -1,0 +1,126 @@
+LogicPrefabBlueprint f1d13765f069307891b37c28dbdeb55b
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/Prefabs/Vehicle3PFovOption
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 993810272
+                            TargetFieldId 1385360371
+                            Flags 2
+                        member(1)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 2066049125
+                            TargetFieldId 2143448529
+                            Flags 2
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 193446607
+                            TargetFieldId -1661271216
+                            Flags 2
+                        member(3)::PropertyConnection
+                            Source 00000000
+                            Target 00000002
+                            SourceFieldId 193446865
+                            TargetFieldId -1652125810
+                            Flags 2
+                        member(4)::PropertyConnection
+                            Source 00000002
+                            Target 00000001
+                            SourceFieldId 193453899
+                            TargetFieldId 1863090577
+                            Flags 18
+                    LinkConnections *nullArray*
+                    Interface 00000001
+                    Flags 2
+                EventConnections *nullArray*
+        Objects::array
+            member(0) 00000000
+            member(1) 00000002
+        TimeDeltaType TimeDeltaType_None
+BFUIProfileOptionFloatEntityData 00000000
+    $::BFUIProfileOptionEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 22036510
+        Realm Realm_Client
+        LocalPlayerId LocalPlayerId_0
+        Option 6bcdbfab2f85a64eab33b485df09326b/93af86a7bcff2247b2ad7c229c2708bf
+    Realm Realm_Client
+    InValue 0.0
+    SetOnPropertyChange True
+InterfaceDescriptorData 00000001
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id 1863090577
+                AccessType FieldAccessType_Source
+    InputEvents *nullArray*
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
+MathEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 145376704
+    Realm Realm_Client
+    Assembly::MathEntityAssembly
+        FunctionCalls::array
+            member(0)::MathEntityFunctionCall
+                Parameters::array
+                    member(0) 0
+                    member(1) 1
+                    member(2) 2
+        Instructions::array
+            member(0)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 0
+                Param1 1385360371
+                Param2 0
+            member(1)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 -1661271216
+                Param2 0
+            member(2)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 2
+                Param1 -1652125810
+                Param2 0
+            member(3)::MathEntityInstruction
+                Code MathOpCode_Func
+                Result 0
+                Param1 1543335376
+                Param2 0
+            member(4)::MathEntityInstruction
+                Code MathOpCode_InputF
+                Result 1
+                Param1 2143448529
+                Param2 0
+            member(5)::MathEntityInstruction
+                Code MathOpCode_DivF
+                Result 0
+                Param1 0
+                Param2 1
+            member(6)::MathEntityInstruction
+                Code MathOpCode_Return
+                Result 0
+                Param1 4
+                Param2 0
+    EvaluateOnEvent False

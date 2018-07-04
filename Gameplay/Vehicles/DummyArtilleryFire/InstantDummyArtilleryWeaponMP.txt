@@ -1,0 +1,463 @@
+SpatialPrefabBlueprint 292adb04122410438e68d6c063ba6a2b
+    $::PrefabBlueprint
+        $::Blueprint
+            $::EntityBusData
+                $::DataBusData
+                    $::Asset
+                        $::DataContainer
+                        Name Gameplay/Vehicles/DummyArtilleryFire/InstantDummyArtilleryWeaponMP
+                    PropertyConnections::array
+                        member(0)::PropertyConnection
+                            Source 00000006
+                            Target 00000002
+                            SourceFieldId 193453899
+                            TargetFieldId 833741678
+                            Flags 1
+                        member(1)::PropertyConnection
+                            Source 00000008
+                            Target 00000000
+                            SourceFieldId -693612884
+                            TargetFieldId 1800624758
+                            Flags 1
+                        member(2)::PropertyConnection
+                            Source 00000000
+                            Target 00000006
+                            SourceFieldId -1399230854
+                            TargetFieldId 193450867
+                            Flags 1
+                        member(3)::PropertyConnection
+                            Source 00000003
+                            Target 00000006
+                            SourceFieldId 1925266716
+                            TargetFieldId 193450864
+                            Flags 1
+                        member(4)::PropertyConnection
+                            Source 00000008
+                            Target 00000002
+                            SourceFieldId -1358903451
+                            TargetFieldId -1358903451
+                            Flags 1
+                        member(5)::PropertyConnection
+                            Source 00000008
+                            Target 00000002
+                            SourceFieldId 1685883856
+                            TargetFieldId 1685883856
+                            Flags 1
+                    LinkConnections *nullArray*
+                    Interface 00000008
+                    Flags 15
+                EventConnections::array
+                    member(0)::EventConnection
+                        Source 00000008
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id -1260908195
+                        TargetEvent::EventSpec
+                            Id 958670827
+                        TargetType EventConnectionTargetType_NetworkedClientAndServer
+                    member(1)::EventConnection
+                        Source 00000008
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id -1260908195
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_NetworkedClient
+                    member(2)::EventConnection
+                        Source 00000008
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id -1260908195
+                        TargetEvent::EventSpec
+                            Id 2088671869
+                        TargetType EventConnectionTargetType_NetworkedClientAndServer
+                    member(3)::EventConnection
+                        Source 00000007
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 669233475
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_NetworkedClient
+                    member(4)::EventConnection
+                        Source 00000007
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 669233475
+                        TargetEvent::EventSpec
+                            Id 2088671869
+                        TargetType EventConnectionTargetType_NetworkedClientAndServer
+                    member(5)::EventConnection
+                        Source 00000007
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 669233475
+                        TargetEvent::EventSpec
+                            Id 958670827
+                        TargetType EventConnectionTargetType_NetworkedClientAndServer
+                    member(6)::EventConnection
+                        Source 00000008
+                        Target 00000003
+                        SourceEvent::EventSpec
+                            Id 599184757
+                        TargetEvent::EventSpec
+                            Id 958670827
+                        TargetType EventConnectionTargetType_NetworkedClientAndServer
+                    member(7)::EventConnection
+                        Source 00000008
+                        Target 00000001
+                        SourceEvent::EventSpec
+                            Id 599184757
+                        TargetEvent::EventSpec
+                            Id 230748069
+                        TargetType EventConnectionTargetType_NetworkedClient
+                    member(8)::EventConnection
+                        Source 00000008
+                        Target 00000002
+                        SourceEvent::EventSpec
+                            Id 599184757
+                        TargetEvent::EventSpec
+                            Id -1144603819
+                        TargetType EventConnectionTargetType_NetworkedClientAndServer
+        Objects::array
+            member(0) 00000007
+            member(1) 00000002
+            member(2) 00000001
+            member(3) 00000005
+            member(4) 00000003
+            member(5) 00000004
+            member(6) 00000006
+            member(7) 00000000
+        TimeDeltaType TimeDeltaType_None
+ConditionalTransformEntityData 00000000
+    $::ConditionalStateEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 402962050
+        Realm Realm_ClientAndServer
+        Condition False
+    ValueIfTrue::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.78813962748e-07
+            z 1.0
+        forward::Vec3
+            x 0.0
+            y -1.0
+            z 1.78813962748e-07
+        trans::Vec3
+            x 0.0
+            y 100.0
+            z 0.0
+    ValueIfFalse::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 0.965925872326
+            z 0.258819043636
+        forward::Vec3
+            x 0.0
+            y -0.258819043636
+            z 0.965925872326
+        trans::Vec3
+            x 0.0
+            y 50.0
+            z -100.0
+EffectReferenceObjectData 00000001
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 42457123
+            Blueprint FX/Levels/_Old/SP_TankAssault/FX_DummyArtillerySmokeBuildup_01/76f4fea54e6ab7629a4394f031445111
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded False
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+    EffectParameters *nullArray*
+    AutoStart False
+    AffectedByLightprobeVisibility False
+FireProjectileEntityData 00000002
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 515316222
+    Realm Realm_ClientAndServer
+    ShootSpace::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    VisualShootSpace::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    DamageGiver::QueryEntityResult
+        PointerCastToInt 0
+    ExcludedPhysics::QueryEntityResult
+        PointerCastToInt 0
+    FireProjectileData::FireProjectileEntityParameters
+        Speed 69.0
+        ProjectileBlueprint Gameplay/Commander/Artillery_Breakthrough_Cinematic_Intro/b064a1b40ba46e44a0a74e68f7f92f03
+        ProjectileData *nullGuid*
+        UnlockAssetGuid 0FB22A84CB79DB40A2187925FF6932A9
+        HasUnlockAssetGuid True
+        SpawnVisualAtWeaponBone False
+    FireProjectileDataList *nullArray*
+    TimeBehind 0.0
+    Index -1
+    DamageMultiplier 1.0
+    ExplosionDamageMultiplier 1.0
+    IsRemoteDamage False
+LocatorEntityData 00000003
+    $::SpatialEntityData
+        $::EntityData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 109917602
+        Transform::LinearTransform
+            right::Vec3
+                x 1.0
+                y 0.0
+                z 0.0
+            up::Vec3
+                x 0.0
+                y 1.0
+                z 0.0
+            forward::Vec3
+                x 0.0
+                y 0.0
+                z 1.0
+            trans::Vec3
+                x 0.0
+                y 0.0
+                z 0.0
+    Realm Realm_ClientAndServer
+ObjectReferenceObjectData 00000004
+    $::SpatialReferenceObjectData
+        $::ReferenceObjectData
+            $::GameObjectData
+                $::DataBusPeer
+                    $::GameDataContainer
+                        $::DataContainer
+                    Flags 31921574
+            Blueprint UI/Ingame/Commander/Logic/Commander_Marker/d8635d51a621f99c16c89f6470c04a71
+            BlueprintTransform::LinearTransform
+                right::Vec3
+                    x 1.0
+                    y 0.0
+                    z 0.0
+                up::Vec3
+                    x 0.0
+                    y 1.0
+                    z 0.0
+                forward::Vec3
+                    x 0.0
+                    y 0.0
+                    z 1.0
+                trans::Vec3
+                    x 0.0
+                    y 0.0
+                    z 0.0
+            ObjectVariation *nullGuid*
+            StreamRealm StreamRealm_None
+            RadiosityTypeOverride RadiosityTypeOverride_None
+            LightmapResolutionScale 0
+            RenderingOverrides::RenderingOverrides
+                ShadowEnable RenderingOverride_Inherit
+                SunShadowEnable RenderingOverride_Inherit
+                LocalShadowEnable RenderingOverride_Inherit
+                DynamicReflectionEnable RenderingOverride_Inherit
+                StaticReflectionEnable RenderingOverride_Inherit
+                DistantShadowCacheEnable RenderingOverride_Inherit
+                RenderLateEnable RenderingOverride_Inherit
+                RootShaderEffect RenderingOverride_Inherit
+            ForceSeparateEnlightenSystem False
+            CastSunShadowEnable True
+            CastReflectionEnable True
+            CastEnvmapEnable True
+            Excluded True
+            CreateIndestructibleEntity False
+        LocalPlayerId LocalPlayerId_Invalid
+SoundEntityData 00000005
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 2726663
+    Sound Sound/Core/Projectiles/Flybys/Projectiles_Flybys_Rush_Artillery_Incoming/185b407b1b3e9b459471bf260379809a
+    Transform::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    Amplitude 1.0
+    PlayOnCreation False
+    EnableOnCreation True
+    UseParentTransform False
+TransformMultiplierEntityData 00000006
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 409035320
+    Realm Realm_ClientAndServer
+    In1::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+    In2::LinearTransform
+        right::Vec3
+            x 1.0
+            y 0.0
+            z 0.0
+        up::Vec3
+            x 0.0
+            y 1.0
+            z 0.0
+        forward::Vec3
+            x 0.0
+            y 0.0
+            z 1.0
+        trans::Vec3
+            x 0.0
+            y 0.0
+            z 0.0
+ConsoleCommandTriggerEntityData 00000007
+    $::EntityData
+        $::GameObjectData
+            $::DataBusPeer
+                $::GameDataContainer
+                    $::DataContainer
+                Flags 15233330
+    CommandName FireDummyArtillery
+    GroupName Artillery
+    Realm Realm_Server
+InterfaceDescriptorData 00000008
+    $::DynamicDataContainer
+        $::DataContainer
+        Fields::array
+            member(0)::DataField
+                Value *nullString*
+                ValueRef *nullGuid*
+                Id -693612884
+                AccessType FieldAccessType_Target
+            member(1)::DataField
+                Value Float32 1
+                ValueRef *nullGuid*
+                Id -1358903451
+                AccessType FieldAccessType_Target
+            member(2)::DataField
+                Value Float32 1
+                ValueRef *nullGuid*
+                Id 1685883856
+                AccessType FieldAccessType_Target
+    InputEvents::array
+        member(0)::DynamicEvent
+            Id -1260908195
+        member(1)::DynamicEvent
+            Id 599184757
+    OutputEvents *nullArray*
+    InputLinks *nullArray*
+    OutputLinks *nullArray*
